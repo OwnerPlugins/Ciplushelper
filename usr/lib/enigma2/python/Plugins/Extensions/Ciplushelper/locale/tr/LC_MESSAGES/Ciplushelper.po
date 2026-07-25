@@ -31,26 +31,30 @@ msgstr "Enigma2 için CI+ yardımcısı"
 msgid "CI+ helper menu"
 msgstr "CI+ yardımcı menüsü"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI+ yuvası"
-
-msgid "Disable"
-msgstr "Devre dışı bırakmak"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Ciplushelper otomatik başlatmayı devre dışı bırak"
 
-msgid "Enable"
-msgstr "Olanak vermek"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI+ yuvası"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Ciplushelper otomatik başlatmayı etkinleştir"
 
-msgid "For other models"
-msgstr "Diğer modeller için"
-
 msgid "Install"
 msgstr "Düzenlemek"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "varsayılan sürüm"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "Zgemma'dan versiyon"
 
 msgid "Installed:"
 msgstr "Kurulu:"
@@ -60,6 +64,9 @@ msgstr "MİPSEL"
 
 msgid "Need restart GUI"
 msgstr "GUI'nin yeniden başlatılması gerekiyor"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Diğer modellerde '/etc/ciplus' gerekebilir"
 
 msgid "Remove"
 msgstr "Kaldırmak"
@@ -82,11 +89,14 @@ msgstr "Desteklenen modeller"
 msgid "Unknown"
 msgstr "Bilinmiyor"
 
-msgid "default version"
-msgstr "varsayılan sürüm"
+#~ msgid "Disable"
+#~ msgstr "Devre dışı bırakmak"
 
-msgid "use"
-msgstr "kullanmak"
+#~ msgid "Enable"
+#~ msgstr "Olanak vermek"
 
-msgid "version from Zgemma"
-msgstr "Zgemma'dan versiyon"
+#~ msgid "For other models"
+#~ msgstr "Diğer modeller için"
+
+#~ msgid "use"
+#~ msgstr "kullanmak"

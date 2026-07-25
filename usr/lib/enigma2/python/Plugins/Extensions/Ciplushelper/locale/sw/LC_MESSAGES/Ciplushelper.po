@@ -31,26 +31,30 @@ msgstr "CI+ msaidizi kwa Enigma2"
 msgid "CI+ helper menu"
 msgstr "Menyu ya msaidizi ya CI+"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI+ yanayopangwa"
-
-msgid "Disable"
-msgstr "Zima"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Lemaza kuanza kiotomatiki kwa ciplushelper"
 
-msgid "Enable"
-msgstr "Wezesha"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI+ yanayopangwa"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Washa kipengele cha kuanza kiotomatiki kwa ciplushelper"
 
-msgid "For other models"
-msgstr "Kwa mifano mingine"
-
 msgid "Install"
 msgstr "Sakinisha"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "toleo la msingi"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "toleo kutoka Zgemma"
 
 msgid "Installed:"
 msgstr "Imesakinishwa:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Inahitaji kuanzisha upya GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Aina zingine zinaweza kuhitaji '/etc/ciplus'"
 
 msgid "Remove"
 msgstr "Ondoa"
@@ -82,11 +89,14 @@ msgstr "Mifano zinazoungwa mkono"
 msgid "Unknown"
 msgstr "Haijulikani"
 
-msgid "default version"
-msgstr "toleo la msingi"
+#~ msgid "Disable"
+#~ msgstr "Zima"
 
-msgid "use"
-msgstr "kutumia"
+#~ msgid "Enable"
+#~ msgstr "Wezesha"
 
-msgid "version from Zgemma"
-msgstr "toleo kutoka Zgemma"
+#~ msgid "For other models"
+#~ msgstr "Kwa mifano mingine"
+
+#~ msgid "use"
+#~ msgstr "kutumia"

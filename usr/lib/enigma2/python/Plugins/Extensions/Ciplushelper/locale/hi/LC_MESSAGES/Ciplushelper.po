@@ -31,26 +31,30 @@ msgstr "Enigma2 के लिए CI+ सहायक"
 msgid "CI+ helper menu"
 msgstr "सीआई+ सहायक मेनू"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "सीआई+ स्लॉट"
-
-msgid "Disable"
-msgstr "अक्षम करना"
 
 msgid "Disable ciplushelper autostart"
 msgstr "सिप्लसहेल्पर ऑटोस्टार्ट अक्षम करें"
 
-msgid "Enable"
-msgstr "सक्षम"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "सीआई+ स्लॉट"
 
 msgid "Enable ciplushelper autostart"
 msgstr "सिप्लसहेल्पर ऑटोस्टार्ट सक्षम करें"
 
-msgid "For other models"
-msgstr "अन्य मॉडलों के लिए"
-
 msgid "Install"
 msgstr "स्थापित करना"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "डिफ़ॉल्ट संस्करण"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "ज़गेम्मा से संस्करण"
 
 msgid "Installed:"
 msgstr "स्थापित:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "GUI पुनः प्रारंभ करने की आवश्यकता है"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "अन्य मॉडलों को '/etc/ciplus' की आवश्यकता हो सकती है"
 
 msgid "Remove"
 msgstr "निकालना"
@@ -82,11 +89,14 @@ msgstr "समर्थित मॉडल"
 msgid "Unknown"
 msgstr "अज्ञात"
 
-msgid "default version"
-msgstr "डिफ़ॉल्ट संस्करण"
+#~ msgid "Disable"
+#~ msgstr "अक्षम करना"
 
-msgid "use"
-msgstr "उपयोग"
+#~ msgid "Enable"
+#~ msgstr "सक्षम"
 
-msgid "version from Zgemma"
-msgstr "ज़गेम्मा से संस्करण"
+#~ msgid "For other models"
+#~ msgstr "अन्य मॉडलों के लिए"
+
+#~ msgid "use"
+#~ msgstr "उपयोग"

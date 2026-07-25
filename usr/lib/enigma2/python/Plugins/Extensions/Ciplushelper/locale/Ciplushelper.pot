@@ -3,6 +3,7 @@
 #
 
 
+
 msgid "ARM"
 msgstr ""
 
@@ -21,25 +22,25 @@ msgstr ""
 msgid "CI+ helper menu"
 msgstr ""
 
-msgid "CI+ slot"
-msgstr ""
-
-msgid "Disable"
+msgid "Disable CI+ slot"
 msgstr ""
 
 msgid "Disable ciplushelper autostart"
 msgstr ""
 
-msgid "Enable"
+msgid "Enable CI+ slot"
 msgstr ""
 
 msgid "Enable ciplushelper autostart"
 msgstr ""
 
-msgid "For other models"
+msgid "Install"
 msgstr ""
 
-msgid "Install"
+msgid "Install default version"
+msgstr ""
+
+msgid "Install version from Zgemma"
 msgstr ""
 
 msgid "Installed:"
@@ -49,6 +50,9 @@ msgid "MIPSEL"
 msgstr ""
 
 msgid "Need restart GUI"
+msgstr ""
+
+msgid "Other models may need '/etc/ciplus'"
 msgstr ""
 
 msgid "Remove"
@@ -70,13 +74,4 @@ msgid "Supported models"
 msgstr ""
 
 msgid "Unknown"
-msgstr ""
-
-msgid "default version"
-msgstr ""
-
-msgid "use"
-msgstr ""
-
-msgid "version from Zgemma"
 msgstr ""

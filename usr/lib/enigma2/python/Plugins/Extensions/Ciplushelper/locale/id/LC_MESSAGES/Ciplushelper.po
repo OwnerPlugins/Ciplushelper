@@ -31,26 +31,30 @@ msgstr "Pembantu CI+ untuk Enigma2"
 msgid "CI+ helper menu"
 msgstr "Menu pembantu CI+"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "slot CI+"
-
-msgid "Disable"
-msgstr "Cacat"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Nonaktifkan mulai otomatis ciplushelper"
 
-msgid "Enable"
-msgstr "Memungkinkan"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "slot CI+"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Aktifkan mulai otomatis ciplushelper"
 
-msgid "For other models"
-msgstr "Untuk model lainnya"
-
 msgid "Install"
 msgstr "Memasang"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "versi bawaan"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "versi dari Zgemma"
 
 msgid "Installed:"
 msgstr "Dipasang:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Perlu memulai ulang GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Model lain mungkin memerlukan '/etc/ciplus'"
 
 msgid "Remove"
 msgstr "Menghapus"
@@ -82,11 +89,14 @@ msgstr "Model yang didukung"
 msgid "Unknown"
 msgstr "Tidak dikenal"
 
-msgid "default version"
-msgstr "versi bawaan"
+#~ msgid "Disable"
+#~ msgstr "Cacat"
 
-msgid "use"
-msgstr "menggunakan"
+#~ msgid "Enable"
+#~ msgstr "Memungkinkan"
 
-msgid "version from Zgemma"
-msgstr "versi dari Zgemma"
+#~ msgid "For other models"
+#~ msgstr "Untuk model lainnya"
+
+#~ msgid "use"
+#~ msgstr "menggunakan"

@@ -31,26 +31,30 @@ msgstr "Cúntóir CI+ do Enigma2"
 msgid "CI+ helper menu"
 msgstr "Roghchlár cúntóir CI+"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "Sliotán CI+"
-
-msgid "Disable"
-msgstr "Díchumasaigh"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Díchumasaigh ciplushelper autostart"
 
-msgid "Enable"
-msgstr "Cumasaigh"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "Sliotán CI+"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Cumasaigh ciplushelper autostart"
 
-msgid "For other models"
-msgstr "Le haghaidh samhlacha eile"
-
 msgid "Install"
 msgstr "Suiteáil"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "leagan réamhshocraithe"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "leagan ó zgemma"
 
 msgid "Installed:"
 msgstr "Suiteáilte:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Teastaíonn atosú GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Seans go mbeidh ‘/etc/ciplus’ ag teastáil ó mhúnlaí eile"
 
 msgid "Remove"
 msgstr "Bain"
@@ -82,11 +89,14 @@ msgstr "Múnlaí tacaithe"
 msgid "Unknown"
 msgstr "Anaithnid"
 
-msgid "default version"
-msgstr "leagan réamhshocraithe"
+#~ msgid "Disable"
+#~ msgstr "Díchumasaigh"
 
-msgid "use"
-msgstr "úsáid"
+#~ msgid "Enable"
+#~ msgstr "Cumasaigh"
 
-msgid "version from Zgemma"
-msgstr "leagan ó zgemma"
+#~ msgid "For other models"
+#~ msgstr "Le haghaidh samhlacha eile"
+
+#~ msgid "use"
+#~ msgstr "úsáid"

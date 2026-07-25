@@ -31,26 +31,30 @@ msgstr "مساعد CI+ لـ Enigma2"
 msgid "CI+ helper menu"
 msgstr "قائمة مساعد CI+"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "فتحة CI+"
-
-msgid "Disable"
-msgstr "إبطال"
 
 msgid "Disable ciplushelper autostart"
 msgstr "تعطيل التشغيل التلقائي لـ ciplushelper"
 
-msgid "Enable"
-msgstr "يُمكَِن"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "فتحة CI+"
 
 msgid "Enable ciplushelper autostart"
 msgstr "تمكين التشغيل التلقائي لـ ciplushelper"
 
-msgid "For other models"
-msgstr "لنماذج أخرى"
-
 msgid "Install"
 msgstr "ثَبَّتَ"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "الإصدار الافتراضي"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "نسخة من Zgemma"
 
 msgid "Installed:"
 msgstr "تم التثبيت:"
@@ -60,6 +64,9 @@ msgstr "ميبسيل"
 
 msgid "Need restart GUI"
 msgstr "تحتاج إلى إعادة تشغيل واجهة المستخدم الرسومية"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "قد تحتاج النماذج الأخرى إلى "/etc/ciplus""
 
 msgid "Remove"
 msgstr "يزيل"
@@ -82,11 +89,14 @@ msgstr "النماذج المدعومة"
 msgid "Unknown"
 msgstr "مجهول"
 
-msgid "default version"
-msgstr "الإصدار الافتراضي"
+#~ msgid "Disable"
+#~ msgstr "إبطال"
 
-msgid "use"
-msgstr "يستخدم"
+#~ msgid "Enable"
+#~ msgstr "يُمكَِن"
 
-msgid "version from Zgemma"
-msgstr "نسخة من Zgemma"
+#~ msgid "For other models"
+#~ msgstr "لنماذج أخرى"
+
+#~ msgid "use"
+#~ msgstr "يستخدم"

@@ -31,26 +31,30 @@ msgstr "ตัวช่วย CI+ สำหรับ Enigma2"
 msgid "CI+ helper menu"
 msgstr "เมนูตัวช่วย CI+"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "สล็อต CI+"
-
-msgid "Disable"
-msgstr "ปิดการใช้งาน"
 
 msgid "Disable ciplushelper autostart"
 msgstr "ปิดใช้งานการเริ่มต้นอัตโนมัติของ ciplushelper"
 
-msgid "Enable"
-msgstr "เปิดใช้งาน"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "สล็อต CI+"
 
 msgid "Enable ciplushelper autostart"
 msgstr "เปิดใช้งานการเริ่มอัตโนมัติของ ciplushelper"
 
-msgid "For other models"
-msgstr "สำหรับรุ่นอื่นๆ"
-
 msgid "Install"
 msgstr "ติดตั้ง"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "เวอร์ชันเริ่มต้น"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "เวอร์ชันจาก Zgemma"
 
 msgid "Installed:"
 msgstr "ติดตั้งแล้ว:"
@@ -60,6 +64,9 @@ msgstr "มิตเซล"
 
 msgid "Need restart GUI"
 msgstr "ต้องรีสตาร์ท GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "รุ่นอื่นๆ อาจต้องใช้ '/etc/ciplus'"
 
 msgid "Remove"
 msgstr "ลบ"
@@ -82,11 +89,14 @@ msgstr "รุ่นที่รองรับ"
 msgid "Unknown"
 msgstr "ไม่ทราบ"
 
-msgid "default version"
-msgstr "เวอร์ชันเริ่มต้น"
+#~ msgid "Disable"
+#~ msgstr "ปิดการใช้งาน"
 
-msgid "use"
-msgstr "ใช้"
+#~ msgid "Enable"
+#~ msgstr "เปิดใช้งาน"
 
-msgid "version from Zgemma"
-msgstr "เวอร์ชันจาก Zgemma"
+#~ msgid "For other models"
+#~ msgstr "สำหรับรุ่นอื่นๆ"
+
+#~ msgid "use"
+#~ msgstr "ใช้"

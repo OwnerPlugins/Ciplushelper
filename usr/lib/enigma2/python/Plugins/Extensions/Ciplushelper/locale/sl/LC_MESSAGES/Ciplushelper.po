@@ -31,26 +31,30 @@ msgstr "CI+ pomočnik za Enigmo2"
 msgid "CI+ helper menu"
 msgstr "Pomožni meni CI+"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "reža CI+"
-
-msgid "Disable"
-msgstr "Onemogoči"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Onemogoči samodejni zagon ciplushelper"
 
-msgid "Enable"
-msgstr "Omogoči"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "reža CI+"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Omogoči samodejni zagon ciplushelper"
 
-msgid "For other models"
-msgstr "Za druge modele"
-
 msgid "Install"
 msgstr "Namestite"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "privzeta različica"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "različica od Zgemma"
 
 msgid "Installed:"
 msgstr "Nameščeno:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Potreben je ponovni zagon GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Drugi modeli morda potrebujejo '/etc/ciplus'"
 
 msgid "Remove"
 msgstr "Odstrani"
@@ -82,11 +89,14 @@ msgstr "Podprti modeli"
 msgid "Unknown"
 msgstr "Neznano"
 
-msgid "default version"
-msgstr "privzeta različica"
+#~ msgid "Disable"
+#~ msgstr "Onemogoči"
 
-msgid "use"
-msgstr "uporaba"
+#~ msgid "Enable"
+#~ msgstr "Omogoči"
 
-msgid "version from Zgemma"
-msgstr "različica od Zgemma"
+#~ msgid "For other models"
+#~ msgstr "Za druge modele"
+
+#~ msgid "use"
+#~ msgstr "uporaba"

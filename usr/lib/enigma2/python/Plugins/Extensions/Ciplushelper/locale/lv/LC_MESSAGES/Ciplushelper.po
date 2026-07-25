@@ -31,26 +31,30 @@ msgstr "CI+ palīgs Enigma2"
 msgid "CI+ helper menu"
 msgstr "CI+ palīga izvēlne"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI+ slots"
-
-msgid "Disable"
-msgstr "Atspējot"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Atspējot ciplushelper automātisko palaišanu"
 
-msgid "Enable"
-msgstr "Iespējot"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI+ slots"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Iespējot ciplushelper automātisko palaišanu"
 
-msgid "For other models"
-msgstr "Citiem modeļiem"
-
 msgid "Install"
 msgstr "Instalējiet"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "noklusējuma versija"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "versija no Zgemma"
 
 msgid "Installed:"
 msgstr "Uzstādīts:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Nepieciešams restartēt GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Citiem modeļiem var būt nepieciešams “/etc/ciplus”"
 
 msgid "Remove"
 msgstr "Noņemt"
@@ -82,11 +89,14 @@ msgstr "Atbalstītie modeļi"
 msgid "Unknown"
 msgstr "Nezināms"
 
-msgid "default version"
-msgstr "noklusējuma versija"
+#~ msgid "Disable"
+#~ msgstr "Atspējot"
 
-msgid "use"
-msgstr "izmantot"
+#~ msgid "Enable"
+#~ msgstr "Iespējot"
 
-msgid "version from Zgemma"
-msgstr "versija no Zgemma"
+#~ msgid "For other models"
+#~ msgstr "Citiem modeļiem"
+
+#~ msgid "use"
+#~ msgstr "izmantot"

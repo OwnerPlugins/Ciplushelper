@@ -31,26 +31,30 @@ msgstr "Alîkarê CI + ji bo Enigma2"
 msgid "CI+ helper menu"
 msgstr "CI + menu alîkar"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI + hêlînê"
-
-msgid "Disable"
-msgstr "Neçalak bike"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Destpêkirina otomatîkî ya ciplushelper neçalak bike"
 
-msgid "Enable"
-msgstr "Bikêrkirin"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI + hêlînê"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Destpêkirina xweser a ciplushelper çalak bike"
 
-msgid "For other models"
-msgstr "Ji bo modelên din"
-
 msgid "Install"
 msgstr "Lêkirin"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "guhertoya xwerû"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "guhertoya ji Zgemma"
 
 msgid "Installed:"
 msgstr "Sazkirî:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Pêdivî ye ku GUI ji nû ve dest pê bike"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Dibe ku modelên din hewceyê '/etc/ciplus' bin"
 
 msgid "Remove"
 msgstr "Dûrxistin"
@@ -82,11 +89,14 @@ msgstr "Modelên piştgirî kirin"
 msgid "Unknown"
 msgstr "Nenas"
 
-msgid "default version"
-msgstr "guhertoya xwerû"
+#~ msgid "Disable"
+#~ msgstr "Neçalak bike"
 
-msgid "use"
-msgstr "bikaranîn"
+#~ msgid "Enable"
+#~ msgstr "Bikêrkirin"
 
-msgid "version from Zgemma"
-msgstr "guhertoya ji Zgemma"
+#~ msgid "For other models"
+#~ msgstr "Ji bo modelên din"
+
+#~ msgid "use"
+#~ msgstr "bikaranîn"

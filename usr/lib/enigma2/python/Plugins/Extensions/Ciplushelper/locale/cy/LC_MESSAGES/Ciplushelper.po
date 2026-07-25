@@ -31,26 +31,30 @@ msgstr "Cynorthwyydd CI+ ar gyfer Enigma2"
 msgid "CI+ helper menu"
 msgstr "Dewislen cynorthwyydd CI+"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "slot CI+"
-
-msgid "Disable"
-msgstr "Analluogi"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Analluogi ciplushelper cychwyn yn awtomatig"
 
-msgid "Enable"
-msgstr "Galluogi"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "slot CI+"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Galluogi ciplushelper cychwyn yn awtomatig"
 
-msgid "For other models"
-msgstr "Ar gyfer modelau eraill"
-
 msgid "Install"
 msgstr "Gosod"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "fersiwn rhagosodedig"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "fersiwn o Zgemma"
 
 msgid "Installed:"
 msgstr "Wedi'i osod:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Angen ailgychwyn GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Efallai y bydd angen '/etc/ciplus' ar fodelau eraill"
 
 msgid "Remove"
 msgstr "Dileu"
@@ -82,11 +89,14 @@ msgstr "Modelau a gefnogir"
 msgid "Unknown"
 msgstr "Anhysbys"
 
-msgid "default version"
-msgstr "fersiwn rhagosodedig"
+#~ msgid "Disable"
+#~ msgstr "Analluogi"
 
-msgid "use"
-msgstr "defnydd"
+#~ msgid "Enable"
+#~ msgstr "Galluogi"
 
-msgid "version from Zgemma"
-msgstr "fersiwn o Zgemma"
+#~ msgid "For other models"
+#~ msgstr "Ar gyfer modelau eraill"
+
+#~ msgid "use"
+#~ msgstr "defnydd"

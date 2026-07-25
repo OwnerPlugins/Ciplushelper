@@ -31,26 +31,30 @@ msgstr "Βοηθός CI+ για το Enigma2"
 msgid "CI+ helper menu"
 msgstr "Βοηθητικό μενού CI+"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "υποδοχή CI+"
-
-msgid "Disable"
-msgstr "Καθιστώ ανίκανο"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Απενεργοποιήστε την αυτόματη εκκίνηση του ciplushelper"
 
-msgid "Enable"
-msgstr "Καθιστώ ικανό"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "υποδοχή CI+"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Ενεργοποίηση αυτόματης εκκίνησης του ciplushelper"
 
-msgid "For other models"
-msgstr "Για άλλα μοντέλα"
-
 msgid "Install"
 msgstr "Εγκαθιστώ"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "προεπιλεγμένη έκδοση"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "έκδοση από το Zgemma"
 
 msgid "Installed:"
 msgstr "Εγκατεστημένο:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Χρειάζεται επανεκκίνηση του GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Άλλα μοντέλα μπορεί να χρειάζονται "/etc/ciplus""
 
 msgid "Remove"
 msgstr "Αφαιρώ"
@@ -82,11 +89,14 @@ msgstr "Υποστηριζόμενα μοντέλα"
 msgid "Unknown"
 msgstr "Αγνωστος"
 
-msgid "default version"
-msgstr "προεπιλεγμένη έκδοση"
+#~ msgid "Disable"
+#~ msgstr "Καθιστώ ανίκανο"
 
-msgid "use"
-msgstr "χρήση"
+#~ msgid "Enable"
+#~ msgstr "Καθιστώ ικανό"
 
-msgid "version from Zgemma"
-msgstr "έκδοση από το Zgemma"
+#~ msgid "For other models"
+#~ msgstr "Για άλλα μοντέλα"
+
+#~ msgid "use"
+#~ msgstr "χρήση"

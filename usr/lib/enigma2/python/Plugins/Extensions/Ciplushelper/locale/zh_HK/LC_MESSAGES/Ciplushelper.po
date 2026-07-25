@@ -31,26 +31,30 @@ msgstr "Enigma2 的 CI+ 助手"
 msgid "CI+ helper menu"
 msgstr "CI+ helper menu"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI+插槽"
-
-msgid "Disable"
-msgstr "停用"
 
 msgid "Disable ciplushelper autostart"
 msgstr "禁用 ciplushelper 自動啟動"
 
-msgid "Enable"
-msgstr "使能夠"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI+插槽"
 
 msgid "Enable ciplushelper autostart"
 msgstr "啟用 ciplushelper 自動啟動"
 
-msgid "For other models"
-msgstr "對於其他型號"
-
 msgid "Install"
 msgstr "安裝"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "預設版本"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "來自 Zgemma 的版本"
 
 msgid "Installed:"
 msgstr "安裝："
@@ -60,6 +64,9 @@ msgstr "米普塞爾"
 
 msgid "Need restart GUI"
 msgstr "需要重啟GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "其他型號可能需要“/etc/ciplus”"
 
 msgid "Remove"
 msgstr "消除"
@@ -82,11 +89,14 @@ msgstr "支援機型"
 msgid "Unknown"
 msgstr "未知"
 
-msgid "default version"
-msgstr "預設版本"
+#~ msgid "Disable"
+#~ msgstr "停用"
 
-msgid "use"
-msgstr "使用"
+#~ msgid "Enable"
+#~ msgstr "使能夠"
 
-msgid "version from Zgemma"
-msgstr "來自 Zgemma 的版本"
+#~ msgid "For other models"
+#~ msgstr "對於其他型號"
+
+#~ msgid "use"
+#~ msgstr "使用"

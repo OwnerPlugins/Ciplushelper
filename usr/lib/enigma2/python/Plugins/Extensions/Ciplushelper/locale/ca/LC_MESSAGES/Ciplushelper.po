@@ -31,26 +31,30 @@ msgstr "Ajudant CI+ per a Enigma2"
 msgid "CI+ helper menu"
 msgstr "Menú d'ajuda CI+"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "Ranura CI+"
-
-msgid "Disable"
-msgstr "Desactivar"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Desactiveu l'inici automàtic de ciplushelper"
 
-msgid "Enable"
-msgstr "Activa"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "Ranura CI+"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Activa l'inici automàtic de ciplushelper"
 
-msgid "For other models"
-msgstr "Per a altres models"
-
 msgid "Install"
 msgstr "Instal·lar"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "versió per defecte"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "versió de Zgemma"
 
 msgid "Installed:"
 msgstr "Instal·lat:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Cal reiniciar la GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Altres models poden necessitar "/etc/ciplus""
 
 msgid "Remove"
 msgstr "Eliminar"
@@ -82,11 +89,14 @@ msgstr "Models compatibles"
 msgid "Unknown"
 msgstr "Desconegut"
 
-msgid "default version"
-msgstr "versió per defecte"
+#~ msgid "Disable"
+#~ msgstr "Desactivar"
 
-msgid "use"
-msgstr "utilitzar"
+#~ msgid "Enable"
+#~ msgstr "Activa"
 
-msgid "version from Zgemma"
-msgstr "versió de Zgemma"
+#~ msgid "For other models"
+#~ msgstr "Per a altres models"
+
+#~ msgid "use"
+#~ msgstr "utilitzar"
