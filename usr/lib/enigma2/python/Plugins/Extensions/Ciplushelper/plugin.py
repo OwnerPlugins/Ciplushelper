@@ -200,8 +200,8 @@ class Ciplushelper(Screen):
             installed = self.model if self.model else _("Unknown")
             message = _("CI+ Helper Plugin") + " v" + __version__ + "\n\n" + \
                 _("Supported devices:") + "\n" + \
-                _("ARM") + ": HD51 / VS1500 / Zgemma (H6/H7/H9combo(se)/H9twin(se)/H10) / Pulse 4K(mini) / h17 / 8100s / hd61\n" + \
-                _("MIPSEL") + ": Mutant (hd1500/hd2400) / Xtrend (et8000/et10000) / Formuler (f1/f3/f4) / Triplex / Cube\n\n" + \
+                "ARM: HD51 / VS1500 / Zgemma (H6/H7/H9combo(se)/H9twin(se)/H10) / Pulse 4K(mini) / h17 / 8100s / hd61\n" + \
+                "MIPSEL: Mutant (hd1500/hd2400) / Xtrend (et8000/et10000) / Formuler (f1/f3/f4) / Triplex / Cube\n\n" + \
                 _("Other models may need '/etc/ciplus'") + "\n\n" + \
                 _("Installed:") + " " + installed
             self.session.open(MessageBox, message, MessageBox.TYPE_INFO)

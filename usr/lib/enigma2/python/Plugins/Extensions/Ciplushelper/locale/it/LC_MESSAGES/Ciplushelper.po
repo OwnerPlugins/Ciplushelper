@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
@@ -12,9 +12,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
 
 msgid "ARM"
-msgstr "BRACCIO"
+msgstr "ARM"
 
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Sei sicuro di voler riavviare la GUI?"
@@ -31,16 +32,14 @@ msgstr "Assistente CI+ per Enigma2"
 msgid "CI+ helper menu"
 msgstr "Menu di supporto CI+"
 
-#, fuzzy
 msgid "Disable CI+ slot"
-msgstr "Slot CI+"
+msgstr "Disabilita Slot CI+"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Disabilita l'avvio automatico di ciplushelper"
 
-#, fuzzy
 msgid "Enable CI+ slot"
-msgstr "Slot CI+"
+msgstr "Abilita Slot CI+"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Abilita l'avvio automatico di ciplushelper"
@@ -48,13 +47,11 @@ msgstr "Abilita l'avvio automatico di ciplushelper"
 msgid "Install"
 msgstr "Installare"
 
-#, fuzzy
 msgid "Install default version"
-msgstr "versione predefinita"
+msgstr "Installa versione predefinita"
 
-#, fuzzy
 msgid "Install version from Zgemma"
-msgstr "versione da Zgemma"
+msgstr "Installa versione Zgemma"
 
 msgid "Installed:"
 msgstr "Installato:"
