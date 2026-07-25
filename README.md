@@ -114,7 +114,7 @@ reboot
 ### Build from source
 ```bash
 git clone https://github.com/OwnerPlugins/Ciplushelper.git
-cd ciplushelper-8.4
+cd ciplushelper
 # Build IPK
 opkg-build .
 ```
