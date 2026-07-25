@@ -66,9 +66,11 @@ class Ciplushelper(Screen):
         if model:
             # Autostart
             if exists("/etc/rc2.d/S50ciplushelper"):
-                menu_list.append((_("Disable ciplushelper autostart"), "disable"))
+                menu_list.append(
+                    (_("Disable ciplushelper autostart"), "disable"))
             else:
-                menu_list.append((_("Enable ciplushelper autostart"), "enable"))
+                menu_list.append(
+                    (_("Enable ciplushelper autostart"), "enable"))
 
             # Start/Stop
             if "ciplushelper" in self.ret:
@@ -79,16 +81,20 @@ class Ciplushelper(Screen):
             # ARM‑specific
             if "ciplushelper-arm" in model or "ciplushelper-zgemma-arm" in model:
                 if not exists("/etc/cicert.bin"):
-                    menu_list.append((_("Install version from Zgemma"), "install_cicert_bin"))
+                    menu_list.append(
+                        (_("Install version from Zgemma"), "install_cicert_bin"))
                 else:
                     for i in range(2):
                         enable_file = f"/etc/ciplus{i}_enable"
                         disable_file = f"/etc/ciplus{i}_disable"
                         if exists(enable_file):
-                            menu_list.append((_("Disable CI+ slot") + " " + str(i), f"disable_ciplus{i}"))
+                            menu_list.append(
+                                (_("Disable CI+ slot") + " " + str(i), f"disable_ciplus{i}"))
                         elif exists(disable_file):
-                            menu_list.append((_("Enable CI+ slot") + " " + str(i), f"enable_ciplus{i}"))
-                    menu_list.append((_("Install default version"), "install_default"))
+                            menu_list.append(
+                                (_("Enable CI+ slot") + " " + str(i), f"enable_ciplus{i}"))
+                    menu_list.append(
+                        (_("Install default version"), "install_default"))
 
             # Update init script if needed
             try:
@@ -103,7 +109,11 @@ class Ciplushelper(Screen):
                 pass
 
         # Certificates
-        cert_paths = ["/etc/ciplus/customer.pem", "/etc/ciplus/device.pem", "/etc/ciplus/root.pem", "/etc/ciplus/param"]
+        cert_paths = [
+            "/etc/ciplus/customer.pem",
+            "/etc/ciplus/device.pem",
+            "/etc/ciplus/root.pem",
+            "/etc/ciplus/param"]
         if all(exists(p) for p in cert_paths):
             menu_list.append((_("Remove") + " /etc/ciplus", "remove_sert"))
         else:
@@ -112,7 +122,9 @@ class Ciplushelper(Screen):
         menu_list.append((_("Restart GUI"), "restart_gui"))
 
         self["menu"] = MenuList(menu_list)
-        self["actions"] = ActionMap(["OkCancelActions"], {"ok": self.run, "cancel": self.close}, -1)
+        self["actions"] = ActionMap(
+            ["OkCancelActions"], {
+                "ok": self.run, "cancel": self.close}, -1)
 
     def run(self):
         returnValue = self["menu"].l.getCurrentSelection()
@@ -151,26 +163,37 @@ class Ciplushelper(Screen):
             for i in range(2):
                 enable_file = f"/etc/ciplus{i}_enable"
                 if not exists(enable_file):
-                    os_system(f"echo 'rename ciplus*_enable to ciplus*_disable for deactivate ciplus certification of the module.' > {enable_file}")
+                    os_system(
+                        f"echo 'rename ciplus*_enable to ciplus*_disable for deactivate ciplus certification of the module.' > {enable_file}")
             if "ciplushelper" in self.ret:
                 os_system("killall ciplushelper 2>/dev/null && sleep 2")
-            os_system(f"cp {plugin_path}/ciplushelper_bin/zgemma-arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper")
+            os_system(
+                f"cp {plugin_path}/ciplushelper_bin/zgemma-arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper")
             if "ciplushelper" in self.ret:
-                self.session.open(Console, _("Start ciplushelper"), ["/etc/init.d/ciplushelper start && echo '" + _("Need restart GUI") + "'"])
+                self.session.open(
+                    Console, _("Start ciplushelper"), [
+                        "/etc/init.d/ciplushelper start && echo '" + _("Need restart GUI") + "'"])
             self.close()
             return
 
         if returnValue == "install_default":
             if "ciplushelper" in self.ret:
                 os_system("killall ciplushelper 2>/dev/null && sleep 2")
-            os_system(f"cp {plugin_path}/ciplushelper_bin/arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper")
+            os_system(
+                f"cp {plugin_path}/ciplushelper_bin/arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper")
             if "ciplushelper" in self.ret:
-                self.session.open(Console, _("Start ciplushelper"), ["/etc/init.d/ciplushelper start && echo '" + _("Need restart GUI") + "'"])
+                self.session.open(
+                    Console, _("Start ciplushelper"), [
+                        "/etc/init.d/ciplushelper start && echo '" + _("Need restart GUI") + "'"])
             self.close()
             return
 
         if returnValue == "restart_gui":
-            self.session.open(MessageBox, _("Are you sure you want to restart the GUI?"), MessageBox.TYPE_YESNO, self.restart_gui)
+            self.session.open(
+                MessageBox,
+                _("Are you sure you want to restart the GUI?"),
+                MessageBox.TYPE_YESNO,
+                self.restart_gui)
             return
 
         if returnValue == "about_ciplushelper":
@@ -221,7 +244,8 @@ def check_cimodule():
                     pass
                 try:
                     if _Session and _Session.nav.getCurrentlyPlayingServiceOrGroup():
-                        _Session.nav.playService(_Session.nav.getCurrentlyPlayingServiceOrGroup(), forceRestart=True)
+                        _Session.nav.playService(
+                            _Session.nav.getCurrentlyPlayingServiceOrGroup(), forceRestart=True)
                 except Exception:
                     pass
     except Exception:
