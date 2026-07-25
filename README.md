@@ -165,7 +165,7 @@ Contributions are welcome! Please:
 ## 📧 Contact
 
 - **GitHub Issues:** [https://github.com/Belfagor2005/ciplushelper-8.4/issues](https://github.com/Belfagor2005/ciplushelper-8.4/issues)
-- **Forum:** [https://www.opena.tv/](https://www.opena.tv/)
+- **Forum:** [https://www.linuxsat-support.com/thread/163204-test-ciplus-helper-all/](linuxsat-support.com)
 
 ---
 
