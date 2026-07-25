@@ -27,18 +27,22 @@ RDEPENDS:${PN} = "enigma2"
 do_install() {
     # Create plugin directory
     install -d ${D}${PLUGIN_DIR}
-    
+
     # Copy entire plugin folder
     cp -rp ${S}/* ${D}${PLUGIN_DIR}/
-    
+
     # Remove .git if present
     rm -rf ${D}${PLUGIN_DIR}/.git 2>/dev/null || true
-    
+
     # Remove unwanted files (if any)
     rm -f ${D}${PLUGIN_DIR}/.gitignore 2>/dev/null || true
-    
+
     # Ensure all binaries are executable
     find ${D}${PLUGIN_DIR} -name "ciplushelper" -exec chmod 755 {} \;
+
+    chmod +x ${D}${PLUGIN_DIR}/plugin.py
+    chmod +x ${D}${PLUGIN_DIR}/translate_utils.py
+    chmod +x ${D}${PLUGIN_DIR}/update_translations.py
 }
 
 do_install[cleandirs] = "${D}${PLUGIN_DIR}"

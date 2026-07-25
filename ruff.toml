@@ -1,0 +1,16 @@
+[tool.ruff]
+# Escludi i file di utility di traduzione (non necessari per il plugin)
+exclude = [
+    "translate_utils.py",
+    "update_translations.py",
+]
+
+[tool.ruff.lint]
+# Ignora regole non critiche
+ignore = [
+    "N999",   # invalid module name (capitale)
+    "EXE001", # shebang non eseguibile (verrà risolto con chmod)
+    "S110",   # try-except-pass (usato per semplicità)
+    "BLE001", # blind exception (accettabile in alcuni casi)
+    "UP009",  # coding comment (lo rimuoveremo)
+]

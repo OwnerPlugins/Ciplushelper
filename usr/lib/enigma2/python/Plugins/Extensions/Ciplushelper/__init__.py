@@ -5,12 +5,10 @@ from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 import gettext
 import re
 
-__license__ = "GPL-v2"
 __version__ = "4.0"
+__license__ = "GPL-v2"
 
-DEBUG = True
-
-PluginLanguageDomain = 'Ciplushelper'
+PluginLanguageDomain = "Ciplushelper"
 PluginLanguagePath = 'Extensions/Ciplushelper/locale'
 
 
