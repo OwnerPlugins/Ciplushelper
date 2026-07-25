@@ -1,0 +1,93 @@
+# am translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: am <ekekaz@gmail.com>\n"
+"Language: am\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "እርግጠኛ ነህ GUI ን እንደገና ማስጀመር ትፈልጋለህ?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "CI + አጋዥ"
+
+msgid "CI+ helper for Enigma2"
+msgstr "CI + አጋዥ ለEnigma2"
+
+msgid "CI+ helper menu"
+msgstr "CI + አጋዥ ምናሌ"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ አጋዥ ተሰኪ"
+
+msgid "CI+ slot"
+msgstr "CI + ማስገቢያ"
+
+msgid "default version"
+msgstr "ነባሪ ስሪት"
+
+msgid "Disable"
+msgstr "አሰናክል"
+
+msgid "Disable ciplushelper autostart"
+msgstr "የ ciplushelper ራስ-ጀምርን አሰናክል"
+
+msgid "Enable"
+msgstr "አንቃ"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper autostartን አንቃ"
+
+msgid "For other models"
+msgstr "ለሌሎች ሞዴሎች"
+
+msgid "Install"
+msgstr "ጫን"
+
+msgid "Installed:"
+msgstr "ተጭኗል፡"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "GUI እንደገና ማስጀመር ያስፈልጋል"
+
+msgid "Remove"
+msgstr "አስወግድ"
+
+msgid "Restart GUI"
+msgstr "GUI ን እንደገና ያስጀምሩ"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper ጀምር"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper አቁም"
+
+msgid "Supported devices:"
+msgstr "የሚደገፉ መሳሪያዎች፡"
+
+msgid "Supported models"
+msgstr "የሚደገፉ ሞዴሎች"
+
+msgid "Unknown"
+msgstr "ያልታወቀ"
+
+msgid "use"
+msgstr "መጠቀም"
+
+msgid "version from Zgemma"
+msgstr "ስሪት ከ Zgemma"
+

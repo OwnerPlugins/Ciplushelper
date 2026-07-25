@@ -1,0 +1,93 @@
+# kn translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: kn <ekekaz@gmail.com>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "GUI ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "CI+ ಸಹಾಯಕ"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Enigma2 ಗಾಗಿ CI+ ಸಹಾಯಕ"
+
+msgid "CI+ helper menu"
+msgstr "CI+ ಸಹಾಯಕ ಮೆನು"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ ಸಹಾಯಕ ಪ್ಲಗಿನ್"
+
+msgid "CI+ slot"
+msgstr "CI+ ಸ್ಲಾಟ್"
+
+msgid "default version"
+msgstr "ಡೀಫಾಲ್ಟ್ ಆವೃತ್ತಿ"
+
+msgid "Disable"
+msgstr "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper ಸ್ವಯಂಪ್ರಾರಂಭವನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+
+msgid "Enable"
+msgstr "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper ಸ್ವಯಂಪ್ರಾರಂಭವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+
+msgid "For other models"
+msgstr "ಇತರ ಮಾದರಿಗಳಿಗೆ"
+
+msgid "Install"
+msgstr "ಸ್ಥಾಪಿಸಿ"
+
+msgid "Installed:"
+msgstr "ಸ್ಥಾಪಿಸಲಾಗಿದೆ:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "GUI ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸುವ ಅಗತ್ಯವಿದೆ"
+
+msgid "Remove"
+msgstr "ತೆಗೆದುಹಾಕಿ"
+
+msgid "Restart GUI"
+msgstr "GUI ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper ಅನ್ನು ಪ್ರಾರಂಭಿಸಿ"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper ನಿಲ್ಲಿಸಿ"
+
+msgid "Supported devices:"
+msgstr "ಬೆಂಬಲಿತ ಸಾಧನಗಳು:"
+
+msgid "Supported models"
+msgstr "ಬೆಂಬಲಿತ ಮಾದರಿಗಳು"
+
+msgid "Unknown"
+msgstr "ಅಜ್ಞಾತ"
+
+msgid "use"
+msgstr "ಬಳಸಿ"
+
+msgid "version from Zgemma"
+msgstr "Zgemma ನಿಂದ ಆವೃತ್ತಿ"
+

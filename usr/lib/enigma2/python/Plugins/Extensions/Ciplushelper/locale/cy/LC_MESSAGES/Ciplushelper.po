@@ -1,0 +1,93 @@
+# cy translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: cy <ekekaz@gmail.com>\n"
+"Language: cy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Ydych chi'n siŵr eich bod am ailgychwyn y GUI?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "Cynorthwyydd CI+"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Cynorthwyydd CI+ ar gyfer Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "Dewislen cynorthwyydd CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "Ategyn Cynorthwyydd CI+"
+
+msgid "CI+ slot"
+msgstr "slot CI+"
+
+msgid "default version"
+msgstr "fersiwn rhagosodedig"
+
+msgid "Disable"
+msgstr "Analluogi"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Analluogi ciplushelper cychwyn yn awtomatig"
+
+msgid "Enable"
+msgstr "Galluogi"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Galluogi ciplushelper cychwyn yn awtomatig"
+
+msgid "For other models"
+msgstr "Ar gyfer modelau eraill"
+
+msgid "Install"
+msgstr "Gosod"
+
+msgid "Installed:"
+msgstr "Wedi'i osod:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Angen ailgychwyn GUI"
+
+msgid "Remove"
+msgstr "Dileu"
+
+msgid "Restart GUI"
+msgstr "Ailgychwyn GUI"
+
+msgid "Start ciplushelper"
+msgstr "Cychwyn ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Stopiwch ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Dyfeisiau a gefnogir:"
+
+msgid "Supported models"
+msgstr "Modelau a gefnogir"
+
+msgid "Unknown"
+msgstr "Anhysbys"
+
+msgid "use"
+msgstr "defnydd"
+
+msgid "version from Zgemma"
+msgstr "fersiwn o Zgemma"
+

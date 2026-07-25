@@ -1,0 +1,93 @@
+# el translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: el <ekekaz@gmail.com>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Είστε βέβαιοι ότι θέλετε να επανεκκινήσετε το GUI;"
+
+msgid "ARM"
+msgstr "ΜΠΡΑΤΣΟ"
+
+msgid "CI+ helper"
+msgstr "Βοηθός CI+"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Βοηθός CI+ για το Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "Βοηθητικό μενού CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "Πρόσθετο βοήθειας CI+"
+
+msgid "CI+ slot"
+msgstr "υποδοχή CI+"
+
+msgid "default version"
+msgstr "προεπιλεγμένη έκδοση"
+
+msgid "Disable"
+msgstr "Καθιστώ ανίκανο"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Απενεργοποιήστε την αυτόματη εκκίνηση του ciplushelper"
+
+msgid "Enable"
+msgstr "Καθιστώ ικανό"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ενεργοποίηση αυτόματης εκκίνησης του ciplushelper"
+
+msgid "For other models"
+msgstr "Για άλλα μοντέλα"
+
+msgid "Install"
+msgstr "Εγκαθιστώ"
+
+msgid "Installed:"
+msgstr "Εγκατεστημένο:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Χρειάζεται επανεκκίνηση του GUI"
+
+msgid "Remove"
+msgstr "Αφαιρώ"
+
+msgid "Restart GUI"
+msgstr "Επανεκκινήστε το GUI"
+
+msgid "Start ciplushelper"
+msgstr "Ξεκινήστε το ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Σταματήστε το ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Υποστηριζόμενες συσκευές:"
+
+msgid "Supported models"
+msgstr "Υποστηριζόμενα μοντέλα"
+
+msgid "Unknown"
+msgstr "Αγνωστος"
+
+msgid "use"
+msgstr "χρήση"
+
+msgid "version from Zgemma"
+msgstr "έκδοση από το Zgemma"
+

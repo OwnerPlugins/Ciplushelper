@@ -1,0 +1,93 @@
+# ja translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ja <ekekaz@gmail.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "GUI を再起動してもよろしいですか?"
+
+msgid "ARM"
+msgstr "アーム"
+
+msgid "CI+ helper"
+msgstr "CI+ヘルパー"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Enigma2 の CI+ ヘルパー"
+
+msgid "CI+ helper menu"
+msgstr "CI+ ヘルパー メニュー"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ ヘルパー プラグイン"
+
+msgid "CI+ slot"
+msgstr "CI+スロット"
+
+msgid "default version"
+msgstr "デフォルトバージョン"
+
+msgid "Disable"
+msgstr "無効にする"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper の自動起動を無効にする"
+
+msgid "Enable"
+msgstr "有効にする"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper の自動起動を有効にする"
+
+msgid "For other models"
+msgstr "その他のモデルの場合"
+
+msgid "Install"
+msgstr "インストール"
+
+msgid "Installed:"
+msgstr "インストール済み:"
+
+msgid "MIPSEL"
+msgstr "ミプセル"
+
+msgid "Need restart GUI"
+msgstr "GUIを再起動する必要があります"
+
+msgid "Remove"
+msgstr "取り除く"
+
+msgid "Restart GUI"
+msgstr "GUIを再起動する"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper を開始する"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper を停止します"
+
+msgid "Supported devices:"
+msgstr "サポートされているデバイス:"
+
+msgid "Supported models"
+msgstr "対応機種"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "use"
+msgstr "使用"
+
+msgid "version from Zgemma"
+msgstr "Zgemmaのバージョン"
+

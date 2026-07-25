@@ -1,0 +1,93 @@
+# gd translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: gd <ekekaz@gmail.com>\n"
+"Language: gd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "A bheil thu cinnteach gu bheil thu airson an GUI ath-thòiseachadh?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "Neach-cuideachaidh CI+"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Neach-cuideachaidh CI+ airson Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "Clàr cuideachaidh CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "Plugin neach-cuideachaidh CI+"
+
+msgid "CI+ slot"
+msgstr "sliotan CI+"
+
+msgid "default version"
+msgstr "dreach bunaiteach"
+
+msgid "Disable"
+msgstr "Cuir à comas"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Cuir à comas ciplushelper autostart"
+
+msgid "Enable"
+msgstr "Dèan comas"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Cuir an comas ciplushelper autostart"
+
+msgid "For other models"
+msgstr "Airson modailean eile"
+
+msgid "Install"
+msgstr "Stàladh"
+
+msgid "Installed:"
+msgstr "Air a stàladh:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Feum air GUI ath-thòiseachadh"
+
+msgid "Remove"
+msgstr "Thoir air falbh"
+
+msgid "Restart GUI"
+msgstr "Ath-thòisich an GUI"
+
+msgid "Start ciplushelper"
+msgstr "Tòisich ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Cuir stad air ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Innealan le taic:"
+
+msgid "Supported models"
+msgstr "Modailean le taic"
+
+msgid "Unknown"
+msgstr "Neo-aithnichte"
+
+msgid "use"
+msgstr "cleachdadh"
+
+msgid "version from Zgemma"
+msgstr "dreach bho Zgemma"
+

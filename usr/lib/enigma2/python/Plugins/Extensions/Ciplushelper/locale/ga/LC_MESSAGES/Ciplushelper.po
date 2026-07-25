@@ -1,0 +1,93 @@
+# ga translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ga <ekekaz@gmail.com>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "An bhfuil tú cinnte gur mhaith leat an GUI a atosú?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "Cúntóir CI+"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Cúntóir CI+ do Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "Roghchlár cúntóir CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "Breiseán Cúntóra CI+"
+
+msgid "CI+ slot"
+msgstr "Sliotán CI+"
+
+msgid "default version"
+msgstr "leagan réamhshocraithe"
+
+msgid "Disable"
+msgstr "Díchumasaigh"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Díchumasaigh ciplushelper autostart"
+
+msgid "Enable"
+msgstr "Cumasaigh"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Cumasaigh ciplushelper autostart"
+
+msgid "For other models"
+msgstr "Le haghaidh samhlacha eile"
+
+msgid "Install"
+msgstr "Suiteáil"
+
+msgid "Installed:"
+msgstr "Suiteáilte:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Teastaíonn atosú GUI"
+
+msgid "Remove"
+msgstr "Bain"
+
+msgid "Restart GUI"
+msgstr "Atosaigh GUI"
+
+msgid "Start ciplushelper"
+msgstr "Tosaigh ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Stop ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Gléasanna tacaithe:"
+
+msgid "Supported models"
+msgstr "Múnlaí tacaithe"
+
+msgid "Unknown"
+msgstr "Anaithnid"
+
+msgid "use"
+msgstr "úsáid"
+
+msgid "version from Zgemma"
+msgstr "leagan ó zgemma"
+

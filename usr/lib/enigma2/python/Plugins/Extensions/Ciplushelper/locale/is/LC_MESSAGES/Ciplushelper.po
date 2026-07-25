@@ -1,0 +1,93 @@
+# is translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: is <ekekaz@gmail.com>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Ertu viss um að þú viljir endurræsa GUI?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "CI+ hjálpari"
+
+msgid "CI+ helper for Enigma2"
+msgstr "CI+ hjálpari fyrir Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "CI+ hjálparvalmynd"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ hjálparviðbót"
+
+msgid "CI+ slot"
+msgstr "CI+ rauf"
+
+msgid "default version"
+msgstr "sjálfgefin útgáfa"
+
+msgid "Disable"
+msgstr "Óvirkja"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Slökktu á sjálfvirkri ræsingu ciplushelper"
+
+msgid "Enable"
+msgstr "Virkja"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Virkja sjálfvirka ræsingu ciplushelper"
+
+msgid "For other models"
+msgstr "Fyrir aðrar gerðir"
+
+msgid "Install"
+msgstr "Settu upp"
+
+msgid "Installed:"
+msgstr "Uppsett:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Þarf að endurræsa GUI"
+
+msgid "Remove"
+msgstr "Fjarlægja"
+
+msgid "Restart GUI"
+msgstr "Endurræstu GUI"
+
+msgid "Start ciplushelper"
+msgstr "Byrjaðu ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Hættu ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Stuðningur tæki:"
+
+msgid "Supported models"
+msgstr "Stuðlar gerðir"
+
+msgid "Unknown"
+msgstr "Óþekkt"
+
+msgid "use"
+msgstr "nota"
+
+msgid "version from Zgemma"
+msgstr "útgáfa frá Zgemma"
+

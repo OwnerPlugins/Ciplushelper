@@ -1,0 +1,93 @@
+# hu translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: hu <ekekaz@gmail.com>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Biztos, hogy újra akarja indítani a GUI-t?"
+
+msgid "ARM"
+msgstr "KAR"
+
+msgid "CI+ helper"
+msgstr "CI+ segítő"
+
+msgid "CI+ helper for Enigma2"
+msgstr "CI+ segítő az Enigma2-hez"
+
+msgid "CI+ helper menu"
+msgstr "CI+ helper menü"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
+
+msgid "CI+ slot"
+msgstr "CI+ bővítőhely"
+
+msgid "default version"
+msgstr "alapértelmezett verzió"
+
+msgid "Disable"
+msgstr "Letiltás"
+
+msgid "Disable ciplushelper autostart"
+msgstr "A ciplushelper automatikus indítás letiltása"
+
+msgid "Enable"
+msgstr "Engedélyezés"
+
+msgid "Enable ciplushelper autostart"
+msgstr "A ciplushelper automatikus indítás engedélyezése"
+
+msgid "For other models"
+msgstr "Más modellekhez"
+
+msgid "Install"
+msgstr "Telepítés"
+
+msgid "Installed:"
+msgstr "Telepítve:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Újra kell indítani a GUI-t"
+
+msgid "Remove"
+msgstr "Távolítsa el"
+
+msgid "Restart GUI"
+msgstr "Indítsa újra a GUI-t"
+
+msgid "Start ciplushelper"
+msgstr "Indítsa el a ciplushelpert"
+
+msgid "Stop ciplushelper"
+msgstr "Állítsa le a ciplushelpert"
+
+msgid "Supported devices:"
+msgstr "Támogatott eszközök:"
+
+msgid "Supported models"
+msgstr "Támogatott modellek"
+
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+msgid "use"
+msgstr "használat"
+
+msgid "version from Zgemma"
+msgstr "verzió a Zgemmától"
+

@@ -1,0 +1,93 @@
+# eo translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: eo <ekekaz@gmail.com>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Ĉu vi certas, ke vi volas rekomenci la GUI?"
+
+msgid "ARM"
+msgstr "BRAKO"
+
+msgid "CI+ helper"
+msgstr "CI+ helpanto"
+
+msgid "CI+ helper for Enigma2"
+msgstr "CI+-helpanto por Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "CI+ help menuo"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Kromaĵo"
+
+msgid "CI+ slot"
+msgstr "CI+ fendo"
+
+msgid "default version"
+msgstr "defaŭlta versio"
+
+msgid "Disable"
+msgstr "Malebligu"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Malebligu ciplushelper-aŭtomatan lanĉon"
+
+msgid "Enable"
+msgstr "Ebligu"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ebligu ciplushelper-aŭtomatan lanĉon"
+
+msgid "For other models"
+msgstr "Por aliaj modeloj"
+
+msgid "Install"
+msgstr "Instali"
+
+msgid "Installed:"
+msgstr "Instalita:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Necesas rekomenci GUI"
+
+msgid "Remove"
+msgstr "Forigi"
+
+msgid "Restart GUI"
+msgstr "Rekomencu GUI"
+
+msgid "Start ciplushelper"
+msgstr "Komencu ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Haltu ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Subtenataj aparatoj:"
+
+msgid "Supported models"
+msgstr "Subtenataj modeloj"
+
+msgid "Unknown"
+msgstr "Nekonata"
+
+msgid "use"
+msgstr "uzi"
+
+msgid "version from Zgemma"
+msgstr "versio de Zgemma"
+

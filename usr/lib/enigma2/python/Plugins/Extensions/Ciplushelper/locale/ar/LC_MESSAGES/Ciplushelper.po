@@ -1,0 +1,93 @@
+# ar translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ar <ekekaz@gmail.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "هل أنت متأكد أنك تريد إعادة تشغيل واجهة المستخدم الرسومية؟"
+
+msgid "ARM"
+msgstr "ذراع"
+
+msgid "CI+ helper"
+msgstr "مساعد سي +"
+
+msgid "CI+ helper for Enigma2"
+msgstr "مساعد CI+ لـ Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "قائمة مساعد CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "البرنامج المساعد CI +"
+
+msgid "CI+ slot"
+msgstr "فتحة CI+"
+
+msgid "default version"
+msgstr "الإصدار الافتراضي"
+
+msgid "Disable"
+msgstr "إبطال"
+
+msgid "Disable ciplushelper autostart"
+msgstr "تعطيل التشغيل التلقائي لـ ciplushelper"
+
+msgid "Enable"
+msgstr "يُمكَِن"
+
+msgid "Enable ciplushelper autostart"
+msgstr "تمكين التشغيل التلقائي لـ ciplushelper"
+
+msgid "For other models"
+msgstr "لنماذج أخرى"
+
+msgid "Install"
+msgstr "ثَبَّتَ"
+
+msgid "Installed:"
+msgstr "تم التثبيت:"
+
+msgid "MIPSEL"
+msgstr "ميبسيل"
+
+msgid "Need restart GUI"
+msgstr "تحتاج إلى إعادة تشغيل واجهة المستخدم الرسومية"
+
+msgid "Remove"
+msgstr "يزيل"
+
+msgid "Restart GUI"
+msgstr "أعد تشغيل واجهة المستخدم الرسومية"
+
+msgid "Start ciplushelper"
+msgstr "ابدأ تشغيل ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "توقف عن استخدام ciplushelper"
+
+msgid "Supported devices:"
+msgstr "الأجهزة المدعومة:"
+
+msgid "Supported models"
+msgstr "النماذج المدعومة"
+
+msgid "Unknown"
+msgstr "مجهول"
+
+msgid "use"
+msgstr "يستخدم"
+
+msgid "version from Zgemma"
+msgstr "نسخة من Zgemma"
+

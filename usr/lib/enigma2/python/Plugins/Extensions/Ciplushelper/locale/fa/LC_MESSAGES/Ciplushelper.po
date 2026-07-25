@@ -1,0 +1,93 @@
+# fa translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: fa <ekekaz@gmail.com>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "آیا مطمئن هستید که می خواهید رابط کاربری گرافیکی را مجدداً راه اندازی کنید؟"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "کمک کننده CI+"
+
+msgid "CI+ helper for Enigma2"
+msgstr "کمک کننده CI+ برای Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "منوی کمکی CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "پلاگین CI+ Helper"
+
+msgid "CI+ slot"
+msgstr "اسلات CI+"
+
+msgid "default version"
+msgstr "نسخه پیش فرض"
+
+msgid "Disable"
+msgstr "غیر فعال کردن"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper autostart را غیرفعال کنید"
+
+msgid "Enable"
+msgstr "فعال کردن"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper autostart را فعال کنید"
+
+msgid "For other models"
+msgstr "برای مدل های دیگر"
+
+msgid "Install"
+msgstr "نصب کنید"
+
+msgid "Installed:"
+msgstr "نصب شده:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "نیاز به راه اندازی مجدد رابط کاربری گرافیکی"
+
+msgid "Remove"
+msgstr "حذف کنید"
+
+msgid "Restart GUI"
+msgstr "رابط کاربری گرافیکی را مجددا راه اندازی کنید"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper را شروع کنید"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper را متوقف کنید"
+
+msgid "Supported devices:"
+msgstr "دستگاه های پشتیبانی شده:"
+
+msgid "Supported models"
+msgstr "مدل های پشتیبانی شده"
+
+msgid "Unknown"
+msgstr "ناشناس"
+
+msgid "use"
+msgstr "استفاده کنید"
+
+msgid "version from Zgemma"
+msgstr "نسخه از Zgemma"
+

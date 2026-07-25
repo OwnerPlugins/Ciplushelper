@@ -1,0 +1,93 @@
+# fi translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: fi <ekekaz@gmail.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Oletko varma, että haluat käynnistää graafisen käyttöliittymän uudelleen?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "CI+ apulainen"
+
+msgid "CI+ helper for Enigma2"
+msgstr "CI+-apuohjelma Enigma2:lle"
+
+msgid "CI+ helper menu"
+msgstr "CI+-apuvalikko"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
+
+msgid "CI+ slot"
+msgstr "CI+ paikka"
+
+msgid "default version"
+msgstr "oletusversio"
+
+msgid "Disable"
+msgstr "Poista käytöstä"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Poista ciplushelperin automaattinen käynnistys käytöstä"
+
+msgid "Enable"
+msgstr "Ota käyttöön"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ota ciplushelperin automaattinen käynnistys käyttöön"
+
+msgid "For other models"
+msgstr "Muille malleille"
+
+msgid "Install"
+msgstr "Asentaa"
+
+msgid "Installed:"
+msgstr "Asennettu:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "GUI on käynnistettävä uudelleen"
+
+msgid "Remove"
+msgstr "Poistaa"
+
+msgid "Restart GUI"
+msgstr "Käynnistä GUI uudelleen"
+
+msgid "Start ciplushelper"
+msgstr "Käynnistä ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Lopeta ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Tuetut laitteet:"
+
+msgid "Supported models"
+msgstr "Tuetut mallit"
+
+msgid "Unknown"
+msgstr "Tuntematon"
+
+msgid "use"
+msgstr "käyttää"
+
+msgid "version from Zgemma"
+msgstr "Zgemman versio"
+

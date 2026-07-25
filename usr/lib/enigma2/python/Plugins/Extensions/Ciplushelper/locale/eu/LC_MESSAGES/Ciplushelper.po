@@ -1,0 +1,93 @@
+# eu translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: eu <ekekaz@gmail.com>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Ziur GUI berrabiarazi nahi duzula?"
+
+msgid "ARM"
+msgstr "BESOA"
+
+msgid "CI+ helper"
+msgstr "CI+ laguntzailea"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Enigma2rako CI+ laguntzailea"
+
+msgid "CI+ helper menu"
+msgstr "CI+ laguntzaile menua"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
+
+msgid "CI+ slot"
+msgstr "CI+ zirrikitua"
+
+msgid "default version"
+msgstr "bertsio lehenetsia"
+
+msgid "Disable"
+msgstr "Desgaitu"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Desgaitu ciplushelper abiarazte automatikoa"
+
+msgid "Enable"
+msgstr "Gaitu"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Gaitu ciplushelper abiarazte automatikoa"
+
+msgid "For other models"
+msgstr "Beste eredu batzuetarako"
+
+msgid "Install"
+msgstr "Instalatu"
+
+msgid "Installed:"
+msgstr "Instalatua:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "GUI berrabiarazi behar da"
+
+msgid "Remove"
+msgstr "Kendu"
+
+msgid "Restart GUI"
+msgstr "Berrabiarazi GUI"
+
+msgid "Start ciplushelper"
+msgstr "Hasi ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Gelditu ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Onartutako gailuak:"
+
+msgid "Supported models"
+msgstr "Onartutako ereduak"
+
+msgid "Unknown"
+msgstr "Ezezaguna"
+
+msgid "use"
+msgstr "erabili"
+
+msgid "version from Zgemma"
+msgstr "Zgemma-ren bertsioa"
+

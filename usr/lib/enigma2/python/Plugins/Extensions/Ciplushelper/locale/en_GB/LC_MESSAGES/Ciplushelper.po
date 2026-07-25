@@ -1,0 +1,93 @@
+# en_GB translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: en_GB <ekekaz@gmail.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Are you sure you want to restart the GUI?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "CI+ helper"
+
+msgid "CI+ helper for Enigma2"
+msgstr "CI+ helper for Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "CI+ helper menu"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
+
+msgid "CI+ slot"
+msgstr "CI+ slot"
+
+msgid "default version"
+msgstr "default version"
+
+msgid "Disable"
+msgstr "Disable"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Disable ciplushelper autostart"
+
+msgid "Enable"
+msgstr "Enable"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Enable ciplushelper autostart"
+
+msgid "For other models"
+msgstr "For other models"
+
+msgid "Install"
+msgstr "Install"
+
+msgid "Installed:"
+msgstr "Installed:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Need restart GUI"
+
+msgid "Remove"
+msgstr "Remove"
+
+msgid "Restart GUI"
+msgstr "Restart GUI"
+
+msgid "Start ciplushelper"
+msgstr "Start ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Stop ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Supported devices:"
+
+msgid "Supported models"
+msgstr "Supported models"
+
+msgid "Unknown"
+msgstr "Unknown"
+
+msgid "use"
+msgstr "use"
+
+msgid "version from Zgemma"
+msgstr "version from Zgemma"
+

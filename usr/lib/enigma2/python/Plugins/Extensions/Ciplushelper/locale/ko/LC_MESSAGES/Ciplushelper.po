@@ -1,0 +1,93 @@
+# ko translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ko <ekekaz@gmail.com>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "GUI를 다시 시작하시겠습니까?"
+
+msgid "ARM"
+msgstr "팔"
+
+msgid "CI+ helper"
+msgstr "CI+ 도우미"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Enigma2용 CI+ 도우미"
+
+msgid "CI+ helper menu"
+msgstr "CI+ 도우미 메뉴"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ 도우미 플러그인"
+
+msgid "CI+ slot"
+msgstr "CI+ 슬롯"
+
+msgid "default version"
+msgstr "기본 버전"
+
+msgid "Disable"
+msgstr "장애를 입히다"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper 자동 시작 비활성화"
+
+msgid "Enable"
+msgstr "할 수 있게 하다"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper 자동 시작 활성화"
+
+msgid "For other models"
+msgstr "다른 모델의 경우"
+
+msgid "Install"
+msgstr "설치하다"
+
+msgid "Installed:"
+msgstr "설치됨:"
+
+msgid "MIPSEL"
+msgstr "밉셀"
+
+msgid "Need restart GUI"
+msgstr "GUI를 다시 시작해야 함"
+
+msgid "Remove"
+msgstr "제거하다"
+
+msgid "Restart GUI"
+msgstr "GUI 다시 시작"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper 시작"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper 중지"
+
+msgid "Supported devices:"
+msgstr "지원되는 장치:"
+
+msgid "Supported models"
+msgstr "지원되는 모델"
+
+msgid "Unknown"
+msgstr "알려지지 않은"
+
+msgid "use"
+msgstr "사용"
+
+msgid "version from Zgemma"
+msgstr "Zgemma 버전"
+

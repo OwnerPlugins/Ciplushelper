@@ -1,0 +1,93 @@
+# af translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: af <ekekaz@gmail.com>\n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Is jy seker jy wil die GUI herbegin?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "CI+ helper"
+
+msgid "CI+ helper for Enigma2"
+msgstr "CI+ helper vir Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "CI+ helper spyskaart"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper-inprop"
+
+msgid "CI+ slot"
+msgstr "CI+ gleuf"
+
+msgid "default version"
+msgstr "verstek weergawe"
+
+msgid "Disable"
+msgstr "Deaktiveer"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Deaktiveer ciplushelper-outobegin"
+
+msgid "Enable"
+msgstr "Aktiveer"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Aktiveer ciplushelper-outobegin"
+
+msgid "For other models"
+msgstr "Vir ander modelle"
+
+msgid "Install"
+msgstr "Installeer"
+
+msgid "Installed:"
+msgstr "Geïnstalleer:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Moet GUI herbegin"
+
+msgid "Remove"
+msgstr "Verwyder"
+
+msgid "Restart GUI"
+msgstr "Herbegin GUI"
+
+msgid "Start ciplushelper"
+msgstr "Begin ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Stop siplushelper"
+
+msgid "Supported devices:"
+msgstr "Ondersteunde toestelle:"
+
+msgid "Supported models"
+msgstr "Ondersteunde modelle"
+
+msgid "Unknown"
+msgstr "Onbekend"
+
+msgid "use"
+msgstr "gebruik"
+
+msgid "version from Zgemma"
+msgstr "weergawe van Zgemma"
+

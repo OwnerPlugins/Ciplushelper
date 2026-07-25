@@ -1,0 +1,93 @@
+# es translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: es <ekekaz@gmail.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "¿Está seguro de que desea reiniciar la GUI?"
+
+msgid "ARM"
+msgstr "BRAZO"
+
+msgid "CI+ helper"
+msgstr "ayudante de CI+"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Ayudante de CI+ para Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "Menú auxiliar CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "Complemento auxiliar CI+"
+
+msgid "CI+ slot"
+msgstr "Ranura CI+"
+
+msgid "default version"
+msgstr "versión predeterminada"
+
+msgid "Disable"
+msgstr "Desactivar"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Deshabilitar el inicio automático de ciplushelper"
+
+msgid "Enable"
+msgstr "Permitir"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Habilitar el inicio automático de ciplushelper"
+
+msgid "For other models"
+msgstr "Para otros modelos"
+
+msgid "Install"
+msgstr "Instalar"
+
+msgid "Installed:"
+msgstr "Instalado:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Necesita reiniciar la GUI"
+
+msgid "Remove"
+msgstr "Eliminar"
+
+msgid "Restart GUI"
+msgstr "Reiniciar GUI"
+
+msgid "Start ciplushelper"
+msgstr "Iniciar ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Detener ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Dispositivos compatibles:"
+
+msgid "Supported models"
+msgstr "Modelos compatibles"
+
+msgid "Unknown"
+msgstr "Desconocido"
+
+msgid "use"
+msgstr "usar"
+
+msgid "version from Zgemma"
+msgstr "versión de Zgemma"
+
