@@ -1,14 +1,14 @@
 <h1 align="center">⚙️ CI+ Helper Plugin for Enigma2
 
-[![Version](https://img.shields.io/badge/Version-6-blue.svg)](https://github.com/OwnerPlugins/CommandCenter)
+[![Version](https://img.shields.io/badge/Version-6-blue.svg)](https://github.com/OwnerPlugins/Ciplushelper)
 [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
 [![Python](https://img.shields.io/badge/Python3-only-orange.svg)](https://www.python.org/)
-[![Release](https://img.shields.io/github/v/release/OwnerPlugins/CommandCenter)](https://github.com/OwnerPlugins/CommandCenter/releases)
+[![Release](https://img.shields.io/github/v/release/OwnerPlugins/Ciplushelper)](https://github.com/OwnerPlugins/Ciplushelper/releases)
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 </h1>
 <p align="center">
-  <a href="https://github.com/Belfagor2005">
-    <img src="https://komarev.com/ghpvc/?username=Belfagor2005&label=Repository%20Views&color=blueviolet" alt="Visitors">
+  <a href="https://github.com/OwnerPlugins">
+    <img src="https://komarev.com/ghpvc/?username=OwnerPlugins&label=Repository%20Views&color=blueviolet" alt="Visitors">
   </a>
 </p>
 
@@ -16,7 +16,7 @@
   <a href="https://ko-fi.com/lululla">
     <img src="https://img.shields.io/badge/_-Donate-red.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge" alt="Donate via Ko-fi">
   </a>
-  <a href="https://paypal.me/belfagor2005">
+  <a href="https://paypal.me/OwnerPlugins">
     <img src="https://img.shields.io/badge/_-Donate-green.svg?logo=githubsponsors&labelColor=555555&style=for-the-badge" alt="Donate via PayPal">
   </a>
 </p>
@@ -84,7 +84,7 @@ wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/Ci
 
 ### From GitHub (development)
 ```bash
-git clone https://github.com/Belfagor2005/ciplushelper-8.4.git /tmp/ciplushelper
+git clone https://github.com/OwnerPlugins/Ciplushelper.git /tmp/ciplushelper
 cp -r /tmp/ciplushelper /usr/lib/enigma2/python/Plugins/Extensions/
 ```
 
@@ -114,7 +114,7 @@ reboot
 
 ### Build from source
 ```bash
-git clone https://github.com/Belfagor2005/ciplushelper-8.4.git
+git clone https://github.com/OwnerPlugins/Ciplushelper.git
 cd ciplushelper-8.4
 # Build IPK
 opkg-build .
@@ -140,7 +140,7 @@ opkg-build .
 
 ## 📝 Credits
 
-- **Contributors:** Belfagor2005
+- **Contributors:** OwnerPlugins
 - **Testers:** Community
 
 ---
@@ -164,8 +164,8 @@ Contributions are welcome! Please:
 
 ## 📧 Contact
 
-- **GitHub Issues:** [https://github.com/Belfagor2005/ciplushelper-8.4/issues](https://github.com/Belfagor2005/ciplushelper-8.4/issues)
-- **Forum:** [https://www.linuxsat-support.com/thread/163204-test-ciplus-helper-all/](linuxsat-support.com)
+- **GitHub Issues:** [https://github.com/OwnerPlugins/Ciplushelper/issues](https://github.com/OwnerPlugins/Ciplushelper/issues)
+- **Forum:** [LinuxSat Support](https://www.linuxsat-support.com/thread/163204-test-ciplus-helper-all/)
 
 ---
 
