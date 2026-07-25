@@ -1,0 +1,93 @@
+# uz translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: uz <ekekaz@gmail.com>\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Haqiqatan ham GUI-ni qayta ishga tushirmoqchimisiz?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "CI+ yordamchisi"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Enigma2 uchun CI+ yordamchisi"
+
+msgid "CI+ helper menu"
+msgstr "CI+ yordamchi menyusi"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ yordamchi plagin"
+
+msgid "CI+ slot"
+msgstr "CI+ uyasi"
+
+msgid "default version"
+msgstr "standart versiya"
+
+msgid "Disable"
+msgstr "Oʻchirish"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper avtomatik ishga tushirishni o'chirib qo'ying"
+
+msgid "Enable"
+msgstr "Yoqish"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ciplushelper avtomatik ishga tushirishni yoqing"
+
+msgid "For other models"
+msgstr "Boshqa modellar uchun"
+
+msgid "Install"
+msgstr "O'rnatish"
+
+msgid "Installed:"
+msgstr "Oʻrnatilgan:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "GUIni qayta ishga tushirish kerak"
+
+msgid "Remove"
+msgstr "O'chirish"
+
+msgid "Restart GUI"
+msgstr "GUI-ni qayta ishga tushiring"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelperni ishga tushiring"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelperni to'xtating"
+
+msgid "Supported devices:"
+msgstr "Qo'llab-quvvatlanadigan qurilmalar:"
+
+msgid "Supported models"
+msgstr "Qo'llab-quvvatlanadigan modellar"
+
+msgid "Unknown"
+msgstr "Noma'lum"
+
+msgid "use"
+msgstr "foydalanish"
+
+msgid "version from Zgemma"
+msgstr "Zgemma versiyasi"
+

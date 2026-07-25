@@ -1,0 +1,93 @@
+# zh_CN translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: zh_CN <ekekaz@gmail.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "您确定要重新启动 GUI 吗？"
+
+msgid "ARM"
+msgstr "手臂"
+
+msgid "CI+ helper"
+msgstr "CI+ helper"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Enigma2 的 CI+ 助手"
+
+msgid "CI+ helper menu"
+msgstr "CI+ helper menu"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ 帮助插件"
+
+msgid "CI+ slot"
+msgstr "CI+插槽"
+
+msgid "default version"
+msgstr "默认版本"
+
+msgid "Disable"
+msgstr "禁用"
+
+msgid "Disable ciplushelper autostart"
+msgstr "禁用 ciplushelper 自动启动"
+
+msgid "Enable"
+msgstr "使能够"
+
+msgid "Enable ciplushelper autostart"
+msgstr "启用 ciplushelper 自动启动"
+
+msgid "For other models"
+msgstr "对于其他型号"
+
+msgid "Install"
+msgstr "安装"
+
+msgid "Installed:"
+msgstr "安装："
+
+msgid "MIPSEL"
+msgstr "米普塞尔"
+
+msgid "Need restart GUI"
+msgstr "需要重启GUI"
+
+msgid "Remove"
+msgstr "消除"
+
+msgid "Restart GUI"
+msgstr "重新启动图形用户界面"
+
+msgid "Start ciplushelper"
+msgstr "启动ciplushhelper"
+
+msgid "Stop ciplushelper"
+msgstr "停止 ciplushhelper"
+
+msgid "Supported devices:"
+msgstr "支持的设备："
+
+msgid "Supported models"
+msgstr "支持机型"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "use"
+msgstr "使用"
+
+msgid "version from Zgemma"
+msgstr "来自 Zgemma 的版本"
+

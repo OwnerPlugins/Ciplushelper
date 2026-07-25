@@ -1,0 +1,93 @@
+# yi translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: yi <ekekaz@gmail.com>\n"
+"Language: yi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "זענט איר זיכער אַז איר ווילן צו ריסטאַרט די GUI?"
+
+msgid "ARM"
+msgstr "אָרעם"
+
+msgid "CI+ helper"
+msgstr "סי+ העלפּער"
+
+msgid "CI+ helper for Enigma2"
+msgstr "סי + העלפּער פֿאַר Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "סי + העלפּער מעניו"
+
+msgid "CI+ Helper Plugin"
+msgstr "סי+ העלפּער פּלוגין"
+
+msgid "CI+ slot"
+msgstr "CI+ שפּעלטל"
+
+msgid "default version"
+msgstr "פעליקייַט ווערסיע"
+
+msgid "Disable"
+msgstr "דיסייבאַל"
+
+msgid "Disable ciplushelper autostart"
+msgstr "דיסייבאַל סיפּלוסהעלפּער אַוטאָסטאַרט"
+
+msgid "Enable"
+msgstr "געבן"
+
+msgid "Enable ciplushelper autostart"
+msgstr "געבן סיפּלוסהעלפּער אַוטאָסטאַרט"
+
+msgid "For other models"
+msgstr "פֿאַר אנדערע מאָדעלס"
+
+msgid "Install"
+msgstr "ינסטאַלירן"
+
+msgid "Installed:"
+msgstr "אינסטאַלירן:"
+
+msgid "MIPSEL"
+msgstr "מיפּסעל"
+
+msgid "Need restart GUI"
+msgstr "דאַרפֿן ריסטאַרט GUI"
+
+msgid "Remove"
+msgstr "אַראָפּנעמען"
+
+msgid "Restart GUI"
+msgstr "ריסטאַרט GUI"
+
+msgid "Start ciplushelper"
+msgstr "אָנהייב סיפּלוסהעלפּער"
+
+msgid "Stop ciplushelper"
+msgstr "האַלטן סיפּלוסהעלפּער"
+
+msgid "Supported devices:"
+msgstr "שטיצט דעוויסעס:"
+
+msgid "Supported models"
+msgstr "שטיצט מאָדעלס"
+
+msgid "Unknown"
+msgstr "אומבאַקאַנט"
+
+msgid "use"
+msgstr "נוצן"
+
+msgid "version from Zgemma"
+msgstr "ווערסיע פון ​​Zgemma"
+

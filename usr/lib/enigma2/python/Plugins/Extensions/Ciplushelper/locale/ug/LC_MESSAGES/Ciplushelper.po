@@ -1,0 +1,93 @@
+# ug translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ug <ekekaz@gmail.com>\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "GUI نى قايتا قوزغىتىشنى خالامسىز؟"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "CI + ياردەمچى"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Enigma2 نىڭ CI + ياردەمچىسى"
+
+msgid "CI+ helper menu"
+msgstr "CI + ياردەمچى تىزىملىكى"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI + ياردەمچى قىستۇرمىسى"
+
+msgid "CI+ slot"
+msgstr "CI + slot"
+
+msgid "default version"
+msgstr "سۈكۈتتىكى نەشرى"
+
+msgid "Disable"
+msgstr "چەكلەش"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Ciplushelper autostart نى چەكلەڭ"
+
+msgid "Enable"
+msgstr "قوزغىتىش"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ciplushelper autostart نى قوزغىتىڭ"
+
+msgid "For other models"
+msgstr "باشقا مودېللار ئۈچۈن"
+
+msgid "Install"
+msgstr "قاچىلاش"
+
+msgid "Installed:"
+msgstr "قاچىلانغان:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "GUI نى قايتا قوزغىتىشقا ئېھتىياجلىق"
+
+msgid "Remove"
+msgstr "ئۆچۈرۈڭ"
+
+msgid "Restart GUI"
+msgstr "GUI نى قايتا قوزغىتىڭ"
+
+msgid "Start ciplushelper"
+msgstr "Ciplushelper نى باشلاڭ"
+
+msgid "Stop ciplushelper"
+msgstr "Ciplushelper نى توختىتىڭ"
+
+msgid "Supported devices:"
+msgstr "قوللايدىغان ئۈسكۈنىلەر:"
+
+msgid "Supported models"
+msgstr "قوللايدىغان مودېللار"
+
+msgid "Unknown"
+msgstr "نامەلۇم"
+
+msgid "use"
+msgstr "use"
+
+msgid "version from Zgemma"
+msgstr "Zgemma دىن نەشرى"
+

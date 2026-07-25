@@ -1,0 +1,93 @@
+# vi translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: vi <ekekaz@gmail.com>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Bạn có chắc chắn muốn khởi động lại GUI không?"
+
+msgid "ARM"
+msgstr "CÁNH TAY"
+
+msgid "CI+ helper"
+msgstr "Người trợ giúp CI+"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Trình trợ giúp CI+ cho Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "Trình đơn trợ giúp CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "Plugin trợ giúp CI+"
+
+msgid "CI+ slot"
+msgstr "Khe CI+"
+
+msgid "default version"
+msgstr "phiên bản mặc định"
+
+msgid "Disable"
+msgstr "Vô hiệu hóa"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Tắt tính năng tự khởi động của ciplushelper"
+
+msgid "Enable"
+msgstr "Cho phép"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Bật tính năng tự khởi động ciplushelper"
+
+msgid "For other models"
+msgstr "Đối với các mô hình khác"
+
+msgid "Install"
+msgstr "Cài đặt"
+
+msgid "Installed:"
+msgstr "Đã cài đặt:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Cần khởi động lại GUI"
+
+msgid "Remove"
+msgstr "Di dời"
+
+msgid "Restart GUI"
+msgstr "Khởi động lại GUI"
+
+msgid "Start ciplushelper"
+msgstr "Bắt đầu ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Dừng ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Các thiết bị được hỗ trợ:"
+
+msgid "Supported models"
+msgstr "Các mô hình được hỗ trợ"
+
+msgid "Unknown"
+msgstr "Không xác định"
+
+msgid "use"
+msgstr "sử dụng"
+
+msgid "version from Zgemma"
+msgstr "phiên bản từ Zgemma"
+
