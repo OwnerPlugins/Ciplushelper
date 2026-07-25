@@ -71,9 +71,15 @@ It automatically detects your box model and architecture, installing the correct
 
 ## 🔧 Installation
 
-### Via IPK (recommended)
+### Via Telnet IPK (recommended)
 ```bash
 opkg install /tmp/enigma2-plugin-extensions-ci-plus-helper_6.0_all.ipk
+```
+
+or command line
+
+```bash
+wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/Ciplushelper/main/installer.sh -O - | /bin/bash
 ```
 
 ### From GitHub (development)
