@@ -1,0 +1,268 @@
+#!/bin/sh
+#
+# postinst script for Ciplushelper plugin
+# Universal detection for ALL ARM and MIPSEL boxes
+# Priority: boxtype > model > boxbranding > opkg > uname
+
+# ----------------------------------------------------------------------
+# Helper functions
+# ----------------------------------------------------------------------
+
+write_info() {
+    echo "$1" > /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/info.txt
+}
+
+cleanup_old() {
+    killall ciplushelper 2>/dev/null
+    sleep 2
+    rm -f /usr/bin/ciplushelper
+}
+
+install_ciplushelper() {
+    local src_bin="$1"
+    local src_init="$2"
+
+    cp "$src_bin" /usr/bin/ciplushelper
+    chmod 755 /usr/bin/ciplushelper
+
+    cp "$src_init" /etc/init.d/ciplushelper
+    chmod 755 /etc/init.d/ciplushelper
+
+    if type update-rc.d >/dev/null 2>&1; then
+        update-rc.d ciplushelper defaults 50
+    fi
+}
+
+# ----------------------------------------------------------------------
+# Detect architecture from opkg (fallback)
+# ----------------------------------------------------------------------
+
+detect_arch_from_opkg() {
+    if ! command -v opkg >/dev/null 2>&1; then
+        return 1
+    fi
+
+    local archs=$(opkg print-architecture 2>/dev/null | grep -i "arch" | awk '{print $2}')
+
+    if echo "$archs" | grep -qiE "arm|cortex|aarch64|armv7|armv8"; then
+        echo "arm"
+        return 0
+    fi
+
+    if echo "$archs" | grep -qiE "mips|mipsel"; then
+        echo "mipsel32"
+        return 0
+    fi
+
+    return 1
+}
+
+# ----------------------------------------------------------------------
+# Detect architecture from uname (last resort)
+# ----------------------------------------------------------------------
+
+detect_arch_from_uname() {
+    case $(uname -m) in
+        armv7l|armv7|armv6l|armv5l|arm|aarch64|armv8)
+            echo "arm"
+            ;;
+        mips|mipsel|mips64|mips64el)
+            echo "mipsel32"
+            ;;
+        *)
+            echo "unknown"
+            ;;
+    esac
+}
+
+# ----------------------------------------------------------------------
+# Detect model - PRIORITY to boxtype
+# ----------------------------------------------------------------------
+
+MODEL=""
+ZMODEL="no"
+
+# 1. Try boxtype (MOST RELIABLE)
+if [ -f /proc/stb/info/boxtype ]; then
+    MODEL=$(cat /proc/stb/info/boxtype | tr '[:upper:]' '[:lower:]' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+fi
+
+# 2. If empty, try model
+if [ -z "$MODEL" ] && [ -f /proc/stb/info/model ]; then
+    MODEL=$(cat /proc/stb/info/model | tr '[:upper:]' '[:lower:]' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+fi
+
+# 3. If empty, try boxbranding.cfg
+if [ -z "$MODEL" ] && [ -f /tmp/boxbranding.cfg ]; then
+    MODEL=$(grep -i 'getMachineBuild=' /tmp/boxbranding.cfg | cut -d'=' -f2 | tr '[:upper:]' '[:lower:]' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+fi
+
+# 4. If still empty, try /proc/stb/info/version (some boxes have model here)
+if [ -z "$MODEL" ] && [ -f /proc/stb/info/version ]; then
+    MODEL=$(cat /proc/stb/info/version | tr '[:upper:]' '[:lower:]' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' | cut -d'-' -f1)
+fi
+
+# Set ZMODEL for Zgemma ARM
+case "$MODEL" in
+    h7|h10|h9combo|h9twin|h9combose|h9twinse)
+        ZMODEL="zgemma-arm"
+        ;;
+esac
+
+echo "Detected model: $MODEL"
+
+# ----------------------------------------------------------------------
+# Detect kernel version
+# ----------------------------------------------------------------------
+
+KERNEL=$(uname -r)
+KERNEL_MAJOR=$(echo "$KERNEL" | cut -d. -f1-2)
+echo "Kernel: $KERNEL (major: $KERNEL_MAJOR)"
+
+# ----------------------------------------------------------------------
+# Detect image version (optional)
+# ----------------------------------------------------------------------
+
+IMAGE_VERSION=""
+if [ -f /tmp/boxbranding.cfg ]; then
+    IMAGE_VERSION=$(grep -i 'getImageVersion=' /tmp/boxbranding.cfg | cut -d'=' -f2 | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+fi
+if [ -z "$IMAGE_VERSION" ] && [ -f /etc/image-version ]; then
+    IMAGE_VERSION=$(grep -i 'version=' /etc/image-version | cut -d'=' -f2 | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+fi
+
+[ -n "$IMAGE_VERSION" ] && echo "Image version: $IMAGE_VERSION" || echo "Image version: not available"
+
+# ----------------------------------------------------------------------
+# Determine architecture
+# ----------------------------------------------------------------------
+
+# List of known ARM models (keep adding as needed)
+ARM_MODELS="h7 h10 h9combo h9twin h9combose h9twinse hd51 vs1500 pulse4k pulse4kmini h17 8100s hd61 ustym4kpro ustym4k dm8000 uclan"
+
+# List of known MIPSEL models
+MIPSEL_MODELS="h6 hd2400 hd1500 et8000 et10000 formuler1 formuler3 formuler4 triplex cube formuler4turbo formuler1tc formuler3ip formuler4ip"
+
+ARCH=""
+
+if echo "$ARM_MODELS" | grep -qw "$MODEL"; then
+    ARCH="arm"
+elif echo "$MIPSEL_MODELS" | grep -qw "$MODEL"; then
+    ARCH="mipsel32"
+elif [ "$ZMODEL" = "zgemma-arm" ]; then
+    ARCH="arm"
+else
+    # If model not recognized, try opkg architecture
+    ARCH=$(detect_arch_from_opkg)
+    [ -n "$ARCH" ] && echo "Detected architecture from opkg: $ARCH"
+fi
+
+# If still empty, use uname -m as last resort
+if [ -z "$ARCH" ]; then
+    ARCH=$(detect_arch_from_uname)
+    echo "Detected architecture from uname: $ARCH"
+fi
+
+# If still unknown, exit with error
+if [ -z "$ARCH" ] || [ "$ARCH" = "unknown" ]; then
+    echo "ERROR: Cannot determine architecture!"
+    echo "Please report this error with the output of:"
+    echo "  cat /proc/stb/info/boxtype"
+    echo "  cat /proc/stb/info/model"
+    echo "  uname -m"
+    echo "  opkg print-architecture"
+    exit 1
+fi
+
+echo "Architecture: $ARCH"
+
+# ----------------------------------------------------------------------
+# Install binary
+# ----------------------------------------------------------------------
+
+PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper"
+BIN_DIR="$PLUGIN_DIR/ciplushelper_bin"
+INIT_SCRIPT="$PLUGIN_DIR/ciplushelper.sh"
+
+cleanup_old
+
+# Choose binary subdirectory
+case "$ARCH" in
+    arm)
+        # Zgemma ARM models use specific binary
+        ZGEMMA_MODELS="h7 h10 h9combo h9twin h9combose h9twinse"
+        if echo "$ZGEMMA_MODELS" | grep -qw "$MODEL"; then
+            BIN_SUBDIR="zgemma-arm"
+        else
+            BIN_SUBDIR="arm"
+        fi
+        ;;
+    mipsel32)
+        BIN_SUBDIR="mipsel32"
+        ;;
+    *)
+        echo "ERROR: Unknown architecture $ARCH"
+        exit 1
+        ;;
+esac
+
+BIN_FILE="$BIN_DIR/$BIN_SUBDIR/ciplushelper"
+if [ ! -f "$BIN_FILE" ]; then
+    echo "ERROR: Binary not found: $BIN_FILE"
+    echo "Available directories:"
+    ls -la "$BIN_DIR" 2>/dev/null
+    exit 1
+fi
+
+echo "Using binary: $BIN_FILE"
+install_ciplushelper "$BIN_FILE" "$INIT_SCRIPT"
+
+# ----------------------------------------------------------------------
+# Copy certificates if needed
+# ----------------------------------------------------------------------
+
+if [ -d "$PLUGIN_DIR/ciplus" ]; then
+    echo "Copying certificates to /etc/ciplus/"
+    mkdir -p /etc/ciplus
+    cp -f "$PLUGIN_DIR/ciplus/"* /etc/ciplus/ 2>/dev/null
+    chmod 644 /etc/ciplus/* 2>/dev/null
+fi
+
+# Copy cicert.bin if exists and not already installed (Zgemma ARM)
+if [ -f "$PLUGIN_DIR/cicert.bin" ] && [ ! -f "/etc/cicert.bin" ]; then
+    if [ "$BIN_SUBDIR" = "zgemma-arm" ]; then
+        echo "Copying cicert.bin to /etc/"
+        cp "$PLUGIN_DIR/cicert.bin" /etc/cicert.bin
+        chmod 644 /etc/cicert.bin
+    fi
+fi
+
+# ----------------------------------------------------------------------
+# Write info
+# ----------------------------------------------------------------------
+
+write_info "ciplushelper-$BIN_SUBDIR"
+
+# ----------------------------------------------------------------------
+# Final messages
+# ----------------------------------------------------------------------
+
+echo ""
+echo "*********************************"
+echo "         Warning!!!              "
+echo "      Need reboot box!!!         "
+echo "*********************************"
+echo ""
+
+# Verify installation
+if [ -z "$(cat /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/info.txt)" ]; then
+    rm -rf "$BIN_DIR" 2>/dev/null
+    rm -f /usr/bin/ciplushelper
+    echo "Installation failed - cleaning up"
+    exit 1
+fi
+
+echo "Installation completed successfully!"
+echo "Installed: $(cat /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/info.txt)"
+
+exit 0

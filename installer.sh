@@ -1,6 +1,6 @@
 #!/bin/bash
 ## command line == wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/Ciplushelper/main/installer.sh -O - | /bin/bash
-version='6.0'
+version='6.1'
 changelog='Unified hardware detection for ARM/MIPSEL boxes\n- WQHD (2560x1440) skin support\n- ARM/Zgemma-ARM separation with dedicated binary\n- CI+ slot management (0 and 1)\n- "Restart GUI" command\n- Faster process detection using pgrep\n- Code refactoring with commands dictionary\n- Fixed model detection for boxes without getImageVersion'
 
 TMPPATH=/tmp/Ciplushelper-install

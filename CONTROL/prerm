@@ -1,0 +1,12 @@
+#!/bin/sh
+# pre-removal script
+
+# Stop the service gracefully
+if [ -f /etc/init.d/ciplushelper ]; then
+    /etc/init.d/ciplushelper stop 2>/dev/null
+fi
+
+# Remove from rc.d
+update-rc.d -f ciplushelper remove 2>/dev/null
+
+exit 0
