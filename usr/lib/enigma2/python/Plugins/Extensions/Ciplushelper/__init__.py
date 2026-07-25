@@ -43,7 +43,9 @@ def _extract_placeholders(text):
         placeholders.append(match.group(0))
 
     # 2. Python style: %(name)s, %(name)d, etc.
-    for match in re.finditer(r'%\([a-zA-Z_][a-zA-Z0-9_]*\)[diouxXeEfFgGcrs]', text):
+    for match in re.finditer(
+        r'%\([a-zA-Z_][a-zA-Z0-9_]*\)[diouxXeEfFgGcrs]',
+            text):
         placeholders.append(match.group(0))
 
     # 3. Python style: %s, %d, %f, etc.
@@ -84,10 +86,12 @@ def _restore_placeholders(original, translated):
             # Extract the content without braces
             content = placeholder[1:-1]
 
-            # Look for any {something} in translated that might be the translation
+            # Look for any {something} in translated that might be the
+            # translation
             for match in re.finditer(r'\{[^{}]+\}', result):
                 translated_content = match.group(0)[1:-1]
-                # If the translated content is different but the placeholder structure is same
+                # If the translated content is different but the placeholder
+                # structure is same
                 if translated_content != content:
                     # Replace the translated placeholder with the original one
                     result = result.replace(match.group(0), placeholder)
