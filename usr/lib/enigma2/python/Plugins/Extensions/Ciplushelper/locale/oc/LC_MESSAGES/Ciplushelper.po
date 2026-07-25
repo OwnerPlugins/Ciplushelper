@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "BRAÇ"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Sètz segur que volètz reaviar l'interfaci grafica ?"
 
-msgid "ARM"
-msgstr "BRAÇ"
+msgid "CI+ Helper Plugin"
+msgstr "Ensamblador d'ajuda CI+"
 
 msgid "CI+ helper"
 msgstr "Ajudant CI+"
@@ -28,14 +31,8 @@ msgstr "Ajudant CI+ per Enigma2"
 msgid "CI+ helper menu"
 msgstr "Menú d'ajuda CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "Ensamblador d'ajuda CI+"
-
 msgid "CI+ slot"
 msgstr "ranura CI+"
-
-msgid "default version"
-msgstr "version per defaut"
 
 msgid "Disable"
 msgstr "Desactivar"
@@ -85,9 +82,11 @@ msgstr "Modèls suportats"
 msgid "Unknown"
 msgstr "Desconegut"
 
+msgid "default version"
+msgstr "version per defaut"
+
 msgid "use"
 msgstr "utilizar"
 
 msgid "version from Zgemma"
 msgstr "version de Zgemma"
-

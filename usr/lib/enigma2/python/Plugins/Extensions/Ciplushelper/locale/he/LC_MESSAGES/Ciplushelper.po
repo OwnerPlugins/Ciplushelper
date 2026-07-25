@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "זְרוֹעַ"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "האם אתה בטוח שברצונך להפעיל מחדש את ה-GUI?"
 
-msgid "ARM"
-msgstr "זְרוֹעַ"
+msgid "CI+ Helper Plugin"
+msgstr "תוסף CI+ Helper"
 
 msgid "CI+ helper"
 msgstr "עוזר CI+"
@@ -28,14 +31,8 @@ msgstr "עוזר CI+ עבור Enigma2"
 msgid "CI+ helper menu"
 msgstr "תפריט עוזר CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "תוסף CI+ Helper"
-
 msgid "CI+ slot"
 msgstr "חריץ CI+"
-
-msgid "default version"
-msgstr "גרסת ברירת המחדל"
 
 msgid "Disable"
 msgstr "השבת"
@@ -85,9 +82,11 @@ msgstr "דגמים נתמכים"
 msgid "Unknown"
 msgstr "לֹא יְדוּעַ"
 
+msgid "default version"
+msgstr "גרסת ברירת המחדל"
+
 msgid "use"
 msgstr "לְהִשְׁתַמֵשׁ"
 
 msgid "version from Zgemma"
 msgstr "גרסה מ-Zgemma"
-

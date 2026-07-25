@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "हाथ"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "क्या आप वाकई GUI को पुनः आरंभ करना चाहते हैं?"
 
-msgid "ARM"
-msgstr "हाथ"
+msgid "CI+ Helper Plugin"
+msgstr "सीआई+ हेल्पर प्लगइन"
 
 msgid "CI+ helper"
 msgstr "सीआई+ सहायक"
@@ -28,14 +31,8 @@ msgstr "Enigma2 के लिए CI+ सहायक"
 msgid "CI+ helper menu"
 msgstr "सीआई+ सहायक मेनू"
 
-msgid "CI+ Helper Plugin"
-msgstr "सीआई+ हेल्पर प्लगइन"
-
 msgid "CI+ slot"
 msgstr "सीआई+ स्लॉट"
-
-msgid "default version"
-msgstr "डिफ़ॉल्ट संस्करण"
 
 msgid "Disable"
 msgstr "अक्षम करना"
@@ -85,9 +82,11 @@ msgstr "समर्थित मॉडल"
 msgid "Unknown"
 msgstr "अज्ञात"
 
+msgid "default version"
+msgstr "डिफ़ॉल्ट संस्करण"
+
 msgid "use"
 msgstr "उपयोग"
 
 msgid "version from Zgemma"
 msgstr "ज़गेम्मा से संस्करण"
-

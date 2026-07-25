@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "BISO"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Sigurado ka bang gusto mong i-restart ang GUI?"
 
-msgid "ARM"
-msgstr "BISO"
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
 
 msgid "CI+ helper"
 msgstr "Katulong ng CI+"
@@ -28,14 +31,8 @@ msgstr "CI+ helper para sa Enigma2"
 msgid "CI+ helper menu"
 msgstr "CI+ helper menu"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ Helper Plugin"
-
 msgid "CI+ slot"
 msgstr "CI+ slot"
-
-msgid "default version"
-msgstr "default na bersyon"
 
 msgid "Disable"
 msgstr "Huwag paganahin"
@@ -85,9 +82,11 @@ msgstr "Mga sinusuportahang modelo"
 msgid "Unknown"
 msgstr "Hindi alam"
 
+msgid "default version"
+msgstr "default na bersyon"
+
 msgid "use"
 msgstr "gamitin"
 
 msgid "version from Zgemma"
 msgstr "bersyon mula sa Zgemma"
-

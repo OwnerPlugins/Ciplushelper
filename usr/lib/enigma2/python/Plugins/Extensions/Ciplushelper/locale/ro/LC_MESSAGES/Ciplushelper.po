@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "BRAŢ"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Sigur doriți să reporniți GUI?"
 
-msgid "ARM"
-msgstr "BRAŢ"
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
 
 msgid "CI+ helper"
 msgstr "Ajutor CI+"
@@ -28,14 +31,8 @@ msgstr "Ajutor CI+ pentru Enigma2"
 msgid "CI+ helper menu"
 msgstr "Meniu de ajutor CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ Helper Plugin"
-
 msgid "CI+ slot"
 msgstr "Slot CI+"
-
-msgid "default version"
-msgstr "versiunea implicită"
 
 msgid "Disable"
 msgstr "Dezactivați"
@@ -85,9 +82,11 @@ msgstr "Modele acceptate"
 msgid "Unknown"
 msgstr "Necunoscut"
 
+msgid "default version"
+msgstr "versiunea implicită"
+
 msgid "use"
 msgstr "utilizare"
 
 msgid "version from Zgemma"
 msgstr "versiunea de la Zgemma"
-

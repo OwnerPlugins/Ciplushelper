@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "แขน"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการรีสตาร์ท GUI"
 
-msgid "ARM"
-msgstr "แขน"
+msgid "CI+ Helper Plugin"
+msgstr "ปลั๊กอินตัวช่วย CI+"
 
 msgid "CI+ helper"
 msgstr "ตัวช่วย CI+"
@@ -28,14 +31,8 @@ msgstr "ตัวช่วย CI+ สำหรับ Enigma2"
 msgid "CI+ helper menu"
 msgstr "เมนูตัวช่วย CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "ปลั๊กอินตัวช่วย CI+"
-
 msgid "CI+ slot"
 msgstr "สล็อต CI+"
-
-msgid "default version"
-msgstr "เวอร์ชันเริ่มต้น"
 
 msgid "Disable"
 msgstr "ปิดการใช้งาน"
@@ -85,9 +82,11 @@ msgstr "รุ่นที่รองรับ"
 msgid "Unknown"
 msgstr "ไม่ทราบ"
 
+msgid "default version"
+msgstr "เวอร์ชันเริ่มต้น"
+
 msgid "use"
 msgstr "ใช้"
 
 msgid "version from Zgemma"
 msgstr "เวอร์ชันจาก Zgemma"
-

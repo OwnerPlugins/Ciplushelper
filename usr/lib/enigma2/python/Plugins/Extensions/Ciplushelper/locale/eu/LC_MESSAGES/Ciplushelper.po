@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "BESOA"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Ziur GUI berrabiarazi nahi duzula?"
 
-msgid "ARM"
-msgstr "BESOA"
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
 
 msgid "CI+ helper"
 msgstr "CI+ laguntzailea"
@@ -28,14 +31,8 @@ msgstr "Enigma2rako CI+ laguntzailea"
 msgid "CI+ helper menu"
 msgstr "CI+ laguntzaile menua"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ Helper Plugin"
-
 msgid "CI+ slot"
 msgstr "CI+ zirrikitua"
-
-msgid "default version"
-msgstr "bertsio lehenetsia"
 
 msgid "Disable"
 msgstr "Desgaitu"
@@ -85,9 +82,11 @@ msgstr "Onartutako ereduak"
 msgid "Unknown"
 msgstr "Ezezaguna"
 
+msgid "default version"
+msgstr "bertsio lehenetsia"
+
 msgid "use"
 msgstr "erabili"
 
 msgid "version from Zgemma"
 msgstr "Zgemma-ren bertsioa"
-

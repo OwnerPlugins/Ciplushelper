@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "ذراع"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "هل أنت متأكد أنك تريد إعادة تشغيل واجهة المستخدم الرسومية؟"
 
-msgid "ARM"
-msgstr "ذراع"
+msgid "CI+ Helper Plugin"
+msgstr "البرنامج المساعد CI +"
 
 msgid "CI+ helper"
 msgstr "مساعد سي +"
@@ -28,14 +31,8 @@ msgstr "مساعد CI+ لـ Enigma2"
 msgid "CI+ helper menu"
 msgstr "قائمة مساعد CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "البرنامج المساعد CI +"
-
 msgid "CI+ slot"
 msgstr "فتحة CI+"
-
-msgid "default version"
-msgstr "الإصدار الافتراضي"
 
 msgid "Disable"
 msgstr "إبطال"
@@ -85,9 +82,11 @@ msgstr "النماذج المدعومة"
 msgid "Unknown"
 msgstr "مجهول"
 
+msgid "default version"
+msgstr "الإصدار الافتراضي"
+
 msgid "use"
 msgstr "يستخدم"
 
 msgid "version from Zgemma"
 msgstr "نسخة من Zgemma"
-

@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "BRAS"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Êtes-vous sûr de vouloir redémarrer l'interface graphique ?"
 
-msgid "ARM"
-msgstr "BRAS"
+msgid "CI+ Helper Plugin"
+msgstr "Plugin d'assistance CI+"
 
 msgid "CI+ helper"
 msgstr "Assistant CI+"
@@ -28,14 +31,8 @@ msgstr "Assistant CI+ pour Enigma2"
 msgid "CI+ helper menu"
 msgstr "Menu d'aide CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "Plugin d'assistance CI+"
-
 msgid "CI+ slot"
 msgstr "Emplacement CI+"
-
-msgid "default version"
-msgstr "version par défaut"
 
 msgid "Disable"
 msgstr "Désactiver"
@@ -85,9 +82,11 @@ msgstr "Modèles pris en charge"
 msgid "Unknown"
 msgstr "Inconnu"
 
+msgid "default version"
+msgstr "version par défaut"
+
 msgid "use"
 msgstr "utiliser"
 
 msgid "version from Zgemma"
 msgstr "version de Zgemma"
-

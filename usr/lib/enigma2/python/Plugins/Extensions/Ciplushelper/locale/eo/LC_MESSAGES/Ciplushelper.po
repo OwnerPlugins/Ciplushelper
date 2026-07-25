@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "BRAKO"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Ĉu vi certas, ke vi volas rekomenci la GUI?"
 
-msgid "ARM"
-msgstr "BRAKO"
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Kromaĵo"
 
 msgid "CI+ helper"
 msgstr "CI+ helpanto"
@@ -28,14 +31,8 @@ msgstr "CI+-helpanto por Enigma2"
 msgid "CI+ helper menu"
 msgstr "CI+ help menuo"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ Helper Kromaĵo"
-
 msgid "CI+ slot"
 msgstr "CI+ fendo"
-
-msgid "default version"
-msgstr "defaŭlta versio"
 
 msgid "Disable"
 msgstr "Malebligu"
@@ -85,9 +82,11 @@ msgstr "Subtenataj modeloj"
 msgid "Unknown"
 msgstr "Nekonata"
 
+msgid "default version"
+msgstr "defaŭlta versio"
+
 msgid "use"
 msgstr "uzi"
 
 msgid "version from Zgemma"
 msgstr "versio de Zgemma"
-

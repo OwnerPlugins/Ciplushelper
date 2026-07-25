@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "ARM"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI қайта іске қосқыңыз келетініне сенімдісіз бе?"
 
-msgid "ARM"
-msgstr "ARM"
+msgid "CI+ Helper Plugin"
+msgstr "CI+ көмекші плагині"
 
 msgid "CI+ helper"
 msgstr "CI+ көмекшісі"
@@ -28,14 +31,8 @@ msgstr "Enigma2 үшін CI+ көмекшісі"
 msgid "CI+ helper menu"
 msgstr "CI+ көмекші мәзірі"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ көмекші плагині"
-
 msgid "CI+ slot"
 msgstr "CI+ ұясы"
-
-msgid "default version"
-msgstr "әдепкі нұсқа"
 
 msgid "Disable"
 msgstr "Өшіру"
@@ -85,9 +82,11 @@ msgstr "Қолдау көрсетілетін үлгілер"
 msgid "Unknown"
 msgstr "Белгісіз"
 
+msgid "default version"
+msgstr "әдепкі нұсқа"
+
 msgid "use"
 msgstr "пайдалану"
 
 msgid "version from Zgemma"
 msgstr "Zgemma нұсқасы"
-

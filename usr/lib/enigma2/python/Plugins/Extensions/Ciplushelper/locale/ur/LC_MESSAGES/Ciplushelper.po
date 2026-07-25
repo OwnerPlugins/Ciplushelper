@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "بازو"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "کیا آپ واقعی GUI کو دوبارہ شروع کرنا چاہتے ہیں؟"
 
-msgid "ARM"
-msgstr "بازو"
+msgid "CI+ Helper Plugin"
+msgstr "CI+ مددگار پلگ ان"
 
 msgid "CI+ helper"
 msgstr "CI+ مددگار"
@@ -28,14 +31,8 @@ msgstr "Enigma2 کے لیے CI+ مددگار"
 msgid "CI+ helper menu"
 msgstr "CI+ مددگار مینو"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ مددگار پلگ ان"
-
 msgid "CI+ slot"
 msgstr "CI+ سلاٹ"
-
-msgid "default version"
-msgstr "پہلے سے طے شدہ ورژن"
 
 msgid "Disable"
 msgstr "غیر فعال کریں۔"
@@ -85,9 +82,11 @@ msgstr "تائید شدہ ماڈلز"
 msgid "Unknown"
 msgstr "نامعلوم"
 
+msgid "default version"
+msgstr "پہلے سے طے شدہ ورژن"
+
 msgid "use"
 msgstr "استعمال کریں"
 
 msgid "version from Zgemma"
 msgstr "Zgemma سے ورژن"
-

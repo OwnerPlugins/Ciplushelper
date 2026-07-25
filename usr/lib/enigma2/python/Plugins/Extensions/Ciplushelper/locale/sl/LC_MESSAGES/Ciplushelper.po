@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "ARM"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Ali ste prepričani, da želite znova zagnati GUI?"
 
-msgid "ARM"
-msgstr "ARM"
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
 
 msgid "CI+ helper"
 msgstr "CI+ pomočnik"
@@ -28,14 +31,8 @@ msgstr "CI+ pomočnik za Enigmo2"
 msgid "CI+ helper menu"
 msgstr "Pomožni meni CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ Helper Plugin"
-
 msgid "CI+ slot"
 msgstr "reža CI+"
-
-msgid "default version"
-msgstr "privzeta različica"
 
 msgid "Disable"
 msgstr "Onemogoči"
@@ -85,9 +82,11 @@ msgstr "Podprti modeli"
 msgid "Unknown"
 msgstr "Neznano"
 
+msgid "default version"
+msgstr "privzeta različica"
+
 msgid "use"
 msgstr "uporaba"
 
 msgid "version from Zgemma"
 msgstr "različica od Zgemma"
-

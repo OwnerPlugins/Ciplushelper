@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "LENGAN"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Apakah Anda yakin ingin memulai ulang GUI?"
 
-msgid "ARM"
-msgstr "LENGAN"
+msgid "CI+ Helper Plugin"
+msgstr "Plugin Pembantu CI+"
 
 msgid "CI+ helper"
 msgstr "pembantu CI+"
@@ -28,14 +31,8 @@ msgstr "Pembantu CI+ untuk Enigma2"
 msgid "CI+ helper menu"
 msgstr "Menu pembantu CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "Plugin Pembantu CI+"
-
 msgid "CI+ slot"
 msgstr "slot CI+"
-
-msgid "default version"
-msgstr "versi bawaan"
 
 msgid "Disable"
 msgstr "Cacat"
@@ -85,9 +82,11 @@ msgstr "Model yang didukung"
 msgid "Unknown"
 msgstr "Tidak dikenal"
 
+msgid "default version"
+msgstr "versi bawaan"
+
 msgid "use"
 msgstr "menggunakan"
 
 msgid "version from Zgemma"
 msgstr "versi dari Zgemma"
-

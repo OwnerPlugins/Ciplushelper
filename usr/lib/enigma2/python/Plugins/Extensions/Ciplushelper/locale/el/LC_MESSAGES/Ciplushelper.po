@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "ΜΠΡΑΤΣΟ"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Είστε βέβαιοι ότι θέλετε να επανεκκινήσετε το GUI;"
 
-msgid "ARM"
-msgstr "ΜΠΡΑΤΣΟ"
+msgid "CI+ Helper Plugin"
+msgstr "Πρόσθετο βοήθειας CI+"
 
 msgid "CI+ helper"
 msgstr "Βοηθός CI+"
@@ -28,14 +31,8 @@ msgstr "Βοηθός CI+ για το Enigma2"
 msgid "CI+ helper menu"
 msgstr "Βοηθητικό μενού CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "Πρόσθετο βοήθειας CI+"
-
 msgid "CI+ slot"
 msgstr "υποδοχή CI+"
-
-msgid "default version"
-msgstr "προεπιλεγμένη έκδοση"
 
 msgid "Disable"
 msgstr "Καθιστώ ανίκανο"
@@ -85,9 +82,11 @@ msgstr "Υποστηριζόμενα μοντέλα"
 msgid "Unknown"
 msgstr "Αγνωστος"
 
+msgid "default version"
+msgstr "προεπιλεγμένη έκδοση"
+
 msgid "use"
 msgstr "χρήση"
 
 msgid "version from Zgemma"
 msgstr "έκδοση από το Zgemma"
-

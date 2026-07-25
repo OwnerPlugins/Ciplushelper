@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "手臂"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "您確定要重新啟動 GUI 嗎？"
 
-msgid "ARM"
-msgstr "手臂"
+msgid "CI+ Helper Plugin"
+msgstr "CI+ 幫助插件"
 
 msgid "CI+ helper"
 msgstr "CI+ helper"
@@ -28,14 +31,8 @@ msgstr "Enigma2 的 CI+ 助手"
 msgid "CI+ helper menu"
 msgstr "CI+ helper menu"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ 幫助插件"
-
 msgid "CI+ slot"
 msgstr "CI+插槽"
-
-msgid "default version"
-msgstr "預設版本"
 
 msgid "Disable"
 msgstr "停用"
@@ -85,9 +82,11 @@ msgstr "支援機型"
 msgid "Unknown"
 msgstr "未知"
 
+msgid "default version"
+msgstr "預設版本"
+
 msgid "use"
 msgstr "使用"
 
 msgid "version from Zgemma"
 msgstr "來自 Zgemma 的版本"
-

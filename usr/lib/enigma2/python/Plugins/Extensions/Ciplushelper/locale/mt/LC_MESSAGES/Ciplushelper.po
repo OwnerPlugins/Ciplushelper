@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "DRIEGĦ"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Int żgur li trid terġa' tibda l-GUI?"
 
-msgid "ARM"
-msgstr "DRIEGĦ"
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
 
 msgid "CI+ helper"
 msgstr "CI+ helper"
@@ -28,14 +31,8 @@ msgstr "CI+ helper għal Enigma2"
 msgid "CI+ helper menu"
 msgstr "menu helper CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ Helper Plugin"
-
 msgid "CI+ slot"
 msgstr "CI+ slot"
-
-msgid "default version"
-msgstr "verżjoni default"
 
 msgid "Disable"
 msgstr "Itfi"
@@ -85,9 +82,11 @@ msgstr "Mudelli appoġġjati"
 msgid "Unknown"
 msgstr "Mhux magħruf"
 
+msgid "default version"
+msgstr "verżjoni default"
+
 msgid "use"
 msgstr "użu"
 
 msgid "version from Zgemma"
 msgstr "verżjoni minn Zgemma"
-

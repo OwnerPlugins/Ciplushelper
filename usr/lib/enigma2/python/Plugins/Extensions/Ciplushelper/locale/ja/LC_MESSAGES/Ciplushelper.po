@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "アーム"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI を再起動してもよろしいですか?"
 
-msgid "ARM"
-msgstr "アーム"
+msgid "CI+ Helper Plugin"
+msgstr "CI+ ヘルパー プラグイン"
 
 msgid "CI+ helper"
 msgstr "CI+ヘルパー"
@@ -28,14 +31,8 @@ msgstr "Enigma2 の CI+ ヘルパー"
 msgid "CI+ helper menu"
 msgstr "CI+ ヘルパー メニュー"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ ヘルパー プラグイン"
-
 msgid "CI+ slot"
 msgstr "CI+スロット"
-
-msgid "default version"
-msgstr "デフォルトバージョン"
 
 msgid "Disable"
 msgstr "無効にする"
@@ -85,9 +82,11 @@ msgstr "対応機種"
 msgid "Unknown"
 msgstr "未知"
 
+msgid "default version"
+msgstr "デフォルトバージョン"
+
 msgid "use"
 msgstr "使用"
 
 msgid "version from Zgemma"
 msgstr "Zgemmaのバージョン"
-

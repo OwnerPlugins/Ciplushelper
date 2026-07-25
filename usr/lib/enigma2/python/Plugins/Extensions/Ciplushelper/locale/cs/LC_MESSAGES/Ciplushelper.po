@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "PAŽE"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Opravdu chcete restartovat GUI?"
 
-msgid "ARM"
-msgstr "PAŽE"
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
 
 msgid "CI+ helper"
 msgstr "CI+ pomocník"
@@ -28,14 +31,8 @@ msgstr "CI+ pomocník pro Enigmu2"
 msgid "CI+ helper menu"
 msgstr "Pomocná nabídka CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ Helper Plugin"
-
 msgid "CI+ slot"
 msgstr "CI+ slot"
-
-msgid "default version"
-msgstr "výchozí verze"
 
 msgid "Disable"
 msgstr "Zakázat"
@@ -85,9 +82,11 @@ msgstr "Podporované modely"
 msgid "Unknown"
 msgstr "Neznámý"
 
+msgid "default version"
+msgstr "výchozí verze"
+
 msgid "use"
 msgstr "použití"
 
 msgid "version from Zgemma"
 msgstr "verze od Zgemmy"
-

@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "팔"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI를 다시 시작하시겠습니까?"
 
-msgid "ARM"
-msgstr "팔"
+msgid "CI+ Helper Plugin"
+msgstr "CI+ 도우미 플러그인"
 
 msgid "CI+ helper"
 msgstr "CI+ 도우미"
@@ -28,14 +31,8 @@ msgstr "Enigma2용 CI+ 도우미"
 msgid "CI+ helper menu"
 msgstr "CI+ 도우미 메뉴"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ 도우미 플러그인"
-
 msgid "CI+ slot"
 msgstr "CI+ 슬롯"
-
-msgid "default version"
-msgstr "기본 버전"
 
 msgid "Disable"
 msgstr "장애를 입히다"
@@ -85,9 +82,11 @@ msgstr "지원되는 모델"
 msgid "Unknown"
 msgstr "알려지지 않은"
 
+msgid "default version"
+msgstr "기본 버전"
+
 msgid "use"
 msgstr "사용"
 
 msgid "version from Zgemma"
 msgstr "Zgemma 버전"
-

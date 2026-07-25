@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "BIÇEKKIRIN"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Ma hûn guman dikin ku hûn dixwazin GUI ji nû ve bidin destpêkirin?"
 
-msgid "ARM"
-msgstr "BIÇEKKIRIN"
+msgid "CI+ Helper Plugin"
+msgstr "Pêveka Alîkariya CI+"
 
 msgid "CI+ helper"
 msgstr "alîkarê CI+"
@@ -28,14 +31,8 @@ msgstr "Alîkarê CI + ji bo Enigma2"
 msgid "CI+ helper menu"
 msgstr "CI + menu alîkar"
 
-msgid "CI+ Helper Plugin"
-msgstr "Pêveka Alîkariya CI+"
-
 msgid "CI+ slot"
 msgstr "CI + hêlînê"
-
-msgid "default version"
-msgstr "guhertoya xwerû"
 
 msgid "Disable"
 msgstr "Neçalak bike"
@@ -85,9 +82,11 @@ msgstr "Modelên piştgirî kirin"
 msgid "Unknown"
 msgstr "Nenas"
 
+msgid "default version"
+msgstr "guhertoya xwerû"
+
 msgid "use"
 msgstr "bikaranîn"
 
 msgid "version from Zgemma"
 msgstr "guhertoya ji Zgemma"
-

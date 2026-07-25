@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "KAR"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Biztos, hogy újra akarja indítani a GUI-t?"
 
-msgid "ARM"
-msgstr "KAR"
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
 
 msgid "CI+ helper"
 msgstr "CI+ segítő"
@@ -28,14 +31,8 @@ msgstr "CI+ segítő az Enigma2-hez"
 msgid "CI+ helper menu"
 msgstr "CI+ helper menü"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ Helper Plugin"
-
 msgid "CI+ slot"
 msgstr "CI+ bővítőhely"
-
-msgid "default version"
-msgstr "alapértelmezett verzió"
 
 msgid "Disable"
 msgstr "Letiltás"
@@ -85,9 +82,11 @@ msgstr "Támogatott modellek"
 msgid "Unknown"
 msgstr "Ismeretlen"
 
+msgid "default version"
+msgstr "alapértelmezett verzió"
+
 msgid "use"
 msgstr "használat"
 
 msgid "version from Zgemma"
 msgstr "verzió a Zgemmától"
-

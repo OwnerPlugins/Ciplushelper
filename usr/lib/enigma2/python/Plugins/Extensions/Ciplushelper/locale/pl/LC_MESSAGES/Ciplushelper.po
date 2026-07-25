@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "RAMIĘ"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Czy na pewno chcesz ponownie uruchomić GUI?"
 
-msgid "ARM"
-msgstr "RAMIĘ"
+msgid "CI+ Helper Plugin"
+msgstr "Wtyczka pomocnicza CI+"
 
 msgid "CI+ helper"
 msgstr "Pomocnik CI+"
@@ -28,14 +31,8 @@ msgstr "Pomocnik CI+ dla Enigmy2"
 msgid "CI+ helper menu"
 msgstr "Menu pomocy CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "Wtyczka pomocnicza CI+"
-
 msgid "CI+ slot"
 msgstr "CI+ slot"
-
-msgid "default version"
-msgstr "wersja domyślna"
 
 msgid "Disable"
 msgstr "Wyłączyć"
@@ -85,9 +82,11 @@ msgstr "Obsługiwane modele"
 msgid "Unknown"
 msgstr "Nieznany"
 
+msgid "default version"
+msgstr "wersja domyślna"
+
 msgid "use"
 msgstr "używać"
 
 msgid "version from Zgemma"
 msgstr "wersja od Zgemmy"
-

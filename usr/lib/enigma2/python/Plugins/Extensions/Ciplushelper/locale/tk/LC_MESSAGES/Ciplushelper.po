@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "ARM"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI-ni täzeden açmak isleýändigiňize ynanýarsyňyzmy?"
 
-msgid "ARM"
-msgstr "ARM"
+msgid "CI+ Helper Plugin"
+msgstr "CI + Kömekçi plugin"
 
 msgid "CI+ helper"
 msgstr "CI + kömekçi"
@@ -28,14 +31,8 @@ msgstr "Enigma2 üçin CI + kömekçisi"
 msgid "CI+ helper menu"
 msgstr "CI + kömekçi menýusy"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI + Kömekçi plugin"
-
 msgid "CI+ slot"
 msgstr "CI + ýeri"
-
-msgid "default version"
-msgstr "deslapky wersiýasy"
 
 msgid "Disable"
 msgstr "Öçüriň"
@@ -85,9 +82,11 @@ msgstr "Goldanýan modeller"
 msgid "Unknown"
 msgstr "Näbelli"
 
+msgid "default version"
+msgstr "deslapky wersiýasy"
+
 msgid "use"
 msgstr "ulanmak"
 
 msgid "version from Zgemma"
 msgstr "Zgemma wersiýasy"
-

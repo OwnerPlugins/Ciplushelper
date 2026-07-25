@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "ARM"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Ydych chi'n siŵr eich bod am ailgychwyn y GUI?"
 
-msgid "ARM"
-msgstr "ARM"
+msgid "CI+ Helper Plugin"
+msgstr "Ategyn Cynorthwyydd CI+"
 
 msgid "CI+ helper"
 msgstr "Cynorthwyydd CI+"
@@ -28,14 +31,8 @@ msgstr "Cynorthwyydd CI+ ar gyfer Enigma2"
 msgid "CI+ helper menu"
 msgstr "Dewislen cynorthwyydd CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "Ategyn Cynorthwyydd CI+"
-
 msgid "CI+ slot"
 msgstr "slot CI+"
-
-msgid "default version"
-msgstr "fersiwn rhagosodedig"
 
 msgid "Disable"
 msgstr "Analluogi"
@@ -85,9 +82,11 @@ msgstr "Modelau a gefnogir"
 msgid "Unknown"
 msgstr "Anhysbys"
 
+msgid "default version"
+msgstr "fersiwn rhagosodedig"
+
 msgid "use"
 msgstr "defnydd"
 
 msgid "version from Zgemma"
 msgstr "fersiwn o Zgemma"
-

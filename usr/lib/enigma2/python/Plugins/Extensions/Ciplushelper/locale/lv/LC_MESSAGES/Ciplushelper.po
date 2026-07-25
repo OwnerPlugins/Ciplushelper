@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "ARM"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Vai tiešām vēlaties restartēt GUI?"
 
-msgid "ARM"
-msgstr "ARM"
+msgid "CI+ Helper Plugin"
+msgstr "CI+ palīdzības spraudnis"
 
 msgid "CI+ helper"
 msgstr "CI+ palīgs"
@@ -28,14 +31,8 @@ msgstr "CI+ palīgs Enigma2"
 msgid "CI+ helper menu"
 msgstr "CI+ palīga izvēlne"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ palīdzības spraudnis"
-
 msgid "CI+ slot"
 msgstr "CI+ slots"
-
-msgid "default version"
-msgstr "noklusējuma versija"
 
 msgid "Disable"
 msgstr "Atspējot"
@@ -85,9 +82,11 @@ msgstr "Atbalstītie modeļi"
 msgid "Unknown"
 msgstr "Nezināms"
 
+msgid "default version"
+msgstr "noklusējuma versija"
+
 msgid "use"
 msgstr "izmantot"
 
 msgid "version from Zgemma"
 msgstr "versija no Zgemma"
-

@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "CÁNH TAY"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Bạn có chắc chắn muốn khởi động lại GUI không?"
 
-msgid "ARM"
-msgstr "CÁNH TAY"
+msgid "CI+ Helper Plugin"
+msgstr "Plugin trợ giúp CI+"
 
 msgid "CI+ helper"
 msgstr "Người trợ giúp CI+"
@@ -28,14 +31,8 @@ msgstr "Trình trợ giúp CI+ cho Enigma2"
 msgid "CI+ helper menu"
 msgstr "Trình đơn trợ giúp CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "Plugin trợ giúp CI+"
-
 msgid "CI+ slot"
 msgstr "Khe CI+"
-
-msgid "default version"
-msgstr "phiên bản mặc định"
 
 msgid "Disable"
 msgstr "Vô hiệu hóa"
@@ -85,9 +82,11 @@ msgstr "Các mô hình được hỗ trợ"
 msgid "Unknown"
 msgstr "Không xác định"
 
+msgid "default version"
+msgstr "phiên bản mặc định"
+
 msgid "use"
 msgstr "sử dụng"
 
 msgid "version from Zgemma"
 msgstr "phiên bản từ Zgemma"
-

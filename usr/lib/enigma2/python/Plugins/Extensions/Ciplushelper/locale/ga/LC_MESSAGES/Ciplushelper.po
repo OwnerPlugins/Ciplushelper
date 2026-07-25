@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "ARM"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "An bhfuil tú cinnte gur mhaith leat an GUI a atosú?"
 
-msgid "ARM"
-msgstr "ARM"
+msgid "CI+ Helper Plugin"
+msgstr "Breiseán Cúntóra CI+"
 
 msgid "CI+ helper"
 msgstr "Cúntóir CI+"
@@ -28,14 +31,8 @@ msgstr "Cúntóir CI+ do Enigma2"
 msgid "CI+ helper menu"
 msgstr "Roghchlár cúntóir CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "Breiseán Cúntóra CI+"
-
 msgid "CI+ slot"
 msgstr "Sliotán CI+"
-
-msgid "default version"
-msgstr "leagan réamhshocraithe"
 
 msgid "Disable"
 msgstr "Díchumasaigh"
@@ -85,9 +82,11 @@ msgstr "Múnlaí tacaithe"
 msgid "Unknown"
 msgstr "Anaithnid"
 
+msgid "default version"
+msgstr "leagan réamhshocraithe"
+
 msgid "use"
 msgstr "úsáid"
 
 msgid "version from Zgemma"
 msgstr "leagan ó zgemma"
-

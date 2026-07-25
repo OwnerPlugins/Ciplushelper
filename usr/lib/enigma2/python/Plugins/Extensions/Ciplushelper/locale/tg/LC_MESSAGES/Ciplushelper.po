@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "АРМ"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Шумо мутмаин ҳастед, ки мехоҳед GUI-ро аз нав оғоз кунед?"
 
-msgid "ARM"
-msgstr "АРМ"
+msgid "CI+ Helper Plugin"
+msgstr "Васлкунаки Ёрдамчии CI+"
 
 msgid "CI+ helper"
 msgstr "Ёрдамчии CI+"
@@ -28,14 +31,8 @@ msgstr "Ёвари CI+ барои Enigma2"
 msgid "CI+ helper menu"
 msgstr "Менюи ёрирасони CI+"
 
-msgid "CI+ Helper Plugin"
-msgstr "Васлкунаки Ёрдамчии CI+"
-
 msgid "CI+ slot"
 msgstr "Ковокии CI+"
-
-msgid "default version"
-msgstr "версияи пешфарз"
 
 msgid "Disable"
 msgstr "Хомӯш кардан"
@@ -85,9 +82,11 @@ msgstr "Моделҳои дастгирӣшаванда"
 msgid "Unknown"
 msgstr "Номаълум"
 
+msgid "default version"
+msgstr "версияи пешфарз"
+
 msgid "use"
 msgstr "истифода бурдан"
 
 msgid "version from Zgemma"
 msgstr "версияи Zgemma"
-

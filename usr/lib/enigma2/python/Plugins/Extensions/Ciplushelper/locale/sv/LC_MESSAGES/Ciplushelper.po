@@ -13,11 +13,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "ARM"
+msgstr "ÄRM"
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Är du säker på att du vill starta om GUI?"
 
-msgid "ARM"
-msgstr "ÄRM"
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
 
 msgid "CI+ helper"
 msgstr "CI+-hjälpare"
@@ -28,14 +31,8 @@ msgstr "CI+-hjälpare för Enigma2"
 msgid "CI+ helper menu"
 msgstr "CI+ hjälpmeny"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ Helper Plugin"
-
 msgid "CI+ slot"
 msgstr "CI+ kortplats"
-
-msgid "default version"
-msgstr "standardversion"
 
 msgid "Disable"
 msgstr "Inaktivera"
@@ -85,9 +82,11 @@ msgstr "Modeller som stöds"
 msgid "Unknown"
 msgstr "Okänd"
 
+msgid "default version"
+msgstr "standardversion"
+
 msgid "use"
 msgstr "använda"
 
 msgid "version from Zgemma"
 msgstr "version från Zgemma"
-
