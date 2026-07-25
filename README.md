@@ -84,7 +84,7 @@ wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/Ci
 ### From GitHub (development)
 ```bash
 git clone https://github.com/OwnerPlugins/Ciplushelper.git /tmp/ciplushelper
-cp -r /tmp/ciplushelper /usr/lib/enigma2/python/Plugins/Extensions/
+cp -r /tmp/ciplushelper/usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper /usr/lib/enigma2/python/Plugins/Extensions/
 ```
 
 ### Post-Installation
