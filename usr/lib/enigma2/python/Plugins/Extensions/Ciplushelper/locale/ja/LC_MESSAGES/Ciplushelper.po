@@ -31,26 +31,30 @@ msgstr "Enigma2 の CI+ ヘルパー"
 msgid "CI+ helper menu"
 msgstr "CI+ ヘルパー メニュー"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI+スロット"
-
-msgid "Disable"
-msgstr "無効にする"
 
 msgid "Disable ciplushelper autostart"
 msgstr "ciplushelper の自動起動を無効にする"
 
-msgid "Enable"
-msgstr "有効にする"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI+スロット"
 
 msgid "Enable ciplushelper autostart"
 msgstr "ciplushelper の自動起動を有効にする"
 
-msgid "For other models"
-msgstr "その他のモデルの場合"
-
 msgid "Install"
 msgstr "インストール"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "デフォルトバージョン"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "Zgemmaのバージョン"
 
 msgid "Installed:"
 msgstr "インストール済み:"
@@ -60,6 +64,9 @@ msgstr "ミプセル"
 
 msgid "Need restart GUI"
 msgstr "GUIを再起動する必要があります"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "他のモデルには「/etc/ciplus」が必要な場合があります"
 
 msgid "Remove"
 msgstr "取り除く"
@@ -82,11 +89,14 @@ msgstr "対応機種"
 msgid "Unknown"
 msgstr "未知"
 
-msgid "default version"
-msgstr "デフォルトバージョン"
+#~ msgid "Disable"
+#~ msgstr "無効にする"
 
-msgid "use"
-msgstr "使用"
+#~ msgid "Enable"
+#~ msgstr "有効にする"
 
-msgid "version from Zgemma"
-msgstr "Zgemmaのバージョン"
+#~ msgid "For other models"
+#~ msgstr "その他のモデルの場合"
+
+#~ msgid "use"
+#~ msgstr "使用"

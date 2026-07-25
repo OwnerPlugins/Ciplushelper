@@ -31,26 +31,30 @@ msgstr "CI+ abimees Enigma2 jaoks"
 msgid "CI+ helper menu"
 msgstr "CI+ abimeeste menüü"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI+ pesa"
-
-msgid "Disable"
-msgstr "Keela"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Keela ciplushelperi automaatkäivitus"
 
-msgid "Enable"
-msgstr "Luba"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI+ pesa"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Luba ciplushelperi automaatne käivitamine"
 
-msgid "For other models"
-msgstr "Teiste mudelite jaoks"
-
 msgid "Install"
 msgstr "Installige"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "vaikeversioon"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "Zgemma versioon"
 
 msgid "Installed:"
 msgstr "Installitud:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Vajab GUI taaskäivitamist"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Muud mudelid võivad vajada faili '/etc/ciplus'"
 
 msgid "Remove"
 msgstr "Eemalda"
@@ -82,11 +89,14 @@ msgstr "Toetatud mudelid"
 msgid "Unknown"
 msgstr "Tundmatu"
 
-msgid "default version"
-msgstr "vaikeversioon"
+#~ msgid "Disable"
+#~ msgstr "Keela"
 
-msgid "use"
-msgstr "kasutada"
+#~ msgid "Enable"
+#~ msgstr "Luba"
 
-msgid "version from Zgemma"
-msgstr "Zgemma versioon"
+#~ msgid "For other models"
+#~ msgstr "Teiste mudelite jaoks"
+
+#~ msgid "use"
+#~ msgstr "kasutada"

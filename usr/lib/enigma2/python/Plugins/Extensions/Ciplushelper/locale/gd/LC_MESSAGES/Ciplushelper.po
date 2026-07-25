@@ -31,26 +31,30 @@ msgstr "Neach-cuideachaidh CI+ airson Enigma2"
 msgid "CI+ helper menu"
 msgstr "Clàr cuideachaidh CI+"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "sliotan CI+"
-
-msgid "Disable"
-msgstr "Cuir à comas"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Cuir à comas ciplushelper autostart"
 
-msgid "Enable"
-msgstr "Dèan comas"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "sliotan CI+"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Cuir an comas ciplushelper autostart"
 
-msgid "For other models"
-msgstr "Airson modailean eile"
-
 msgid "Install"
 msgstr "Stàladh"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "dreach bunaiteach"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "dreach bho Zgemma"
 
 msgid "Installed:"
 msgstr "Air a stàladh:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Feum air GUI ath-thòiseachadh"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Dh’ fhaodadh gum bi feum aig modailean eile air ‘/etc/ciplus’"
 
 msgid "Remove"
 msgstr "Thoir air falbh"
@@ -82,11 +89,14 @@ msgstr "Modailean le taic"
 msgid "Unknown"
 msgstr "Neo-aithnichte"
 
-msgid "default version"
-msgstr "dreach bunaiteach"
+#~ msgid "Disable"
+#~ msgstr "Cuir à comas"
 
-msgid "use"
-msgstr "cleachdadh"
+#~ msgid "Enable"
+#~ msgstr "Dèan comas"
 
-msgid "version from Zgemma"
-msgstr "dreach bho Zgemma"
+#~ msgid "For other models"
+#~ msgstr "Airson modailean eile"
+
+#~ msgid "use"
+#~ msgstr "cleachdadh"

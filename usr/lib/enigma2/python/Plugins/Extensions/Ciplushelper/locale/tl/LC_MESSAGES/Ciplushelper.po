@@ -31,26 +31,30 @@ msgstr "CI+ helper para sa Enigma2"
 msgid "CI+ helper menu"
 msgstr "CI+ helper menu"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI+ slot"
-
-msgid "Disable"
-msgstr "Huwag paganahin"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Huwag paganahin ang ciplushelper autostart"
 
-msgid "Enable"
-msgstr "Paganahin"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI+ slot"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Paganahin ang ciplushelper autostart"
 
-msgid "For other models"
-msgstr "Para sa iba pang mga modelo"
-
 msgid "Install"
 msgstr "I-install"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "default na bersyon"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "bersyon mula sa Zgemma"
 
 msgid "Installed:"
 msgstr "Naka-install:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Kailangang i-restart ang GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Maaaring kailanganin ng ibang mga modelo ang '/etc/ciplus'"
 
 msgid "Remove"
 msgstr "Alisin"
@@ -82,11 +89,14 @@ msgstr "Mga sinusuportahang modelo"
 msgid "Unknown"
 msgstr "Hindi alam"
 
-msgid "default version"
-msgstr "default na bersyon"
+#~ msgid "Disable"
+#~ msgstr "Huwag paganahin"
 
-msgid "use"
-msgstr "gamitin"
+#~ msgid "Enable"
+#~ msgstr "Paganahin"
 
-msgid "version from Zgemma"
-msgstr "bersyon mula sa Zgemma"
+#~ msgid "For other models"
+#~ msgstr "Para sa iba pang mga modelo"
+
+#~ msgid "use"
+#~ msgstr "gamitin"

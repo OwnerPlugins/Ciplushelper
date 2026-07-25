@@ -31,26 +31,30 @@ msgstr "Enigma2 үшін CI+ көмекшісі"
 msgid "CI+ helper menu"
 msgstr "CI+ көмекші мәзірі"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI+ ұясы"
-
-msgid "Disable"
-msgstr "Өшіру"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Ciplushelper автоқосылуын өшіріңіз"
 
-msgid "Enable"
-msgstr "Қосу"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI+ ұясы"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Ciplushelper автоқосылуын қосыңыз"
 
-msgid "For other models"
-msgstr "Басқа үлгілер үшін"
-
 msgid "Install"
 msgstr "Орнату"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "әдепкі нұсқа"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "Zgemma нұсқасы"
 
 msgid "Installed:"
 msgstr "Орнатылған:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "GUI қайта іске қосу қажет"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Басқа үлгілерге '/etc/ciplus' қажет болуы мүмкін."
 
 msgid "Remove"
 msgstr "Жою"
@@ -82,11 +89,14 @@ msgstr "Қолдау көрсетілетін үлгілер"
 msgid "Unknown"
 msgstr "Белгісіз"
 
-msgid "default version"
-msgstr "әдепкі нұсқа"
+#~ msgid "Disable"
+#~ msgstr "Өшіру"
 
-msgid "use"
-msgstr "пайдалану"
+#~ msgid "Enable"
+#~ msgstr "Қосу"
 
-msgid "version from Zgemma"
-msgstr "Zgemma нұсқасы"
+#~ msgid "For other models"
+#~ msgstr "Басқа үлгілер үшін"
+
+#~ msgid "use"
+#~ msgstr "пайдалану"

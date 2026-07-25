@@ -31,26 +31,30 @@ msgstr "Enigma2 üçin CI + kömekçisi"
 msgid "CI+ helper menu"
 msgstr "CI + kömekçi menýusy"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI + ýeri"
-
-msgid "Disable"
-msgstr "Öçüriň"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Ciplushelper awtostartyny öçüriň"
 
-msgid "Enable"
-msgstr "Işlet"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI + ýeri"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Ciplushelper awtostartyny açyň"
 
-msgid "For other models"
-msgstr "Beýleki modeller üçin"
-
 msgid "Install"
 msgstr "Gurnama"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "deslapky wersiýasy"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "Zgemma wersiýasy"
 
 msgid "Installed:"
 msgstr "Gurlan:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "GUI-ni täzeden açmaly"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Beýleki modellere '/ etc / ciplus' gerek bolup biler"
 
 msgid "Remove"
 msgstr "Aýyr"
@@ -82,11 +89,14 @@ msgstr "Goldanýan modeller"
 msgid "Unknown"
 msgstr "Näbelli"
 
-msgid "default version"
-msgstr "deslapky wersiýasy"
+#~ msgid "Disable"
+#~ msgstr "Öçüriň"
 
-msgid "use"
-msgstr "ulanmak"
+#~ msgid "Enable"
+#~ msgstr "Işlet"
 
-msgid "version from Zgemma"
-msgstr "Zgemma wersiýasy"
+#~ msgid "For other models"
+#~ msgstr "Beýleki modeller üçin"
+
+#~ msgid "use"
+#~ msgstr "ulanmak"

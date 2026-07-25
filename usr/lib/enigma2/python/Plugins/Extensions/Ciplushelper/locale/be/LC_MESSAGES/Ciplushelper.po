@@ -31,26 +31,30 @@ msgstr "Памочнік CI+ для Enigma2"
 msgid "CI+ helper menu"
 msgstr "Дапаможнае меню CI+"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "Слот CI+"
-
-msgid "Disable"
-msgstr "Адключыць"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Адключыць аўтазапуск ciplushelper"
 
-msgid "Enable"
-msgstr "Уключыць"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "Слот CI+"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Уключыць аўтазапуск ciplushelper"
 
-msgid "For other models"
-msgstr "Для іншых мадэляў"
-
 msgid "Install"
 msgstr "Усталяваць"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "версія па змаўчанні"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "версія ад Zgemma"
 
 msgid "Installed:"
 msgstr "Усталявана:"
@@ -60,6 +64,9 @@ msgstr "МІПСЕЛ"
 
 msgid "Need restart GUI"
 msgstr "Неабходна перазапусціць GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Для іншых мадэляў можа спатрэбіцца '/etc/ciplus'"
 
 msgid "Remove"
 msgstr "Выдаліць"
@@ -82,11 +89,14 @@ msgstr "Падтрымліваюцца мадэлі"
 msgid "Unknown"
 msgstr "Невядомы"
 
-msgid "default version"
-msgstr "версія па змаўчанні"
+#~ msgid "Disable"
+#~ msgstr "Адключыць"
 
-msgid "use"
-msgstr "выкарыстоўваць"
+#~ msgid "Enable"
+#~ msgstr "Уключыць"
 
-msgid "version from Zgemma"
-msgstr "версія ад Zgemma"
+#~ msgid "For other models"
+#~ msgstr "Для іншых мадэляў"
+
+#~ msgid "use"
+#~ msgstr "выкарыстоўваць"

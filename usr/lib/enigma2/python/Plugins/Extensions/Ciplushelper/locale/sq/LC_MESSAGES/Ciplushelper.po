@@ -31,26 +31,30 @@ msgstr "Ndihmës CI+ për Enigma2"
 msgid "CI+ helper menu"
 msgstr "Menuja ndihmëse CI+"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "slot CI+"
-
-msgid "Disable"
-msgstr "Çaktivizo"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Çaktivizo nisjen automatike të ciplushelper"
 
-msgid "Enable"
-msgstr "Aktivizo"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "slot CI+"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Aktivizo nisjen automatike të ciplushelper"
 
-msgid "For other models"
-msgstr "Per modele te tjera"
-
 msgid "Install"
 msgstr "Instaloni"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "versioni i paracaktuar"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "version nga Zgemma"
 
 msgid "Installed:"
 msgstr "Instaluar:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Duhet rifilluar GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Modele të tjera mund të kenë nevojë për '/etc/ciplus'"
 
 msgid "Remove"
 msgstr "Hiq"
@@ -82,11 +89,14 @@ msgstr "Modelet e mbështetura"
 msgid "Unknown"
 msgstr "E panjohur"
 
-msgid "default version"
-msgstr "versioni i paracaktuar"
+#~ msgid "Disable"
+#~ msgstr "Çaktivizo"
 
-msgid "use"
-msgstr "përdorni"
+#~ msgid "Enable"
+#~ msgstr "Aktivizo"
 
-msgid "version from Zgemma"
-msgstr "version nga Zgemma"
+#~ msgid "For other models"
+#~ msgstr "Per modele te tjera"
+
+#~ msgid "use"
+#~ msgstr "përdorni"

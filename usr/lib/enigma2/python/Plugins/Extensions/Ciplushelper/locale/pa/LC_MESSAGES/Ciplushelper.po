@@ -31,26 +31,30 @@ msgstr "Enigma2 ਲਈ CI+ ਸਹਾਇਕ"
 msgid "CI+ helper menu"
 msgstr "CI+ ਸਹਾਇਕ ਮੀਨੂ"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI+ ਸਲਾਟ"
-
-msgid "Disable"
-msgstr "ਅਸਮਰੱਥ"
 
 msgid "Disable ciplushelper autostart"
 msgstr "ciplushelper ਆਟੋਸਟਾਰਟ ਨੂੰ ਅਸਮਰੱਥ ਬਣਾਓ"
 
-msgid "Enable"
-msgstr "ਯੋਗ ਕਰੋ"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI+ ਸਲਾਟ"
 
 msgid "Enable ciplushelper autostart"
 msgstr "ciplushelper ਆਟੋਸਟਾਰਟ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ"
 
-msgid "For other models"
-msgstr "ਹੋਰ ਮਾਡਲਾਂ ਲਈ"
-
 msgid "Install"
 msgstr "ਇੰਸਟਾਲ ਕਰੋ"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "ਪੂਰਵ-ਨਿਰਧਾਰਤ ਸੰਸਕਰਣ"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "Zgemma ਤੋਂ ਸੰਸਕਰਣ"
 
 msgid "Installed:"
 msgstr "ਸਥਾਪਿਤ:"
@@ -60,6 +64,9 @@ msgstr "ਮਿਪਸੈਲ"
 
 msgid "Need restart GUI"
 msgstr "GUI ਨੂੰ ਮੁੜ ਚਾਲੂ ਕਰਨ ਦੀ ਲੋੜ ਹੈ"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "ਹੋਰ ਮਾਡਲਾਂ ਨੂੰ '/etc/ciplus' ਦੀ ਲੋੜ ਹੋ ਸਕਦੀ ਹੈ"
 
 msgid "Remove"
 msgstr "ਹਟਾਓ"
@@ -82,11 +89,14 @@ msgstr "ਸਮਰਥਿਤ ਮਾਡਲ"
 msgid "Unknown"
 msgstr "ਅਗਿਆਤ"
 
-msgid "default version"
-msgstr "ਪੂਰਵ-ਨਿਰਧਾਰਤ ਸੰਸਕਰਣ"
+#~ msgid "Disable"
+#~ msgstr "ਅਸਮਰੱਥ"
 
-msgid "use"
-msgstr "ਵਰਤੋ"
+#~ msgid "Enable"
+#~ msgstr "ਯੋਗ ਕਰੋ"
 
-msgid "version from Zgemma"
-msgstr "Zgemma ਤੋਂ ਸੰਸਕਰਣ"
+#~ msgid "For other models"
+#~ msgstr "ਹੋਰ ਮਾਡਲਾਂ ਲਈ"
+
+#~ msgid "use"
+#~ msgstr "ਵਰਤੋ"

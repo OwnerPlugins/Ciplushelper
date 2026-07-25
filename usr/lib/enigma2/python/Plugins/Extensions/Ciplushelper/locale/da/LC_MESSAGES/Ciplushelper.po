@@ -31,26 +31,30 @@ msgstr "CI+ hjælper til Enigma2"
 msgid "CI+ helper menu"
 msgstr "CI+ hjælpemenu"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI+ slot"
-
-msgid "Disable"
-msgstr "Deaktiver"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Deaktiver ciplushelper autostart"
 
-msgid "Enable"
-msgstr "Aktiver"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI+ slot"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Aktiver ciplushelper autostart"
 
-msgid "For other models"
-msgstr "Til andre modeller"
-
 msgid "Install"
 msgstr "Installere"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "standardversion"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "version fra Zgemma"
 
 msgid "Installed:"
 msgstr "Installeret:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Skal genstarte GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Andre modeller kan have brug for '/etc/ciplus'"
 
 msgid "Remove"
 msgstr "Fjerne"
@@ -82,11 +89,14 @@ msgstr "Understøttede modeller"
 msgid "Unknown"
 msgstr "Ukendt"
 
-msgid "default version"
-msgstr "standardversion"
+#~ msgid "Disable"
+#~ msgstr "Deaktiver"
 
-msgid "use"
-msgstr "bruge"
+#~ msgid "Enable"
+#~ msgstr "Aktiver"
 
-msgid "version from Zgemma"
-msgstr "version fra Zgemma"
+#~ msgid "For other models"
+#~ msgstr "Til andre modeller"
+
+#~ msgid "use"
+#~ msgstr "bruge"

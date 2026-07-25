@@ -31,26 +31,30 @@ msgstr "עוזר CI+ עבור Enigma2"
 msgid "CI+ helper menu"
 msgstr "תפריט עוזר CI+"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "חריץ CI+"
-
-msgid "Disable"
-msgstr "השבת"
 
 msgid "Disable ciplushelper autostart"
 msgstr "השבת את ההפעלה האוטומטית של ciplushelper"
 
-msgid "Enable"
-msgstr "לְאַפשֵׁר"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "חריץ CI+"
 
 msgid "Enable ciplushelper autostart"
 msgstr "אפשר את ההפעלה האוטומטית של ciplushelper"
 
-msgid "For other models"
-msgstr "לדגמים אחרים"
-
 msgid "Install"
 msgstr "לְהַתְקִין"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "גרסת ברירת המחדל"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "גרסה מ-Zgemma"
 
 msgid "Installed:"
 msgstr "מוּתקָן:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "צריך להפעיל מחדש את ה-GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "דגמים אחרים עשויים להזדקק ל'/etc/ciplus'"
 
 msgid "Remove"
 msgstr "לְהַסִיר"
@@ -82,11 +89,14 @@ msgstr "דגמים נתמכים"
 msgid "Unknown"
 msgstr "לֹא יְדוּעַ"
 
-msgid "default version"
-msgstr "גרסת ברירת המחדל"
+#~ msgid "Disable"
+#~ msgstr "השבת"
 
-msgid "use"
-msgstr "לְהִשְׁתַמֵשׁ"
+#~ msgid "Enable"
+#~ msgstr "לְאַפשֵׁר"
 
-msgid "version from Zgemma"
-msgstr "גרסה מ-Zgemma"
+#~ msgid "For other models"
+#~ msgstr "לדגמים אחרים"
+
+#~ msgid "use"
+#~ msgstr "לְהִשְׁתַמֵשׁ"

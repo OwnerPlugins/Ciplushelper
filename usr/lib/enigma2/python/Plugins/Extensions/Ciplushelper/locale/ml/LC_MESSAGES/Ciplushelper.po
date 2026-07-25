@@ -31,26 +31,30 @@ msgstr "Enigma2-നുള്ള CI+ സഹായി"
 msgid "CI+ helper menu"
 msgstr "CI+ സഹായ മെനു"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI+ സ്ലോട്ട്"
-
-msgid "Disable"
-msgstr "പ്രവർത്തനരഹിതമാക്കുക"
 
 msgid "Disable ciplushelper autostart"
 msgstr "ciplushelper ഓട്ടോസ്റ്റാർട്ട് പ്രവർത്തനരഹിതമാക്കുക"
 
-msgid "Enable"
-msgstr "പ്രവർത്തനക്ഷമമാക്കുക"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI+ സ്ലോട്ട്"
 
 msgid "Enable ciplushelper autostart"
 msgstr "ciplushelper ഓട്ടോസ്റ്റാർട്ട് പ്രവർത്തനക്ഷമമാക്കുക"
 
-msgid "For other models"
-msgstr "മറ്റ് മോഡലുകൾക്ക്"
-
 msgid "Install"
 msgstr "ഇൻസ്റ്റാൾ ചെയ്യുക"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "സ്ഥിര പതിപ്പ്"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "Zgemma-ൽ നിന്നുള്ള പതിപ്പ്"
 
 msgid "Installed:"
 msgstr "ഇൻസ്റ്റാൾ ചെയ്തു:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "GUI പുനരാരംഭിക്കേണ്ടതുണ്ട്"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "മറ്റ് മോഡലുകൾക്ക് '/etc/ciplus' ആവശ്യമായി വന്നേക്കാം"
 
 msgid "Remove"
 msgstr "നീക്കം ചെയ്യുക"
@@ -82,11 +89,14 @@ msgstr "പിന്തുണയ്ക്കുന്ന മോഡലുകൾ"
 msgid "Unknown"
 msgstr "അജ്ഞാതം"
 
-msgid "default version"
-msgstr "സ്ഥിര പതിപ്പ്"
+#~ msgid "Disable"
+#~ msgstr "പ്രവർത്തനരഹിതമാക്കുക"
 
-msgid "use"
-msgstr "ഉപയോഗിക്കുക"
+#~ msgid "Enable"
+#~ msgstr "പ്രവർത്തനക്ഷമമാക്കുക"
 
-msgid "version from Zgemma"
-msgstr "Zgemma-ൽ നിന്നുള്ള പതിപ്പ്"
+#~ msgid "For other models"
+#~ msgstr "മറ്റ് മോഡലുകൾക്ക്"
+
+#~ msgid "use"
+#~ msgstr "ഉപയോഗിക്കുക"

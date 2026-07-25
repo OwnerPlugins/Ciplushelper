@@ -31,26 +31,30 @@ msgstr "Enigma2rako CI+ laguntzailea"
 msgid "CI+ helper menu"
 msgstr "CI+ laguntzaile menua"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI+ zirrikitua"
-
-msgid "Disable"
-msgstr "Desgaitu"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Desgaitu ciplushelper abiarazte automatikoa"
 
-msgid "Enable"
-msgstr "Gaitu"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI+ zirrikitua"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Gaitu ciplushelper abiarazte automatikoa"
 
-msgid "For other models"
-msgstr "Beste eredu batzuetarako"
-
 msgid "Install"
 msgstr "Instalatu"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "bertsio lehenetsia"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "Zgemma-ren bertsioa"
 
 msgid "Installed:"
 msgstr "Instalatua:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "GUI berrabiarazi behar da"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Beste eredu batzuek '/etc/ciplus' behar dezakete"
 
 msgid "Remove"
 msgstr "Kendu"
@@ -82,11 +89,14 @@ msgstr "Onartutako ereduak"
 msgid "Unknown"
 msgstr "Ezezaguna"
 
-msgid "default version"
-msgstr "bertsio lehenetsia"
+#~ msgid "Disable"
+#~ msgstr "Desgaitu"
 
-msgid "use"
-msgstr "erabili"
+#~ msgid "Enable"
+#~ msgstr "Gaitu"
 
-msgid "version from Zgemma"
-msgstr "Zgemma-ren bertsioa"
+#~ msgid "For other models"
+#~ msgstr "Beste eredu batzuetarako"
+
+#~ msgid "use"
+#~ msgstr "erabili"

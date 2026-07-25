@@ -31,26 +31,30 @@ msgstr "CI+ pomocník pro Enigmu2"
 msgid "CI+ helper menu"
 msgstr "Pomocná nabídka CI+"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI+ slot"
-
-msgid "Disable"
-msgstr "Zakázat"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Zakázat automatické spouštění ciplushelper"
 
-msgid "Enable"
-msgstr "Umožnit"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI+ slot"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Povolit automatické spouštění ciplushelper"
 
-msgid "For other models"
-msgstr "Pro ostatní modely"
-
 msgid "Install"
 msgstr "Instalovat"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "výchozí verze"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "verze od Zgemmy"
 
 msgid "Installed:"
 msgstr "Instalováno:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Je potřeba restartovat GUI"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Jiné modely mohou potřebovat '/etc/ciplus'"
 
 msgid "Remove"
 msgstr "Odstranit"
@@ -82,11 +89,14 @@ msgstr "Podporované modely"
 msgid "Unknown"
 msgstr "Neznámý"
 
-msgid "default version"
-msgstr "výchozí verze"
+#~ msgid "Disable"
+#~ msgstr "Zakázat"
 
-msgid "use"
-msgstr "použití"
+#~ msgid "Enable"
+#~ msgstr "Umožnit"
 
-msgid "version from Zgemma"
-msgstr "verze od Zgemmy"
+#~ msgid "For other models"
+#~ msgstr "Pro ostatní modely"
+
+#~ msgid "use"
+#~ msgstr "použití"

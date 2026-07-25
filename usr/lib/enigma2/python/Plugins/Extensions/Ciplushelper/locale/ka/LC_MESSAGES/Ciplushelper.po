@@ -31,26 +31,30 @@ msgstr "CI+ დამხმარე Enigma2-ისთვის"
 msgid "CI+ helper menu"
 msgstr "CI+ დამხმარე მენიუ"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI+ სლოტი"
-
-msgid "Disable"
-msgstr "გამორთვა"
 
 msgid "Disable ciplushelper autostart"
 msgstr "გამორთეთ ciplushelper autostart"
 
-msgid "Enable"
-msgstr "ჩართვა"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI+ სლოტი"
 
 msgid "Enable ciplushelper autostart"
 msgstr "ჩართეთ ciplushelper ავტომატური დაწყება"
 
-msgid "For other models"
-msgstr "სხვა მოდელებისთვის"
-
 msgid "Install"
 msgstr "დააინსტალირეთ"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "ნაგულისხმევი ვერსია"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "ვერსია Zgemma-დან"
 
 msgid "Installed:"
 msgstr "დაინსტალირებულია:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "საჭიროა GUI-ს გადატვირთვა"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "სხვა მოდელებს შეიძლება დასჭირდეთ '/etc/ciplus'"
 
 msgid "Remove"
 msgstr "ამოღება"
@@ -82,11 +89,14 @@ msgstr "მხარდაჭერილი მოდელები"
 msgid "Unknown"
 msgstr "უცნობი"
 
-msgid "default version"
-msgstr "ნაგულისხმევი ვერსია"
+#~ msgid "Disable"
+#~ msgstr "გამორთვა"
 
-msgid "use"
-msgstr "გამოყენება"
+#~ msgid "Enable"
+#~ msgstr "ჩართვა"
 
-msgid "version from Zgemma"
-msgstr "ვერსია Zgemma-დან"
+#~ msgid "For other models"
+#~ msgstr "სხვა მოდელებისთვის"
+
+#~ msgid "use"
+#~ msgstr "გამოყენება"

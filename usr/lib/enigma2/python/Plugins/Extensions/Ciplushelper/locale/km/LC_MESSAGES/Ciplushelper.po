@@ -31,26 +31,30 @@ msgstr "ជំនួយ CI+ សម្រាប់ Enigma2"
 msgid "CI+ helper menu"
 msgstr "ម៉ឺនុយជំនួយ CI+"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "ស៊ីអាយ + រន្ធ"
-
-msgid "Disable"
-msgstr "បិទ"
 
 msgid "Disable ciplushelper autostart"
 msgstr "បិទដំណើរការ ciplushelper autostart"
 
-msgid "Enable"
-msgstr "បើក"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "ស៊ីអាយ + រន្ធ"
 
 msgid "Enable ciplushelper autostart"
 msgstr "បើកដំណើរការ ciplushelper autostart"
 
-msgid "For other models"
-msgstr "សម្រាប់ម៉ូដែលផ្សេងទៀត។"
-
 msgid "Install"
 msgstr "ដំឡើង"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "កំណែលំនាំដើម"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "កំណែពី Zgemma"
 
 msgid "Installed:"
 msgstr "បានដំឡើង៖"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "ត្រូវការចាប់ផ្តើម GUI ឡើងវិញ"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "ម៉ូដែលផ្សេងទៀតអាចត្រូវការ '/etc/ciplus'"
 
 msgid "Remove"
 msgstr "ដកចេញ"
@@ -82,11 +89,14 @@ msgstr "ម៉ូដែលដែលគាំទ្រ"
 msgid "Unknown"
 msgstr "មិនស្គាល់"
 
-msgid "default version"
-msgstr "កំណែលំនាំដើម"
+#~ msgid "Disable"
+#~ msgstr "បិទ"
 
-msgid "use"
-msgstr "ប្រើ"
+#~ msgid "Enable"
+#~ msgstr "បើក"
 
-msgid "version from Zgemma"
-msgstr "កំណែពី Zgemma"
+#~ msgid "For other models"
+#~ msgstr "សម្រាប់ម៉ូដែលផ្សេងទៀត។"
+
+#~ msgid "use"
+#~ msgstr "ប្រើ"

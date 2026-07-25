@@ -31,26 +31,30 @@ msgstr "CI+ segítő az Enigma2-hez"
 msgid "CI+ helper menu"
 msgstr "CI+ helper menü"
 
-msgid "CI+ slot"
+#, fuzzy
+msgid "Disable CI+ slot"
 msgstr "CI+ bővítőhely"
-
-msgid "Disable"
-msgstr "Letiltás"
 
 msgid "Disable ciplushelper autostart"
 msgstr "A ciplushelper automatikus indítás letiltása"
 
-msgid "Enable"
-msgstr "Engedélyezés"
+#, fuzzy
+msgid "Enable CI+ slot"
+msgstr "CI+ bővítőhely"
 
 msgid "Enable ciplushelper autostart"
 msgstr "A ciplushelper automatikus indítás engedélyezése"
 
-msgid "For other models"
-msgstr "Más modellekhez"
-
 msgid "Install"
 msgstr "Telepítés"
+
+#, fuzzy
+msgid "Install default version"
+msgstr "alapértelmezett verzió"
+
+#, fuzzy
+msgid "Install version from Zgemma"
+msgstr "verzió a Zgemmától"
 
 msgid "Installed:"
 msgstr "Telepítve:"
@@ -60,6 +64,9 @@ msgstr "MIPSEL"
 
 msgid "Need restart GUI"
 msgstr "Újra kell indítani a GUI-t"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Más modellekhez szükség lehet az '/etc/ciplus' fájlra"
 
 msgid "Remove"
 msgstr "Távolítsa el"
@@ -82,11 +89,14 @@ msgstr "Támogatott modellek"
 msgid "Unknown"
 msgstr "Ismeretlen"
 
-msgid "default version"
-msgstr "alapértelmezett verzió"
+#~ msgid "Disable"
+#~ msgstr "Letiltás"
 
-msgid "use"
-msgstr "használat"
+#~ msgid "Enable"
+#~ msgstr "Engedélyezés"
 
-msgid "version from Zgemma"
-msgstr "verzió a Zgemmától"
+#~ msgid "For other models"
+#~ msgstr "Más modellekhez"
+
+#~ msgid "use"
+#~ msgstr "használat"
