@@ -1,0 +1,93 @@
+# ms translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ms <ekekaz@gmail.com>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Adakah anda pasti mahu memulakan semula GUI?"
+
+msgid "ARM"
+msgstr "LENGAN"
+
+msgid "CI+ helper"
+msgstr "Pembantu CI+"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Pembantu CI+ untuk Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "Menu pembantu CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "Pemalam Pembantu CI+"
+
+msgid "CI+ slot"
+msgstr "Slot CI+"
+
+msgid "default version"
+msgstr "versi lalai"
+
+msgid "Disable"
+msgstr "Lumpuhkan"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Lumpuhkan ciplushelper autostart"
+
+msgid "Enable"
+msgstr "Dayakan"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Dayakan ciplushelper autostart"
+
+msgid "For other models"
+msgstr "Untuk model lain"
+
+msgid "Install"
+msgstr "Pasang"
+
+msgid "Installed:"
+msgstr "Dipasang:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Perlu memulakan semula GUI"
+
+msgid "Remove"
+msgstr "Alih keluar"
+
+msgid "Restart GUI"
+msgstr "Mulakan semula GUI"
+
+msgid "Start ciplushelper"
+msgstr "Mulakan ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Hentikan ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Peranti yang disokong:"
+
+msgid "Supported models"
+msgstr "Model yang disokong"
+
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+msgid "use"
+msgstr "guna"
+
+msgid "version from Zgemma"
+msgstr "versi dari Zgemma"
+

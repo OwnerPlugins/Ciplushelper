@@ -1,0 +1,93 @@
+# oc translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: oc <ekekaz@gmail.com>\n"
+"Language: oc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Sètz segur que volètz reaviar l'interfaci grafica ?"
+
+msgid "ARM"
+msgstr "BRAÇ"
+
+msgid "CI+ helper"
+msgstr "Ajudant CI+"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Ajudant CI+ per Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "Menú d'ajuda CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "Ensamblador d'ajuda CI+"
+
+msgid "CI+ slot"
+msgstr "ranura CI+"
+
+msgid "default version"
+msgstr "version per defaut"
+
+msgid "Disable"
+msgstr "Desactivar"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Desactivar l'aviada automatica de ciplushelper"
+
+msgid "Enable"
+msgstr "Activar"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Activar l'aviada automatica de ciplushelper"
+
+msgid "For other models"
+msgstr "Per d'autres modèls"
+
+msgid "Install"
+msgstr "Installar"
+
+msgid "Installed:"
+msgstr "Installat :"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Cal reaviar l'interfaci grafica"
+
+msgid "Remove"
+msgstr "Levar"
+
+msgid "Restart GUI"
+msgstr "Reaviar l'interfaci utilizaire"
+
+msgid "Start ciplushelper"
+msgstr "Començar ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Arrèsta ciplushelper"
+
+msgid "Supported devices:"
+msgstr "periferics suportats :"
+
+msgid "Supported models"
+msgstr "Modèls suportats"
+
+msgid "Unknown"
+msgstr "Desconegut"
+
+msgid "use"
+msgstr "utilizar"
+
+msgid "version from Zgemma"
+msgstr "version de Zgemma"
+

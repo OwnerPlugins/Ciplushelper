@@ -1,0 +1,93 @@
+# sq_AL translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: sq_AL <ekekaz@gmail.com>\n"
+"Language: sq_AL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Jeni i sigurt që dëshironi të rinisni GUI-në?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "Ndihmës CI+"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Ndihmës CI+ për Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "Menuja ndihmëse CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "Shtojca ndihmëse CI+"
+
+msgid "CI+ slot"
+msgstr "slot CI+"
+
+msgid "default version"
+msgstr "versioni i paracaktuar"
+
+msgid "Disable"
+msgstr "Çaktivizo"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Çaktivizo nisjen automatike të ciplushelper"
+
+msgid "Enable"
+msgstr "Aktivizo"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Aktivizo nisjen automatike të ciplushelper"
+
+msgid "For other models"
+msgstr "Per modele te tjera"
+
+msgid "Install"
+msgstr "Instaloni"
+
+msgid "Installed:"
+msgstr "Instaluar:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Duhet rifilluar GUI"
+
+msgid "Remove"
+msgstr "Hiq"
+
+msgid "Restart GUI"
+msgstr "Rinisni GUI-në"
+
+msgid "Start ciplushelper"
+msgstr "Fillo ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Stop ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Pajisjet e mbështetura:"
+
+msgid "Supported models"
+msgstr "Modelet e mbështetura"
+
+msgid "Unknown"
+msgstr "E panjohur"
+
+msgid "use"
+msgstr "përdorni"
+
+msgid "version from Zgemma"
+msgstr "version nga Zgemma"
+

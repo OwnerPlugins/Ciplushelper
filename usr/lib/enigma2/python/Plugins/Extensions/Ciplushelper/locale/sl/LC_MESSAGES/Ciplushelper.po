@@ -1,0 +1,93 @@
+# sl translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: sl <ekekaz@gmail.com>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Ali ste prepričani, da želite znova zagnati GUI?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "CI+ pomočnik"
+
+msgid "CI+ helper for Enigma2"
+msgstr "CI+ pomočnik za Enigmo2"
+
+msgid "CI+ helper menu"
+msgstr "Pomožni meni CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
+
+msgid "CI+ slot"
+msgstr "reža CI+"
+
+msgid "default version"
+msgstr "privzeta različica"
+
+msgid "Disable"
+msgstr "Onemogoči"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Onemogoči samodejni zagon ciplushelper"
+
+msgid "Enable"
+msgstr "Omogoči"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Omogoči samodejni zagon ciplushelper"
+
+msgid "For other models"
+msgstr "Za druge modele"
+
+msgid "Install"
+msgstr "Namestite"
+
+msgid "Installed:"
+msgstr "Nameščeno:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Potreben je ponovni zagon GUI"
+
+msgid "Remove"
+msgstr "Odstrani"
+
+msgid "Restart GUI"
+msgstr "Znova zaženite GUI"
+
+msgid "Start ciplushelper"
+msgstr "Zaženite ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Ustavi ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Podprte naprave:"
+
+msgid "Supported models"
+msgstr "Podprti modeli"
+
+msgid "Unknown"
+msgstr "Neznano"
+
+msgid "use"
+msgstr "uporaba"
+
+msgid "version from Zgemma"
+msgstr "različica od Zgemma"
+

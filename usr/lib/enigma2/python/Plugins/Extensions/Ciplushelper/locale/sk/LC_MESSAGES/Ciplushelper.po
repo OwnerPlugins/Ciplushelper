@@ -1,0 +1,93 @@
+# sk translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: sk <ekekaz@gmail.com>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Naozaj chcete reštartovať GUI?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "CI+ pomocník"
+
+msgid "CI+ helper for Enigma2"
+msgstr "CI+ pomocník pre Enigmu2"
+
+msgid "CI+ helper menu"
+msgstr "Pomocné menu CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "Pomocný doplnok CI+"
+
+msgid "CI+ slot"
+msgstr "CI+ slot"
+
+msgid "default version"
+msgstr "predvolená verzia"
+
+msgid "Disable"
+msgstr "Zakázať"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Zakázať automatické spustenie ciplushelper"
+
+msgid "Enable"
+msgstr "Povoliť"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Povoliť automatické spustenie ciplushelper"
+
+msgid "For other models"
+msgstr "Pre iné modely"
+
+msgid "Install"
+msgstr "Inštalovať"
+
+msgid "Installed:"
+msgstr "Nainštalované:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Potrebujete reštartovať GUI"
+
+msgid "Remove"
+msgstr "Odstrániť"
+
+msgid "Restart GUI"
+msgstr "Reštartujte GUI"
+
+msgid "Start ciplushelper"
+msgstr "Spustite ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Stop ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Podporované zariadenia:"
+
+msgid "Supported models"
+msgstr "Podporované modely"
+
+msgid "Unknown"
+msgstr "Neznámy"
+
+msgid "use"
+msgstr "použitie"
+
+msgid "version from Zgemma"
+msgstr "verzia od Zgemmy"
+

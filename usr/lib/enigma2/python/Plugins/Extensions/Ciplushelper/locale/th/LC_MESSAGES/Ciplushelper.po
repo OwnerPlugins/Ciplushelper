@@ -1,0 +1,93 @@
+# th translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: th <ekekaz@gmail.com>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการรีสตาร์ท GUI"
+
+msgid "ARM"
+msgstr "แขน"
+
+msgid "CI+ helper"
+msgstr "ตัวช่วย CI+"
+
+msgid "CI+ helper for Enigma2"
+msgstr "ตัวช่วย CI+ สำหรับ Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "เมนูตัวช่วย CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "ปลั๊กอินตัวช่วย CI+"
+
+msgid "CI+ slot"
+msgstr "สล็อต CI+"
+
+msgid "default version"
+msgstr "เวอร์ชันเริ่มต้น"
+
+msgid "Disable"
+msgstr "ปิดการใช้งาน"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ปิดใช้งานการเริ่มต้นอัตโนมัติของ ciplushelper"
+
+msgid "Enable"
+msgstr "เปิดใช้งาน"
+
+msgid "Enable ciplushelper autostart"
+msgstr "เปิดใช้งานการเริ่มอัตโนมัติของ ciplushelper"
+
+msgid "For other models"
+msgstr "สำหรับรุ่นอื่นๆ"
+
+msgid "Install"
+msgstr "ติดตั้ง"
+
+msgid "Installed:"
+msgstr "ติดตั้งแล้ว:"
+
+msgid "MIPSEL"
+msgstr "มิตเซล"
+
+msgid "Need restart GUI"
+msgstr "ต้องรีสตาร์ท GUI"
+
+msgid "Remove"
+msgstr "ลบ"
+
+msgid "Restart GUI"
+msgstr "รีสตาร์ท GUI"
+
+msgid "Start ciplushelper"
+msgstr "เริ่ม ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "หยุด ciplushelper"
+
+msgid "Supported devices:"
+msgstr "อุปกรณ์ที่รองรับ:"
+
+msgid "Supported models"
+msgstr "รุ่นที่รองรับ"
+
+msgid "Unknown"
+msgstr "ไม่ทราบ"
+
+msgid "use"
+msgstr "ใช้"
+
+msgid "version from Zgemma"
+msgstr "เวอร์ชันจาก Zgemma"
+

@@ -1,0 +1,93 @@
+# lt translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: lt <ekekaz@gmail.com>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Ar tikrai norite iš naujo paleisti GUI?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "CI+ pagalbininkas"
+
+msgid "CI+ helper for Enigma2"
+msgstr "CI+ pagalbininkas, skirtas Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "CI+ pagalbinio meniu"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ pagalbinis papildinys"
+
+msgid "CI+ slot"
+msgstr "CI+ lizdas"
+
+msgid "default version"
+msgstr "numatytoji versija"
+
+msgid "Disable"
+msgstr "Išjungti"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Išjungti ciplushelper automatinį paleidimą"
+
+msgid "Enable"
+msgstr "Įgalinti"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Įgalinti ciplushelper automatinį paleidimą"
+
+msgid "For other models"
+msgstr "Kitiems modeliams"
+
+msgid "Install"
+msgstr "Įdiegti"
+
+msgid "Installed:"
+msgstr "Įdiegta:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Reikia iš naujo paleisti GUI"
+
+msgid "Remove"
+msgstr "Pašalinti"
+
+msgid "Restart GUI"
+msgstr "Iš naujo paleiskite GUI"
+
+msgid "Start ciplushelper"
+msgstr "Paleiskite ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Sustabdykite ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Palaikomi įrenginiai:"
+
+msgid "Supported models"
+msgstr "Palaikomi modeliai"
+
+msgid "Unknown"
+msgstr "Nežinoma"
+
+msgid "use"
+msgstr "naudoti"
+
+msgid "version from Zgemma"
+msgstr "versija iš Zgemma"
+

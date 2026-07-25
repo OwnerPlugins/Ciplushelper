@@ -1,0 +1,93 @@
+# tt translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: tt <ekekaz@gmail.com>\n"
+"Language: tt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "GUIны яңадан башларга телисезме?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "CI + ярдәмчесе"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Enigma2 өчен CI + ярдәмчесе"
+
+msgid "CI+ helper menu"
+msgstr "CI + ярдәмче меню"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI + Ярдәмче Плагин"
+
+msgid "CI+ slot"
+msgstr "CI + уяты"
+
+msgid "default version"
+msgstr "килешү версиясе"
+
+msgid "Disable"
+msgstr "Сүндер"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Ciplushelper автостартын сүндерегез"
+
+msgid "Enable"
+msgstr "Килеш"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ciplushelper автостартын эшләгез"
+
+msgid "For other models"
+msgstr "Башка модельләр өчен"
+
+msgid "Install"
+msgstr "Урнаштыру"
+
+msgid "Installed:"
+msgstr "Урнаштырылган:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "GUIны яңадан башларга кирәк"
+
+msgid "Remove"
+msgstr "Чыгар"
+
+msgid "Restart GUI"
+msgstr "GUIны яңадан эшләтеп җибәрегез"
+
+msgid "Start ciplushelper"
+msgstr "Ciplushelper башлау"
+
+msgid "Stop ciplushelper"
+msgstr "Ciplushelper-ны туктатыгыз"
+
+msgid "Supported devices:"
+msgstr "Ярдәмче җайланмалар:"
+
+msgid "Supported models"
+msgstr "Ярдәмче модельләр"
+
+msgid "Unknown"
+msgstr "Билгесез"
+
+msgid "use"
+msgstr "куллану"
+
+msgid "version from Zgemma"
+msgstr "Згемма версиясе"
+

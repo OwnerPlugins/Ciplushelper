@@ -1,0 +1,93 @@
+# ku translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ku <ekekaz@gmail.com>\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Ma hûn guman dikin ku hûn dixwazin GUI ji nû ve bidin destpêkirin?"
+
+msgid "ARM"
+msgstr "BIÇEKKIRIN"
+
+msgid "CI+ helper"
+msgstr "alîkarê CI+"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Alîkarê CI + ji bo Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "CI + menu alîkar"
+
+msgid "CI+ Helper Plugin"
+msgstr "Pêveka Alîkariya CI+"
+
+msgid "CI+ slot"
+msgstr "CI + hêlînê"
+
+msgid "default version"
+msgstr "guhertoya xwerû"
+
+msgid "Disable"
+msgstr "Neçalak bike"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Destpêkirina otomatîkî ya ciplushelper neçalak bike"
+
+msgid "Enable"
+msgstr "Bikêrkirin"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Destpêkirina xweser a ciplushelper çalak bike"
+
+msgid "For other models"
+msgstr "Ji bo modelên din"
+
+msgid "Install"
+msgstr "Lêkirin"
+
+msgid "Installed:"
+msgstr "Sazkirî:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Pêdivî ye ku GUI ji nû ve dest pê bike"
+
+msgid "Remove"
+msgstr "Dûrxistin"
+
+msgid "Restart GUI"
+msgstr "GUI ji nû ve bidin destpêkirin"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper dest pê bikin"
+
+msgid "Stop ciplushelper"
+msgstr "Stop ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Amûrên piştgirî:"
+
+msgid "Supported models"
+msgstr "Modelên piştgirî kirin"
+
+msgid "Unknown"
+msgstr "Nenas"
+
+msgid "use"
+msgstr "bikaranîn"
+
+msgid "version from Zgemma"
+msgstr "guhertoya ji Zgemma"
+

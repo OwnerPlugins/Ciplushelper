@@ -1,0 +1,93 @@
+# mt translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: mt <ekekaz@gmail.com>\n"
+"Language: mt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Int żgur li trid terġa' tibda l-GUI?"
+
+msgid "ARM"
+msgstr "DRIEGĦ"
+
+msgid "CI+ helper"
+msgstr "CI+ helper"
+
+msgid "CI+ helper for Enigma2"
+msgstr "CI+ helper għal Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "menu helper CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
+
+msgid "CI+ slot"
+msgstr "CI+ slot"
+
+msgid "default version"
+msgstr "verżjoni default"
+
+msgid "Disable"
+msgstr "Itfi"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Iddiżattiva l-awtostart ta' ciplushelper"
+
+msgid "Enable"
+msgstr "Ippermettiet"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ippermetti ciplushelper autostart"
+
+msgid "For other models"
+msgstr "Għal mudelli oħra"
+
+msgid "Install"
+msgstr "Installa"
+
+msgid "Installed:"
+msgstr "Installat:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Ħtieġa terġa 'tibda GUI"
+
+msgid "Remove"
+msgstr "Neħħi"
+
+msgid "Restart GUI"
+msgstr "Ibda mill-ġdid GUI"
+
+msgid "Start ciplushelper"
+msgstr "Ibda ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Waqqaf ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Apparat appoġġjat:"
+
+msgid "Supported models"
+msgstr "Mudelli appoġġjati"
+
+msgid "Unknown"
+msgstr "Mhux magħruf"
+
+msgid "use"
+msgstr "użu"
+
+msgid "version from Zgemma"
+msgstr "verżjoni minn Zgemma"
+

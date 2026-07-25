@@ -1,0 +1,93 @@
+# or translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: or <ekekaz@gmail.com>\n"
+"Language: or\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "ଆପଣ ନିଶ୍ଚିତ କି ଆପଣ GUI କୁ ପୁନ rest ଆରମ୍ଭ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "CI + ସହାୟକ"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Enigma2 ପାଇଁ CI + ସହାୟକକାରୀ |"
+
+msgid "CI+ helper menu"
+msgstr "CI + ହେଲପର ମେନୁ |"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI + ହେଲପର ପ୍ଲଗଇନ୍ |"
+
+msgid "CI+ slot"
+msgstr "CI + ସ୍ଲଟ୍ |"
+
+msgid "default version"
+msgstr "ଡିଫଲ୍ଟ ସଂସ୍କରଣ"
+
+msgid "Disable"
+msgstr "ଅକ୍ଷମ କରନ୍ତୁ |"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ସିପ୍ଲୁସେଲର୍ ଅଟୋଷ୍ଟାର୍ଟ ଅକ୍ଷମ କରନ୍ତୁ |"
+
+msgid "Enable"
+msgstr "ସକ୍ଷମ କରନ୍ତୁ |"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ସିପ୍ଲୁସେଲର୍ ଅଟୋଷ୍ଟାର୍ଟ ସକ୍ଷମ କରନ୍ତୁ |"
+
+msgid "For other models"
+msgstr "ଅନ୍ୟ ମଡେଲଗୁଡିକ ପାଇଁ |"
+
+msgid "Install"
+msgstr "ସଂସ୍ଥାପନ କରନ୍ତୁ |"
+
+msgid "Installed:"
+msgstr "ସଂସ୍ଥାପିତ:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "GUI କୁ ପୁନ rest ଆରମ୍ଭ କରିବା ଆବଶ୍ୟକ |"
+
+msgid "Remove"
+msgstr "ଅପସାରଣ କରନ୍ତୁ |"
+
+msgid "Restart GUI"
+msgstr "GUI କୁ ପୁନ Rest ଆରମ୍ଭ କରନ୍ତୁ |"
+
+msgid "Start ciplushelper"
+msgstr "ସିପ୍ଲୁସେଲର୍ ଆରମ୍ଭ କରନ୍ତୁ |"
+
+msgid "Stop ciplushelper"
+msgstr "ସିପ୍ଲୁସେଲର୍ ବନ୍ଦ କରନ୍ତୁ |"
+
+msgid "Supported devices:"
+msgstr "ସମର୍ଥିତ ଉପକରଣଗୁଡ଼ିକ:"
+
+msgid "Supported models"
+msgstr "ସମର୍ଥିତ ମଡେଲଗୁଡିକ |"
+
+msgid "Unknown"
+msgstr "ଅଜ୍ଞାତ"
+
+msgid "use"
+msgstr "ବ୍ୟବହାର କରନ୍ତୁ |"
+
+msgid "version from Zgemma"
+msgstr "Zgemma ରୁ ସଂସ୍କରଣ"
+

@@ -1,0 +1,93 @@
+# ps translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ps <ekekaz@gmail.com>\n"
+"Language: ps\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "ایا تاسو ډاډه یاست چې تاسو غواړئ GUI بیا پیل کړئ؟"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "CI+ مرسته کوونکی"
+
+msgid "CI+ helper for Enigma2"
+msgstr "د Enigma2 لپاره CI+ مرسته کوونکی"
+
+msgid "CI+ helper menu"
+msgstr "CI+ مرستندویه مینو"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ مرستندویه پلگ ان"
+
+msgid "CI+ slot"
+msgstr "CI+ سلاټ"
+
+msgid "default version"
+msgstr "ډیفالټ نسخه"
+
+msgid "Disable"
+msgstr "غیر فعال کړئ"
+
+msgid "Disable ciplushelper autostart"
+msgstr "د ciplushelper autostart غیر فعال کړئ"
+
+msgid "Enable"
+msgstr "فعال کړئ"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper autostart فعال کړئ"
+
+msgid "For other models"
+msgstr "د نورو ماډلونو لپاره"
+
+msgid "Install"
+msgstr "نصب کړئ"
+
+msgid "Installed:"
+msgstr "نصب شوی:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "د GUI بیا پیلولو ته اړتیا لري"
+
+msgid "Remove"
+msgstr "لرې کړئ"
+
+msgid "Restart GUI"
+msgstr "GUI بیا پیل کړئ"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper پیل کړئ"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper بند کړئ"
+
+msgid "Supported devices:"
+msgstr "ملاتړ شوي وسایل:"
+
+msgid "Supported models"
+msgstr "ملاتړ شوي ماډلونه"
+
+msgid "Unknown"
+msgstr "نامعلوم"
+
+msgid "use"
+msgstr "کارول"
+
+msgid "version from Zgemma"
+msgstr "د Zgemma څخه نسخه"
+

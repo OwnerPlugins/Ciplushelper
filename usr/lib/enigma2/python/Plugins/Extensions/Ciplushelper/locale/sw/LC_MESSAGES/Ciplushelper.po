@@ -1,0 +1,93 @@
+# sw translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: sw <ekekaz@gmail.com>\n"
+"Language: sw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "Je, una uhakika unataka kuwasha upya GUI?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "Msaidizi wa CI+"
+
+msgid "CI+ helper for Enigma2"
+msgstr "CI+ msaidizi kwa Enigma2"
+
+msgid "CI+ helper menu"
+msgstr "Menyu ya msaidizi ya CI+"
+
+msgid "CI+ Helper Plugin"
+msgstr "Programu-jalizi ya Msaidizi wa CI+"
+
+msgid "CI+ slot"
+msgstr "CI+ yanayopangwa"
+
+msgid "default version"
+msgstr "toleo la msingi"
+
+msgid "Disable"
+msgstr "Zima"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Lemaza kuanza kiotomatiki kwa ciplushelper"
+
+msgid "Enable"
+msgstr "Wezesha"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Washa kipengele cha kuanza kiotomatiki kwa ciplushelper"
+
+msgid "For other models"
+msgstr "Kwa mifano mingine"
+
+msgid "Install"
+msgstr "Sakinisha"
+
+msgid "Installed:"
+msgstr "Imesakinishwa:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "Inahitaji kuanzisha upya GUI"
+
+msgid "Remove"
+msgstr "Ondoa"
+
+msgid "Restart GUI"
+msgstr "Anzisha upya GUI"
+
+msgid "Start ciplushelper"
+msgstr "Anzisha kiboreshaji cha kompyuta"
+
+msgid "Stop ciplushelper"
+msgstr "Acha kutumia kiboreshaji"
+
+msgid "Supported devices:"
+msgstr "Vifaa vinavyotumika:"
+
+msgid "Supported models"
+msgstr "Mifano zinazoungwa mkono"
+
+msgid "Unknown"
+msgstr "Haijulikani"
+
+msgid "use"
+msgstr "kutumia"
+
+msgid "version from Zgemma"
+msgstr "toleo kutoka Zgemma"
+

@@ -1,0 +1,93 @@
+# te translations
+# Copyright (C) 2026 Lululla Team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: te <ekekaz@gmail.com>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Are you sure you want to restart the GUI?"
+msgstr "మీరు ఖచ్చితంగా GUIని పునఃప్రారంభించాలనుకుంటున్నారా?"
+
+msgid "ARM"
+msgstr "ARM"
+
+msgid "CI+ helper"
+msgstr "CI+ సహాయకుడు"
+
+msgid "CI+ helper for Enigma2"
+msgstr "Enigma2 కోసం CI+ హెల్పర్"
+
+msgid "CI+ helper menu"
+msgstr "CI+ సహాయక మెను"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ హెల్పర్ ప్లగిన్"
+
+msgid "CI+ slot"
+msgstr "CI+ స్లాట్"
+
+msgid "default version"
+msgstr "డిఫాల్ట్ వెర్షన్"
+
+msgid "Disable"
+msgstr "ఆపివేయి"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper ఆటోస్టార్ట్‌ను నిలిపివేయండి"
+
+msgid "Enable"
+msgstr "ప్రారంభించు"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper ఆటోస్టార్ట్‌ని ప్రారంభించండి"
+
+msgid "For other models"
+msgstr "ఇతర నమూనాల కోసం"
+
+msgid "Install"
+msgstr "ఇన్‌స్టాల్ చేయండి"
+
+msgid "Installed:"
+msgstr "ఇన్‌స్టాల్ చేయబడింది:"
+
+msgid "MIPSEL"
+msgstr "MIPSEL"
+
+msgid "Need restart GUI"
+msgstr "GUIని పునఃప్రారంభించాలి"
+
+msgid "Remove"
+msgstr "తొలగించు"
+
+msgid "Restart GUI"
+msgstr "GUIని పునఃప్రారంభించండి"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelperని ప్రారంభించండి"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelperని ఆపండి"
+
+msgid "Supported devices:"
+msgstr "మద్దతు ఉన్న పరికరాలు:"
+
+msgid "Supported models"
+msgstr "మద్దతు ఉన్న నమూనాలు"
+
+msgid "Unknown"
+msgstr "తెలియదు"
+
+msgid "use"
+msgstr "ఉపయోగించండి"
+
+msgid "version from Zgemma"
+msgstr "Zgemma నుండి వెర్షన్"
+
