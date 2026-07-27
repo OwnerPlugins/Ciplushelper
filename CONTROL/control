@@ -1,5 +1,5 @@
 Package: enigma2-plugin-extensions-ci-plus-helper
-Version: 6.2
+Version: 6.3
 Description: CI+ helper for Enigma2 (ARM/MIPSEL) - unified version with WQHD support, Zgemma ARM binary, CI+ slot management and GUI restart
 Section: base
 Priority: optional

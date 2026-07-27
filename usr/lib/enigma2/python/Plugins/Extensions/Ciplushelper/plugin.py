@@ -3,7 +3,6 @@
 
 from os import popen, system as os_system
 from os.path import exists
-
 from Components.ActionMap import ActionMap
 from Components.config import ConfigYesNo, config
 from Components.MenuList import MenuList
@@ -12,6 +11,7 @@ from Plugins.Plugin import PluginDescriptor
 from Screens.Console import Console
 from Screens.MessageBox import MessageBox
 from Screens.Screen import Screen
+from Screens.Standby import TryQuitMainloop
 
 from . import _, __version__
 
@@ -127,6 +127,8 @@ class Ciplushelper(Screen):
         else:
             menu_list.append((_("Install") + " /etc/ciplus", "install_sert"))
 
+        # Update plugin
+        menu_list.append((_("Update plugin"), "update_plugin"))
         menu_list.append((_("Restart GUI"), "restart_gui"))
 
         self["menu"] = MenuList(menu_list)
@@ -196,12 +198,19 @@ class Ciplushelper(Screen):
             self.close()
             return
 
+        if returnValue == "update_plugin":
+            cmd = "wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/Ciplushelper/main/installer.sh -O - | /bin/bash"
+            self.session.open(Console, _("Updating plugin..."), [cmd])
+            self.close()
+            return
+
         if returnValue == "restart_gui":
-            self.session.open(
+            self.session.openWithCallback(
+                self.restart_gui_callback,
                 MessageBox,
                 _("Are you sure you want to restart the GUI?"),
-                MessageBox.TYPE_YESNO,
-                self.restart_gui)
+                MessageBox.TYPE_YESNO
+            )
             return
 
         if returnValue == "about_ciplushelper":
@@ -214,9 +223,9 @@ class Ciplushelper(Screen):
                 _("Installed:") + " " + installed
             self.session.open(MessageBox, message, MessageBox.TYPE_INFO)
 
-    def restart_gui(self, answer):
+    def restart_gui_callback(self, answer):
         if answer:
-            os_system("killall -9 enigma2")
+            self.session.open(TryQuitMainloop)
 
 
 pause_checkTimer = eTimer()
