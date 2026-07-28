@@ -372,7 +372,7 @@ def check_cimodule():
                 try:
                     from Tools.CIHelper import cihelper
                     cihelper.load_ci_assignment(force=True)
-                except:
+                except BaseException:
                     pass
                 try:
                     if _Session and _Session.nav.getCurrentlyPlayingServiceOrGroup():
@@ -380,9 +380,9 @@ def check_cimodule():
                             _Session.nav.getCurrentlyPlayingServiceOrGroup(),
                             forceRestart=True
                         )
-                except:
+                except BaseException:
                     pass
-    except:
+    except BaseException:
         pass
 
 
@@ -395,7 +395,7 @@ def is_module_active():
                 state = eDVBCI_UI.getInstance().getState(slot)
                 if state > 0:  # 0 = empty, 1 = inserted, 2 = ready
                     return True
-    except:
+    except BaseException:
         pass
     return False
 
@@ -409,9 +409,9 @@ def is_module_active():
         try:
             from Components.SystemInfo import SystemInfo
             NUM_CI = SystemInfo.get("CommonInterface", 0)
-        except:
+        except BaseException:
             return False
-    
+
     if NUM_CI and NUM_CI > 0:
         try:
             from enigma import eDVBCI_UI
@@ -419,7 +419,7 @@ def is_module_active():
                 state = eDVBCI_UI.getInstance().getState(slot)
                 if state > 0:  # 0 = empty, 1 = inserted, 2 = ready
                     return True
-        except:
+        except BaseException:
             pass
     return False
 
