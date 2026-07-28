@@ -169,7 +169,7 @@ class Ciplushelper(Screen):
             menu_list.append((_("Remove") + " /etc/ciplus", "remove_sert"))
         else:
             menu_list.append((_("Install") + " /etc/ciplus", "install_sert"))
-        
+
         menu_list.append((_("Open CI Assignment"), "open_ci_assignment"))
 
         # Stop/Start Oscam
@@ -362,16 +362,56 @@ def check_cimodule():
                 try:
                     from Tools.CIHelper import cihelper
                     cihelper.load_ci_assignment(force=True)
-                except Exception:
+                except:
                     pass
                 try:
                     if _Session and _Session.nav.getCurrentlyPlayingServiceOrGroup():
                         _Session.nav.playService(
-                            _Session.nav.getCurrentlyPlayingServiceOrGroup(), forceRestart=True)
-                except Exception:
+                            _Session.nav.getCurrentlyPlayingServiceOrGroup(),
+                            forceRestart=True
+                        )
+                except:
                     pass
-    except Exception:
+    except:
         pass
+
+
+def is_module_active():
+    """Check if any CI module is actually inserted and active"""
+    try:
+        NUM_CI = BoxInfo.getItem("CommonInterface")
+        if NUM_CI and NUM_CI > 0:
+            for slot in range(NUM_CI):
+                state = eDVBCI_UI.getInstance().getState(slot)
+                if state > 0:  # 0 = empty, 1 = inserted, 2 = ready
+                    return True
+    except:
+        pass
+    return False
+
+
+def is_module_active():
+    """Check if any CI module is actually inserted and active (works on OpenPLi & OpenATV)"""
+    try:
+        from Components.BoxInfo import BoxInfo
+        NUM_CI = BoxInfo.getItem("CommonInterface")
+    except ImportError:
+        try:
+            from Components.SystemInfo import SystemInfo
+            NUM_CI = SystemInfo.get("CommonInterface", 0)
+        except:
+            return False
+    
+    if NUM_CI and NUM_CI > 0:
+        try:
+            from enigma import eDVBCI_UI
+            for slot in range(NUM_CI):
+                state = eDVBCI_UI.getInstance().getState(slot)
+                if state > 0:  # 0 = empty, 1 = inserted, 2 = ready
+                    return True
+        except:
+            pass
+    return False
 
 
 _Session = None
@@ -386,6 +426,31 @@ pause_checkTimer.callback.append(check_cimodule)
 
 def main(session, **kwargs):
     session.open(Ciplushelper)
+
+
+def menu(menuid, **kwargs):
+    if menuid == "cicam":
+        return [(_("CI+ helper"), main, "ci_helper", 30)]
+    return []
+
+
+def Plugins(**kwargs):
+    if is_module_active():
+        return [
+            PluginDescriptor(
+                name=_("CI+ helper") + " v" + __version__,
+                description=_("CI+ helper for Enigma2"),
+                icon="plugin.png",
+                where=PluginDescriptor.WHERE_PLUGINMENU,
+                fnc=main
+            ),
+            PluginDescriptor(
+                name=_("CI+ helper") + " v" + __version__,
+                where=PluginDescriptor.WHERE_EXTENSIONSMENU,
+                fnc=main
+            )
+        ]
+    return []
 
 
 # for test no cicam
@@ -414,26 +479,3 @@ def Plugins(**kwargs):
     ]
 """
 # end test
-
-
-def menu(menuid, **kwargs):
-    if menuid == "cicam":
-        return [(_("CI+ helper"), main, "ci_helper", 30)]
-    return []
-
-
-def Plugins(**kwargs):
-    return [
-        PluginDescriptor(
-            name=_("CI+ helper") + " v" + __version__,
-            description=_("CI+ helper for Enigma2"),
-            icon="plugin.png",
-            where=PluginDescriptor.WHERE_PLUGINMENU,
-            fnc=main
-        ),
-        PluginDescriptor(
-            name=_("CI+ helper") + " v" + __version__,
-            where=PluginDescriptor.WHERE_EXTENSIONSMENU,
-            fnc=main
-        )
-    ]
