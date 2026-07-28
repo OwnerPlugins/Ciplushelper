@@ -1,6 +1,6 @@
 <h1 align="center">⚙️ CI+ Helper Plugin for Enigma2
 
-[![Version](https://img.shields.io/badge/Version-6.4-blue.svg)](https://github.com/OwnerPlugins/Ciplushelper)
+[![Version](https://img.shields.io/badge/Version-6.5-blue.svg)](https://github.com/OwnerPlugins/Ciplushelper)
 [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
 [![Python](https://img.shields.io/badge/Python3-only-orange.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)

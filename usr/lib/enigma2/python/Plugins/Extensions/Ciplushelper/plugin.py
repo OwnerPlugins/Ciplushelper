@@ -21,33 +21,71 @@ ciplushelper = "/etc/init.d/ciplushelper"
 
 
 def get_pids(process_name):
-    """Get all PIDs of a process using ps (universal)"""
-    try:
-        # 1. grep -i (case-insensitive)
-        result = popen(
-            f"ps -A | grep -i '{process_name}' | grep -v grep | awk '{{print $1}}'").read().strip()
-        if result:
-            return result.split()
-    except BaseException:
-        pass
+    """Return all PIDs for a process using multiple detection methods."""
+    debug_file = "/tmp/ciplushelper.log"
+
+    def debug(msg):
+        try:
+            with open(debug_file, "a") as f:
+                f.write("[get_pids] %s\n" % msg)
+        except Exception:
+            pass
+
+    debug("Searching for process: %s" % process_name)
 
     try:
-        # 2. awk case-insensitive
-        result = popen(
-            f"ps -A | awk '/[{process_name[0].upper()}{process_name[0].lower()}]{process_name[1:]}/ {{print $1}}'").read().strip()
+        # Method 1: ps + grep (case-insensitive)
+        cmd = "ps -A | grep -i '%s' | grep -v grep | awk '{print $1}'" % process_name
+        debug("Method 1: %s" % cmd)
+
+        result = popen(cmd).read().strip()
+        debug("Method 1 result: '%s'" % result)
+
         if result:
-            return result.split()
-    except BaseException:
-        pass
+            pids = result.split()
+            debug("Method 1 success: %s" % pids)
+            return pids
+    except Exception as e:
+        debug("Method 1 exception: %s" % e)
 
     try:
-        # 3. pgrep fallback
-        result = popen(f"pgrep -f -i {process_name}").read().strip()
-        if result:
-            return result.split()
-    except BaseException:
-        pass
+        # Method 2: ps + awk (case-insensitive)
+        cmd = (
+            "ps -A | awk '/[%s%s]%s/ {print $1}'"
+            % (
+                process_name[0].upper(),
+                process_name[0].lower(),
+                process_name[1:]
+            )
+        )
+        debug("Method 2: %s" % cmd)
 
+        result = popen(cmd).read().strip()
+        debug("Method 2 result: '%s'" % result)
+
+        if result:
+            pids = result.split()
+            debug("Method 2 success: %s" % pids)
+            return pids
+    except Exception as e:
+        debug("Method 2 exception: %s" % e)
+
+    try:
+        # Method 3: pgrep fallback
+        cmd = "pgrep -f -i %s" % process_name
+        debug("Method 3: %s" % cmd)
+
+        result = popen(cmd).read().strip()
+        debug("Method 3 result: '%s'" % result)
+
+        if result:
+            pids = result.split()
+            debug("Method 3 success: %s" % pids)
+            return pids
+    except Exception as e:
+        debug("Method 3 exception: %s" % e)
+
+    debug("No process found.")
     return []
 
 
@@ -83,16 +121,15 @@ class Ciplushelper(Screen):
 
         self.model = ""
         self.ret = ""
+        self.oscam_binary = ""
 
         self.oscam_pids = get_pids("oscam")
         self.oscam_emu_pids = get_pids("oscam-emu")
 
         self.onShown.append(self.update_oscam_status)
-
         self.build_menu()
 
     def build_menu(self):
-        """Costruisce il menu"""
         menu_list = []
         menu_list.append((_("Supported models"), "about_ciplushelper"))
 
@@ -117,11 +154,9 @@ class Ciplushelper(Screen):
         if model:
             # Autostart
             if exists("/etc/rc2.d/S50ciplushelper"):
-                menu_list.append(
-                    (_("Disable ciplushelper autostart"), "disable"))
+                menu_list.append((_("Disable ciplushelper autostart"), "disable"))
             else:
-                menu_list.append(
-                    (_("Enable ciplushelper autostart"), "enable"))
+                menu_list.append((_("Enable ciplushelper autostart"), "enable"))
 
             # Start/Stop
             if "ciplushelper" in self.ret:
@@ -132,20 +167,16 @@ class Ciplushelper(Screen):
             # ARM‑specific
             if "ciplushelper-arm" in model or "ciplushelper-zgemma-arm" in model:
                 if not exists("/etc/cicert.bin"):
-                    menu_list.append(
-                        (_("Install version from Zgemma"), "install_cicert_bin"))
+                    menu_list.append((_("Install version from Zgemma"), "install_cicert_bin"))
                 else:
                     for i in range(2):
-                        enable_file = f"/etc/ciplus{i}_enable"
-                        disable_file = f"/etc/ciplus{i}_disable"
+                        enable_file = "/etc/ciplus%d_enable" % i
+                        disable_file = "/etc/ciplus%d_disable" % i
                         if exists(enable_file):
-                            menu_list.append(
-                                (_("Disable CI+ slot") + " " + str(i), f"disable_ciplus{i}"))
+                            menu_list.append((_("Disable CI+ slot") + " " + str(i), "disable_ciplus%d" % i))
                         elif exists(disable_file):
-                            menu_list.append(
-                                (_("Enable CI+ slot") + " " + str(i), f"enable_ciplus{i}"))
-                    menu_list.append(
-                        (_("Install default version"), "install_default"))
+                            menu_list.append((_("Enable CI+ slot") + " " + str(i), "enable_ciplus%d" % i))
+                    menu_list.append((_("Install default version"), "install_default"))
 
             # Update init script if needed
             try:
@@ -154,7 +185,7 @@ class Ciplushelper(Screen):
                     if "VERSION=1" in f.read():
                         copy = False
                 if copy:
-                    cmd = f"cp /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/ciplushelper.sh {ciplushelper} && chmod 755 {ciplushelper}"
+                    cmd = "cp /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/ciplushelper.sh %s && chmod 755 %s" % (ciplushelper, ciplushelper)
                     os_system(cmd)
             except Exception:
                 pass
@@ -194,7 +225,7 @@ class Ciplushelper(Screen):
         if self.oscam_pids:
             pid = self.oscam_pids[0]
             result = popen(
-                f"readlink -f /proc/{pid}/exe 2>/dev/null").read().strip()
+                "readlink -f /proc/%s/exe 2>/dev/null" % pid).read().strip()
             if result:
                 self.oscam_binary = result
         else:
@@ -228,11 +259,11 @@ class Ciplushelper(Screen):
         plugin_path = "/usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper"
 
         commands = {
-            "enable": f"{ciplushelper} enable_autostart",
-            "disable": f"{ciplushelper} disable_autostart",
-            "start": f"{ciplushelper} start",
-            "stop": f"{ciplushelper} stop",
-            "install_sert": f"cp -R {plugin_path}/ciplus /etc/ciplus",
+            "enable": "%s enable_autostart" % ciplushelper,
+            "disable": "%s disable_autostart" % ciplushelper,
+            "start": "%s start" % ciplushelper,
+            "stop": "%s stop" % ciplushelper,
+            "install_sert": "cp -R %s/ciplus /etc/ciplus" % plugin_path,
             "remove_sert": "rm -rf /etc/ciplus",
             "disable_ciplus0": "mv /etc/ciplus0_enable /etc/ciplus0_disable",
             "enable_ciplus0": "mv /etc/ciplus0_disable /etc/ciplus0_enable",
@@ -252,20 +283,18 @@ class Ciplushelper(Screen):
             return
 
         if returnValue == "install_cicert_bin":
-            os_system(f"cp {plugin_path}/cicert.bin /etc/cicert.bin")
+            os_system("cp %s/cicert.bin /etc/cicert.bin" % plugin_path)
             for i in range(2):
-                enable_file = f"/etc/ciplus{i}_enable"
+                enable_file = "/etc/ciplus%d_enable" % i
                 if not exists(enable_file):
-                    os_system(
-                        f"echo 'rename ciplus*_enable to ciplus*_disable for deactivate ciplus certification of the module.' > {enable_file}")
+
+                    os_system("echo 'rename ciplus*_enable to ciplus*_disable for deactivate ciplus certification of the module.' > %s" % enable_file)
             if "ciplushelper" in self.ret:
                 os_system("killall ciplushelper 2>/dev/null && sleep 2")
-            os_system(
-                f"cp {plugin_path}/ciplushelper_bin/zgemma-arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper")
+
+            os_system("cp %s/ciplushelper_bin/zgemma-arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper" % plugin_path)
             if "ciplushelper" in self.ret:
-                self.session.open(
-                    Console, _("Start ciplushelper"), [
-                        "/etc/init.d/ciplushelper start && echo '" + _("Need restart GUI") + "'"])
+                self.session.open(Console, _("Start ciplushelper"), ["/etc/init.d/ciplushelper start && echo '" + _("Need restart GUI") + "'"])
             self.close()
             return
 
@@ -273,7 +302,7 @@ class Ciplushelper(Screen):
             if "ciplushelper" in self.ret:
                 os_system("killall ciplushelper 2>/dev/null && sleep 2")
             os_system(
-                f"cp {plugin_path}/ciplushelper_bin/arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper")
+                "cp %s/ciplushelper_bin/arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper" % plugin_path)
             if "ciplushelper" in self.ret:
                 self.session.open(
                     Console, _("Start ciplushelper"), [
@@ -296,13 +325,13 @@ class Ciplushelper(Screen):
         if returnValue == "toggle_oscam":
             if self.oscam_pids or self.oscam_emu_pids:
                 for pid in self.oscam_pids:
-                    os_system(f"kill -9 {pid} 2>/dev/null")
+                    os_system("kill -9 %s 2>/dev/null" % pid)
                 for pid in self.oscam_emu_pids:
-                    os_system(f"kill -9 {pid} 2>/dev/null")
+                    os_system("kill -9 %s 2>/dev/null" % pid)
                 msg = _("Oscam stopped.")
             else:
                 if hasattr(self, 'oscam_binary') and self.oscam_binary:
-                    os_system(f"{self.oscam_binary} & 2>/dev/null")
+                    os_system("%s & 2>/dev/null" % self.oscam_binary)
                     msg = _("Oscam started.")
                 else:
                     msg = _("Oscam binary not found!")
@@ -372,7 +401,7 @@ def check_cimodule():
                 try:
                     from Tools.CIHelper import cihelper
                     cihelper.load_ci_assignment(force=True)
-                except BaseException:
+                except Exception:
                     pass
                 try:
                     if _Session and _Session.nav.getCurrentlyPlayingServiceOrGroup():
@@ -380,48 +409,10 @@ def check_cimodule():
                             _Session.nav.getCurrentlyPlayingServiceOrGroup(),
                             forceRestart=True
                         )
-                except BaseException:
+                except Exception:
                     pass
-    except BaseException:
+    except Exception:
         pass
-
-
-def is_module_active():
-    """Check if any CI module is actually inserted and active"""
-    try:
-        NUM_CI = BoxInfo.getItem("CommonInterface")
-        if NUM_CI and NUM_CI > 0:
-            for slot in range(NUM_CI):
-                state = eDVBCI_UI.getInstance().getState(slot)
-                if state > 0:  # 0 = empty, 1 = inserted, 2 = ready
-                    return True
-    except BaseException:
-        pass
-    return False
-
-
-def is_module_active():
-    """Check if any CI module is actually inserted and active (works on OpenPLi & OpenATV)"""
-    try:
-        from Components.BoxInfo import BoxInfo
-        NUM_CI = BoxInfo.getItem("CommonInterface")
-    except ImportError:
-        try:
-            from Components.SystemInfo import SystemInfo
-            NUM_CI = SystemInfo.get("CommonInterface", 0)
-        except BaseException:
-            return False
-
-    if NUM_CI and NUM_CI > 0:
-        try:
-            from enigma import eDVBCI_UI
-            for slot in range(NUM_CI):
-                state = eDVBCI_UI.getInstance().getState(slot)
-                if state > 0:  # 0 = empty, 1 = inserted, 2 = ready
-                    return True
-        except BaseException:
-            pass
-    return False
 
 
 _Session = None
@@ -436,6 +427,30 @@ pause_checkTimer.callback.append(check_cimodule)
 
 def main(session, **kwargs):
     session.open(Ciplushelper)
+
+
+def is_module_active():
+    """Check if any CI module is actually inserted and active (works on OpenPLi & OpenATV)"""
+    try:
+        from Components.BoxInfo import BoxInfo
+        NUM_CI = BoxInfo.getItem("CommonInterface")
+    except ImportError:
+        try:
+            from Components.SystemInfo import SystemInfo
+            NUM_CI = SystemInfo.get("CommonInterface", 0)
+        except Exception:
+            return False
+
+    if NUM_CI and NUM_CI > 0:
+        try:
+
+            for slot in range(NUM_CI):
+                state = eDVBCI_UI.getInstance().getState(slot)
+                if state > 0:
+                    return True
+        except Exception:
+            pass
+    return False
 
 
 def menu(menuid, **kwargs):

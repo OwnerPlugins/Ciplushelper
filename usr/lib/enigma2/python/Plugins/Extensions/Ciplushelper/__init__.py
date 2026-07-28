@@ -5,7 +5,7 @@ from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 import gettext
 import re
 
-__version__ = "6.4"
+__version__ = "6.5"
 __license__ = "GPL-v2"
 
 PluginLanguageDomain = "Ciplushelper"
@@ -139,6 +139,7 @@ def _(txt):
     # Fallback
     print(("[%s] fallback to default translation for %s" %
           (PluginLanguageDomain, txt)))
+    # if translated != txt:
     translated = gettext.gettext(txt)
 
     # Restore placeholders if needed

@@ -1,7 +1,7 @@
 #!/bin/bash
 ## command line == wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/Ciplushelper/main/installer.sh -O - | /bin/bash
 
-version='6.4'
+version='6.5'
 changelog='**Add** "Oscam: running/stopped" toggle in menu to avoid descrambler conflict between Oscam and CI+ helper.\n**Add** "Open CI Assignment" menu entry to easily access the system plugin for channel-to-CI slot mapping.'
 
 TMPPATH=/tmp/Ciplushelper-install
