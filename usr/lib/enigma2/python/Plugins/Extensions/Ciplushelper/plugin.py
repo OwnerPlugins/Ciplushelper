@@ -24,17 +24,19 @@ def get_pid(process_name):
     """Get PID of a process using ps (universal fallback)"""
     try:
         # Pattern per match case-insensitive con awk
-        result = popen(f"ps -A | awk '/[{process_name[0].upper()}{process_name[0].lower()}]{process_name[1:]}/ {{print $1}}'").read().strip()
+        result = popen(
+            f"ps -A | awk '/[{process_name[0].upper()}{process_name[0].lower()}]{process_name[1:]}/ {{print $1}}'").read().strip()
         if result:
             return result
-    except:
+    except BaseException:
         pass
     # Fallback: grep case-insensitive
     try:
-        result = popen(f"ps -A | grep -i {process_name} | grep -v grep | awk '{{print $1}}'").read().strip()
+        result = popen(
+            f"ps -A | grep -i {process_name} | grep -v grep | awk '{{print $1}}'").read().strip()
         if result:
             return result
-    except:
+    except BaseException:
         pass
     return ""
 
@@ -42,16 +44,18 @@ def get_pid(process_name):
 def get_pids(process_name):
     """Get all PIDs of a process"""
     try:
-        result = popen(f"ps -A | awk '/[{process_name[0].upper()}{process_name[0].lower()}]{process_name[1:]}/ {{print $1}}'").read().strip()
+        result = popen(
+            f"ps -A | awk '/[{process_name[0].upper()}{process_name[0].lower()}]{process_name[1:]}/ {{print $1}}'").read().strip()
         if result:
             return result.split()
-    except:
+    except BaseException:
         pass
     try:
-        result = popen(f"ps -A | grep -i {process_name} | grep -v grep | awk '{{print $1}}'").read().strip()
+        result = popen(
+            f"ps -A | grep -i {process_name} | grep -v grep | awk '{{print $1}}'").read().strip()
         if result:
             return result.split()
-    except:
+    except BaseException:
         pass
     return []
 
@@ -250,7 +254,10 @@ class Ciplushelper(Screen):
                     os_system(f"kill -9 {pid} 2>/dev/null")
             # Riavvia CI+ helper per prendere il controllo
             os_system("/etc/init.d/ciplushelper restart")
-            self.session.open(MessageBox, _("Oscam stopped. CI+ helper restarted."), MessageBox.TYPE_INFO)
+            self.session.open(
+                MessageBox,
+                _("Oscam stopped. CI+ helper restarted."),
+                MessageBox.TYPE_INFO)
             self.close()
             return
 
