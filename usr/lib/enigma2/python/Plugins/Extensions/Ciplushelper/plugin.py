@@ -32,10 +32,11 @@ def get_pids(process_name):
 
     try:
         # 2. awk case-insensitive
-        result = popen(f"ps -A | awk '/[{process_name[0].upper()}{process_name[0].lower()}]{process_name[1:]}/ {{print $1}}'").read().strip()
+        result = popen(
+            f"ps -A | awk '/[{process_name[0].upper()}{process_name[0].lower()}]{process_name[1:]}/ {{print $1}}'").read().strip()
         if result:
             return result.split()
-    except:
+    except BaseException:
         pass
 
     try:
@@ -43,7 +44,7 @@ def get_pids(process_name):
         result = popen(f"pgrep -f -i {process_name}").read().strip()
         if result:
             return result.split()
-    except:
+    except BaseException:
         pass
 
     return []
