@@ -20,39 +20,32 @@ config.misc.ci_auto_check_module = ConfigYesNo(False)
 ciplushelper = "/etc/init.d/ciplushelper"
 
 
-def get_pid(process_name):
-    """Get PID of a process using ps (universal fallback)"""
-    try:
-        # Pattern per match case-insensitive con awk
-        result = popen(f"ps -A | awk '/[{process_name[0].upper()}{process_name[0].lower()}]{process_name[1:]}/ {{print $1}}'").read().strip()
-        if result:
-            return result
-    except:
-        pass
-    # Fallback: grep case-insensitive
-    try:
-        result = popen(f"ps -A | grep -i {process_name} | grep -v grep | awk '{{print $1}}'").read().strip()
-        if result:
-            return result
-    except:
-        pass
-    return ""
-
-
 def get_pids(process_name):
-    """Get all PIDs of a process"""
+    """Get all PIDs of a process using ps (universal)"""
     try:
+        # 1. grep -i (case-insensitive)
+        result = popen(f"ps -A | grep -i '{process_name}' | grep -v grep | awk '{{print $1}}'").read().strip()
+        if result:
+            return result.split()
+    except:
+        pass
+
+    try:
+        # 2. awk case-insensitive
         result = popen(f"ps -A | awk '/[{process_name[0].upper()}{process_name[0].lower()}]{process_name[1:]}/ {{print $1}}'").read().strip()
         if result:
             return result.split()
     except:
         pass
+
     try:
-        result = popen(f"ps -A | grep -i {process_name} | grep -v grep | awk '{{print $1}}'").read().strip()
+        # 3. pgrep fallback
+        result = popen(f"pgrep -f -i {process_name}").read().strip()
         if result:
             return result.split()
     except:
         pass
+
     return []
 
 
@@ -86,6 +79,18 @@ class Ciplushelper(Screen):
         self.session = session
         self.setTitle(_("CI+ helper menu") + "  v" + __version__)
 
+        self.model = ""
+        self.ret = ""
+
+        self.oscam_pids = get_pids("oscam")
+        self.oscam_emu_pids = get_pids("oscam-emu")
+
+        self.onShown.append(self.update_oscam_status)
+
+        self.build_menu()
+
+    def build_menu(self):
+        """Costruisce il menu"""
         menu_list = []
         menu_list.append((_("Supported models"), "about_ciplushelper"))
 
@@ -106,9 +111,6 @@ class Ciplushelper(Screen):
 
         self.model = model
         self.ret = popen("pgrep ciplushelper").read()
-
-        self.oscam_pids = get_pids("oscam")
-        self.oscam_emu_pids = get_pids("oscam-emu")
 
         if model:
             # Autostart
@@ -161,14 +163,16 @@ class Ciplushelper(Screen):
             "/etc/ciplus/device.pem",
             "/etc/ciplus/root.pem",
             "/etc/ciplus/param"]
+
         if all(exists(p) for p in cert_paths):
             menu_list.append((_("Remove") + " /etc/ciplus", "remove_sert"))
         else:
             menu_list.append((_("Install") + " /etc/ciplus", "install_sert"))
 
-        # Stop Oscam if running
-        if self.oscam_pids or self.oscam_emu_pids:
-            menu_list.append((_("Stop Oscam (for CI+ helper)"), "stop_oscam"))
+        # Stop/Start Oscam
+        oscam_status = "running" if (self.oscam_pids or self.oscam_emu_pids) else "stopped"
+        menu_list.append((_("Oscam:") + " " + oscam_status, "toggle_oscam"))
+
         # Update plugin
         menu_list.append((_("Update plugin"), "update_plugin"))
         menu_list.append((_("Restart GUI"), "restart_gui"))
@@ -177,6 +181,33 @@ class Ciplushelper(Screen):
         self["actions"] = ActionMap(
             ["OkCancelActions"], {
                 "ok": self.run, "cancel": self.close}, -1)
+
+    def update_oscam_status(self):
+        self.oscam_pids = get_pids("oscam")
+        self.oscam_emu_pids = get_pids("oscam-emu")
+
+        if self.oscam_pids:
+            pid = self.oscam_pids[0]
+            result = popen(f"readlink -f /proc/{pid}/exe 2>/dev/null").read().strip()
+            if result:
+                self.oscam_binary = result
+        else:
+            if not hasattr(self, 'oscam_binary') or not self.oscam_binary:
+                result = popen("find /usr/bin -name 'OSCam*' -o -name 'oscam*' 2>/dev/null | head -1").read().strip()
+                if result:
+                    self.oscam_binary = result
+                else:
+                    self.oscam_binary = "oscam"  # Fallback
+
+        oscam_status = "running" if (self.oscam_pids or self.oscam_emu_pids) else "stopped"
+
+        if hasattr(self, "menu") and self["menu"] is not None:
+            menu_list = self["menu"].list
+            for i, item in enumerate(menu_list):
+                if item[1] == "toggle_oscam":
+                    menu_list[i] = (_("Oscam:") + " " + oscam_status, "toggle_oscam")
+                    self["menu"].setList(menu_list)
+                    break
 
     def run(self):
         returnValue = self["menu"].l.getCurrentSelection()
@@ -240,17 +271,23 @@ class Ciplushelper(Screen):
             self.close()
             return
 
-        if returnValue == "stop_oscam":
-            # Uccidi tutti i processi Oscam trovati
-            if self.oscam_pids:
+        if returnValue == "toggle_oscam":
+            if self.oscam_pids or self.oscam_emu_pids:
                 for pid in self.oscam_pids:
                     os_system(f"kill -9 {pid} 2>/dev/null")
-            if self.oscam_emu_pids:
                 for pid in self.oscam_emu_pids:
                     os_system(f"kill -9 {pid} 2>/dev/null")
-            # Riavvia CI+ helper per prendere il controllo
-            os_system("/etc/init.d/ciplushelper restart")
-            self.session.open(MessageBox, _("Oscam stopped. CI+ helper restarted."), MessageBox.TYPE_INFO)
+                msg = _("Oscam stopped.")
+            else:
+                if hasattr(self, 'oscam_binary') and self.oscam_binary:
+                    os_system(f"{self.oscam_binary} & 2>/dev/null")
+                    msg = _("Oscam started.")
+                else:
+                    msg = _("Oscam binary not found!")
+                    self.session.open(MessageBox, msg, MessageBox.TYPE_INFO)
+                    self.close()
+                    return
+            self.session.open(MessageBox, msg, MessageBox.TYPE_INFO)
             self.close()
             return
 
