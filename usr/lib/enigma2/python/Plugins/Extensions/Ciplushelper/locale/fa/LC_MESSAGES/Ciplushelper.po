@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "آیا مطمئن هستید که می خواهید رابط کاربری گرافیکی را مجدداً راه اندازی کنید؟"
 
@@ -59,11 +56,20 @@ msgstr "نسخه از Zgemma"
 msgid "Installed:"
 msgstr "نصب شده:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "نیاز به راه اندازی مجدد رابط کاربری گرافیکی"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam باینری پیدا نشد!"
+
+msgid "Oscam started."
+msgstr "اسکام شروع کرد."
+
+msgid "Oscam stopped."
+msgstr "اسکام متوقف شد."
+
+msgid "Oscam:"
+msgstr "اسکام:"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "مدل‌های دیگر ممکن است به '/etc/ciplus' نیاز داشته باشند"
@@ -88,6 +94,18 @@ msgstr "مدل های پشتیبانی شده"
 
 msgid "Unknown"
 msgstr "ناشناس"
+
+msgid "Update plugin"
+msgstr "افزونه را به روز کنید"
+
+msgid "Updating plugin..."
+msgstr "در حال به روز رسانی افزونه..."
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "غیر فعال کردن"

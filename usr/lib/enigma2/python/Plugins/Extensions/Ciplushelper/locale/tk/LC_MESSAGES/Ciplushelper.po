@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI-ni täzeden açmak isleýändigiňize ynanýarsyňyzmy?"
 
@@ -59,11 +56,20 @@ msgstr "Zgemma wersiýasy"
 msgid "Installed:"
 msgstr "Gurlan:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "GUI-ni täzeden açmaly"
+
+msgid "Oscam binary not found!"
+msgstr "Oskam ikili tapylmady!"
+
+msgid "Oscam started."
+msgstr "Oskam başlady."
+
+msgid "Oscam stopped."
+msgstr "Oskam saklandy."
+
+msgid "Oscam:"
+msgstr "Oskam:"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Beýleki modellere '/ etc / ciplus' gerek bolup biler"
@@ -88,6 +94,18 @@ msgstr "Goldanýan modeller"
 
 msgid "Unknown"
 msgstr "Näbelli"
+
+msgid "Update plugin"
+msgstr "Plagini täzeläň"
+
+msgid "Updating plugin..."
+msgstr "Plagin täzelenýär ..."
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Öçüriň"

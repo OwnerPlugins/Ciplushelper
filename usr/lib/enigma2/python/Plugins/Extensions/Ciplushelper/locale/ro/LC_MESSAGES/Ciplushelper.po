@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "BRAŢ"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Sigur doriți să reporniți GUI?"
 
@@ -59,11 +56,20 @@ msgstr "versiunea de la Zgemma"
 msgid "Installed:"
 msgstr "Instalat:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "Trebuie să reporniți GUI"
+
+msgid "Oscam binary not found!"
+msgstr "Binarul Oscam nu a fost găsit!"
+
+msgid "Oscam started."
+msgstr "Oscam a început."
+
+msgid "Oscam stopped."
+msgstr "Oscam se opri."
+
+msgid "Oscam:"
+msgstr ""
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Alte modele pot avea nevoie de „/etc/ciplus”"
@@ -88,6 +94,18 @@ msgstr "Modele acceptate"
 
 msgid "Unknown"
 msgstr "Necunoscut"
+
+msgid "Update plugin"
+msgstr "Actualizați pluginul"
+
+msgid "Updating plugin..."
+msgstr "Se actualizează pluginul..."
+
+#~ msgid "ARM"
+#~ msgstr "BRAŢ"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Dezactivați"

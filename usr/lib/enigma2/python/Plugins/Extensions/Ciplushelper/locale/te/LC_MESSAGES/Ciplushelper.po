@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "మీరు ఖచ్చితంగా GUIని పునఃప్రారంభించాలనుకుంటున్నారా?"
 
@@ -59,11 +56,20 @@ msgstr "Zgemma నుండి వెర్షన్"
 msgid "Installed:"
 msgstr "ఇన్‌స్టాల్ చేయబడింది:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "GUIని పునఃప్రారంభించాలి"
+
+msgid "Oscam binary not found!"
+msgstr "ఓస్కామ్ బైనరీ కనుగొనబడలేదు!"
+
+msgid "Oscam started."
+msgstr "ఓస్కామ్ ప్రారంభమైంది."
+
+msgid "Oscam stopped."
+msgstr "ఓస్కామ్ ఆగిపోయింది."
+
+msgid "Oscam:"
+msgstr "ఓస్కామ్:"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "ఇతర మోడళ్లకు '/etc/ciplus' అవసరం కావచ్చు"
@@ -88,6 +94,18 @@ msgstr "మద్దతు ఉన్న నమూనాలు"
 
 msgid "Unknown"
 msgstr "తెలియదు"
+
+msgid "Update plugin"
+msgstr "ప్లగిన్‌ని నవీకరించండి"
+
+msgid "Updating plugin..."
+msgstr "ప్లగిన్‌ని నవీకరిస్తోంది..."
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "ఆపివేయి"

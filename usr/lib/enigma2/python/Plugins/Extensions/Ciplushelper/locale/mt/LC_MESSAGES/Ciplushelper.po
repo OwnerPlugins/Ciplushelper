@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "DRIEGĦ"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Int żgur li trid terġa' tibda l-GUI?"
 
@@ -59,11 +56,20 @@ msgstr "verżjoni minn Zgemma"
 msgid "Installed:"
 msgstr "Installat:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "Ħtieġa terġa 'tibda GUI"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binarju ma nstabx!"
+
+msgid "Oscam started."
+msgstr "Oscam beda."
+
+msgid "Oscam stopped."
+msgstr "Oscam waqaf."
+
+msgid "Oscam:"
+msgstr ""
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Mudelli oħra jistgħu jeħtieġu '/etc/ciplus'"
@@ -88,6 +94,18 @@ msgstr "Mudelli appoġġjati"
 
 msgid "Unknown"
 msgstr "Mhux magħruf"
+
+msgid "Update plugin"
+msgstr "Aġġorna l-plugin"
+
+msgid "Updating plugin..."
+msgstr "Qed jaġġorna l-plugin..."
+
+#~ msgid "ARM"
+#~ msgstr "DRIEGĦ"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Itfi"

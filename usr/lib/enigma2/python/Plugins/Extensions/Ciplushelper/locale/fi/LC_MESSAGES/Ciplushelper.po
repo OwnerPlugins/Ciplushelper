@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Oletko varma, että haluat käynnistää graafisen käyttöliittymän uudelleen?"
 
@@ -59,11 +56,20 @@ msgstr "Zgemman versio"
 msgid "Installed:"
 msgstr "Asennettu:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "GUI on käynnistettävä uudelleen"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam-binaaria ei löydy!"
+
+msgid "Oscam started."
+msgstr "Oscam alkoi."
+
+msgid "Oscam stopped."
+msgstr "Oscam pysähtyi."
+
+msgid "Oscam:"
+msgstr ""
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Muut mallit saattavat tarvita '/etc/ciplus'"
@@ -88,6 +94,18 @@ msgstr "Tuetut mallit"
 
 msgid "Unknown"
 msgstr "Tuntematon"
+
+msgid "Update plugin"
+msgstr "Päivitä laajennus"
+
+msgid "Updating plugin..."
+msgstr "Päivitetään laajennusta..."
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Poista käytöstä"

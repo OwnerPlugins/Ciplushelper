@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "手臂"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "您确定要重新启动 GUI 吗？"
 
@@ -59,11 +56,20 @@ msgstr "来自 Zgemma 的版本"
 msgid "Installed:"
 msgstr "安装："
 
-msgid "MIPSEL"
-msgstr "米普塞尔"
-
 msgid "Need restart GUI"
 msgstr "需要重启GUI"
+
+msgid "Oscam binary not found!"
+msgstr "未找到 Oscam 二进制文件！"
+
+msgid "Oscam started."
+msgstr "奥斯卡姆开始了。"
+
+msgid "Oscam stopped."
+msgstr "奥斯卡姆停了下来。"
+
+msgid "Oscam:"
+msgstr "奥斯卡："
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "其他型号可能需要“/etc/ciplus”"
@@ -88,6 +94,18 @@ msgstr "支持机型"
 
 msgid "Unknown"
 msgstr "未知"
+
+msgid "Update plugin"
+msgstr "更新插件"
+
+msgid "Updating plugin..."
+msgstr "正在更新插件..."
+
+#~ msgid "ARM"
+#~ msgstr "手臂"
+
+#~ msgid "MIPSEL"
+#~ msgstr "米普塞尔"
 
 #~ msgid "Disable"
 #~ msgstr "禁用"

@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "KAR"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Biztos, hogy újra akarja indítani a GUI-t?"
 
@@ -59,11 +56,20 @@ msgstr "verzió a Zgemmától"
 msgid "Installed:"
 msgstr "Telepítve:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "Újra kell indítani a GUI-t"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam bináris nem található!"
+
+msgid "Oscam started."
+msgstr "Oscam elkezdte."
+
+msgid "Oscam stopped."
+msgstr "Oscam megállt."
+
+msgid "Oscam:"
+msgstr ""
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Más modellekhez szükség lehet az '/etc/ciplus' fájlra"
@@ -88,6 +94,18 @@ msgstr "Támogatott modellek"
 
 msgid "Unknown"
 msgstr "Ismeretlen"
+
+msgid "Update plugin"
+msgstr "Frissítse a bővítményt"
+
+msgid "Updating plugin..."
+msgstr "Beépülő modul frissítése..."
+
+#~ msgid "ARM"
+#~ msgstr "KAR"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Letiltás"

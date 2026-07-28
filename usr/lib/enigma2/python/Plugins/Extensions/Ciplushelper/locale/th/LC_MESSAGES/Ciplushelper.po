@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "แขน"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการรีสตาร์ท GUI"
 
@@ -59,11 +56,20 @@ msgstr "เวอร์ชันจาก Zgemma"
 msgid "Installed:"
 msgstr "ติดตั้งแล้ว:"
 
-msgid "MIPSEL"
-msgstr "มิตเซล"
-
 msgid "Need restart GUI"
 msgstr "ต้องรีสตาร์ท GUI"
+
+msgid "Oscam binary not found!"
+msgstr "ไม่พบไบนารี Oscam!"
+
+msgid "Oscam started."
+msgstr "ออสแคมเริ่มแล้ว"
+
+msgid "Oscam stopped."
+msgstr "ออสแคมหยุดแล้ว"
+
+msgid "Oscam:"
+msgstr "ออสแคม:"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "รุ่นอื่นๆ อาจต้องใช้ '/etc/ciplus'"
@@ -88,6 +94,18 @@ msgstr "รุ่นที่รองรับ"
 
 msgid "Unknown"
 msgstr "ไม่ทราบ"
+
+msgid "Update plugin"
+msgstr "อัปเดตปลั๊กอิน"
+
+msgid "Updating plugin..."
+msgstr "กำลังอัปเดตปลั๊กอิน..."
+
+#~ msgid "ARM"
+#~ msgstr "แขน"
+
+#~ msgid "MIPSEL"
+#~ msgstr "มิตเซล"
 
 #~ msgid "Disable"
 #~ msgstr "ปิดการใช้งาน"

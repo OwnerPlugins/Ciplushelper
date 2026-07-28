@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "CÁNH TAY"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Bạn có chắc chắn muốn khởi động lại GUI không?"
 
@@ -59,11 +56,20 @@ msgstr "phiên bản từ Zgemma"
 msgid "Installed:"
 msgstr "Đã cài đặt:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "Cần khởi động lại GUI"
+
+msgid "Oscam binary not found!"
+msgstr "Không tìm thấy nhị phân Oscar!"
+
+msgid "Oscam started."
+msgstr "Oscar bắt đầu."
+
+msgid "Oscam stopped."
+msgstr "Oscam dừng lại."
+
+msgid "Oscam:"
+msgstr "Oscar:"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Các mô hình khác có thể cần '/etc/ciplus'"
@@ -88,6 +94,18 @@ msgstr "Các mô hình được hỗ trợ"
 
 msgid "Unknown"
 msgstr "Không xác định"
+
+msgid "Update plugin"
+msgstr "Cập nhật plugin"
+
+msgid "Updating plugin..."
+msgstr "Đang cập nhật plugin..."
+
+#~ msgid "ARM"
+#~ msgstr "CÁNH TAY"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Vô hiệu hóa"

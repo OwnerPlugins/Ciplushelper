@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "BRAS"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Êtes-vous sûr de vouloir redémarrer l'interface graphique ?"
 
@@ -59,11 +56,20 @@ msgstr "version de Zgemma"
 msgid "Installed:"
 msgstr "Installé:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "Besoin de redémarrer l'interface graphique"
+
+msgid "Oscam binary not found!"
+msgstr "Binaire Oscam introuvable !"
+
+msgid "Oscam started."
+msgstr "L'arnaque a commencé."
+
+msgid "Oscam stopped."
+msgstr "Oscam s'est arrêté."
+
+msgid "Oscam:"
+msgstr "Oscam :"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "D'autres modèles peuvent avoir besoin de '/etc/ciplus'"
@@ -88,6 +94,18 @@ msgstr "Modèles pris en charge"
 
 msgid "Unknown"
 msgstr "Inconnu"
+
+msgid "Update plugin"
+msgstr "Plugin de mise à jour"
+
+msgid "Updating plugin..."
+msgstr "Mise à jour du plugin..."
+
+#~ msgid "ARM"
+#~ msgstr "BRAS"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Désactiver"

@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "АРМ"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Дали сте сигурни дека сакате да го рестартирате GUI?"
 
@@ -59,11 +56,20 @@ msgstr "верзија од Згема"
 msgid "Installed:"
 msgstr "Инсталиран:"
 
-msgid "MIPSEL"
-msgstr "МИПСЕЛ"
-
 msgid "Need restart GUI"
 msgstr "Треба да се рестартира GUI"
+
+msgid "Oscam binary not found!"
+msgstr "Бинарната верзија на Оскам не е пронајдена!"
+
+msgid "Oscam started."
+msgstr "Почна Оскам."
+
+msgid "Oscam stopped."
+msgstr "Оскам застана."
+
+msgid "Oscam:"
+msgstr "Оскам:"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "На други модели можеби им треба '/etc/ciplus'"
@@ -88,6 +94,18 @@ msgstr "Поддржани модели"
 
 msgid "Unknown"
 msgstr "Непознат"
+
+msgid "Update plugin"
+msgstr "Ажурирајте го приклучокот"
+
+msgid "Updating plugin..."
+msgstr "Се ажурира приклучокот..."
+
+#~ msgid "ARM"
+#~ msgstr "АРМ"
+
+#~ msgid "MIPSEL"
+#~ msgstr "МИПСЕЛ"
 
 #~ msgid "Disable"
 #~ msgstr "Оневозможи"

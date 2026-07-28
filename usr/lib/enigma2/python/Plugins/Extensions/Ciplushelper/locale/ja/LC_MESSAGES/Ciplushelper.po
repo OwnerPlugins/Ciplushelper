@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "アーム"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI を再起動してもよろしいですか?"
 
@@ -59,11 +56,20 @@ msgstr "Zgemmaのバージョン"
 msgid "Installed:"
 msgstr "インストール済み:"
 
-msgid "MIPSEL"
-msgstr "ミプセル"
-
 msgid "Need restart GUI"
 msgstr "GUIを再起動する必要があります"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam バイナリが見つかりません!"
+
+msgid "Oscam started."
+msgstr "オスカム始めました。"
+
+msgid "Oscam stopped."
+msgstr "オスカムは立ち止まった。"
+
+msgid "Oscam:"
+msgstr "オスカム:"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "他のモデルには「/etc/ciplus」が必要な場合があります"
@@ -88,6 +94,18 @@ msgstr "対応機種"
 
 msgid "Unknown"
 msgstr "未知"
+
+msgid "Update plugin"
+msgstr "プラグインを更新する"
+
+msgid "Updating plugin..."
+msgstr "プラグインを更新しています..."
+
+#~ msgid "ARM"
+#~ msgstr "アーム"
+
+#~ msgid "MIPSEL"
+#~ msgstr "ミプセル"
 
 #~ msgid "Disable"
 #~ msgstr "無効にする"

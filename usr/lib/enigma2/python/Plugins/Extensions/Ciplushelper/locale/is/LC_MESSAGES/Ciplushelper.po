@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Ertu viss um að þú viljir endurræsa GUI?"
 
@@ -59,11 +56,20 @@ msgstr "útgáfa frá Zgemma"
 msgid "Installed:"
 msgstr "Uppsett:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "Þarf að endurræsa GUI"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam tvöfaldur fannst ekki!"
+
+msgid "Oscam started."
+msgstr "Oscam byrjaði."
+
+msgid "Oscam stopped."
+msgstr "Oscam hætti."
+
+msgid "Oscam:"
+msgstr ""
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Aðrar gerðir gætu þurft '/etc/ciplus'"
@@ -88,6 +94,18 @@ msgstr "Stuðlar gerðir"
 
 msgid "Unknown"
 msgstr "Óþekkt"
+
+msgid "Update plugin"
+msgstr "Uppfæra viðbót"
+
+msgid "Updating plugin..."
+msgstr "Uppfærir viðbót..."
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Óvirkja"

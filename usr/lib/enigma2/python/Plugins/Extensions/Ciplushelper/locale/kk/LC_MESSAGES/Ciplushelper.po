@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI қайта іске қосқыңыз келетініне сенімдісіз бе?"
 
@@ -59,11 +56,20 @@ msgstr "Zgemma нұсқасы"
 msgid "Installed:"
 msgstr "Орнатылған:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "GUI қайта іске қосу қажет"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam екілік файлы табылмады!"
+
+msgid "Oscam started."
+msgstr "Оскам бастады."
+
+msgid "Oscam stopped."
+msgstr "Оскам тоқтады."
+
+msgid "Oscam:"
+msgstr "Оскам:"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Басқа үлгілерге '/etc/ciplus' қажет болуы мүмкін."
@@ -88,6 +94,18 @@ msgstr "Қолдау көрсетілетін үлгілер"
 
 msgid "Unknown"
 msgstr "Белгісіз"
+
+msgid "Update plugin"
+msgstr "Плагинді жаңарту"
+
+msgid "Updating plugin..."
+msgstr "Плагин жаңартылуда..."
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Өшіру"

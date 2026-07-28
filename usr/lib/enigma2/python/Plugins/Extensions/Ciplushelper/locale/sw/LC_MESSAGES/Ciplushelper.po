@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Je, una uhakika unataka kuwasha upya GUI?"
 
@@ -59,11 +56,20 @@ msgstr "toleo kutoka Zgemma"
 msgid "Installed:"
 msgstr "Imesakinishwa:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "Inahitaji kuanzisha upya GUI"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binary haipatikani!"
+
+msgid "Oscam started."
+msgstr "Oscam alianza."
+
+msgid "Oscam stopped."
+msgstr "Oscam aliacha."
+
+msgid "Oscam:"
+msgstr ""
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Aina zingine zinaweza kuhitaji '/etc/ciplus'"
@@ -88,6 +94,18 @@ msgstr "Mifano zinazoungwa mkono"
 
 msgid "Unknown"
 msgstr "Haijulikani"
+
+msgid "Update plugin"
+msgstr "Sasisha programu-jalizi"
+
+msgid "Updating plugin..."
+msgstr "Inasasisha programu-jalizi..."
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Zima"

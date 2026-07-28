@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI ஐ மறுதொடக்கம் செய்ய விரும்புகிறீர்களா?"
 
@@ -59,11 +56,20 @@ msgstr "Zgemma இலிருந்து பதிப்பு"
 msgid "Installed:"
 msgstr "நிறுவப்பட்டது:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "GUI ஐ மறுதொடக்கம் செய்ய வேண்டும்"
+
+msgid "Oscam binary not found!"
+msgstr "ஆஸ்காம் பைனரி கிடைக்கவில்லை!"
+
+msgid "Oscam started."
+msgstr "ஆஸ்காம் தொடங்கியது."
+
+msgid "Oscam stopped."
+msgstr "ஒஸ்காம் நிறுத்தப்பட்டது."
+
+msgid "Oscam:"
+msgstr "ஆஸ்காம்:"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "மற்ற மாடல்களுக்கு '/etc/ciplus' தேவைப்படலாம்"
@@ -88,6 +94,18 @@ msgstr "ஆதரிக்கப்படும் மாதிரிகள்"
 
 msgid "Unknown"
 msgstr "தெரியவில்லை"
+
+msgid "Update plugin"
+msgstr "செருகுநிரலைப் புதுப்பிக்கவும்"
+
+msgid "Updating plugin..."
+msgstr "செருகுநிரலைப் புதுப்பிக்கிறது..."
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "முடக்கு"

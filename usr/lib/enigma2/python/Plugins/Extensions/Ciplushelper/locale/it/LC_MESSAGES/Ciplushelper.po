@@ -14,9 +14,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.9\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Sei sicuro di voler riavviare la GUI?"
 
@@ -56,11 +53,20 @@ msgstr "Installa versione Zgemma"
 msgid "Installed:"
 msgstr "Installato:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "È necessario riavviare la GUI"
+
+msgid "Oscam binary not found!"
+msgstr "Binario Oscam non trovato!"
+
+msgid "Oscam started."
+msgstr "Cominciò Oscam."
+
+msgid "Oscam stopped."
+msgstr "Oscam si fermò."
+
+msgid "Oscam:"
+msgstr ""
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Altri modelli potrebbero aver bisogno di '/etc/ciplus'"
@@ -85,6 +91,18 @@ msgstr "Modelli supportati"
 
 msgid "Unknown"
 msgstr "Sconosciuto"
+
+msgid "Update plugin"
+msgstr "Aggiorna plug-in"
+
+msgid "Updating plugin..."
+msgstr "Aggiornamento del plug-in..."
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Disabilita"

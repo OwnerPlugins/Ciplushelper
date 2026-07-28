@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Ydych chi'n siŵr eich bod am ailgychwyn y GUI?"
 
@@ -59,11 +56,20 @@ msgstr "fersiwn o Zgemma"
 msgid "Installed:"
 msgstr "Wedi'i osod:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "Angen ailgychwyn GUI"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam deuaidd heb ei ddarganfod!"
+
+msgid "Oscam started."
+msgstr "Dechreuodd Oscar."
+
+msgid "Oscam stopped."
+msgstr "Stopiodd Oscam."
+
+msgid "Oscam:"
+msgstr ""
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Efallai y bydd angen '/etc/ciplus' ar fodelau eraill"
@@ -88,6 +94,18 @@ msgstr "Modelau a gefnogir"
 
 msgid "Unknown"
 msgstr "Anhysbys"
+
+msgid "Update plugin"
+msgstr "Diweddaru ategyn"
+
+msgid "Updating plugin..."
+msgstr "Wrthi'n diweddaru'r ategyn..."
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Analluogi"

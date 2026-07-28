@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "हाथ"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "क्या आप वाकई GUI को पुनः आरंभ करना चाहते हैं?"
 
@@ -59,11 +56,20 @@ msgstr "ज़गेम्मा से संस्करण"
 msgid "Installed:"
 msgstr "स्थापित:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "GUI पुनः प्रारंभ करने की आवश्यकता है"
+
+msgid "Oscam binary not found!"
+msgstr "ऑस्कैम बाइनरी नहीं मिली!"
+
+msgid "Oscam started."
+msgstr "ऑस्कैम की शुरुआत हुई."
+
+msgid "Oscam stopped."
+msgstr "ऑस्कैम रुक गया."
+
+msgid "Oscam:"
+msgstr "ऑस्कैम:"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "अन्य मॉडलों को '/etc/ciplus' की आवश्यकता हो सकती है"
@@ -88,6 +94,18 @@ msgstr "समर्थित मॉडल"
 
 msgid "Unknown"
 msgstr "अज्ञात"
+
+msgid "Update plugin"
+msgstr "प्लगइन अद्यतन करें"
+
+msgid "Updating plugin..."
+msgstr "प्लगइन अपडेट हो रहा है..."
+
+#~ msgid "ARM"
+#~ msgstr "हाथ"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "अक्षम करना"

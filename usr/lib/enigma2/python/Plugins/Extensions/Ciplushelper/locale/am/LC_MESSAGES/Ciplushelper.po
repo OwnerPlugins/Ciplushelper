@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "እርግጠኛ ነህ GUI ን እንደገና ማስጀመር ትፈልጋለህ?"
 
@@ -59,11 +56,20 @@ msgstr "ስሪት ከ Zgemma"
 msgid "Installed:"
 msgstr "ተጭኗል፡"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "GUI እንደገና ማስጀመር ያስፈልጋል"
+
+msgid "Oscam binary not found!"
+msgstr "ኦስካም ሁለትዮሽ አልተገኘም!"
+
+msgid "Oscam started."
+msgstr "ኦስካም ጀመረ።"
+
+msgid "Oscam stopped."
+msgstr "ኦስካም ቆሟል።"
+
+msgid "Oscam:"
+msgstr "ኦስካም"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "ሌሎች ሞዴሎች '/etc/ciplus' ሊፈልጉ ይችላሉ"
@@ -88,6 +94,18 @@ msgstr "የሚደገፉ ሞዴሎች"
 
 msgid "Unknown"
 msgstr "ያልታወቀ"
+
+msgid "Update plugin"
+msgstr "ተሰኪን ያዘምኑ"
+
+msgid "Updating plugin..."
+msgstr "ተሰኪን በማዘመን ላይ..."
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "አሰናክል"

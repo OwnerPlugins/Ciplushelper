@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "დარწმუნებული ხართ, რომ გსურთ GUI-ს გადატვირთვა?"
 
@@ -59,11 +56,20 @@ msgstr "ვერსია Zgemma-დან"
 msgid "Installed:"
 msgstr "დაინსტალირებულია:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "საჭიროა GUI-ს გადატვირთვა"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam ორობითი ვერ მოიძებნა!"
+
+msgid "Oscam started."
+msgstr "დაიწყო ოსკამმა."
+
+msgid "Oscam stopped."
+msgstr "ოსკამი გაჩერდა."
+
+msgid "Oscam:"
+msgstr "ოსკამი:"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "სხვა მოდელებს შეიძლება დასჭირდეთ '/etc/ciplus'"
@@ -88,6 +94,18 @@ msgstr "მხარდაჭერილი მოდელები"
 
 msgid "Unknown"
 msgstr "უცნობი"
+
+msgid "Update plugin"
+msgstr "მოდულის განახლება"
+
+msgid "Updating plugin..."
+msgstr "მოდულის განახლება..."
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "გამორთვა"

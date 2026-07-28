@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "An bhfuil tú cinnte gur mhaith leat an GUI a atosú?"
 
@@ -59,11 +56,20 @@ msgstr "leagan ó zgemma"
 msgid "Installed:"
 msgstr "Suiteáilte:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "Teastaíonn atosú GUI"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam dénártha gan aimsiú!"
+
+msgid "Oscam started."
+msgstr "Thosaigh Oscam."
+
+msgid "Oscam stopped."
+msgstr "Stopadh Oscam."
+
+msgid "Oscam:"
+msgstr ""
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Seans go mbeidh ‘/etc/ciplus’ ag teastáil ó mhúnlaí eile"
@@ -88,6 +94,18 @@ msgstr "Múnlaí tacaithe"
 
 msgid "Unknown"
 msgstr "Anaithnid"
+
+msgid "Update plugin"
+msgstr "Nuashonraigh breiseán"
+
+msgid "Updating plugin..."
+msgstr "Breiseán á nuashonrú..."
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Díchumasaigh"

@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "KOL"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI'yi yeniden başlatmak istediğinizden emin misiniz?"
 
@@ -59,11 +56,20 @@ msgstr "Zgemma'dan versiyon"
 msgid "Installed:"
 msgstr "Kurulu:"
 
-msgid "MIPSEL"
-msgstr "MİPSEL"
-
 msgid "Need restart GUI"
 msgstr "GUI'nin yeniden başlatılması gerekiyor"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam ikili dosyası bulunamadı!"
+
+msgid "Oscam started."
+msgstr "Oscam başladı."
+
+msgid "Oscam stopped."
+msgstr "Oscam durdu."
+
+msgid "Oscam:"
+msgstr ""
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Diğer modellerde '/etc/ciplus' gerekebilir"
@@ -88,6 +94,18 @@ msgstr "Desteklenen modeller"
 
 msgid "Unknown"
 msgstr "Bilinmiyor"
+
+msgid "Update plugin"
+msgstr "Eklentiyi güncelle"
+
+msgid "Updating plugin..."
+msgstr "Eklenti güncelleniyor..."
+
+#~ msgid "ARM"
+#~ msgstr "KOL"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MİPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Devre dışı bırakmak"

@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "A bheil thu cinnteach gu bheil thu airson an GUI ath-thòiseachadh?"
 
@@ -59,11 +56,20 @@ msgstr "dreach bho Zgemma"
 msgid "Installed:"
 msgstr "Air a stàladh:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "Feum air GUI ath-thòiseachadh"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binary cha deach a lorg!"
+
+msgid "Oscam started."
+msgstr "Thòisich Oscar."
+
+msgid "Oscam stopped."
+msgstr "Sguir Oscam."
+
+msgid "Oscam:"
+msgstr "Oscar:"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Dh’ fhaodadh gum bi feum aig modailean eile air ‘/etc/ciplus’"
@@ -88,6 +94,18 @@ msgstr "Modailean le taic"
 
 msgid "Unknown"
 msgstr "Neo-aithnichte"
+
+msgid "Update plugin"
+msgstr "Luchdaich a-nuas am plugan ùraich"
+
+msgid "Updating plugin..."
+msgstr "Ag ùrachadh plugan..."
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Cuir à comas"

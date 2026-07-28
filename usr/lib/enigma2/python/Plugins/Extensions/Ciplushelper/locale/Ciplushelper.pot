@@ -4,8 +4,6 @@
 
 
 
-msgid "ARM"
-msgstr ""
 
 msgid "Are you sure you want to restart the GUI?"
 msgstr ""
@@ -46,10 +44,19 @@ msgstr ""
 msgid "Installed:"
 msgstr ""
 
-msgid "MIPSEL"
+msgid "Need restart GUI"
 msgstr ""
 
-msgid "Need restart GUI"
+msgid "Oscam binary not found!"
+msgstr ""
+
+msgid "Oscam started."
+msgstr ""
+
+msgid "Oscam stopped."
+msgstr ""
+
+msgid "Oscam:"
 msgstr ""
 
 msgid "Other models may need '/etc/ciplus'"
@@ -74,4 +81,10 @@ msgid "Supported models"
 msgstr ""
 
 msgid "Unknown"
+msgstr ""
+
+msgid "Update plugin"
+msgstr ""
+
+msgid "Updating plugin..."
 msgstr ""

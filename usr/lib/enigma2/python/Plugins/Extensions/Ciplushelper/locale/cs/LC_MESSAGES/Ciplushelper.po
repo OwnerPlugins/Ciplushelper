@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "PAŽE"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Opravdu chcete restartovat GUI?"
 
@@ -59,11 +56,20 @@ msgstr "verze od Zgemmy"
 msgid "Installed:"
 msgstr "Instalováno:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "Je potřeba restartovat GUI"
+
+msgid "Oscam binary not found!"
+msgstr "Binární soubor Oscam nebyl nalezen!"
+
+msgid "Oscam started."
+msgstr "Oscam začal."
+
+msgid "Oscam stopped."
+msgstr "Oscam se zastavil."
+
+msgid "Oscam:"
+msgstr ""
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Jiné modely mohou potřebovat '/etc/ciplus'"
@@ -88,6 +94,18 @@ msgstr "Podporované modely"
 
 msgid "Unknown"
 msgstr "Neznámý"
+
+msgid "Update plugin"
+msgstr "Aktualizovat plugin"
+
+msgid "Updating plugin..."
+msgstr "Aktualizace pluginu..."
+
+#~ msgid "ARM"
+#~ msgstr "PAŽE"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Zakázat"

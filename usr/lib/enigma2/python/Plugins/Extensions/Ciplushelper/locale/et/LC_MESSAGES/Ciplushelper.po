@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Kas olete kindel, et soovite GUI-d taaskäivitada?"
 
@@ -59,11 +56,20 @@ msgstr "Zgemma versioon"
 msgid "Installed:"
 msgstr "Installitud:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "Vajab GUI taaskäivitamist"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binaarfaili ei leitud!"
+
+msgid "Oscam started."
+msgstr "Oscam alustas."
+
+msgid "Oscam stopped."
+msgstr "Oscam peatus."
+
+msgid "Oscam:"
+msgstr ""
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Muud mudelid võivad vajada faili '/etc/ciplus'"
@@ -88,6 +94,18 @@ msgstr "Toetatud mudelid"
 
 msgid "Unknown"
 msgstr "Tundmatu"
+
+msgid "Update plugin"
+msgstr "Värskenda pistikprogrammi"
+
+msgid "Updating plugin..."
+msgstr "Pistikprogrammi värskendamine..."
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Keela"

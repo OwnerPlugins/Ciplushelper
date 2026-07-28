@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "LENGAN"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Adakah anda pasti mahu memulakan semula GUI?"
 
@@ -59,11 +56,20 @@ msgstr "versi dari Zgemma"
 msgid "Installed:"
 msgstr "Dipasang:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "Perlu memulakan semula GUI"
+
+msgid "Oscam binary not found!"
+msgstr "Perduaan oscam tidak dijumpai!"
+
+msgid "Oscam started."
+msgstr "Oscar bermula."
+
+msgid "Oscam stopped."
+msgstr "Oscar berhenti."
+
+msgid "Oscam:"
+msgstr "Oscar:"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Model lain mungkin memerlukan '/etc/ciplus'"
@@ -88,6 +94,18 @@ msgstr "Model yang disokong"
 
 msgid "Unknown"
 msgstr "Tidak diketahui"
+
+msgid "Update plugin"
+msgstr "Kemas kini pemalam"
+
+msgid "Updating plugin..."
+msgstr "Mengemas kini pemalam..."
+
+#~ msgid "ARM"
+#~ msgstr "LENGAN"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Lumpuhkan"

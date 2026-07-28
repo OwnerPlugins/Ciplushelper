@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "એઆરએમ"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "શું તમે ખરેખર GUI ને પુનઃપ્રારંભ કરવા માંગો છો?"
 
@@ -59,11 +56,20 @@ msgstr "Zgemma નું સંસ્કરણ"
 msgid "Installed:"
 msgstr "ઇન્સ્ટોલ કરેલ:"
 
-msgid "MIPSEL"
-msgstr "મિપ્સેલ"
-
 msgid "Need restart GUI"
 msgstr "GUI પુનઃપ્રારંભ કરવાની જરૂર છે"
+
+msgid "Oscam binary not found!"
+msgstr "ઓસ્કેમ બાઈનરી મળી નથી!"
+
+msgid "Oscam started."
+msgstr "ઓસ્કામ શરૂ થયો."
+
+msgid "Oscam stopped."
+msgstr "ઓસ્કેમ અટકી ગયો."
+
+msgid "Oscam:"
+msgstr "ઓસ્કેમ:"
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "અન્ય મોડલને '/etc/ciplus'ની જરૂર પડી શકે છે"
@@ -88,6 +94,18 @@ msgstr "સપોર્ટેડ મોડલ્સ"
 
 msgid "Unknown"
 msgstr "અજ્ઞાત"
+
+msgid "Update plugin"
+msgstr "પ્લગઇન અપડેટ કરો"
+
+msgid "Updating plugin..."
+msgstr "પ્લગઇન અપડેટ કરી રહ્યું છે..."
+
+#~ msgid "ARM"
+#~ msgstr "એઆરએમ"
+
+#~ msgid "MIPSEL"
+#~ msgstr "મિપ્સેલ"
 
 #~ msgid "Disable"
 #~ msgstr "અક્ષમ કરો"

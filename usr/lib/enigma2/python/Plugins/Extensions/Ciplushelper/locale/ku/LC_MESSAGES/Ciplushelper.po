@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "BIÇEKKIRIN"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Ma hûn guman dikin ku hûn dixwazin GUI ji nû ve bidin destpêkirin?"
 
@@ -59,11 +56,20 @@ msgstr "guhertoya ji Zgemma"
 msgid "Installed:"
 msgstr "Sazkirî:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "Pêdivî ye ku GUI ji nû ve dest pê bike"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binary nehat dîtin!"
+
+msgid "Oscam started."
+msgstr "Oscam dest pê kir."
+
+msgid "Oscam stopped."
+msgstr "Oscam rawestiya."
+
+msgid "Oscam:"
+msgstr ""
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Dibe ku modelên din hewceyê '/etc/ciplus' bin"
@@ -88,6 +94,18 @@ msgstr "Modelên piştgirî kirin"
 
 msgid "Unknown"
 msgstr "Nenas"
+
+msgid "Update plugin"
+msgstr "Plugin nûve bikin"
+
+msgid "Updating plugin..."
+msgstr "Plugin nûvekirin..."
+
+#~ msgid "ARM"
+#~ msgstr "BIÇEKKIRIN"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Neçalak bike"

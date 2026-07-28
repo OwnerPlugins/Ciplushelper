@@ -13,9 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Is jy seker jy wil die GUI herbegin?"
 
@@ -59,11 +56,20 @@ msgstr "weergawe van Zgemma"
 msgid "Installed:"
 msgstr "Geïnstalleer:"
 
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
 msgid "Need restart GUI"
 msgstr "Moet GUI herbegin"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binêre nie gevind nie!"
+
+msgid "Oscam started."
+msgstr "Oscam begin."
+
+msgid "Oscam stopped."
+msgstr "Oscam het gestop."
+
+msgid "Oscam:"
+msgstr ""
 
 msgid "Other models may need '/etc/ciplus'"
 msgstr "Ander modelle benodig dalk '/etc/ciplus'"
@@ -88,6 +94,18 @@ msgstr "Ondersteunde modelle"
 
 msgid "Unknown"
 msgstr "Onbekend"
+
+msgid "Update plugin"
+msgstr "Dateer inprop op"
+
+msgid "Updating plugin..."
+msgstr "Dateer tans inprop op …"
+
+#~ msgid "ARM"
+#~ msgstr "ARM"
+
+#~ msgid "MIPSEL"
+#~ msgstr "MIPSEL"
 
 #~ msgid "Disable"
 #~ msgstr "Deaktiveer"
