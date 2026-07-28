@@ -154,9 +154,11 @@ class Ciplushelper(Screen):
         if model:
             # Autostart
             if exists("/etc/rc2.d/S50ciplushelper"):
-                menu_list.append((_("Disable ciplushelper autostart"), "disable"))
+                menu_list.append(
+                    (_("Disable ciplushelper autostart"), "disable"))
             else:
-                menu_list.append((_("Enable ciplushelper autostart"), "enable"))
+                menu_list.append(
+                    (_("Enable ciplushelper autostart"), "enable"))
 
             # Start/Stop
             if "ciplushelper" in self.ret:
@@ -167,16 +169,28 @@ class Ciplushelper(Screen):
             # ARM‑specific
             if "ciplushelper-arm" in model or "ciplushelper-zgemma-arm" in model:
                 if not exists("/etc/cicert.bin"):
-                    menu_list.append((_("Install version from Zgemma"), "install_cicert_bin"))
+                    menu_list.append(
+                        (_("Install version from Zgemma"), "install_cicert_bin"))
                 else:
                     for i in range(2):
                         enable_file = "/etc/ciplus%d_enable" % i
                         disable_file = "/etc/ciplus%d_disable" % i
                         if exists(enable_file):
-                            menu_list.append((_("Disable CI+ slot") + " " + str(i), "disable_ciplus%d" % i))
+                            menu_list.append(
+                                (_("Disable CI+ slot") +
+                                 " " +
+                                 str(i),
+                                    "disable_ciplus%d" %
+                                    i))
                         elif exists(disable_file):
-                            menu_list.append((_("Enable CI+ slot") + " " + str(i), "enable_ciplus%d" % i))
-                    menu_list.append((_("Install default version"), "install_default"))
+                            menu_list.append(
+                                (_("Enable CI+ slot") +
+                                 " " +
+                                 str(i),
+                                    "enable_ciplus%d" %
+                                    i))
+                    menu_list.append(
+                        (_("Install default version"), "install_default"))
 
             # Update init script if needed
             try:
@@ -185,7 +199,8 @@ class Ciplushelper(Screen):
                     if "VERSION=1" in f.read():
                         copy = False
                 if copy:
-                    cmd = "cp /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/ciplushelper.sh %s && chmod 755 %s" % (ciplushelper, ciplushelper)
+                    cmd = "cp /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/ciplushelper.sh %s && chmod 755 %s" % (
+                        ciplushelper, ciplushelper)
                     os_system(cmd)
             except Exception:
                 pass
@@ -288,13 +303,19 @@ class Ciplushelper(Screen):
                 enable_file = "/etc/ciplus%d_enable" % i
                 if not exists(enable_file):
 
-                    os_system("echo 'rename ciplus*_enable to ciplus*_disable for deactivate ciplus certification of the module.' > %s" % enable_file)
+                    os_system(
+                        "echo 'rename ciplus*_enable to ciplus*_disable for deactivate ciplus certification of the module.' > %s" %
+                        enable_file)
             if "ciplushelper" in self.ret:
                 os_system("killall ciplushelper 2>/dev/null && sleep 2")
 
-            os_system("cp %s/ciplushelper_bin/zgemma-arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper" % plugin_path)
+            os_system(
+                "cp %s/ciplushelper_bin/zgemma-arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper" %
+                plugin_path)
             if "ciplushelper" in self.ret:
-                self.session.open(Console, _("Start ciplushelper"), ["/etc/init.d/ciplushelper start && echo '" + _("Need restart GUI") + "'"])
+                self.session.open(
+                    Console, _("Start ciplushelper"), [
+                        "/etc/init.d/ciplushelper start && echo '" + _("Need restart GUI") + "'"])
             self.close()
             return
 
@@ -302,7 +323,8 @@ class Ciplushelper(Screen):
             if "ciplushelper" in self.ret:
                 os_system("killall ciplushelper 2>/dev/null && sleep 2")
             os_system(
-                "cp %s/ciplushelper_bin/arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper" % plugin_path)
+                "cp %s/ciplushelper_bin/arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper" %
+                plugin_path)
             if "ciplushelper" in self.ret:
                 self.session.open(
                     Console, _("Start ciplushelper"), [
