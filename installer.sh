@@ -1,8 +1,8 @@
 #!/bin/bash
 ## command line == wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/Ciplushelper/main/installer.sh -O - | /bin/bash
 
-version='6.3'
-changelog='"Update plugin" command – update the plugin directly from the menu via installer.sh.\nUnified hardware detection for ARM/MIPSEL boxes\n- WQHD (2560x1440) skin support\n- ARM/Zgemma-ARM separation with dedicated binary\n- CI+ slot management (0 and 1)\n- "Restart GUI" command\n- Faster process detection using pgrep\n- Code refactoring with commands dictionary\n- Fixed model detection for boxes without getImageVersion'
+version='6.4'
+changelog='**Add** "Oscam: running/stopped" toggle in menu to avoid descrambler conflict between Oscam and CI+ helper.\n**Add** "Open CI Assignment" menu entry to easily access the system plugin for channel-to-CI slot mapping.'
 
 TMPPATH=/tmp/Ciplushelper-install
 FILEPATH=/tmp/Ciplushelper-main.tar.gz

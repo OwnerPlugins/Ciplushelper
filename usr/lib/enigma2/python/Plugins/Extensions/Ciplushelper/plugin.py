@@ -24,11 +24,10 @@ def get_pids(process_name):
     """Get all PIDs of a process using ps (universal)"""
     try:
         # 1. grep -i (case-insensitive)
-        result = popen(
-            f"ps -A | grep -i '{process_name}' | grep -v grep | awk '{{print $1}}'").read().strip()
+        result = popen(f"ps -A | grep -i '{process_name}' | grep -v grep | awk '{{print $1}}'").read().strip()
         if result:
             return result.split()
-    except BaseException:
+    except:
         pass
 
     try:
@@ -58,23 +57,23 @@ class Ciplushelper(Screen):
             width = desktop.size().width()
             if width >= 2560:
                 self.skin = """
-                <screen position="center,center" size="1360,520" title="CI+ helper menu" >
-                    <widget name="menu" position="10,10" size="1340,500" font="Regular;40" itemHeight="60" scrollbarMode="showOnDemand" />
+                <screen position="center,center" size="1360,550" title="CI+ helper menu" >
+                    <widget name="menu" position="10,10" size="1340,540" font="Regular;40" itemHeight="60" scrollbarMode="showOnDemand" />
                 </screen>"""
             elif width >= 1920:
                 self.skin = """
-                <screen position="center,center" size="1020,400" title="CI+ helper menu" >
-                    <widget name="menu" position="10,10" size="1000,380" font="Regular;30" itemHeight="50" scrollbarMode="showOnDemand" />
+                <screen position="center,center" size="1020,420" title="CI+ helper menu" >
+                    <widget name="menu" position="10,10" size="1000,400" font="Regular;30" itemHeight="50" scrollbarMode="showOnDemand" />
                 </screen>"""
             else:
                 self.skin = """
-                <screen position="center,center" size="670,300" title="CI+ helper menu" >
-                    <widget name="menu" position="10,10" size="660,280" scrollbarMode="showOnDemand" />
+                <screen position="center,center" size="670,340" title="CI+ helper menu" >
+                    <widget name="menu" position="10,10" size="660,320" scrollbarMode="showOnDemand" />
                 </screen>"""
         else:
             self.skin = """
-            <screen position="center,center" size="670,300" title="CI+ helper menu" >
-                <widget name="menu" position="10,10" size="660,280" scrollbarMode="showOnDemand" />
+            <screen position="center,center" size="670,340" title="CI+ helper menu" >
+                <widget name="menu" position="10,10" size="660,320" scrollbarMode="showOnDemand" />
             </screen>"""
 
         Screen.__init__(self, session)
@@ -170,10 +169,11 @@ class Ciplushelper(Screen):
             menu_list.append((_("Remove") + " /etc/ciplus", "remove_sert"))
         else:
             menu_list.append((_("Install") + " /etc/ciplus", "install_sert"))
+        
+        menu_list.append((_("Open CI Assignment"), "open_ci_assignment"))
 
         # Stop/Start Oscam
-        oscam_status = "running" if (
-            self.oscam_pids or self.oscam_emu_pids) else "stopped"
+        oscam_status = "running" if (self.oscam_pids or self.oscam_emu_pids) else "stopped"
         menu_list.append((_("Oscam:") + " " + oscam_status, "toggle_oscam"))
 
         # Update plugin
@@ -191,29 +191,24 @@ class Ciplushelper(Screen):
 
         if self.oscam_pids:
             pid = self.oscam_pids[0]
-            result = popen(
-                f"readlink -f /proc/{pid}/exe 2>/dev/null").read().strip()
+            result = popen(f"readlink -f /proc/{pid}/exe 2>/dev/null").read().strip()
             if result:
                 self.oscam_binary = result
         else:
             if not hasattr(self, 'oscam_binary') or not self.oscam_binary:
-                result = popen(
-                    "find /usr/bin -name 'OSCam*' -o -name 'oscam*' 2>/dev/null | head -1").read().strip()
+                result = popen("find /usr/bin -name 'OSCam*' -o -name 'oscam*' 2>/dev/null | head -1").read().strip()
                 if result:
                     self.oscam_binary = result
                 else:
                     self.oscam_binary = "oscam"  # Fallback
 
-        oscam_status = "running" if (
-            self.oscam_pids or self.oscam_emu_pids) else "stopped"
+        oscam_status = "running" if (self.oscam_pids or self.oscam_emu_pids) else "stopped"
 
         if hasattr(self, "menu") and self["menu"] is not None:
             menu_list = self["menu"].list
             for i, item in enumerate(menu_list):
                 if item[1] == "toggle_oscam":
-                    menu_list[i] = (
-                        _("Oscam:") + " " + oscam_status,
-                        "toggle_oscam")
+                    menu_list[i] = (_("Oscam:") + " " + oscam_status, "toggle_oscam")
                     self["menu"].setList(menu_list)
                     break
 
@@ -277,6 +272,15 @@ class Ciplushelper(Screen):
                     Console, _("Start ciplushelper"), [
                         "/etc/init.d/ciplushelper start && echo '" + _("Need restart GUI") + "'"])
             self.close()
+            return
+
+        if returnValue == "open_ci_assignment":
+            try:
+                from Plugins.SystemPlugins.CommonInterfaceAssignment.plugin import CIselectMainMenu
+                self.session.openWithCallback(self.close, CIselectMainMenu)
+            except ImportError:
+                self.session.open(MessageBox, _("Common Interface Assignment plugin not found. Please install it from System Plugins."), MessageBox.TYPE_INFO)
+                self.close()
             return
 
         if returnValue == "toggle_oscam":

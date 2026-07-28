@@ -1,6 +1,6 @@
 <h1 align="center">⚙️ CI+ Helper Plugin for Enigma2
 
-[![Version](https://img.shields.io/badge/Version-6.3-blue.svg)](https://github.com/OwnerPlugins/Ciplushelper)
+[![Version](https://img.shields.io/badge/Version-6.4-blue.svg)](https://github.com/OwnerPlugins/Ciplushelper)
 [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
 [![Python](https://img.shields.io/badge/Python3-only-orange.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -41,8 +41,9 @@ It automatically detects your box model and architecture, installing the correct
 - **Certificates Management** – Install/remove `/etc/ciplus` certificates
 - **Autostart Control** – Enable/disable `ciplushelper` at boot
 - **Service Control** – Start/stop `ciplushelper` daemon
+- **Oscam Toggle** – Start/stop Oscam directly from the plugin menu to avoid descrambler conflicts with CI+ helper.
+- **Open CI Assignment** – Quick access to the system plugin for mapping channels to CI slots (OpenPLi/OpenATV).
 - **Update plugin - Command** – update the plugin directly from the menu via installer.sh.
-
 
 ---
 
@@ -74,7 +75,7 @@ It automatically detects your box model and architecture, installing the correct
 
 ### Via Telnet IPK (recommended)
 ```bash
-opkg install /tmp/enigma2-plugin-extensions-ci-plus-helper_6.0_all.ipk
+opkg install /tmp/enigma2-plugin-extensions-ci-plus-helper_6.4_all.ipk
 ```
 
 or command line
@@ -125,6 +126,25 @@ opkg-build .
 ---
 
 ## 📋 Changelog
+
+### v6.4
+- **Improved:** Oscam detection now uses `ps -A | grep -i` for universal compatibility (works with `OSCam_11965-803` and all variants).
+- **Improved:** Oscam status is now updated in real-time using `onShown` callback.
+- **Improved:** Toggle Oscam uses PID-based kill and binary detection via `/proc/<pid>/exe` for reliable start/stop.
+- **Fixed:** Oscam toggle now properly starts Oscam using the exact binary path.
+
+### v6.3
+- **New:** Oscam toggle – start/stop Oscam directly from the plugin menu to avoid descrambler conflicts with CI+ helper.
+- **New:** "Open CI Assignment" menu entry – quick access to the system plugin for mapping channels to CI slots (OpenPLi/OpenATV).
+
+### v6.2
+- **New:** "Update plugin" command – update the plugin directly from the menu via `installer.sh`.
+- **Fixed:** `TypeError` in MessageBox caused by skin inheritance with `getDesktop()` at class level.
+- **Improved:** Skin dimensions for WQHD, FHD, and HD displays.
+
+### v6.1
+- **Fixed:** Installer now copies only the `usr/` directory structure, avoiding extra files (`.github`, `screenshots`, `CONTROL`, etc.) being copied to the plugin folder.
+- **Improved:** `postinst` script now detects `ustym4kpro`, `dm8000`, and all generic ARM/MIPSEL boxes.
 
 ### v6.0
 - **New:** WQHD (2560×1440) skin support
