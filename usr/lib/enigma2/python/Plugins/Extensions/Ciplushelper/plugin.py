@@ -20,6 +20,42 @@ config.misc.ci_auto_check_module = ConfigYesNo(False)
 ciplushelper = "/etc/init.d/ciplushelper"
 
 
+def get_pid(process_name):
+    """Get PID of a process using ps (universal fallback)"""
+    try:
+        # Pattern per match case-insensitive con awk
+        result = popen(f"ps -A | awk '/[{process_name[0].upper()}{process_name[0].lower()}]{process_name[1:]}/ {{print $1}}'").read().strip()
+        if result:
+            return result
+    except:
+        pass
+    # Fallback: grep case-insensitive
+    try:
+        result = popen(f"ps -A | grep -i {process_name} | grep -v grep | awk '{{print $1}}'").read().strip()
+        if result:
+            return result
+    except:
+        pass
+    return ""
+
+
+def get_pids(process_name):
+    """Get all PIDs of a process"""
+    try:
+        result = popen(f"ps -A | awk '/[{process_name[0].upper()}{process_name[0].lower()}]{process_name[1:]}/ {{print $1}}'").read().strip()
+        if result:
+            return result.split()
+    except:
+        pass
+    try:
+        result = popen(f"ps -A | grep -i {process_name} | grep -v grep | awk '{{print $1}}'").read().strip()
+        if result:
+            return result.split()
+    except:
+        pass
+    return []
+
+
 class Ciplushelper(Screen):
     def __init__(self, session):
         desktop = getDesktop(0)
@@ -27,23 +63,23 @@ class Ciplushelper(Screen):
             width = desktop.size().width()
             if width >= 2560:
                 self.skin = """
-                <screen position="center,center" size="1360,450" title="CI+ helper menu" >
-                    <widget name="menu" position="10,10" size="1340,400" font="Regular;40" itemHeight="60" scrollbarMode="showOnDemand" />
+                <screen position="center,center" size="1360,520" title="CI+ helper menu" >
+                    <widget name="menu" position="10,10" size="1340,500" font="Regular;40" itemHeight="60" scrollbarMode="showOnDemand" />
                 </screen>"""
             elif width >= 1920:
                 self.skin = """
-                <screen position="center,center" size="1020,350" title="CI+ helper menu" >
-                    <widget name="menu" position="10,10" size="1000,300" font="Regular;30" itemHeight="50" scrollbarMode="showOnDemand" />
+                <screen position="center,center" size="1020,400" title="CI+ helper menu" >
+                    <widget name="menu" position="10,10" size="1000,380" font="Regular;30" itemHeight="50" scrollbarMode="showOnDemand" />
                 </screen>"""
             else:
                 self.skin = """
-                <screen position="center,center" size="670,250" title="CI+ helper menu" >
-                    <widget name="menu" position="10,10" size="660,200" scrollbarMode="showOnDemand" />
+                <screen position="center,center" size="670,300" title="CI+ helper menu" >
+                    <widget name="menu" position="10,10" size="660,280" scrollbarMode="showOnDemand" />
                 </screen>"""
         else:
             self.skin = """
-            <screen position="center,center" size="670,250" title="CI+ helper menu" >
-                <widget name="menu" position="10,10" size="660,200" scrollbarMode="showOnDemand" />
+            <screen position="center,center" size="670,300" title="CI+ helper menu" >
+                <widget name="menu" position="10,10" size="660,280" scrollbarMode="showOnDemand" />
             </screen>"""
 
         Screen.__init__(self, session)
@@ -70,6 +106,9 @@ class Ciplushelper(Screen):
 
         self.model = model
         self.ret = popen("pgrep ciplushelper").read()
+
+        self.oscam_pids = get_pids("oscam")
+        self.oscam_emu_pids = get_pids("oscam-emu")
 
         if model:
             # Autostart
@@ -127,6 +166,9 @@ class Ciplushelper(Screen):
         else:
             menu_list.append((_("Install") + " /etc/ciplus", "install_sert"))
 
+        # Stop Oscam if running
+        if self.oscam_pids or self.oscam_emu_pids:
+            menu_list.append((_("Stop Oscam (for CI+ helper)"), "stop_oscam"))
         # Update plugin
         menu_list.append((_("Update plugin"), "update_plugin"))
         menu_list.append((_("Restart GUI"), "restart_gui"))
@@ -195,6 +237,20 @@ class Ciplushelper(Screen):
                 self.session.open(
                     Console, _("Start ciplushelper"), [
                         "/etc/init.d/ciplushelper start && echo '" + _("Need restart GUI") + "'"])
+            self.close()
+            return
+
+        if returnValue == "stop_oscam":
+            # Uccidi tutti i processi Oscam trovati
+            if self.oscam_pids:
+                for pid in self.oscam_pids:
+                    os_system(f"kill -9 {pid} 2>/dev/null")
+            if self.oscam_emu_pids:
+                for pid in self.oscam_emu_pids:
+                    os_system(f"kill -9 {pid} 2>/dev/null")
+            # Riavvia CI+ helper per prendere il controllo
+            os_system("/etc/init.d/ciplushelper restart")
+            self.session.open(MessageBox, _("Oscam stopped. CI+ helper restarted."), MessageBox.TYPE_INFO)
             self.close()
             return
 
