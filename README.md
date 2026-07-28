@@ -139,7 +139,20 @@ opkg-build .
 - **Fixed:** `postrm` script to properly stop service before removal
 - **Fixed:** `TypeError` in MessageBox caused by skin inheritance with getDesktop() at class level.
 
+---
 
+## ⚠️ Important Notes
+
+### Oscam / SoftCAM conflict
+
+If you have **Oscam** or any other softCAM running on your box, it may conflict with the CI+ helper daemon.
+
+- Both Oscam and `ciplushelper` try to access the same hardware descrambler.
+- To use CI+ helper, **stop or disable Oscam** temporarily:
+  ```bash
+  /etc/init.d/softcam stop   # or use your softcam's stop command
+  ```
+  
 ---
 
 ## 📝 Credits

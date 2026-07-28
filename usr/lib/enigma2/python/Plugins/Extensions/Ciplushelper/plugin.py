@@ -27,22 +27,22 @@ class Ciplushelper(Screen):
             width = desktop.size().width()
             if width >= 2560:
                 self.skin = """
-                <screen position="center,center" size="1360,420" title="CI+ helper menu" >
+                <screen position="center,center" size="1360,450" title="CI+ helper menu" >
                     <widget name="menu" position="10,10" size="1340,400" font="Regular;40" itemHeight="60" scrollbarMode="showOnDemand" />
                 </screen>"""
             elif width >= 1920:
                 self.skin = """
-                <screen position="center,center" size="1020,320" title="CI+ helper menu" >
+                <screen position="center,center" size="1020,350" title="CI+ helper menu" >
                     <widget name="menu" position="10,10" size="1000,300" font="Regular;30" itemHeight="50" scrollbarMode="showOnDemand" />
                 </screen>"""
             else:
                 self.skin = """
-                <screen position="center,center" size="670,220" title="CI+ helper menu" >
+                <screen position="center,center" size="670,250" title="CI+ helper menu" >
                     <widget name="menu" position="10,10" size="660,200" scrollbarMode="showOnDemand" />
                 </screen>"""
         else:
             self.skin = """
-            <screen position="center,center" size="670,220" title="CI+ helper menu" >
+            <screen position="center,center" size="670,250" title="CI+ helper menu" >
                 <widget name="menu" position="10,10" size="660,200" scrollbarMode="showOnDemand" />
             </screen>"""
 

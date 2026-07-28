@@ -1,5 +1,6 @@
 #!/bin/bash
 ## command line == wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/Ciplushelper/main/installer.sh -O - | /bin/bash
+
 version='6.3'
 changelog='"Update plugin" command – update the plugin directly from the menu via installer.sh.\nUnified hardware detection for ARM/MIPSEL boxes\n- WQHD (2560x1440) skin support\n- ARM/Zgemma-ARM separation with dedicated binary\n- CI+ slot management (0 and 1)\n- "Restart GUI" command\n- Faster process detection using pgrep\n- Code refactoring with commands dictionary\n- Fixed model detection for boxes without getImageVersion'
 
@@ -13,7 +14,10 @@ else
     PLUGINPATH=/usr/lib64/enigma2/python/Plugins/Extensions/Ciplushelper
 fi
 
-echo "Starting CI+ Helper installation..."
+echo "========================================="
+echo "  CI+ Helper Plugin Installer v$version"
+echo "========================================="
+echo ""
 
 cleanup() {
     echo "Cleaning up temporary files..."
@@ -109,34 +113,40 @@ fi
 echo "Installing plugin files..."
 mkdir -p "$PLUGINPATH"
 
-# Find the extracted plugin directory
+# Find the extracted directory
 EXTRACTED_DIR=$(find "$TMPPATH" -type d -name "Ciplushelper*" -o -name "ciplushelper*" | head -1)
 
-if [ -n "$EXTRACTED_DIR" ] && [ -d "$EXTRACTED_DIR" ]; then
-    echo "Found extracted plugin in: $EXTRACTED_DIR"
-    
-    # Copy all files from extracted directory to plugin path
-    cp -r "$EXTRACTED_DIR"/* "$PLUGINPATH/" 2>/dev/null
-    
-    # If the extracted directory has a different structure (e.g., Ciplushelper-main/Ciplushelper/)
-    if [ ! -f "$PLUGINPATH/plugin.py" ]; then
-        # Try to find plugin.py in subdirectories
-        SUBDIR=$(find "$EXTRACTED_DIR" -type f -name "plugin.py" -exec dirname {} \; | head -1)
-        if [ -n "$SUBDIR" ]; then
-            echo "Found plugin.py in: $SUBDIR"
-            cp -r "$SUBDIR"/* "$PLUGINPATH/" 2>/dev/null
-        else
-            echo "Could not find plugin.py in extracted archive"
-            cleanup
-            exit 1
-        fi
-    fi
-else
-    echo "Could not find plugin files in extracted archive"
-    echo "Available directories:"
-    find "$TMPPATH" -type d | head -20
+if [ -z "$EXTRACTED_DIR" ] || [ ! -d "$EXTRACTED_DIR" ]; then
+    echo "Could not find extracted plugin directory!"
     cleanup
     exit 1
+fi
+
+echo "Found extracted directory: $EXTRACTED_DIR"
+
+# ============================================================
+# CRITICAL: Copy ONLY the usr/ directory structure
+# ============================================================
+
+# Method 1: Copy usr/ directly to /
+if [ -d "$EXTRACTED_DIR/usr" ]; then
+    echo "Copying usr/ to / ..."
+    cp -r "$EXTRACTED_DIR/usr"/* / 2>/dev/null
+    echo "✅ Plugin files copied to system"
+else
+    # Method 2: Fallback - find plugin.py and copy that directory
+    PLUGIN_SRC=$(find "$EXTRACTED_DIR" -type f -name "plugin.py" -exec dirname {} \; | head -1)
+    if [ -n "$PLUGIN_SRC" ] && [ -d "$PLUGIN_SRC" ]; then
+        echo "Found plugin source: $PLUGIN_SRC"
+        cp -r "$PLUGIN_SRC"/* "$PLUGINPATH/" 2>/dev/null
+        echo "✅ Plugin files copied to $PLUGINPATH"
+    else
+        echo "ERROR: Could not find plugin files!"
+        echo "Available directories:"
+        find "$EXTRACTED_DIR" -type d | head -20
+        cleanup
+        exit 1
+    fi
 fi
 
 # Ensure all binaries are executable
@@ -145,6 +155,8 @@ chmod 755 "$PLUGINPATH/ciplushelper.sh" 2>/dev/null
 chmod 755 "$PLUGINPATH/postinst" 2>/dev/null
 chmod 755 "$PLUGINPATH/prerm" 2>/dev/null
 chmod 755 "$PLUGINPATH/postrm" 2>/dev/null
+chmod 755 "$PLUGINPATH/plugin.py" 2>/dev/null
+chmod 755 "$PLUGINPATH/__init__.py" 2>/dev/null
 
 # Run postinst manually
 if [ -f "$PLUGINPATH/postinst" ]; then
@@ -159,11 +171,9 @@ box_type=$(head -n 1 /etc/hostname 2>/dev/null || echo "Unknown")
 
 # Detect image version
 if [ -f /usr/lib/enigma.info ]; then
-    # OpenPLi
     distro_value=$(grep '^distro=' /usr/lib/enigma.info 2>/dev/null | awk -F '=' '{print $2}')
     distro_version=$(grep '^imageversion=' /usr/lib/enigma.info 2>/dev/null | awk -F '=' '{print $2}')
 elif [ -f /etc/image-version ]; then
-    # OpenATV
     distro_value=$(grep '^distro=' /etc/image-version 2>/dev/null | awk -F '=' '{print $2}')
     distro_version=$(grep '^version=' /etc/image-version 2>/dev/null | awk -F '=' '{print $2}')
 else
@@ -196,4 +206,5 @@ CHANGELOG:
 $changelog
 EOF
 
+cleanup
 exit 0
