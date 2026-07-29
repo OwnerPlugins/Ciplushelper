@@ -1,4 +1,5 @@
-# plugin.py
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
 # coded from lululla 20260725
 
 from os import popen, system as os_system
