@@ -227,7 +227,7 @@ class Ciplushelper(Screen):
 
         # Update plugin
         menu_list.append((_("Update plugin"), "update_plugin"))
-        menu_list.append((_("Restart GUI"), "restart_gui"))
+        # menu_list.append((_("Restart GUI"), "restart_gui"))
 
         self["menu"] = MenuList(menu_list)
         self["actions"] = ActionMap(
@@ -371,14 +371,14 @@ class Ciplushelper(Screen):
             self.close()
             return
 
-        if returnValue == "restart_gui":
-            self.session.openWithCallback(
-                self.restart_gui_callback,
-                MessageBox,
-                _("Are you sure you want to restart the GUI?"),
-                MessageBox.TYPE_YESNO
-            )
-            return
+        # if returnValue == "restart_gui":
+            # self.session.openWithCallback(
+                # self.restart_gui_callback,
+                # MessageBox,
+                # _("Are you sure you want to restart the GUI?"),
+                # MessageBox.TYPE_YESNO
+            # )
+            # return
 
         if returnValue == "about_ciplushelper":
             installed = self.model if self.model else _("Unknown")
@@ -476,6 +476,7 @@ def is_module_active():
     return False
 
 
+"""
 def menu(menuid, **kwargs):
     if menuid == "cicam":
         return [(_("CI+ helper"), main, "ci_helper", 30)]
@@ -499,10 +500,10 @@ def Plugins(**kwargs):
             )
         ]
     return []
+"""
 
 
 # for test no cicam
-"""
 def menu(menuid, **kwargs):
     if menuid == "plugin":
         return [(_("CI+ helper"), main, "ci_helper", 30)]
@@ -525,5 +526,4 @@ def Plugins(**kwargs):
             fnc=main
         )
     ]
-"""
 # end test
