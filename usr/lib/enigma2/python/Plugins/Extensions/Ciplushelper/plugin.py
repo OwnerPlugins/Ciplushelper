@@ -373,10 +373,10 @@ class Ciplushelper(Screen):
 
         # if returnValue == "restart_gui":
             # self.session.openWithCallback(
-                # self.restart_gui_callback,
-                # MessageBox,
-                # _("Are you sure you want to restart the GUI?"),
-                # MessageBox.TYPE_YESNO
+            # self.restart_gui_callback,
+            # MessageBox,
+            # _("Are you sure you want to restart the GUI?"),
+            # MessageBox.TYPE_YESNO
             # )
             # return
 
