@@ -254,7 +254,8 @@ class Ciplushelper(Screen):
         debug_log("Model detected: %s" % model)
 
         self.ret = popen("pgrep ciplushelper").read()
-        debug_log("ciplushelper running: %s" % ("yes" if "ciplushelper" in self.ret else "no"))
+        debug_log("ciplushelper running: %s" %
+                  ("yes" if "ciplushelper" in self.ret else "no"))
 
         if model:
             debug_log("Model is valid, adding menu items...")
@@ -262,10 +263,12 @@ class Ciplushelper(Screen):
             # Autostart
             if exists("/etc/rc2.d/S50ciplushelper"):
                 debug_log("Autostart: enabled (S50 link found)")
-                menu_list.append((_("Disable ciplushelper autostart"), "disable"))
+                menu_list.append(
+                    (_("Disable ciplushelper autostart"), "disable"))
             else:
                 debug_log("Autostart: disabled (no S50 link)")
-                menu_list.append((_("Enable ciplushelper autostart"), "enable"))
+                menu_list.append(
+                    (_("Enable ciplushelper autostart"), "enable"))
 
             # Start/Stop
             if "ciplushelper" in self.ret:
@@ -277,16 +280,28 @@ class Ciplushelper(Screen):
             if "ciplushelper-arm" in model or "ciplushelper-zgemma-arm" in model:
                 debug_log("ARM model detected: %s" % model)
                 if not exists("/etc/cicert.bin"):
-                    menu_list.append((_("Install version from Zgemma"), "install_cicert_bin"))
+                    menu_list.append(
+                        (_("Install version from Zgemma"), "install_cicert_bin"))
                 else:
                     for i in range(2):
                         enable_file = "/etc/ciplus%d_enable" % i
                         disable_file = "/etc/ciplus%d_disable" % i
                         if exists(enable_file):
-                            menu_list.append((_("Disable CI+ slot") + " " + str(i), "disable_ciplus%d" % i))
+                            menu_list.append(
+                                (_("Disable CI+ slot") +
+                                 " " +
+                                 str(i),
+                                    "disable_ciplus%d" %
+                                    i))
                         elif exists(disable_file):
-                            menu_list.append((_("Enable CI+ slot") + " " + str(i), "enable_ciplus%d" % i))
-                    menu_list.append((_("Install default version"), "install_default"))
+                            menu_list.append(
+                                (_("Enable CI+ slot") +
+                                 " " +
+                                 str(i),
+                                    "enable_ciplus%d" %
+                                    i))
+                    menu_list.append(
+                        (_("Install default version"), "install_default"))
 
             # Update init script if needed
             try:
@@ -296,7 +311,8 @@ class Ciplushelper(Screen):
                         copy = False
                 if copy:
                     debug_log("Updating init script...")
-                    cmd = "cp /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/ciplushelper.sh %s && chmod 755 %s" % (ciplushelper, ciplushelper)
+                    cmd = "cp /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/ciplushelper.sh %s && chmod 755 %s" % (
+                        ciplushelper, ciplushelper)
                     os_system(cmd)
                     debug_log("Init script updated")
             except Exception as e:
@@ -304,12 +320,17 @@ class Ciplushelper(Screen):
 
         if not exists("/etc/init.d/ciplushelper"):
             debug_log("Init script missing, copying it...")
-            cmd = "cp /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/ciplushelper.sh %s && chmod 755 %s" % (ciplushelper, ciplushelper)
+            cmd = "cp /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/ciplushelper.sh %s && chmod 755 %s" % (
+                ciplushelper, ciplushelper)
             os_system(cmd)
             debug_log("Init script copied")
 
         # Certificates
-        cert_paths = ["/etc/ciplus/customer.pem", "/etc/ciplus/device.pem", "/etc/ciplus/root.pem", "/etc/ciplus/param"]
+        cert_paths = [
+            "/etc/ciplus/customer.pem",
+            "/etc/ciplus/device.pem",
+            "/etc/ciplus/root.pem",
+            "/etc/ciplus/param"]
         all_certs = all(exists(p) for p in cert_paths)
         debug_log("Certificates present: %s" % all_certs)
 
@@ -321,7 +342,8 @@ class Ciplushelper(Screen):
         menu_list.append((_("Open CI Assignment"), "open_ci_assignment"))
 
         # Stop/Start Oscam
-        oscam_status = "running" if (self.oscam_pids or self.oscam_emu_pids) else "stopped"
+        oscam_status = "running" if (
+            self.oscam_pids or self.oscam_emu_pids) else "stopped"
         debug_log("Oscam status: %s" % oscam_status)
         menu_list.append((_("Oscam:") + " " + oscam_status, "toggle_oscam"))
 
@@ -329,7 +351,9 @@ class Ciplushelper(Screen):
         # menu_list.append((_("Restart GUI"), "restart_gui"))
 
         self["menu"] = MenuList(menu_list)
-        self["actions"] = ActionMap(["OkCancelActions"], {"ok": self.run, "cancel": self.close}, -1)
+        self["actions"] = ActionMap(
+            ["OkCancelActions"], {
+                "ok": self.run, "cancel": self.close}, -1)
         debug_log("Menu built with %d items" % len(menu_list))
 
     def update_oscam_status(self):
@@ -339,7 +363,9 @@ class Ciplushelper(Screen):
 
         if self.oscam_pids:
             pid = self.oscam_pids[0]
-            result = popen("readlink -f /proc/%s/exe 2>/dev/null" % pid).read().strip()
+            result = popen(
+                "readlink -f /proc/%s/exe 2>/dev/null" %
+                pid).read().strip()
             if result:
                 self.oscam_binary = result
                 debug_log("Oscam binary found: %s" % self.oscam_binary)
@@ -347,22 +373,28 @@ class Ciplushelper(Screen):
                 debug_log("Could not read binary from /proc/%s/exe" % pid)
         else:
             if not hasattr(self, 'oscam_binary') or not self.oscam_binary:
-                result = popen("find /usr/bin -name 'OSCam*' -o -name 'oscam*' 2>/dev/null | head -1").read().strip()
+                result = popen(
+                    "find /usr/bin -name 'OSCam*' -o -name 'oscam*' 2>/dev/null | head -1").read().strip()
                 if result:
                     self.oscam_binary = result
-                    debug_log("Oscam binary found via find: %s" % self.oscam_binary)
+                    debug_log(
+                        "Oscam binary found via find: %s" %
+                        self.oscam_binary)
                 else:
                     self.oscam_binary = "oscam"
                     debug_log("Oscam binary not found, using fallback: oscam")
 
-        oscam_status = "running" if (self.oscam_pids or self.oscam_emu_pids) else "stopped"
+        oscam_status = "running" if (
+            self.oscam_pids or self.oscam_emu_pids) else "stopped"
         debug_log("Oscam status updated: %s" % oscam_status)
 
         if hasattr(self, "menu") and self["menu"] is not None:
             menu_list = self["menu"].list
             for i, item in enumerate(menu_list):
                 if item[1] == "toggle_oscam":
-                    menu_list[i] = (_("Oscam:") + " " + oscam_status, "toggle_oscam")
+                    menu_list[i] = (
+                        _("Oscam:") + " " + oscam_status,
+                        "toggle_oscam")
                     self["menu"].setList(menu_list)
                     debug_log("Oscam status updated in menu")
                     break
@@ -379,9 +411,12 @@ class Ciplushelper(Screen):
         commands = {
             "enable": "ln -sf /etc/init.d/ciplushelper /etc/rc2.d/S50ciplushelper && ln -sf /etc/init.d/ciplushelper /etc/rc3.d/S50ciplushelper && ln -sf /etc/init.d/ciplushelper /etc/rc4.d/S50ciplushelper && ln -sf /etc/init.d/ciplushelper /etc/rc5.d/S50ciplushelper",
             "disable": "rm -f /etc/rc2.d/S50ciplushelper /etc/rc3.d/S50ciplushelper /etc/rc4.d/S50ciplushelper /etc/rc5.d/S50ciplushelper",
-            "start": "%s start" % ciplushelper,
-            "stop": "%s stop" % ciplushelper,
-            "install_sert": "cp -R %s/ciplus /etc/ciplus" % plugin_path,
+            "start": "%s start" %
+            ciplushelper,
+            "stop": "%s stop" %
+            ciplushelper,
+            "install_sert": "cp -R %s/ciplus /etc/ciplus" %
+            plugin_path,
             "remove_sert": "rm -rf /etc/ciplus",
             "disable_ciplus0": "mv /etc/ciplus0_enable /etc/ciplus0_disable",
             "enable_ciplus0": "mv /etc/ciplus0_disable /etc/ciplus0_enable",
@@ -466,7 +501,9 @@ class Ciplushelper(Screen):
                 if hasattr(self, 'oscam_binary') and self.oscam_binary:
                     os_system("%s & 2>/dev/null" % self.oscam_binary)
                     msg = _("Oscam started.")
-                    debug_log("Oscam started with binary: %s" % self.oscam_binary)
+                    debug_log(
+                        "Oscam started with binary: %s" %
+                        self.oscam_binary)
                 else:
                     msg = _("Oscam binary not found!")
                     debug_log("ERROR: Oscam binary not found!")
@@ -536,7 +573,9 @@ def check_cimodule():
             elif NUM_CI == 2:
                 state = eDVBCI_UI.getInstance().getState(0)
                 state1 = eDVBCI_UI.getInstance().getState(1)
-                debug_log("check_cimodule: slot 0 state = %s, slot 1 state = %s" % (state, state1))
+                debug_log(
+                    "check_cimodule: slot 0 state = %s, slot 1 state = %s" %
+                    (state, state1))
                 if state == 1 and state1 == 2:
                     return
                 if state == 1:
@@ -546,12 +585,15 @@ def check_cimodule():
                     SystemInfo["CommonInterface"] -= 1
                     change = True
             if change:
-                debug_log("check_cimodule: change detected, reloading CI assignment")
+                debug_log(
+                    "check_cimodule: change detected, reloading CI assignment")
                 try:
                     from Tools.CIHelper import cihelper
                     cihelper.load_ci_assignment(force=True)
                 except Exception as e:
-                    debug_log("check_cimodule: error loading CI assignment: %s" % e)
+                    debug_log(
+                        "check_cimodule: error loading CI assignment: %s" %
+                        e)
                 try:
                     if _Session and _Session.nav.getCurrentlyPlayingServiceOrGroup():
                         _Session.nav.playService(
@@ -559,7 +601,9 @@ def check_cimodule():
                             forceRestart=True
                         )
                 except Exception as e:
-                    debug_log("check_cimodule: error restarting service: %s" % e)
+                    debug_log(
+                        "check_cimodule: error restarting service: %s" %
+                        e)
     except Exception as e:
         debug_log("check_cimodule: exception: %s" % e)
 
