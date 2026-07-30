@@ -1,6 +1,6 @@
 <h1 align="center">⚙️ CI+ Helper Plugin for Enigma2
 
-[![Version](https://img.shields.io/badge/Version-6.5-blue.svg)](https://github.com/OwnerPlugins/Ciplushelper)
+[![Version](https://img.shields.io/badge/Version-6.6-blue.svg)](https://github.com/OwnerPlugins/Ciplushelper)
 [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
 [![Python](https://img.shields.io/badge/Python3-only-orange.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -37,7 +37,7 @@ It automatically detects your box model and architecture, installing the correct
 - **WQHD (2560×1440) Skin** – Optimized interface for 2K displays
 - **CI+ Slot Management** – Enable/disable CI+ certification per slot (0 and 1) on ARM boxes
 - **Zgemma ARM Binary** – Dedicated binary for Zgemma models (H7, H9, H10)
-- **Restart GUI** – Quick restart of Enigma2 interface directly from the plugin
+<!-- - **Restart GUI** – Quick restart of Enigma2 interface directly from the plugin -->
 - **Certificates Management** – Install/remove `/etc/ciplus` certificates
 - **Autostart Control** – Enable/disable `ciplushelper` at boot
 - **Service Control** – Start/stop `ciplushelper` daemon

@@ -1,8 +1,13 @@
 #!/bin/bash
 ## command line == wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/Ciplushelper/main/installer.sh -O - | /bin/bash
 
-version='6.5'
-changelog='**Add** "Oscam: running/stopped" toggle in menu to avoid descrambler conflict between Oscam and CI+ helper.\n**Add** "Open CI Assignment" menu entry to easily access the system plugin for channel-to-CI slot mapping.'
+version='6.6'
+changelog='
+**Introduce DEBUG_FILE and debug_log() for diagnostic logging.**\n
+**Improve toggle_autostart to support symlink-based autostart across runlevels and use update-rc.d when available.**\n
+**Add extensive debug output to get_pids, menu building, oscam detection/toggle, init-script copying, plugin update, and session/CI checks.**\n
+**Implement is_module_active() and harden check_cimodule() with logging and error handling.**\n
+**Ensure plugin menu/Plugins registration logs activity and provide safer fallbacks when binaries or scripts are missing.**'
 
 TMPPATH=/tmp/Ciplushelper-install
 FILEPATH=/tmp/Ciplushelper-main.tar.gz
