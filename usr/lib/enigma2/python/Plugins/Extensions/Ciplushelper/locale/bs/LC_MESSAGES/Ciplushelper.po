@@ -16,9 +16,6 @@ msgstr ""
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Jeste li sigurni da želite ponovo pokrenuti GUI?"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ Helper Plugin"
-
 msgid "CI+ helper"
 msgstr "CI+ pomoćnik"
 
@@ -28,14 +25,15 @@ msgstr "CI+ pomoćnik za Enigmu2"
 msgid "CI+ helper menu"
 msgstr "CI+ pomoćni meni"
 
-#, fuzzy
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
+
 msgid "Disable CI+ slot"
 msgstr "CI+ slot"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Onemogućite automatsko pokretanje ciplushelpera"
 
-#, fuzzy
 msgid "Enable CI+ slot"
 msgstr "CI+ slot"
 
@@ -45,11 +43,9 @@ msgstr "Omogući automatsko pokretanje ciplushelpera"
 msgid "Install"
 msgstr "Instaliraj"
 
-#, fuzzy
 msgid "Install default version"
 msgstr "zadana verzija"
 
-#, fuzzy
 msgid "Install version from Zgemma"
 msgstr "verzija od Zgemma"
 
@@ -69,10 +65,7 @@ msgid "Oscam stopped."
 msgstr "Oscam je stao."
 
 msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Drugi modeli će možda trebati '/etc/ciplus'"
+msgstr "Oscam:"
 
 msgid "Remove"
 msgstr "Ukloni"
@@ -101,20 +94,3 @@ msgstr "Ažurirajte dodatak"
 msgid "Updating plugin..."
 msgstr "Ažuriranje dodatka..."
 
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Onemogući"
-
-#~ msgid "Enable"
-#~ msgstr "Omogući"
-
-#~ msgid "For other models"
-#~ msgstr "Za ostale modele"
-
-#~ msgid "use"
-#~ msgstr "koristiti"

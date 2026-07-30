@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI + ياردەمچى تىزىملىكى"
+
+msgid "Supported models"
+msgstr "قوللايدىغان مودېللار"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Ciplushelper autostart نى چەكلەڭ"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ciplushelper autostart نى قوزغىتىڭ"
+
+msgid "Stop ciplushelper"
+msgstr "Ciplushelper نى توختىتىڭ"
+
+msgid "Start ciplushelper"
+msgstr "Ciplushelper نى باشلاڭ"
+
+msgid "Install version from Zgemma"
+msgstr "Zgemma دىن نەشرى"
+
+msgid "Disable CI+ slot"
+msgstr "CI + slot"
+
+msgid "Enable CI+ slot"
+msgstr "CI + slot"
+
+msgid "Install default version"
+msgstr "سۈكۈتتىكى نەشرى"
+
+msgid "Remove"
+msgstr "ئۆچۈرۈڭ"
+
+msgid "Install"
+msgstr "قاچىلاش"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "قىستۇرمىنى يېڭىلاڭ"
+
+msgid "Restart GUI"
+msgstr "GUI نى قايتا قوزغىتىڭ"
+
+msgid "Need restart GUI"
+msgstr "GUI نى قايتا قوزغىتىشقا ئېھتىياجلىق"
+
+msgid "Oscam stopped."
+msgstr "ئوسما توختاپ قالدى."
+
+msgid "Oscam started."
+msgstr "Oscam started."
+
+msgid "Oscam binary not found!"
+msgstr "ئوسكار ئىككىلىك تېپىلمىدى!"
+
+msgid "Updating plugin..."
+msgstr "قىستۇرمىنى يېڭىلاش ..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI نى قايتا قوزغىتىشنى خالامسىز؟"
 
+msgid "Unknown"
+msgstr "نامەلۇم"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI + ياردەمچى قىستۇرمىسى"
+
+msgid "Supported devices:"
+msgstr "قوللايدىغان ئۈسكۈنىلەر:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "باشقا مودېللار بەلكىم '/ etc / ciplus' غا ئېھتىياجلىق بولۇشى مۇمكىن"
+
+msgid "Installed:"
+msgstr "قاچىلانغان:"
 
 msgid "CI+ helper"
 msgstr "CI + ياردەمچى"
@@ -25,96 +97,3 @@ msgstr "CI + ياردەمچى"
 msgid "CI+ helper for Enigma2"
 msgstr "Enigma2 نىڭ CI + ياردەمچىسى"
 
-msgid "CI+ helper menu"
-msgstr "CI + ياردەمچى تىزىملىكى"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI + slot"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Ciplushelper autostart نى چەكلەڭ"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI + slot"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Ciplushelper autostart نى قوزغىتىڭ"
-
-msgid "Install"
-msgstr "قاچىلاش"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "سۈكۈتتىكى نەشرى"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "Zgemma دىن نەشرى"
-
-msgid "Installed:"
-msgstr "قاچىلانغان:"
-
-msgid "Need restart GUI"
-msgstr "GUI نى قايتا قوزغىتىشقا ئېھتىياجلىق"
-
-msgid "Oscam binary not found!"
-msgstr "ئوسكار ئىككىلىك تېپىلمىدى!"
-
-msgid "Oscam started."
-msgstr ""
-
-msgid "Oscam stopped."
-msgstr "ئوسما توختاپ قالدى."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "باشقا مودېللار بەلكىم '/ etc / ciplus' غا ئېھتىياجلىق بولۇشى مۇمكىن"
-
-msgid "Remove"
-msgstr "ئۆچۈرۈڭ"
-
-msgid "Restart GUI"
-msgstr "GUI نى قايتا قوزغىتىڭ"
-
-msgid "Start ciplushelper"
-msgstr "Ciplushelper نى باشلاڭ"
-
-msgid "Stop ciplushelper"
-msgstr "Ciplushelper نى توختىتىڭ"
-
-msgid "Supported devices:"
-msgstr "قوللايدىغان ئۈسكۈنىلەر:"
-
-msgid "Supported models"
-msgstr "قوللايدىغان مودېللار"
-
-msgid "Unknown"
-msgstr "نامەلۇم"
-
-msgid "Update plugin"
-msgstr "قىستۇرمىنى يېڭىلاڭ"
-
-msgid "Updating plugin..."
-msgstr "قىستۇرمىنى يېڭىلاش ..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "چەكلەش"
-
-#~ msgid "Enable"
-#~ msgstr "قوزغىتىش"
-
-#~ msgid "For other models"
-#~ msgstr "باشقا مودېللار ئۈچۈن"
-
-#~ msgid "use"
-#~ msgstr "use"

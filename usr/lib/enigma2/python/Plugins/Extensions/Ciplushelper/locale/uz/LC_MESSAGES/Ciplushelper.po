@@ -13,14 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
+msgid "CI+ helper menu"
+msgstr "CI+ yordamchi menyusi"
+
+msgid "Supported models"
+msgstr "Qo'llab-quvvatlanadigan modellar"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper avtomatik ishga tushirishni o'chirib qo'ying"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ciplushelper avtomatik ishga tushirishni yoqing"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelperni to'xtating"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelperni ishga tushiring"
+
+msgid "Install version from Zgemma"
+msgstr "Zgemma versiyasi"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ uyasi"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ uyasi"
+
+msgid "Install default version"
+msgstr "standart versiya"
+
+msgid "Remove"
+msgstr "O'chirish"
+
+msgid "Install"
+msgstr "O'rnatish"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Plaginni yangilash"
+
+msgid "Restart GUI"
+msgstr "GUI-ni qayta ishga tushiring"
+
+msgid "Need restart GUI"
+msgstr "GUIni qayta ishga tushirish kerak"
+
+msgid "Oscam stopped."
+msgstr "Oskam to'xtadi."
+
+msgid "Oscam started."
+msgstr "Oscam boshlandi."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binari topilmadi!"
+
+msgid "Updating plugin..."
+msgstr "Plagin yangilanmoqda..."
 
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Haqiqatan ham GUI-ni qayta ishga tushirmoqchimisiz?"
 
+msgid "Unknown"
+msgstr "Noma'lum"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ yordamchi plagin"
+
+msgid "Supported devices:"
+msgstr "Qo'llab-quvvatlanadigan qurilmalar:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Boshqa modellarga \"/etc/ciplus\" kerak bo'lishi mumkin."
+
+msgid "Installed:"
+msgstr "Oʻrnatilgan:"
 
 msgid "CI+ helper"
 msgstr "CI+ yordamchisi"
@@ -28,75 +97,3 @@ msgstr "CI+ yordamchisi"
 msgid "CI+ helper for Enigma2"
 msgstr "Enigma2 uchun CI+ yordamchisi"
 
-msgid "CI+ helper menu"
-msgstr "CI+ yordamchi menyusi"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ uyasi"
-
-msgid "Disable ciplushelper autostart"
-msgstr "ciplushelper avtomatik ishga tushirishni o'chirib qo'ying"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ uyasi"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Ciplushelper avtomatik ishga tushirishni yoqing"
-
-msgid "Install"
-msgstr "O'rnatish"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "standart versiya"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "Zgemma versiyasi"
-
-msgid "Installed:"
-msgstr "Oʻrnatilgan:"
-
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
-msgid "Need restart GUI"
-msgstr "GUIni qayta ishga tushirish kerak"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Boshqa modellarga "/etc/ciplus" kerak bo'lishi mumkin."
-
-msgid "Remove"
-msgstr "O'chirish"
-
-msgid "Restart GUI"
-msgstr "GUI-ni qayta ishga tushiring"
-
-msgid "Start ciplushelper"
-msgstr "ciplushelperni ishga tushiring"
-
-msgid "Stop ciplushelper"
-msgstr "ciplushelperni to'xtating"
-
-msgid "Supported devices:"
-msgstr "Qo'llab-quvvatlanadigan qurilmalar:"
-
-msgid "Supported models"
-msgstr "Qo'llab-quvvatlanadigan modellar"
-
-msgid "Unknown"
-msgstr "Noma'lum"
-
-#~ msgid "Disable"
-#~ msgstr "Oʻchirish"
-
-#~ msgid "Enable"
-#~ msgstr "Yoqish"
-
-#~ msgid "For other models"
-#~ msgstr "Boshqa modellar uchun"
-
-#~ msgid "use"
-#~ msgstr "foydalanish"

@@ -13,14 +13,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ذراع"
-
 msgid "Are you sure you want to restart the GUI?"
 msgstr "هل أنت متأكد أنك تريد إعادة تشغيل واجهة المستخدم الرسومية؟"
-
-msgid "CI+ Helper Plugin"
-msgstr "البرنامج المساعد CI +"
 
 msgid "CI+ helper"
 msgstr "مساعد سي +"
@@ -31,14 +25,15 @@ msgstr "مساعد CI+ لـ Enigma2"
 msgid "CI+ helper menu"
 msgstr "قائمة مساعد CI+"
 
-#, fuzzy
+msgid "CI+ Helper Plugin"
+msgstr "البرنامج المساعد CI +"
+
 msgid "Disable CI+ slot"
 msgstr "فتحة CI+"
 
 msgid "Disable ciplushelper autostart"
 msgstr "تعطيل التشغيل التلقائي لـ ciplushelper"
 
-#, fuzzy
 msgid "Enable CI+ slot"
 msgstr "فتحة CI+"
 
@@ -48,25 +43,29 @@ msgstr "تمكين التشغيل التلقائي لـ ciplushelper"
 msgid "Install"
 msgstr "ثَبَّتَ"
 
-#, fuzzy
 msgid "Install default version"
 msgstr "الإصدار الافتراضي"
 
-#, fuzzy
 msgid "Install version from Zgemma"
 msgstr "نسخة من Zgemma"
 
 msgid "Installed:"
 msgstr "تم التثبيت:"
 
-msgid "MIPSEL"
-msgstr "ميبسيل"
-
 msgid "Need restart GUI"
 msgstr "تحتاج إلى إعادة تشغيل واجهة المستخدم الرسومية"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "قد تحتاج النماذج الأخرى إلى "/etc/ciplus""
+msgid "Oscam binary not found!"
+msgstr "لم يتم العثور على ثنائي أوسكام!"
+
+msgid "Oscam started."
+msgstr "بدأ أوسكام."
+
+msgid "Oscam stopped."
+msgstr "توقف أوسكام."
+
+msgid "Oscam:"
+msgstr "أوسكام:"
 
 msgid "Remove"
 msgstr "يزيل"
@@ -89,14 +88,9 @@ msgstr "النماذج المدعومة"
 msgid "Unknown"
 msgstr "مجهول"
 
-#~ msgid "Disable"
-#~ msgstr "إبطال"
+msgid "Update plugin"
+msgstr "تحديث البرنامج المساعد"
 
-#~ msgid "Enable"
-#~ msgstr "يُمكَِن"
+msgid "Updating plugin..."
+msgstr "جارٍ تحديث البرنامج المساعد..."
 
-#~ msgid "For other models"
-#~ msgstr "لنماذج أخرى"
-
-#~ msgid "use"
-#~ msgstr "يستخدم"

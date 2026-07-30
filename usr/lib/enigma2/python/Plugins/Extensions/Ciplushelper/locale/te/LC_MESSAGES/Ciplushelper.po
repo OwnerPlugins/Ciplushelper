@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ సహాయక మెను"
+
+msgid "Supported models"
+msgstr "మద్దతు ఉన్న నమూనాలు"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper ఆటోస్టార్ట్‌ను నిలిపివేయండి"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper ఆటోస్టార్ట్‌ని ప్రారంభించండి"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelperని ఆపండి"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelperని ప్రారంభించండి"
+
+msgid "Install version from Zgemma"
+msgstr "Zgemma నుండి వెర్షన్"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ స్లాట్"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ స్లాట్"
+
+msgid "Install default version"
+msgstr "డిఫాల్ట్ వెర్షన్"
+
+msgid "Remove"
+msgstr "తొలగించు"
+
+msgid "Install"
+msgstr "ఇన్‌స్టాల్ చేయండి"
+
+msgid "Oscam:"
+msgstr "ఓస్కామ్:"
+
+msgid "Update plugin"
+msgstr "ప్లగిన్‌ని నవీకరించండి"
+
+msgid "Restart GUI"
+msgstr "GUIని పునఃప్రారంభించండి"
+
+msgid "Need restart GUI"
+msgstr "GUIని పునఃప్రారంభించాలి"
+
+msgid "Oscam stopped."
+msgstr "ఓస్కామ్ ఆగిపోయింది."
+
+msgid "Oscam started."
+msgstr "ఓస్కామ్ ప్రారంభమైంది."
+
+msgid "Oscam binary not found!"
+msgstr "ఓస్కామ్ బైనరీ కనుగొనబడలేదు!"
+
+msgid "Updating plugin..."
+msgstr "ప్లగిన్‌ని నవీకరిస్తోంది..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "మీరు ఖచ్చితంగా GUIని పునఃప్రారంభించాలనుకుంటున్నారా?"
 
+msgid "Unknown"
+msgstr "తెలియదు"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ హెల్పర్ ప్లగిన్"
+
+msgid "Supported devices:"
+msgstr "మద్దతు ఉన్న పరికరాలు:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "ఇతర మోడళ్లకు '/etc/ciplus' అవసరం కావచ్చు"
+
+msgid "Installed:"
+msgstr "ఇన్‌స్టాల్ చేయబడింది:"
 
 msgid "CI+ helper"
 msgstr "CI+ సహాయకుడు"
@@ -25,96 +97,3 @@ msgstr "CI+ సహాయకుడు"
 msgid "CI+ helper for Enigma2"
 msgstr "Enigma2 కోసం CI+ హెల్పర్"
 
-msgid "CI+ helper menu"
-msgstr "CI+ సహాయక మెను"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ స్లాట్"
-
-msgid "Disable ciplushelper autostart"
-msgstr "ciplushelper ఆటోస్టార్ట్‌ను నిలిపివేయండి"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ స్లాట్"
-
-msgid "Enable ciplushelper autostart"
-msgstr "ciplushelper ఆటోస్టార్ట్‌ని ప్రారంభించండి"
-
-msgid "Install"
-msgstr "ఇన్‌స్టాల్ చేయండి"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "డిఫాల్ట్ వెర్షన్"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "Zgemma నుండి వెర్షన్"
-
-msgid "Installed:"
-msgstr "ఇన్‌స్టాల్ చేయబడింది:"
-
-msgid "Need restart GUI"
-msgstr "GUIని పునఃప్రారంభించాలి"
-
-msgid "Oscam binary not found!"
-msgstr "ఓస్కామ్ బైనరీ కనుగొనబడలేదు!"
-
-msgid "Oscam started."
-msgstr "ఓస్కామ్ ప్రారంభమైంది."
-
-msgid "Oscam stopped."
-msgstr "ఓస్కామ్ ఆగిపోయింది."
-
-msgid "Oscam:"
-msgstr "ఓస్కామ్:"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "ఇతర మోడళ్లకు '/etc/ciplus' అవసరం కావచ్చు"
-
-msgid "Remove"
-msgstr "తొలగించు"
-
-msgid "Restart GUI"
-msgstr "GUIని పునఃప్రారంభించండి"
-
-msgid "Start ciplushelper"
-msgstr "ciplushelperని ప్రారంభించండి"
-
-msgid "Stop ciplushelper"
-msgstr "ciplushelperని ఆపండి"
-
-msgid "Supported devices:"
-msgstr "మద్దతు ఉన్న పరికరాలు:"
-
-msgid "Supported models"
-msgstr "మద్దతు ఉన్న నమూనాలు"
-
-msgid "Unknown"
-msgstr "తెలియదు"
-
-msgid "Update plugin"
-msgstr "ప్లగిన్‌ని నవీకరించండి"
-
-msgid "Updating plugin..."
-msgstr "ప్లగిన్‌ని నవీకరిస్తోంది..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "ఆపివేయి"
-
-#~ msgid "Enable"
-#~ msgstr "ప్రారంభించు"
-
-#~ msgid "For other models"
-#~ msgstr "ఇతర నమూనాల కోసం"
-
-#~ msgid "use"
-#~ msgstr "ఉపయోగించండి"

@@ -16,9 +16,6 @@ msgstr ""
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Вы ўпэўнены, што хочаце перазапусціць графічны інтэрфейс?"
 
-msgid "CI+ Helper Plugin"
-msgstr "Убудова CI+ Helper"
-
 msgid "CI+ helper"
 msgstr "Памочнік CI+"
 
@@ -28,14 +25,15 @@ msgstr "Памочнік CI+ для Enigma2"
 msgid "CI+ helper menu"
 msgstr "Дапаможнае меню CI+"
 
-#, fuzzy
+msgid "CI+ Helper Plugin"
+msgstr "Убудова CI+ Helper"
+
 msgid "Disable CI+ slot"
 msgstr "Слот CI+"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Адключыць аўтазапуск ciplushelper"
 
-#, fuzzy
 msgid "Enable CI+ slot"
 msgstr "Слот CI+"
 
@@ -45,11 +43,9 @@ msgstr "Уключыць аўтазапуск ciplushelper"
 msgid "Install"
 msgstr "Усталяваць"
 
-#, fuzzy
 msgid "Install default version"
 msgstr "версія па змаўчанні"
 
-#, fuzzy
 msgid "Install version from Zgemma"
 msgstr "версія ад Zgemma"
 
@@ -69,10 +65,7 @@ msgid "Oscam stopped."
 msgstr "Оскам спыніўся."
 
 msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Для іншых мадэляў можа спатрэбіцца '/etc/ciplus'"
+msgstr "Oscam:"
 
 msgid "Remove"
 msgstr "Выдаліць"
@@ -96,25 +89,8 @@ msgid "Unknown"
 msgstr "Невядомы"
 
 msgid "Update plugin"
-msgstr "Абнавіць плагін"
+msgstr "Абнавіць убудову"
 
 msgid "Updating plugin..."
 msgstr "Абнаўленне плагіна..."
 
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "МІПСЕЛ"
-
-#~ msgid "Disable"
-#~ msgstr "Адключыць"
-
-#~ msgid "Enable"
-#~ msgstr "Уключыць"
-
-#~ msgid "For other models"
-#~ msgstr "Для іншых мадэляў"
-
-#~ msgid "use"
-#~ msgstr "выкарыстоўваць"

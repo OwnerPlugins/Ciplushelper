@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "תפריט עוזר CI+"
+
+msgid "Supported models"
+msgstr "דגמים נתמכים"
+
+msgid "Disable ciplushelper autostart"
+msgstr "השבת את ההפעלה האוטומטית של ciplushelper"
+
+msgid "Enable ciplushelper autostart"
+msgstr "אפשר את ההפעלה האוטומטית של ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "תפסיק את ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "התחל ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "גרסה מ-Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "חריץ CI+"
+
+msgid "Enable CI+ slot"
+msgstr "חריץ CI+"
+
+msgid "Install default version"
+msgstr "גרסת ברירת המחדל"
+
+msgid "Remove"
+msgstr "לְהַסִיר"
+
+msgid "Install"
+msgstr "לְהַתְקִין"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "עדכון תוסף"
+
+msgid "Restart GUI"
+msgstr "הפעל מחדש את ה-GUI"
+
+msgid "Need restart GUI"
+msgstr "צריך להפעיל מחדש את ה-GUI"
+
+msgid "Oscam stopped."
+msgstr "אוסקם נעצר."
+
+msgid "Oscam started."
+msgstr "אוסקם התחיל."
+
+msgid "Oscam binary not found!"
+msgstr "בינארי Oscam לא נמצא!"
+
+msgid "Updating plugin..."
+msgstr "מעדכן את הפלאגין..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "האם אתה בטוח שברצונך להפעיל מחדש את ה-GUI?"
 
+msgid "Unknown"
+msgstr "לֹא יְדוּעַ"
+
 msgid "CI+ Helper Plugin"
 msgstr "תוסף CI+ Helper"
+
+msgid "Supported devices:"
+msgstr "מכשירים נתמכים:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "דגמים אחרים עשויים להזדקק ל'/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "מוּתקָן:"
 
 msgid "CI+ helper"
 msgstr "עוזר CI+"
@@ -25,96 +97,3 @@ msgstr "עוזר CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "עוזר CI+ עבור Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "תפריט עוזר CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "חריץ CI+"
-
-msgid "Disable ciplushelper autostart"
-msgstr "השבת את ההפעלה האוטומטית של ciplushelper"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "חריץ CI+"
-
-msgid "Enable ciplushelper autostart"
-msgstr "אפשר את ההפעלה האוטומטית של ciplushelper"
-
-msgid "Install"
-msgstr "לְהַתְקִין"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "גרסת ברירת המחדל"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "גרסה מ-Zgemma"
-
-msgid "Installed:"
-msgstr "מוּתקָן:"
-
-msgid "Need restart GUI"
-msgstr "צריך להפעיל מחדש את ה-GUI"
-
-msgid "Oscam binary not found!"
-msgstr "בינארי Oscam לא נמצא!"
-
-msgid "Oscam started."
-msgstr "אוסקם התחיל."
-
-msgid "Oscam stopped."
-msgstr "אוסקם נעצר."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "דגמים אחרים עשויים להזדקק ל'/etc/ciplus'"
-
-msgid "Remove"
-msgstr "לְהַסִיר"
-
-msgid "Restart GUI"
-msgstr "הפעל מחדש את ה-GUI"
-
-msgid "Start ciplushelper"
-msgstr "התחל ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "תפסיק את ciplushelper"
-
-msgid "Supported devices:"
-msgstr "מכשירים נתמכים:"
-
-msgid "Supported models"
-msgstr "דגמים נתמכים"
-
-msgid "Unknown"
-msgstr "לֹא יְדוּעַ"
-
-msgid "Update plugin"
-msgstr "עדכון תוסף"
-
-msgid "Updating plugin..."
-msgstr "מעדכן את הפלאגין..."
-
-#~ msgid "ARM"
-#~ msgstr "זְרוֹעַ"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "השבת"
-
-#~ msgid "Enable"
-#~ msgstr "לְאַפשֵׁר"
-
-#~ msgid "For other models"
-#~ msgstr "לדגמים אחרים"
-
-#~ msgid "use"
-#~ msgstr "לְהִשְׁתַמֵשׁ"

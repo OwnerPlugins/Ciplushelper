@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "Menu pomocy CI+"
+
+msgid "Supported models"
+msgstr "Obsługiwane modele"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Wyłącz automatyczne uruchamianie ciplushelper"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Włącz automatyczne uruchamianie ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Zatrzymaj ciplushelpera"
+
+msgid "Start ciplushelper"
+msgstr "Uruchom ciplushelpera"
+
+msgid "Install version from Zgemma"
+msgstr "wersja od Zgemmy"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ slot"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ slot"
+
+msgid "Install default version"
+msgstr "wersja domyślna"
+
+msgid "Remove"
+msgstr "Usunąć"
+
+msgid "Install"
+msgstr "Zainstalować"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Zaktualizuj wtyczkę"
+
+msgid "Restart GUI"
+msgstr "Uruchom ponownie interfejs graficzny"
+
+msgid "Need restart GUI"
+msgstr "Potrzebujesz ponownego uruchomienia GUI"
+
+msgid "Oscam stopped."
+msgstr "Oscam zatrzymał się."
+
+msgid "Oscam started."
+msgstr "Oscam zaczął."
+
+msgid "Oscam binary not found!"
+msgstr "Nie znaleziono pliku binarnego Oscam!"
+
+msgid "Updating plugin..."
+msgstr "Aktualizowanie wtyczki..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Czy na pewno chcesz ponownie uruchomić GUI?"
 
+msgid "Unknown"
+msgstr "Nieznany"
+
 msgid "CI+ Helper Plugin"
 msgstr "Wtyczka pomocnicza CI+"
+
+msgid "Supported devices:"
+msgstr "Obsługiwane urządzenia:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Inne modele mogą wymagać „/etc/ciplus”"
+
+msgid "Installed:"
+msgstr "Zainstalowano:"
 
 msgid "CI+ helper"
 msgstr "Pomocnik CI+"
@@ -25,96 +97,3 @@ msgstr "Pomocnik CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "Pomocnik CI+ dla Enigmy2"
 
-msgid "CI+ helper menu"
-msgstr "Menu pomocy CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ slot"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Wyłącz automatyczne uruchamianie ciplushelper"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ slot"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Włącz automatyczne uruchamianie ciplushelper"
-
-msgid "Install"
-msgstr "Zainstalować"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "wersja domyślna"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "wersja od Zgemmy"
-
-msgid "Installed:"
-msgstr "Zainstalowano:"
-
-msgid "Need restart GUI"
-msgstr "Potrzebujesz ponownego uruchomienia GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Nie znaleziono pliku binarnego Oscam!"
-
-msgid "Oscam started."
-msgstr "Oscam zaczął."
-
-msgid "Oscam stopped."
-msgstr "Oscam zatrzymał się."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Inne modele mogą wymagać „/etc/ciplus”"
-
-msgid "Remove"
-msgstr "Usunąć"
-
-msgid "Restart GUI"
-msgstr "Uruchom ponownie interfejs graficzny"
-
-msgid "Start ciplushelper"
-msgstr "Uruchom ciplushelpera"
-
-msgid "Stop ciplushelper"
-msgstr "Zatrzymaj ciplushelpera"
-
-msgid "Supported devices:"
-msgstr "Obsługiwane urządzenia:"
-
-msgid "Supported models"
-msgstr "Obsługiwane modele"
-
-msgid "Unknown"
-msgstr "Nieznany"
-
-msgid "Update plugin"
-msgstr "Zaktualizuj wtyczkę"
-
-msgid "Updating plugin..."
-msgstr "Aktualizowanie wtyczki..."
-
-#~ msgid "ARM"
-#~ msgstr "RAMIĘ"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Wyłączyć"
-
-#~ msgid "Enable"
-#~ msgstr "Włączać"
-
-#~ msgid "For other models"
-#~ msgstr "Dla innych modeli"
-
-#~ msgid "use"
-#~ msgstr "używać"

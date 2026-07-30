@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ උපකාරක මෙනුව"
+
+msgid "Supported models"
+msgstr "සහාය දක්වන ආකෘති"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper autostart අක්‍රිය කරන්න"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper autostart සබල කරන්න"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper නවත්වන්න"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper ආරම්භ කරන්න"
+
+msgid "Install version from Zgemma"
+msgstr "Zgemma වෙතින් අනුවාදය"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ තව්"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ තව්"
+
+msgid "Install default version"
+msgstr "පෙරනිමි අනුවාදය"
+
+msgid "Remove"
+msgstr "ඉවත් කරන්න"
+
+msgid "Install"
+msgstr "ස්ථාපනය කරන්න"
+
+msgid "Oscam:"
+msgstr "ඔස්කාම්:"
+
+msgid "Update plugin"
+msgstr "ප්ලගිනය යාවත්කාලීන කරන්න"
+
+msgid "Restart GUI"
+msgstr "GUI නැවත ආරම්භ කරන්න"
+
+msgid "Need restart GUI"
+msgstr "GUI නැවත ආරම්භ කිරීමට අවශ්‍යයි"
+
+msgid "Oscam stopped."
+msgstr "ඔස්කාම් නැවැත්තුවා."
+
+msgid "Oscam started."
+msgstr "ඔස්කාම් ආරම්භ විය."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam ද්විමය හමු නොවීය!"
+
+msgid "Updating plugin..."
+msgstr "ප්ලගිනය යාවත්කාලීන කරමින්..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "ඔබට GUI නැවත ආරම්භ කිරීමට අවශ්‍ය බව විශ්වාසද?"
 
+msgid "Unknown"
+msgstr "නොදන්නා"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ උපකාරක ප්ලගිනය"
+
+msgid "Supported devices:"
+msgstr "සහාය දක්වන උපාංග:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "වෙනත් මාදිලිවලට '/etc/ciplus' අවශ්‍ය විය හැක"
+
+msgid "Installed:"
+msgstr "ස්ථාපනය කර ඇත:"
 
 msgid "CI+ helper"
 msgstr "CI+ සහායකයා"
@@ -25,96 +97,3 @@ msgstr "CI+ සහායකයා"
 msgid "CI+ helper for Enigma2"
 msgstr "Enigma2 සඳහා CI+ උපකාරකය"
 
-msgid "CI+ helper menu"
-msgstr "CI+ උපකාරක මෙනුව"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ තව්"
-
-msgid "Disable ciplushelper autostart"
-msgstr "ciplushelper autostart අක්‍රිය කරන්න"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ තව්"
-
-msgid "Enable ciplushelper autostart"
-msgstr "ciplushelper autostart සබල කරන්න"
-
-msgid "Install"
-msgstr "ස්ථාපනය කරන්න"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "පෙරනිමි අනුවාදය"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "Zgemma වෙතින් අනුවාදය"
-
-msgid "Installed:"
-msgstr "ස්ථාපනය කර ඇත:"
-
-msgid "Need restart GUI"
-msgstr "GUI නැවත ආරම්භ කිරීමට අවශ්‍යයි"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam ද්විමය හමු නොවීය!"
-
-msgid "Oscam started."
-msgstr "ඔස්කාම් ආරම්භ විය."
-
-msgid "Oscam stopped."
-msgstr "ඔස්කාම් නැවැත්තුවා."
-
-msgid "Oscam:"
-msgstr "ඔස්කාම්:"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "වෙනත් මාදිලිවලට '/etc/ciplus' අවශ්‍ය විය හැක"
-
-msgid "Remove"
-msgstr "ඉවත් කරන්න"
-
-msgid "Restart GUI"
-msgstr "GUI නැවත ආරම්භ කරන්න"
-
-msgid "Start ciplushelper"
-msgstr "ciplushelper ආරම්භ කරන්න"
-
-msgid "Stop ciplushelper"
-msgstr "ciplushelper නවත්වන්න"
-
-msgid "Supported devices:"
-msgstr "සහාය දක්වන උපාංග:"
-
-msgid "Supported models"
-msgstr "සහාය දක්වන ආකෘති"
-
-msgid "Unknown"
-msgstr "නොදන්නා"
-
-msgid "Update plugin"
-msgstr "ප්ලගිනය යාවත්කාලීන කරන්න"
-
-msgid "Updating plugin..."
-msgstr "ප්ලගිනය යාවත්කාලීන කරමින්..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "අක්රිය කරන්න"
-
-#~ msgid "Enable"
-#~ msgstr "සබල කරන්න"
-
-#~ msgid "For other models"
-#~ msgstr "වෙනත් මාදිලි සඳහා"
-
-#~ msgid "use"
-#~ msgstr "භාවිතා කරන්න"

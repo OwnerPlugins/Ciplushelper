@@ -16,9 +16,6 @@ msgstr ""
 msgid "Are you sure you want to restart the GUI?"
 msgstr "আপনি কি GUI পুনরায় চালু করার বিষয়ে নিশ্চিত?"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ হেল্পার প্লাগইন"
-
 msgid "CI+ helper"
 msgstr "CI+ সাহায্যকারী"
 
@@ -28,14 +25,15 @@ msgstr "Enigma2 এর জন্য CI+ সহায়ক"
 msgid "CI+ helper menu"
 msgstr "CI+ সাহায্যকারী মেনু"
 
-#, fuzzy
+msgid "CI+ Helper Plugin"
+msgstr "CI+ হেল্পার প্লাগইন"
+
 msgid "Disable CI+ slot"
 msgstr "CI+ স্লট"
 
 msgid "Disable ciplushelper autostart"
 msgstr "সিপ্লাসহেলপার অটোস্টার্ট অক্ষম করুন"
 
-#, fuzzy
 msgid "Enable CI+ slot"
 msgstr "CI+ স্লট"
 
@@ -45,11 +43,9 @@ msgstr "ciplushelper অটোস্টার্ট সক্ষম করুন
 msgid "Install"
 msgstr "ইনস্টল করুন"
 
-#, fuzzy
 msgid "Install default version"
 msgstr "ডিফল্ট সংস্করণ"
 
-#, fuzzy
 msgid "Install version from Zgemma"
 msgstr "Zgemma থেকে সংস্করণ"
 
@@ -70,9 +66,6 @@ msgstr "ওস্কাম থেমে গেল।"
 
 msgid "Oscam:"
 msgstr "অসকাম:"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "অন্যান্য মডেলের প্রয়োজন হতে পারে '/etc/ciplus'"
 
 msgid "Remove"
 msgstr "সরান"
@@ -101,20 +94,3 @@ msgstr "প্লাগইন আপডেট করুন"
 msgid "Updating plugin..."
 msgstr "প্লাগইন আপডেট করা হচ্ছে..."
 
-#~ msgid "ARM"
-#~ msgstr "এআরএম"
-
-#~ msgid "MIPSEL"
-#~ msgstr "মিপসেল"
-
-#~ msgid "Disable"
-#~ msgstr "নিষ্ক্রিয় করুন"
-
-#~ msgid "Enable"
-#~ msgstr "সক্ষম করুন"
-
-#~ msgid "For other models"
-#~ msgstr "অন্যান্য মডেলের জন্য"
-
-#~ msgid "use"
-#~ msgstr "ব্যবহার"

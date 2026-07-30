@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "ម៉ឺនុយជំនួយ CI+"
+
+msgid "Supported models"
+msgstr "ម៉ូដែលដែលគាំទ្រ"
+
+msgid "Disable ciplushelper autostart"
+msgstr "បិទដំណើរការ ciplushelper autostart"
+
+msgid "Enable ciplushelper autostart"
+msgstr "បើកដំណើរការ ciplushelper autostart"
+
+msgid "Stop ciplushelper"
+msgstr "បញ្ឈប់​អ្នក​ជំនួយ​ទឹក​ភ្នែក"
+
+msgid "Start ciplushelper"
+msgstr "ចាប់ផ្តើម ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "កំណែពី Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "ស៊ីអាយ + រន្ធ"
+
+msgid "Enable CI+ slot"
+msgstr "ស៊ីអាយ + រន្ធ"
+
+msgid "Install default version"
+msgstr "កំណែលំនាំដើម"
+
+msgid "Remove"
+msgstr "ដកចេញ"
+
+msgid "Install"
+msgstr "ដំឡើង"
+
+msgid "Oscam:"
+msgstr "Oscam៖"
+
+msgid "Update plugin"
+msgstr "ធ្វើបច្ចុប្បន្នភាពកម្មវិធីជំនួយ"
+
+msgid "Restart GUI"
+msgstr "ចាប់ផ្ដើម GUI ឡើងវិញ"
+
+msgid "Need restart GUI"
+msgstr "ត្រូវការចាប់ផ្តើម GUI ឡើងវិញ"
+
+msgid "Oscam stopped."
+msgstr "Oscam បានឈប់។"
+
+msgid "Oscam started."
+msgstr "Oscam បានចាប់ផ្តើម។"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binary រកមិនឃើញ!"
+
+msgid "Updating plugin..."
+msgstr "កំពុងអាប់ដេតកម្មវិធីជំនួយ..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "តើអ្នកប្រាកដថាចង់ចាប់ផ្តើម GUI ឡើងវិញទេ?"
 
+msgid "Unknown"
+msgstr "មិនស្គាល់"
+
 msgid "CI+ Helper Plugin"
 msgstr "កម្មវិធីជំនួយ CI+"
+
+msgid "Supported devices:"
+msgstr "ឧបករណ៍ដែលគាំទ្រ៖"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "ម៉ូដែលផ្សេងទៀតអាចត្រូវការ '/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "បានដំឡើង៖"
 
 msgid "CI+ helper"
 msgstr "ជំនួយ CI+"
@@ -25,96 +97,3 @@ msgstr "ជំនួយ CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "ជំនួយ CI+ សម្រាប់ Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "ម៉ឺនុយជំនួយ CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "ស៊ីអាយ + រន្ធ"
-
-msgid "Disable ciplushelper autostart"
-msgstr "បិទដំណើរការ ciplushelper autostart"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "ស៊ីអាយ + រន្ធ"
-
-msgid "Enable ciplushelper autostart"
-msgstr "បើកដំណើរការ ciplushelper autostart"
-
-msgid "Install"
-msgstr "ដំឡើង"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "កំណែលំនាំដើម"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "កំណែពី Zgemma"
-
-msgid "Installed:"
-msgstr "បានដំឡើង៖"
-
-msgid "Need restart GUI"
-msgstr "ត្រូវការចាប់ផ្តើម GUI ឡើងវិញ"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam binary រកមិនឃើញ!"
-
-msgid "Oscam started."
-msgstr "Oscam បានចាប់ផ្តើម។"
-
-msgid "Oscam stopped."
-msgstr "Oscam បានឈប់។"
-
-msgid "Oscam:"
-msgstr "Oscam៖"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "ម៉ូដែលផ្សេងទៀតអាចត្រូវការ '/etc/ciplus'"
-
-msgid "Remove"
-msgstr "ដកចេញ"
-
-msgid "Restart GUI"
-msgstr "ចាប់ផ្ដើម GUI ឡើងវិញ"
-
-msgid "Start ciplushelper"
-msgstr "ចាប់ផ្តើម ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "បញ្ឈប់​អ្នក​ជំនួយ​ទឹក​ភ្នែក"
-
-msgid "Supported devices:"
-msgstr "ឧបករណ៍ដែលគាំទ្រ៖"
-
-msgid "Supported models"
-msgstr "ម៉ូដែលដែលគាំទ្រ"
-
-msgid "Unknown"
-msgstr "មិនស្គាល់"
-
-msgid "Update plugin"
-msgstr "ធ្វើបច្ចុប្បន្នភាពកម្មវិធីជំនួយ"
-
-msgid "Updating plugin..."
-msgstr "កំពុងអាប់ដេតកម្មវិធីជំនួយ..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "បិទ"
-
-#~ msgid "Enable"
-#~ msgstr "បើក"
-
-#~ msgid "For other models"
-#~ msgstr "សម្រាប់ម៉ូដែលផ្សេងទៀត។"
-
-#~ msgid "use"
-#~ msgstr "ប្រើ"

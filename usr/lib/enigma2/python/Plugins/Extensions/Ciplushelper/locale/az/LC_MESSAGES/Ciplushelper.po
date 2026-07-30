@@ -16,9 +16,6 @@ msgstr ""
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI-ni yenidən başlatmaq istədiyinizə əminsiniz?"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ Köməkçi Plugin"
-
 msgid "CI+ helper"
 msgstr "CI+ köməkçisi"
 
@@ -28,14 +25,15 @@ msgstr "Enigma2 üçün CI+ köməkçisi"
 msgid "CI+ helper menu"
 msgstr "CI+ köməkçi menyusu"
 
-#, fuzzy
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Köməkçi Plugin"
+
 msgid "Disable CI+ slot"
 msgstr "CI+ yuvası"
 
 msgid "Disable ciplushelper autostart"
 msgstr "ciplushelper autostartını söndürün"
 
-#, fuzzy
 msgid "Enable CI+ slot"
 msgstr "CI+ yuvası"
 
@@ -45,11 +43,9 @@ msgstr "Ciplushelper autostartını aktivləşdirin"
 msgid "Install"
 msgstr "Quraşdırın"
 
-#, fuzzy
 msgid "Install default version"
 msgstr "standart versiya"
 
-#, fuzzy
 msgid "Install version from Zgemma"
 msgstr "Zgemma-dan versiya"
 
@@ -69,10 +65,7 @@ msgid "Oscam stopped."
 msgstr "Oscam dayandı."
 
 msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Digər modellərə '/etc/ciplus' lazım ola bilər"
+msgstr "Oscam:"
 
 msgid "Remove"
 msgstr "Sil"
@@ -101,20 +94,3 @@ msgstr "Plugini yeniləyin"
 msgid "Updating plugin..."
 msgstr "Plugin yenilənir..."
 
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Deaktiv edin"
-
-#~ msgid "Enable"
-#~ msgstr "Aktivləşdirin"
-
-#~ msgid "For other models"
-#~ msgstr "Digər modellər üçün"
-
-#~ msgid "use"
-#~ msgstr "istifadə edin"

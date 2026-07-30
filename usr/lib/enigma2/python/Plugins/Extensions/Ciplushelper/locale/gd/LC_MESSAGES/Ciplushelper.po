@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "Clàr cuideachaidh CI+"
+
+msgid "Supported models"
+msgstr "Modailean le taic"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Cuir à comas ciplushelper autostart"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Cuir an comas ciplushelper autostart"
+
+msgid "Stop ciplushelper"
+msgstr "Cuir stad air ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Tòisich ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "dreach bho Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "sliotan CI+"
+
+msgid "Enable CI+ slot"
+msgstr "sliotan CI+"
+
+msgid "Install default version"
+msgstr "dreach bunaiteach"
+
+msgid "Remove"
+msgstr "Thoir air falbh"
+
+msgid "Install"
+msgstr "Stàladh"
+
+msgid "Oscam:"
+msgstr "Oscar:"
+
+msgid "Update plugin"
+msgstr "Luchdaich a-nuas am plugan ùraich"
+
+msgid "Restart GUI"
+msgstr "Ath-thòisich an GUI"
+
+msgid "Need restart GUI"
+msgstr "Feum air GUI ath-thòiseachadh"
+
+msgid "Oscam stopped."
+msgstr "Sguir Oscam."
+
+msgid "Oscam started."
+msgstr "Thòisich Oscar."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binary cha deach a lorg!"
+
+msgid "Updating plugin..."
+msgstr "Ag ùrachadh plugan..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "A bheil thu cinnteach gu bheil thu airson an GUI ath-thòiseachadh?"
 
+msgid "Unknown"
+msgstr "Neo-aithnichte"
+
 msgid "CI+ Helper Plugin"
 msgstr "Plugin neach-cuideachaidh CI+"
+
+msgid "Supported devices:"
+msgstr "Innealan le taic:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Dh’ fhaodadh gum bi feum aig modailean eile air ‘/etc/ciplus’"
+
+msgid "Installed:"
+msgstr "Air a stàladh:"
 
 msgid "CI+ helper"
 msgstr "Neach-cuideachaidh CI+"
@@ -25,96 +97,3 @@ msgstr "Neach-cuideachaidh CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "Neach-cuideachaidh CI+ airson Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "Clàr cuideachaidh CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "sliotan CI+"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Cuir à comas ciplushelper autostart"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "sliotan CI+"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Cuir an comas ciplushelper autostart"
-
-msgid "Install"
-msgstr "Stàladh"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "dreach bunaiteach"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "dreach bho Zgemma"
-
-msgid "Installed:"
-msgstr "Air a stàladh:"
-
-msgid "Need restart GUI"
-msgstr "Feum air GUI ath-thòiseachadh"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam binary cha deach a lorg!"
-
-msgid "Oscam started."
-msgstr "Thòisich Oscar."
-
-msgid "Oscam stopped."
-msgstr "Sguir Oscam."
-
-msgid "Oscam:"
-msgstr "Oscar:"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Dh’ fhaodadh gum bi feum aig modailean eile air ‘/etc/ciplus’"
-
-msgid "Remove"
-msgstr "Thoir air falbh"
-
-msgid "Restart GUI"
-msgstr "Ath-thòisich an GUI"
-
-msgid "Start ciplushelper"
-msgstr "Tòisich ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Cuir stad air ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Innealan le taic:"
-
-msgid "Supported models"
-msgstr "Modailean le taic"
-
-msgid "Unknown"
-msgstr "Neo-aithnichte"
-
-msgid "Update plugin"
-msgstr "Luchdaich a-nuas am plugan ùraich"
-
-msgid "Updating plugin..."
-msgstr "Ag ùrachadh plugan..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Cuir à comas"
-
-#~ msgid "Enable"
-#~ msgstr "Dèan comas"
-
-#~ msgid "For other models"
-#~ msgstr "Airson modailean eile"
-
-#~ msgid "use"
-#~ msgstr "cleachdadh"

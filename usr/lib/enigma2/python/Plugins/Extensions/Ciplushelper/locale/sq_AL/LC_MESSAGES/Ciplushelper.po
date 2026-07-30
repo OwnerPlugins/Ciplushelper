@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "Menuja ndihmëse CI+"
+
+msgid "Supported models"
+msgstr "Modelet e mbështetura"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Çaktivizo nisjen automatike të ciplushelper"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Aktivizo nisjen automatike të ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Stop ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Fillo ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "version nga Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "slot CI+"
+
+msgid "Enable CI+ slot"
+msgstr "slot CI+"
+
+msgid "Install default version"
+msgstr "versioni i paracaktuar"
+
+msgid "Remove"
+msgstr "Hiq"
+
+msgid "Install"
+msgstr "Instaloni"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Përditëso shtojcën"
+
+msgid "Restart GUI"
+msgstr "Rinisni GUI-në"
+
+msgid "Need restart GUI"
+msgstr "Duhet rifilluar GUI"
+
+msgid "Oscam stopped."
+msgstr "Oscam ndaloi."
+
+msgid "Oscam started."
+msgstr "Oscam filloi."
+
+msgid "Oscam binary not found!"
+msgstr "Binar Oscam nuk u gjet!"
+
+msgid "Updating plugin..."
+msgstr "Po përditëson shtesën..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Jeni i sigurt që dëshironi të rinisni GUI-në?"
 
+msgid "Unknown"
+msgstr "E panjohur"
+
 msgid "CI+ Helper Plugin"
 msgstr "Shtojca ndihmëse CI+"
+
+msgid "Supported devices:"
+msgstr "Pajisjet e mbështetura:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Modele të tjera mund të kenë nevojë për '/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "Instaluar:"
 
 msgid "CI+ helper"
 msgstr "Ndihmës CI+"
@@ -25,96 +97,3 @@ msgstr "Ndihmës CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "Ndihmës CI+ për Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "Menuja ndihmëse CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "slot CI+"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Çaktivizo nisjen automatike të ciplushelper"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "slot CI+"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Aktivizo nisjen automatike të ciplushelper"
-
-msgid "Install"
-msgstr "Instaloni"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "versioni i paracaktuar"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "version nga Zgemma"
-
-msgid "Installed:"
-msgstr "Instaluar:"
-
-msgid "Need restart GUI"
-msgstr "Duhet rifilluar GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Binar Oscam nuk u gjet!"
-
-msgid "Oscam started."
-msgstr "Oscam filloi."
-
-msgid "Oscam stopped."
-msgstr "Oscam ndaloi."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Modele të tjera mund të kenë nevojë për '/etc/ciplus'"
-
-msgid "Remove"
-msgstr "Hiq"
-
-msgid "Restart GUI"
-msgstr "Rinisni GUI-në"
-
-msgid "Start ciplushelper"
-msgstr "Fillo ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Stop ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Pajisjet e mbështetura:"
-
-msgid "Supported models"
-msgstr "Modelet e mbështetura"
-
-msgid "Unknown"
-msgstr "E panjohur"
-
-msgid "Update plugin"
-msgstr "Përditëso shtojcën"
-
-msgid "Updating plugin..."
-msgstr "Po përditëson shtesën..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Çaktivizo"
-
-#~ msgid "Enable"
-#~ msgstr "Aktivizo"
-
-#~ msgid "For other models"
-#~ msgstr "Per modele te tjera"
-
-#~ msgid "use"
-#~ msgstr "përdorni"

@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ helper menu"
+
+msgid "Supported models"
+msgstr "Mga sinusuportahang modelo"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Huwag paganahin ang ciplushelper autostart"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Paganahin ang ciplushelper autostart"
+
+msgid "Stop ciplushelper"
+msgstr "Itigil ang ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Simulan ang ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "bersyon mula sa Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ slot"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ slot"
+
+msgid "Install default version"
+msgstr "default na bersyon"
+
+msgid "Remove"
+msgstr "Alisin"
+
+msgid "Install"
+msgstr "I-install"
+
+msgid "Oscam:"
+msgstr "Oscar:"
+
+msgid "Update plugin"
+msgstr "I-update ang plugin"
+
+msgid "Restart GUI"
+msgstr "I-restart ang GUI"
+
+msgid "Need restart GUI"
+msgstr "Kailangang i-restart ang GUI"
+
+msgid "Oscam stopped."
+msgstr "Huminto si Oscar."
+
+msgid "Oscam started."
+msgstr "Nagsimula ang Oscar."
+
+msgid "Oscam binary not found!"
+msgstr "Hindi nahanap ang binary ng Oscar!"
+
+msgid "Updating plugin..."
+msgstr "Ina-update ang plugin..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Sigurado ka bang gusto mong i-restart ang GUI?"
 
+msgid "Unknown"
+msgstr "Hindi alam"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
+
+msgid "Supported devices:"
+msgstr "Mga sinusuportahang device:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Maaaring kailanganin ng ibang mga modelo ang '/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "Naka-install:"
 
 msgid "CI+ helper"
 msgstr "Katulong ng CI+"
@@ -25,96 +97,3 @@ msgstr "Katulong ng CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "CI+ helper para sa Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "CI+ helper menu"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ slot"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Huwag paganahin ang ciplushelper autostart"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ slot"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Paganahin ang ciplushelper autostart"
-
-msgid "Install"
-msgstr "I-install"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "default na bersyon"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "bersyon mula sa Zgemma"
-
-msgid "Installed:"
-msgstr "Naka-install:"
-
-msgid "Need restart GUI"
-msgstr "Kailangang i-restart ang GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Hindi nahanap ang binary ng Oscar!"
-
-msgid "Oscam started."
-msgstr "Nagsimula ang Oscar."
-
-msgid "Oscam stopped."
-msgstr "Huminto si Oscar."
-
-msgid "Oscam:"
-msgstr "Oscar:"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Maaaring kailanganin ng ibang mga modelo ang '/etc/ciplus'"
-
-msgid "Remove"
-msgstr "Alisin"
-
-msgid "Restart GUI"
-msgstr "I-restart ang GUI"
-
-msgid "Start ciplushelper"
-msgstr "Simulan ang ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Itigil ang ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Mga sinusuportahang device:"
-
-msgid "Supported models"
-msgstr "Mga sinusuportahang modelo"
-
-msgid "Unknown"
-msgstr "Hindi alam"
-
-msgid "Update plugin"
-msgstr "I-update ang plugin"
-
-msgid "Updating plugin..."
-msgstr "Ina-update ang plugin..."
-
-#~ msgid "ARM"
-#~ msgstr "BISO"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Huwag paganahin"
-
-#~ msgid "Enable"
-#~ msgstr "Paganahin"
-
-#~ msgid "For other models"
-#~ msgstr "Para sa iba pang mga modelo"
-
-#~ msgid "use"
-#~ msgstr "gamitin"

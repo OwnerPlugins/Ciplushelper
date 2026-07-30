@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ 도우미 메뉴"
+
+msgid "Supported models"
+msgstr "지원되는 모델"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper 자동 시작 비활성화"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper 자동 시작 활성화"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper 중지"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper 시작"
+
+msgid "Install version from Zgemma"
+msgstr "Zgemma 버전"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ 슬롯"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ 슬롯"
+
+msgid "Install default version"
+msgstr "기본 버전"
+
+msgid "Remove"
+msgstr "제거하다"
+
+msgid "Install"
+msgstr "설치하다"
+
+msgid "Oscam:"
+msgstr "오스카:"
+
+msgid "Update plugin"
+msgstr "플러그인 업데이트"
+
+msgid "Restart GUI"
+msgstr "GUI 다시 시작"
+
+msgid "Need restart GUI"
+msgstr "GUI를 다시 시작해야 함"
+
+msgid "Oscam stopped."
+msgstr "오스캠이 멈췄습니다."
+
+msgid "Oscam started."
+msgstr "오캠이 시작되었습니다."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam 바이너리를 찾을 수 없습니다!"
+
+msgid "Updating plugin..."
+msgstr "플러그인 업데이트 중..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI를 다시 시작하시겠습니까?"
 
+msgid "Unknown"
+msgstr "알려지지 않은"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ 도우미 플러그인"
+
+msgid "Supported devices:"
+msgstr "지원되는 장치:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "다른 모델에는 '/etc/ciplus'가 필요할 수 있습니다."
+
+msgid "Installed:"
+msgstr "설치됨:"
 
 msgid "CI+ helper"
 msgstr "CI+ 도우미"
@@ -25,96 +97,3 @@ msgstr "CI+ 도우미"
 msgid "CI+ helper for Enigma2"
 msgstr "Enigma2용 CI+ 도우미"
 
-msgid "CI+ helper menu"
-msgstr "CI+ 도우미 메뉴"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ 슬롯"
-
-msgid "Disable ciplushelper autostart"
-msgstr "ciplushelper 자동 시작 비활성화"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ 슬롯"
-
-msgid "Enable ciplushelper autostart"
-msgstr "ciplushelper 자동 시작 활성화"
-
-msgid "Install"
-msgstr "설치하다"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "기본 버전"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "Zgemma 버전"
-
-msgid "Installed:"
-msgstr "설치됨:"
-
-msgid "Need restart GUI"
-msgstr "GUI를 다시 시작해야 함"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam 바이너리를 찾을 수 없습니다!"
-
-msgid "Oscam started."
-msgstr "오캠이 시작되었습니다."
-
-msgid "Oscam stopped."
-msgstr "오스캠이 멈췄습니다."
-
-msgid "Oscam:"
-msgstr "오스카:"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "다른 모델에는 '/etc/ciplus'가 필요할 수 있습니다."
-
-msgid "Remove"
-msgstr "제거하다"
-
-msgid "Restart GUI"
-msgstr "GUI 다시 시작"
-
-msgid "Start ciplushelper"
-msgstr "ciplushelper 시작"
-
-msgid "Stop ciplushelper"
-msgstr "ciplushelper 중지"
-
-msgid "Supported devices:"
-msgstr "지원되는 장치:"
-
-msgid "Supported models"
-msgstr "지원되는 모델"
-
-msgid "Unknown"
-msgstr "알려지지 않은"
-
-msgid "Update plugin"
-msgstr "플러그인 업데이트"
-
-msgid "Updating plugin..."
-msgstr "플러그인 업데이트 중..."
-
-#~ msgid "ARM"
-#~ msgstr "팔"
-
-#~ msgid "MIPSEL"
-#~ msgstr "밉셀"
-
-#~ msgid "Disable"
-#~ msgstr "장애를 입히다"
-
-#~ msgid "Enable"
-#~ msgstr "할 수 있게 하다"
-
-#~ msgid "For other models"
-#~ msgstr "다른 모델의 경우"
-
-#~ msgid "use"
-#~ msgstr "사용"

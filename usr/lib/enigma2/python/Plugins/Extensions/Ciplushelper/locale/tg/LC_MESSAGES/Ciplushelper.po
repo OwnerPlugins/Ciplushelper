@@ -13,14 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "АРМ"
+msgid "CI+ helper menu"
+msgstr "Менюи ёрирасони CI+"
+
+msgid "Supported models"
+msgstr "Моделҳои дастгирӣшаванда"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Автостарти ciplushelperро хомӯш кунед"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Autostart ciplushelper -ро фаъол созед"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper-ро бас кунед"
+
+msgid "Start ciplushelper"
+msgstr "Ciplushelper-ро оғоз кунед"
+
+msgid "Install version from Zgemma"
+msgstr "версияи Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "Ковокии CI+"
+
+msgid "Enable CI+ slot"
+msgstr "Ковокии CI+"
+
+msgid "Install default version"
+msgstr "версияи пешфарз"
+
+msgid "Remove"
+msgstr "Хориҷ кунед"
+
+msgid "Install"
+msgstr "Насб кунед"
+
+msgid "Oscam:"
+msgstr "Оскам:"
+
+msgid "Update plugin"
+msgstr "Навсозии плагин"
+
+msgid "Restart GUI"
+msgstr "GUI-ро аз нав оғоз кунед"
+
+msgid "Need restart GUI"
+msgstr "GUI-ро аз нав оғоз кардан лозим аст"
+
+msgid "Oscam stopped."
+msgstr "Оскам қатъ шуд."
+
+msgid "Oscam started."
+msgstr "Оскам оғоз ёфт."
+
+msgid "Oscam binary not found!"
+msgstr "Оскам бинарӣ ёфт нашуд!"
+
+msgid "Updating plugin..."
+msgstr "Навсозии плагин..."
 
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Шумо мутмаин ҳастед, ки мехоҳед GUI-ро аз нав оғоз кунед?"
 
+msgid "Unknown"
+msgstr "Номаълум"
+
 msgid "CI+ Helper Plugin"
 msgstr "Васлкунаки Ёрдамчии CI+"
+
+msgid "Supported devices:"
+msgstr "Дастгоҳҳои дастгирӣшаванда:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Моделҳои дигар метавонанд ба \"/etc/ciplus\" ниёз дошта бошанд."
+
+msgid "Installed:"
+msgstr "Насб карда шудааст:"
 
 msgid "CI+ helper"
 msgstr "Ёрдамчии CI+"
@@ -28,75 +97,3 @@ msgstr "Ёрдамчии CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "Ёвари CI+ барои Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "Менюи ёрирасони CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "Ковокии CI+"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Автостарти ciplushelperро хомӯш кунед"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "Ковокии CI+"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Autostart ciplushelper -ро фаъол созед"
-
-msgid "Install"
-msgstr "Насб кунед"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "версияи пешфарз"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "версияи Zgemma"
-
-msgid "Installed:"
-msgstr "Насб карда шудааст:"
-
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
-msgid "Need restart GUI"
-msgstr "GUI-ро аз нав оғоз кардан лозим аст"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Моделҳои дигар метавонанд ба "/etc/ciplus" ниёз дошта бошанд."
-
-msgid "Remove"
-msgstr "Хориҷ кунед"
-
-msgid "Restart GUI"
-msgstr "GUI-ро аз нав оғоз кунед"
-
-msgid "Start ciplushelper"
-msgstr "Ciplushelper-ро оғоз кунед"
-
-msgid "Stop ciplushelper"
-msgstr "ciplushelper-ро бас кунед"
-
-msgid "Supported devices:"
-msgstr "Дастгоҳҳои дастгирӣшаванда:"
-
-msgid "Supported models"
-msgstr "Моделҳои дастгирӣшаванда"
-
-msgid "Unknown"
-msgstr "Номаълум"
-
-#~ msgid "Disable"
-#~ msgstr "Хомӯш кардан"
-
-#~ msgid "Enable"
-#~ msgstr "Фаъол кардан"
-
-#~ msgid "For other models"
-#~ msgstr "Барои моделҳои дигар"
-
-#~ msgid "use"
-#~ msgstr "истифода бурдан"

@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+-apuvalikko"
+
+msgid "Supported models"
+msgstr "Tuetut mallit"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Poista ciplushelperin automaattinen käynnistys käytöstä"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ota ciplushelperin automaattinen käynnistys käyttöön"
+
+msgid "Stop ciplushelper"
+msgstr "Lopeta ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Käynnistä ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "Zgemman versio"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ paikka"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ paikka"
+
+msgid "Install default version"
+msgstr "oletusversio"
+
+msgid "Remove"
+msgstr "Poistaa"
+
+msgid "Install"
+msgstr "Asentaa"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Päivitä laajennus"
+
+msgid "Restart GUI"
+msgstr "Käynnistä GUI uudelleen"
+
+msgid "Need restart GUI"
+msgstr "GUI on käynnistettävä uudelleen"
+
+msgid "Oscam stopped."
+msgstr "Oscam pysähtyi."
+
+msgid "Oscam started."
+msgstr "Oscam alkoi."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam-binaaria ei löydy!"
+
+msgid "Updating plugin..."
+msgstr "Päivitetään laajennusta..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Oletko varma, että haluat käynnistää graafisen käyttöliittymän uudelleen?"
 
+msgid "Unknown"
+msgstr "Tuntematon"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
+
+msgid "Supported devices:"
+msgstr "Tuetut laitteet:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Muut mallit saattavat tarvita '/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "Asennettu:"
 
 msgid "CI+ helper"
 msgstr "CI+ apulainen"
@@ -25,96 +97,3 @@ msgstr "CI+ apulainen"
 msgid "CI+ helper for Enigma2"
 msgstr "CI+-apuohjelma Enigma2:lle"
 
-msgid "CI+ helper menu"
-msgstr "CI+-apuvalikko"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ paikka"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Poista ciplushelperin automaattinen käynnistys käytöstä"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ paikka"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Ota ciplushelperin automaattinen käynnistys käyttöön"
-
-msgid "Install"
-msgstr "Asentaa"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "oletusversio"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "Zgemman versio"
-
-msgid "Installed:"
-msgstr "Asennettu:"
-
-msgid "Need restart GUI"
-msgstr "GUI on käynnistettävä uudelleen"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam-binaaria ei löydy!"
-
-msgid "Oscam started."
-msgstr "Oscam alkoi."
-
-msgid "Oscam stopped."
-msgstr "Oscam pysähtyi."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Muut mallit saattavat tarvita '/etc/ciplus'"
-
-msgid "Remove"
-msgstr "Poistaa"
-
-msgid "Restart GUI"
-msgstr "Käynnistä GUI uudelleen"
-
-msgid "Start ciplushelper"
-msgstr "Käynnistä ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Lopeta ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Tuetut laitteet:"
-
-msgid "Supported models"
-msgstr "Tuetut mallit"
-
-msgid "Unknown"
-msgstr "Tuntematon"
-
-msgid "Update plugin"
-msgstr "Päivitä laajennus"
-
-msgid "Updating plugin..."
-msgstr "Päivitetään laajennusta..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Poista käytöstä"
-
-#~ msgid "Enable"
-#~ msgstr "Ota käyttöön"
-
-#~ msgid "For other models"
-#~ msgstr "Muille malleille"
-
-#~ msgid "use"
-#~ msgstr "käyttää"

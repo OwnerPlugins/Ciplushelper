@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ مرستندویه مینو"
+
+msgid "Supported models"
+msgstr "ملاتړ شوي ماډلونه"
+
+msgid "Disable ciplushelper autostart"
+msgstr "د ciplushelper autostart غیر فعال کړئ"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper autostart فعال کړئ"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper بند کړئ"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper پیل کړئ"
+
+msgid "Install version from Zgemma"
+msgstr "د Zgemma څخه نسخه"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ سلاټ"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ سلاټ"
+
+msgid "Install default version"
+msgstr "ډیفالټ نسخه"
+
+msgid "Remove"
+msgstr "لرې کړئ"
+
+msgid "Install"
+msgstr "نصب کړئ"
+
+msgid "Oscam:"
+msgstr "اوسکم:"
+
+msgid "Update plugin"
+msgstr "پلگ ان تازه کړئ"
+
+msgid "Restart GUI"
+msgstr "GUI بیا پیل کړئ"
+
+msgid "Need restart GUI"
+msgstr "د GUI بیا پیلولو ته اړتیا لري"
+
+msgid "Oscam stopped."
+msgstr "اوسکم ودرېد."
+
+msgid "Oscam started."
+msgstr "اوسکم پیل شو."
+
+msgid "Oscam binary not found!"
+msgstr "اوسکام بائنری ونه موندل شو!"
+
+msgid "Updating plugin..."
+msgstr "پلگ ان تازه کول..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "ایا تاسو ډاډه یاست چې تاسو غواړئ GUI بیا پیل کړئ؟"
 
+msgid "Unknown"
+msgstr "نامعلوم"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ مرستندویه پلگ ان"
+
+msgid "Supported devices:"
+msgstr "ملاتړ شوي وسایل:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "نور ماډل ممکن '/etc/ciplus' ته اړتیا ولري"
+
+msgid "Installed:"
+msgstr "نصب شوی:"
 
 msgid "CI+ helper"
 msgstr "CI+ مرسته کوونکی"
@@ -25,96 +97,3 @@ msgstr "CI+ مرسته کوونکی"
 msgid "CI+ helper for Enigma2"
 msgstr "د Enigma2 لپاره CI+ مرسته کوونکی"
 
-msgid "CI+ helper menu"
-msgstr "CI+ مرستندویه مینو"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ سلاټ"
-
-msgid "Disable ciplushelper autostart"
-msgstr "د ciplushelper autostart غیر فعال کړئ"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ سلاټ"
-
-msgid "Enable ciplushelper autostart"
-msgstr "ciplushelper autostart فعال کړئ"
-
-msgid "Install"
-msgstr "نصب کړئ"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "ډیفالټ نسخه"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "د Zgemma څخه نسخه"
-
-msgid "Installed:"
-msgstr "نصب شوی:"
-
-msgid "Need restart GUI"
-msgstr "د GUI بیا پیلولو ته اړتیا لري"
-
-msgid "Oscam binary not found!"
-msgstr "اوسکام بائنری ونه موندل شو!"
-
-msgid "Oscam started."
-msgstr "اوسکم پیل شو."
-
-msgid "Oscam stopped."
-msgstr "اوسکم ودرېد."
-
-msgid "Oscam:"
-msgstr "اوسکم:"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "نور ماډل ممکن '/etc/ciplus' ته اړتیا ولري"
-
-msgid "Remove"
-msgstr "لرې کړئ"
-
-msgid "Restart GUI"
-msgstr "GUI بیا پیل کړئ"
-
-msgid "Start ciplushelper"
-msgstr "ciplushelper پیل کړئ"
-
-msgid "Stop ciplushelper"
-msgstr "ciplushelper بند کړئ"
-
-msgid "Supported devices:"
-msgstr "ملاتړ شوي وسایل:"
-
-msgid "Supported models"
-msgstr "ملاتړ شوي ماډلونه"
-
-msgid "Unknown"
-msgstr "نامعلوم"
-
-msgid "Update plugin"
-msgstr "پلگ ان تازه کړئ"
-
-msgid "Updating plugin..."
-msgstr "پلگ ان تازه کول..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "غیر فعال کړئ"
-
-#~ msgid "Enable"
-#~ msgstr "فعال کړئ"
-
-#~ msgid "For other models"
-#~ msgstr "د نورو ماډلونو لپاره"
-
-#~ msgid "use"
-#~ msgstr "کارول"

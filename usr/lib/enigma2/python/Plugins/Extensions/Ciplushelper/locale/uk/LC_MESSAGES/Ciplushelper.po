@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "Допоміжне меню CI+"
+
+msgid "Supported models"
+msgstr "Підтримувані моделі"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Вимкнути автозапуск ciplushelper"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Увімкнути автозапуск ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Зупинити ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Запустіть ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "версія від Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "Слот CI+"
+
+msgid "Enable CI+ slot"
+msgstr "Слот CI+"
+
+msgid "Install default version"
+msgstr "версія за замовчуванням"
+
+msgid "Remove"
+msgstr "видалити"
+
+msgid "Install"
+msgstr "встановити"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Оновити плагін"
+
+msgid "Restart GUI"
+msgstr "Перезапустіть GUI"
+
+msgid "Need restart GUI"
+msgstr "Потрібно перезапустити GUI"
+
+msgid "Oscam stopped."
+msgstr "Оскам зупинився."
+
+msgid "Oscam started."
+msgstr "Оскам почав."
+
+msgid "Oscam binary not found!"
+msgstr "Двійковий файл Oscam не знайдено!"
+
+msgid "Updating plugin..."
+msgstr "Оновлення плагіна..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Ви впевнені, що бажаєте перезапустити GUI?"
 
+msgid "Unknown"
+msgstr "Невідомий"
+
 msgid "CI+ Helper Plugin"
 msgstr "Допоміжний плагін CI+"
+
+msgid "Supported devices:"
+msgstr "Підтримувані пристрої:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Для інших моделей може знадобитися '/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "Встановлено:"
 
 msgid "CI+ helper"
 msgstr "Помічник CI+"
@@ -25,96 +97,3 @@ msgstr "Помічник CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "Помічник CI+ для Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "Допоміжне меню CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "Слот CI+"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Вимкнути автозапуск ciplushelper"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "Слот CI+"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Увімкнути автозапуск ciplushelper"
-
-msgid "Install"
-msgstr "встановити"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "версія за замовчуванням"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "версія від Zgemma"
-
-msgid "Installed:"
-msgstr "Встановлено:"
-
-msgid "Need restart GUI"
-msgstr "Потрібно перезапустити GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Двійковий файл Oscam не знайдено!"
-
-msgid "Oscam started."
-msgstr "Оскам почав."
-
-msgid "Oscam stopped."
-msgstr "Оскам зупинився."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Для інших моделей може знадобитися '/etc/ciplus'"
-
-msgid "Remove"
-msgstr "видалити"
-
-msgid "Restart GUI"
-msgstr "Перезапустіть GUI"
-
-msgid "Start ciplushelper"
-msgstr "Запустіть ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Зупинити ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Підтримувані пристрої:"
-
-msgid "Supported models"
-msgstr "Підтримувані моделі"
-
-msgid "Unknown"
-msgstr "Невідомий"
-
-msgid "Update plugin"
-msgstr "Оновити плагін"
-
-msgid "Updating plugin..."
-msgstr "Оновлення плагіна..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Вимкнути"
-
-#~ msgid "Enable"
-#~ msgstr "Увімкнути"
-
-#~ msgid "For other models"
-#~ msgstr "Для інших моделей"
-
-#~ msgid "use"
-#~ msgstr "використовувати"

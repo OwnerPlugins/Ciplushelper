@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ helper menu"
+
+msgid "Supported models"
+msgstr "支持机型"
+
+msgid "Disable ciplushelper autostart"
+msgstr "禁用 ciplushelper 自动启动"
+
+msgid "Enable ciplushelper autostart"
+msgstr "启用 ciplushelper 自动启动"
+
+msgid "Stop ciplushelper"
+msgstr "停止 ciplushhelper"
+
+msgid "Start ciplushelper"
+msgstr "启动ciplushhelper"
+
+msgid "Install version from Zgemma"
+msgstr "来自 Zgemma 的版本"
+
+msgid "Disable CI+ slot"
+msgstr "CI+插槽"
+
+msgid "Enable CI+ slot"
+msgstr "CI+插槽"
+
+msgid "Install default version"
+msgstr "默认版本"
+
+msgid "Remove"
+msgstr "消除"
+
+msgid "Install"
+msgstr "安装"
+
+msgid "Oscam:"
+msgstr "奥斯卡："
+
+msgid "Update plugin"
+msgstr "更新插件"
+
+msgid "Restart GUI"
+msgstr "重新启动图形用户界面"
+
+msgid "Need restart GUI"
+msgstr "需要重启GUI"
+
+msgid "Oscam stopped."
+msgstr "奥斯卡姆停了下来。"
+
+msgid "Oscam started."
+msgstr "奥斯卡姆开始了。"
+
+msgid "Oscam binary not found!"
+msgstr "未找到 Oscam 二进制文件！"
+
+msgid "Updating plugin..."
+msgstr "正在更新插件..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "您确定要重新启动 GUI 吗？"
 
+msgid "Unknown"
+msgstr "未知"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ 帮助插件"
+
+msgid "Supported devices:"
+msgstr "支持的设备："
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "其他型号可能需要“/etc/ciplus”"
+
+msgid "Installed:"
+msgstr "安装："
 
 msgid "CI+ helper"
 msgstr "CI+ helper"
@@ -25,96 +97,3 @@ msgstr "CI+ helper"
 msgid "CI+ helper for Enigma2"
 msgstr "Enigma2 的 CI+ 助手"
 
-msgid "CI+ helper menu"
-msgstr "CI+ helper menu"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+插槽"
-
-msgid "Disable ciplushelper autostart"
-msgstr "禁用 ciplushelper 自动启动"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+插槽"
-
-msgid "Enable ciplushelper autostart"
-msgstr "启用 ciplushelper 自动启动"
-
-msgid "Install"
-msgstr "安装"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "默认版本"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "来自 Zgemma 的版本"
-
-msgid "Installed:"
-msgstr "安装："
-
-msgid "Need restart GUI"
-msgstr "需要重启GUI"
-
-msgid "Oscam binary not found!"
-msgstr "未找到 Oscam 二进制文件！"
-
-msgid "Oscam started."
-msgstr "奥斯卡姆开始了。"
-
-msgid "Oscam stopped."
-msgstr "奥斯卡姆停了下来。"
-
-msgid "Oscam:"
-msgstr "奥斯卡："
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "其他型号可能需要“/etc/ciplus”"
-
-msgid "Remove"
-msgstr "消除"
-
-msgid "Restart GUI"
-msgstr "重新启动图形用户界面"
-
-msgid "Start ciplushelper"
-msgstr "启动ciplushhelper"
-
-msgid "Stop ciplushelper"
-msgstr "停止 ciplushhelper"
-
-msgid "Supported devices:"
-msgstr "支持的设备："
-
-msgid "Supported models"
-msgstr "支持机型"
-
-msgid "Unknown"
-msgstr "未知"
-
-msgid "Update plugin"
-msgstr "更新插件"
-
-msgid "Updating plugin..."
-msgstr "正在更新插件..."
-
-#~ msgid "ARM"
-#~ msgstr "手臂"
-
-#~ msgid "MIPSEL"
-#~ msgstr "米普塞尔"
-
-#~ msgid "Disable"
-#~ msgstr "禁用"
-
-#~ msgid "Enable"
-#~ msgstr "使能够"
-
-#~ msgid "For other models"
-#~ msgstr "对于其他型号"
-
-#~ msgid "use"
-#~ msgstr "使用"

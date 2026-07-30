@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ hjálparvalmynd"
+
+msgid "Supported models"
+msgstr "Stuðlar gerðir"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Slökktu á sjálfvirkri ræsingu ciplushelper"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Virkja sjálfvirka ræsingu ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Hættu ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Byrjaðu ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "útgáfa frá Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ rauf"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ rauf"
+
+msgid "Install default version"
+msgstr "sjálfgefin útgáfa"
+
+msgid "Remove"
+msgstr "Fjarlægja"
+
+msgid "Install"
+msgstr "Settu upp"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Uppfæra viðbót"
+
+msgid "Restart GUI"
+msgstr "Endurræstu GUI"
+
+msgid "Need restart GUI"
+msgstr "Þarf að endurræsa GUI"
+
+msgid "Oscam stopped."
+msgstr "Oscam hætti."
+
+msgid "Oscam started."
+msgstr "Oscam byrjaði."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam tvöfaldur fannst ekki!"
+
+msgid "Updating plugin..."
+msgstr "Uppfærir viðbót..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Ertu viss um að þú viljir endurræsa GUI?"
 
+msgid "Unknown"
+msgstr "Óþekkt"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ hjálparviðbót"
+
+msgid "Supported devices:"
+msgstr "Stuðningur tæki:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Aðrar gerðir gætu þurft '/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "Uppsett:"
 
 msgid "CI+ helper"
 msgstr "CI+ hjálpari"
@@ -25,96 +97,3 @@ msgstr "CI+ hjálpari"
 msgid "CI+ helper for Enigma2"
 msgstr "CI+ hjálpari fyrir Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "CI+ hjálparvalmynd"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ rauf"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Slökktu á sjálfvirkri ræsingu ciplushelper"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ rauf"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Virkja sjálfvirka ræsingu ciplushelper"
-
-msgid "Install"
-msgstr "Settu upp"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "sjálfgefin útgáfa"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "útgáfa frá Zgemma"
-
-msgid "Installed:"
-msgstr "Uppsett:"
-
-msgid "Need restart GUI"
-msgstr "Þarf að endurræsa GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam tvöfaldur fannst ekki!"
-
-msgid "Oscam started."
-msgstr "Oscam byrjaði."
-
-msgid "Oscam stopped."
-msgstr "Oscam hætti."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Aðrar gerðir gætu þurft '/etc/ciplus'"
-
-msgid "Remove"
-msgstr "Fjarlægja"
-
-msgid "Restart GUI"
-msgstr "Endurræstu GUI"
-
-msgid "Start ciplushelper"
-msgstr "Byrjaðu ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Hættu ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Stuðningur tæki:"
-
-msgid "Supported models"
-msgstr "Stuðlar gerðir"
-
-msgid "Unknown"
-msgstr "Óþekkt"
-
-msgid "Update plugin"
-msgstr "Uppfæra viðbót"
-
-msgid "Updating plugin..."
-msgstr "Uppfærir viðbót..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Óvirkja"
-
-#~ msgid "Enable"
-#~ msgstr "Virkja"
-
-#~ msgid "For other models"
-#~ msgstr "Fyrir aðrar gerðir"
-
-#~ msgid "use"
-#~ msgstr "nota"

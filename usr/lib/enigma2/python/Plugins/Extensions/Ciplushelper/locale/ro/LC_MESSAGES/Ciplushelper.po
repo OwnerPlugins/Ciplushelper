@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "Meniu de ajutor CI+"
+
+msgid "Supported models"
+msgstr "Modele acceptate"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Dezactivați pornirea automată a ciplushelper"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Activați pornirea automată a ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Opriți ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Porniți ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "versiunea de la Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "Slot CI+"
+
+msgid "Enable CI+ slot"
+msgstr "Slot CI+"
+
+msgid "Install default version"
+msgstr "versiunea implicită"
+
+msgid "Remove"
+msgstr "Elimina"
+
+msgid "Install"
+msgstr "Instala"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Actualizați pluginul"
+
+msgid "Restart GUI"
+msgstr "Reporniți GUI"
+
+msgid "Need restart GUI"
+msgstr "Trebuie să reporniți GUI"
+
+msgid "Oscam stopped."
+msgstr "Oscam se opri."
+
+msgid "Oscam started."
+msgstr "Oscam a început."
+
+msgid "Oscam binary not found!"
+msgstr "Binarul Oscam nu a fost găsit!"
+
+msgid "Updating plugin..."
+msgstr "Se actualizează pluginul..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Sigur doriți să reporniți GUI?"
 
+msgid "Unknown"
+msgstr "Necunoscut"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
+
+msgid "Supported devices:"
+msgstr "Dispozitive acceptate:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Alte modele pot avea nevoie de „/etc/ciplus”"
+
+msgid "Installed:"
+msgstr "Instalat:"
 
 msgid "CI+ helper"
 msgstr "Ajutor CI+"
@@ -25,96 +97,3 @@ msgstr "Ajutor CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "Ajutor CI+ pentru Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "Meniu de ajutor CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "Slot CI+"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Dezactivați pornirea automată a ciplushelper"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "Slot CI+"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Activați pornirea automată a ciplushelper"
-
-msgid "Install"
-msgstr "Instala"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "versiunea implicită"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "versiunea de la Zgemma"
-
-msgid "Installed:"
-msgstr "Instalat:"
-
-msgid "Need restart GUI"
-msgstr "Trebuie să reporniți GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Binarul Oscam nu a fost găsit!"
-
-msgid "Oscam started."
-msgstr "Oscam a început."
-
-msgid "Oscam stopped."
-msgstr "Oscam se opri."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Alte modele pot avea nevoie de „/etc/ciplus”"
-
-msgid "Remove"
-msgstr "Elimina"
-
-msgid "Restart GUI"
-msgstr "Reporniți GUI"
-
-msgid "Start ciplushelper"
-msgstr "Porniți ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Opriți ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Dispozitive acceptate:"
-
-msgid "Supported models"
-msgstr "Modele acceptate"
-
-msgid "Unknown"
-msgstr "Necunoscut"
-
-msgid "Update plugin"
-msgstr "Actualizați pluginul"
-
-msgid "Updating plugin..."
-msgstr "Se actualizează pluginul..."
-
-#~ msgid "ARM"
-#~ msgstr "BRAŢ"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Dezactivați"
-
-#~ msgid "Enable"
-#~ msgstr "Permite"
-
-#~ msgid "For other models"
-#~ msgstr "Pentru alte modele"
-
-#~ msgid "use"
-#~ msgstr "utilizare"

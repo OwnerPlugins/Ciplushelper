@@ -16,9 +16,6 @@ msgstr ""
 msgid "Are you sure you want to restart the GUI?"
 msgstr "እርግጠኛ ነህ GUI ን እንደገና ማስጀመር ትፈልጋለህ?"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ አጋዥ ተሰኪ"
-
 msgid "CI+ helper"
 msgstr "CI + አጋዥ"
 
@@ -28,14 +25,15 @@ msgstr "CI + አጋዥ ለEnigma2"
 msgid "CI+ helper menu"
 msgstr "CI + አጋዥ ምናሌ"
 
-#, fuzzy
+msgid "CI+ Helper Plugin"
+msgstr "CI+ አጋዥ ተሰኪ"
+
 msgid "Disable CI+ slot"
 msgstr "CI + ማስገቢያ"
 
 msgid "Disable ciplushelper autostart"
 msgstr "የ ciplushelper ራስ-ጀምርን አሰናክል"
 
-#, fuzzy
 msgid "Enable CI+ slot"
 msgstr "CI + ማስገቢያ"
 
@@ -45,11 +43,9 @@ msgstr "ciplushelper autostartን አንቃ"
 msgid "Install"
 msgstr "ጫን"
 
-#, fuzzy
 msgid "Install default version"
 msgstr "ነባሪ ስሪት"
 
-#, fuzzy
 msgid "Install version from Zgemma"
 msgstr "ስሪት ከ Zgemma"
 
@@ -70,9 +66,6 @@ msgstr "ኦስካም ቆሟል።"
 
 msgid "Oscam:"
 msgstr "ኦስካም"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "ሌሎች ሞዴሎች '/etc/ciplus' ሊፈልጉ ይችላሉ"
 
 msgid "Remove"
 msgstr "አስወግድ"
@@ -101,20 +94,3 @@ msgstr "ተሰኪን ያዘምኑ"
 msgid "Updating plugin..."
 msgstr "ተሰኪን በማዘመን ላይ..."
 
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "አሰናክል"
-
-#~ msgid "Enable"
-#~ msgstr "አንቃ"
-
-#~ msgid "For other models"
-#~ msgstr "ለሌሎች ሞዴሎች"
-
-#~ msgid "use"
-#~ msgstr "መጠቀም"

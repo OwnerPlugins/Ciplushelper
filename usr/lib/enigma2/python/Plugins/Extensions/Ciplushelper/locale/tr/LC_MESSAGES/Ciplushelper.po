@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ yardımcı menüsü"
+
+msgid "Supported models"
+msgstr "Desteklenen modeller"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Ciplushelper otomatik başlatmayı devre dışı bırak"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ciplushelper otomatik başlatmayı etkinleştir"
+
+msgid "Stop ciplushelper"
+msgstr "Ciplushelper'ı durdur"
+
+msgid "Start ciplushelper"
+msgstr "Ciplushelper'ı başlat"
+
+msgid "Install version from Zgemma"
+msgstr "Zgemma'dan versiyon"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ yuvası"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ yuvası"
+
+msgid "Install default version"
+msgstr "varsayılan sürüm"
+
+msgid "Remove"
+msgstr "Kaldırmak"
+
+msgid "Install"
+msgstr "Düzenlemek"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Eklentiyi güncelle"
+
+msgid "Restart GUI"
+msgstr "GUI'yi yeniden başlat"
+
+msgid "Need restart GUI"
+msgstr "GUI'nin yeniden başlatılması gerekiyor"
+
+msgid "Oscam stopped."
+msgstr "Oscam durdu."
+
+msgid "Oscam started."
+msgstr "Oscam başladı."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam ikili dosyası bulunamadı!"
+
+msgid "Updating plugin..."
+msgstr "Eklenti güncelleniyor..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI'yi yeniden başlatmak istediğinizden emin misiniz?"
 
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Yardımcı Eklentisi"
+
+msgid "Supported devices:"
+msgstr "Desteklenen cihazlar:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Diğer modellerde '/etc/ciplus' gerekebilir"
+
+msgid "Installed:"
+msgstr "Kurulu:"
 
 msgid "CI+ helper"
 msgstr "CI+ yardımcısı"
@@ -25,96 +97,3 @@ msgstr "CI+ yardımcısı"
 msgid "CI+ helper for Enigma2"
 msgstr "Enigma2 için CI+ yardımcısı"
 
-msgid "CI+ helper menu"
-msgstr "CI+ yardımcı menüsü"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ yuvası"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Ciplushelper otomatik başlatmayı devre dışı bırak"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ yuvası"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Ciplushelper otomatik başlatmayı etkinleştir"
-
-msgid "Install"
-msgstr "Düzenlemek"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "varsayılan sürüm"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "Zgemma'dan versiyon"
-
-msgid "Installed:"
-msgstr "Kurulu:"
-
-msgid "Need restart GUI"
-msgstr "GUI'nin yeniden başlatılması gerekiyor"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam ikili dosyası bulunamadı!"
-
-msgid "Oscam started."
-msgstr "Oscam başladı."
-
-msgid "Oscam stopped."
-msgstr "Oscam durdu."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Diğer modellerde '/etc/ciplus' gerekebilir"
-
-msgid "Remove"
-msgstr "Kaldırmak"
-
-msgid "Restart GUI"
-msgstr "GUI'yi yeniden başlat"
-
-msgid "Start ciplushelper"
-msgstr "Ciplushelper'ı başlat"
-
-msgid "Stop ciplushelper"
-msgstr "Ciplushelper'ı durdur"
-
-msgid "Supported devices:"
-msgstr "Desteklenen cihazlar:"
-
-msgid "Supported models"
-msgstr "Desteklenen modeller"
-
-msgid "Unknown"
-msgstr "Bilinmiyor"
-
-msgid "Update plugin"
-msgstr "Eklentiyi güncelle"
-
-msgid "Updating plugin..."
-msgstr "Eklenti güncelleniyor..."
-
-#~ msgid "ARM"
-#~ msgstr "KOL"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MİPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Devre dışı bırakmak"
-
-#~ msgid "Enable"
-#~ msgstr "Olanak vermek"
-
-#~ msgid "For other models"
-#~ msgstr "Diğer modeller için"
-
-#~ msgid "use"
-#~ msgstr "kullanmak"

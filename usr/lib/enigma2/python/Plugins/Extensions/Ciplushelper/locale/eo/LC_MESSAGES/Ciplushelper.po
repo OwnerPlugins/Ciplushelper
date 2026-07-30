@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ help menuo"
+
+msgid "Supported models"
+msgstr "Subtenataj modeloj"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Malebligu ciplushelper-aŭtomatan lanĉon"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ebligu ciplushelper-aŭtomatan lanĉon"
+
+msgid "Stop ciplushelper"
+msgstr "Haltu ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Komencu ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "versio de Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ fendo"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ fendo"
+
+msgid "Install default version"
+msgstr "defaŭlta versio"
+
+msgid "Remove"
+msgstr "Forigi"
+
+msgid "Install"
+msgstr "Instali"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Ĝisdatigi kromaĵon"
+
+msgid "Restart GUI"
+msgstr "Rekomencu GUI"
+
+msgid "Need restart GUI"
+msgstr "Necesas rekomenci GUI"
+
+msgid "Oscam stopped."
+msgstr "Oscam haltis."
+
+msgid "Oscam started."
+msgstr "Oscam komencis."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam-binaro ne trovita!"
+
+msgid "Updating plugin..."
+msgstr "Ĝisdatigante aldonaĵon..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Ĉu vi certas, ke vi volas rekomenci la GUI?"
 
+msgid "Unknown"
+msgstr "Nekonata"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Kromaĵo"
+
+msgid "Supported devices:"
+msgstr "Subtenataj aparatoj:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Aliaj modeloj eble bezonas '/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "Instalita:"
 
 msgid "CI+ helper"
 msgstr "CI+ helpanto"
@@ -25,96 +97,3 @@ msgstr "CI+ helpanto"
 msgid "CI+ helper for Enigma2"
 msgstr "CI+-helpanto por Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "CI+ help menuo"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ fendo"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Malebligu ciplushelper-aŭtomatan lanĉon"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ fendo"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Ebligu ciplushelper-aŭtomatan lanĉon"
-
-msgid "Install"
-msgstr "Instali"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "defaŭlta versio"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "versio de Zgemma"
-
-msgid "Installed:"
-msgstr "Instalita:"
-
-msgid "Need restart GUI"
-msgstr "Necesas rekomenci GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam-binaro ne trovita!"
-
-msgid "Oscam started."
-msgstr "Oscam komencis."
-
-msgid "Oscam stopped."
-msgstr "Oscam haltis."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Aliaj modeloj eble bezonas '/etc/ciplus'"
-
-msgid "Remove"
-msgstr "Forigi"
-
-msgid "Restart GUI"
-msgstr "Rekomencu GUI"
-
-msgid "Start ciplushelper"
-msgstr "Komencu ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Haltu ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Subtenataj aparatoj:"
-
-msgid "Supported models"
-msgstr "Subtenataj modeloj"
-
-msgid "Unknown"
-msgstr "Nekonata"
-
-msgid "Update plugin"
-msgstr "Ĝisdatigi kromaĵon"
-
-msgid "Updating plugin..."
-msgstr "Ĝisdatigante kromprogramon..."
-
-#~ msgid "ARM"
-#~ msgstr "BRAKO"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Malebligu"
-
-#~ msgid "Enable"
-#~ msgstr "Ebligu"
-
-#~ msgid "For other models"
-#~ msgstr "Por aliaj modeloj"
-
-#~ msgid "use"
-#~ msgstr "uzi"

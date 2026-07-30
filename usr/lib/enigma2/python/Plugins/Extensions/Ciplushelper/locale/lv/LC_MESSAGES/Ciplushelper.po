@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ palīga izvēlne"
+
+msgid "Supported models"
+msgstr "Atbalstītie modeļi"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Atspējot ciplushelper automātisko palaišanu"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Iespējot ciplushelper automātisko palaišanu"
+
+msgid "Stop ciplushelper"
+msgstr "Apturiet ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Sāciet programmu ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "versija no Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ slots"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ slots"
+
+msgid "Install default version"
+msgstr "noklusējuma versija"
+
+msgid "Remove"
+msgstr "Noņemt"
+
+msgid "Install"
+msgstr "Instalējiet"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Atjaunināt spraudni"
+
+msgid "Restart GUI"
+msgstr "Restartējiet GUI"
+
+msgid "Need restart GUI"
+msgstr "Nepieciešams restartēt GUI"
+
+msgid "Oscam stopped."
+msgstr "Oskam apstājās."
+
+msgid "Oscam started."
+msgstr "Oskam sāka."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binārs nav atrasts!"
+
+msgid "Updating plugin..."
+msgstr "Notiek spraudņa atjaunināšana..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Vai tiešām vēlaties restartēt GUI?"
 
+msgid "Unknown"
+msgstr "Nezināms"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ palīdzības spraudnis"
+
+msgid "Supported devices:"
+msgstr "Atbalstītās ierīces:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Citiem modeļiem var būt nepieciešams “/etc/ciplus”"
+
+msgid "Installed:"
+msgstr "Uzstādīts:"
 
 msgid "CI+ helper"
 msgstr "CI+ palīgs"
@@ -25,96 +97,3 @@ msgstr "CI+ palīgs"
 msgid "CI+ helper for Enigma2"
 msgstr "CI+ palīgs Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "CI+ palīga izvēlne"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ slots"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Atspējot ciplushelper automātisko palaišanu"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ slots"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Iespējot ciplushelper automātisko palaišanu"
-
-msgid "Install"
-msgstr "Instalējiet"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "noklusējuma versija"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "versija no Zgemma"
-
-msgid "Installed:"
-msgstr "Uzstādīts:"
-
-msgid "Need restart GUI"
-msgstr "Nepieciešams restartēt GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam binārs nav atrasts!"
-
-msgid "Oscam started."
-msgstr "Oskam sākās."
-
-msgid "Oscam stopped."
-msgstr "Oskam apstājās."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Citiem modeļiem var būt nepieciešams “/etc/ciplus”"
-
-msgid "Remove"
-msgstr "Noņemt"
-
-msgid "Restart GUI"
-msgstr "Restartējiet GUI"
-
-msgid "Start ciplushelper"
-msgstr "Sāciet programmu ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Apturiet ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Atbalstītās ierīces:"
-
-msgid "Supported models"
-msgstr "Atbalstītie modeļi"
-
-msgid "Unknown"
-msgstr "Nezināms"
-
-msgid "Update plugin"
-msgstr "Atjaunināt spraudni"
-
-msgid "Updating plugin..."
-msgstr "Notiek spraudņa atjaunināšana..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Atspējot"
-
-#~ msgid "Enable"
-#~ msgstr "Iespējot"
-
-#~ msgid "For other models"
-#~ msgstr "Citiem modeļiem"
-
-#~ msgid "use"
-#~ msgstr "izmantot"

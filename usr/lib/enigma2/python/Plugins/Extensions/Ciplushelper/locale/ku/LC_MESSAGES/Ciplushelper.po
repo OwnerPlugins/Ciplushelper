@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI + menu alîkar"
+
+msgid "Supported models"
+msgstr "Modelên piştgirî kirin"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Destpêkirina otomatîkî ya ciplushelper neçalak bike"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Destpêkirina xweser a ciplushelper çalak bike"
+
+msgid "Stop ciplushelper"
+msgstr "Stop ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper dest pê bikin"
+
+msgid "Install version from Zgemma"
+msgstr "guhertoya ji Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "CI + hêlînê"
+
+msgid "Enable CI+ slot"
+msgstr "CI + hêlînê"
+
+msgid "Install default version"
+msgstr "guhertoya xwerû"
+
+msgid "Remove"
+msgstr "Dûrxistin"
+
+msgid "Install"
+msgstr "Lêkirin"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Plugin nûve bikin"
+
+msgid "Restart GUI"
+msgstr "GUI ji nû ve bidin destpêkirin"
+
+msgid "Need restart GUI"
+msgstr "Pêdivî ye ku GUI ji nû ve dest pê bike"
+
+msgid "Oscam stopped."
+msgstr "Oscam rawestiya."
+
+msgid "Oscam started."
+msgstr "Oscam dest pê kir."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binary nehat dîtin!"
+
+msgid "Updating plugin..."
+msgstr "Plugin nûvekirin..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Ma hûn guman dikin ku hûn dixwazin GUI ji nû ve bidin destpêkirin?"
 
+msgid "Unknown"
+msgstr "Nenas"
+
 msgid "CI+ Helper Plugin"
 msgstr "Pêveka Alîkariya CI+"
+
+msgid "Supported devices:"
+msgstr "Amûrên piştgirî:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Dibe ku modelên din hewceyê '/etc/ciplus' bin"
+
+msgid "Installed:"
+msgstr "Sazkirî:"
 
 msgid "CI+ helper"
 msgstr "alîkarê CI+"
@@ -25,96 +97,3 @@ msgstr "alîkarê CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "Alîkarê CI + ji bo Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "CI + menu alîkar"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI + hêlînê"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Destpêkirina otomatîkî ya ciplushelper neçalak bike"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI + hêlînê"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Destpêkirina xweser a ciplushelper çalak bike"
-
-msgid "Install"
-msgstr "Lêkirin"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "guhertoya xwerû"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "guhertoya ji Zgemma"
-
-msgid "Installed:"
-msgstr "Sazkirî:"
-
-msgid "Need restart GUI"
-msgstr "Pêdivî ye ku GUI ji nû ve dest pê bike"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam binary nehat dîtin!"
-
-msgid "Oscam started."
-msgstr "Oscam dest pê kir."
-
-msgid "Oscam stopped."
-msgstr "Oscam rawestiya."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Dibe ku modelên din hewceyê '/etc/ciplus' bin"
-
-msgid "Remove"
-msgstr "Dûrxistin"
-
-msgid "Restart GUI"
-msgstr "GUI ji nû ve bidin destpêkirin"
-
-msgid "Start ciplushelper"
-msgstr "ciplushelper dest pê bikin"
-
-msgid "Stop ciplushelper"
-msgstr "Stop ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Amûrên piştgirî:"
-
-msgid "Supported models"
-msgstr "Modelên piştgirî kirin"
-
-msgid "Unknown"
-msgstr "Nenas"
-
-msgid "Update plugin"
-msgstr "Plugin nûve bikin"
-
-msgid "Updating plugin..."
-msgstr "Plugin nûvekirin..."
-
-#~ msgid "ARM"
-#~ msgstr "BIÇEKKIRIN"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Neçalak bike"
-
-#~ msgid "Enable"
-#~ msgstr "Bikêrkirin"
-
-#~ msgid "For other models"
-#~ msgstr "Ji bo modelên din"
-
-#~ msgid "use"
-#~ msgstr "bikaranîn"

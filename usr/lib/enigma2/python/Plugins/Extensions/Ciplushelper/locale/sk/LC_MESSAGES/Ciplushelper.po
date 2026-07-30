@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "Pomocné menu CI+"
+
+msgid "Supported models"
+msgstr "Podporované modely"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Zakázať automatické spustenie ciplushelper"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Povoliť automatické spustenie ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Stop ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Spustite ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "verzia od Zgemmy"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ slot"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ slot"
+
+msgid "Install default version"
+msgstr "predvolená verzia"
+
+msgid "Remove"
+msgstr "Odstrániť"
+
+msgid "Install"
+msgstr "Inštalovať"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Aktualizovať doplnok"
+
+msgid "Restart GUI"
+msgstr "Reštartujte GUI"
+
+msgid "Need restart GUI"
+msgstr "Potrebujete reštartovať GUI"
+
+msgid "Oscam stopped."
+msgstr "Oscam sa zastavil."
+
+msgid "Oscam started."
+msgstr "Oscam začal."
+
+msgid "Oscam binary not found!"
+msgstr "Binárny Oscam sa nenašiel!"
+
+msgid "Updating plugin..."
+msgstr "Aktualizuje sa doplnok..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Naozaj chcete reštartovať GUI?"
 
+msgid "Unknown"
+msgstr "Neznámy"
+
 msgid "CI+ Helper Plugin"
 msgstr "Pomocný doplnok CI+"
+
+msgid "Supported devices:"
+msgstr "Podporované zariadenia:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Ostatné modely môžu potrebovať '/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "Nainštalované:"
 
 msgid "CI+ helper"
 msgstr "CI+ pomocník"
@@ -25,96 +97,3 @@ msgstr "CI+ pomocník"
 msgid "CI+ helper for Enigma2"
 msgstr "CI+ pomocník pre Enigmu2"
 
-msgid "CI+ helper menu"
-msgstr "Pomocné menu CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ slot"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Zakázať automatické spustenie ciplushelper"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ slot"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Povoliť automatické spustenie ciplushelper"
-
-msgid "Install"
-msgstr "Inštalovať"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "predvolená verzia"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "verzia od Zgemmy"
-
-msgid "Installed:"
-msgstr "Nainštalované:"
-
-msgid "Need restart GUI"
-msgstr "Potrebujete reštartovať GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Binárny Oscam sa nenašiel!"
-
-msgid "Oscam started."
-msgstr "Oscam začal."
-
-msgid "Oscam stopped."
-msgstr "Oscam sa zastavil."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Ostatné modely môžu potrebovať '/etc/ciplus'"
-
-msgid "Remove"
-msgstr "Odstrániť"
-
-msgid "Restart GUI"
-msgstr "Reštartujte GUI"
-
-msgid "Start ciplushelper"
-msgstr "Spustite ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Stop ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Podporované zariadenia:"
-
-msgid "Supported models"
-msgstr "Podporované modely"
-
-msgid "Unknown"
-msgstr "Neznámy"
-
-msgid "Update plugin"
-msgstr "Aktualizovať doplnok"
-
-msgid "Updating plugin..."
-msgstr "Aktualizuje sa doplnok..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Zakázať"
-
-#~ msgid "Enable"
-#~ msgstr "Povoliť"
-
-#~ msgid "For other models"
-#~ msgstr "Pre iné modely"
-
-#~ msgid "use"
-#~ msgstr "použitie"

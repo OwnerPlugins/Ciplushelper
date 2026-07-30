@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "Menu pembantu CI+"
+
+msgid "Supported models"
+msgstr "Model yang disokong"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Lumpuhkan ciplushelper autostart"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Dayakan ciplushelper autostart"
+
+msgid "Stop ciplushelper"
+msgstr "Hentikan ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Mulakan ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "versi dari Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "Slot CI+"
+
+msgid "Enable CI+ slot"
+msgstr "Slot CI+"
+
+msgid "Install default version"
+msgstr "versi lalai"
+
+msgid "Remove"
+msgstr "Alih keluar"
+
+msgid "Install"
+msgstr "Pasang"
+
+msgid "Oscam:"
+msgstr "Oscar:"
+
+msgid "Update plugin"
+msgstr "Kemas kini pemalam"
+
+msgid "Restart GUI"
+msgstr "Mulakan semula GUI"
+
+msgid "Need restart GUI"
+msgstr "Perlu memulakan semula GUI"
+
+msgid "Oscam stopped."
+msgstr "Oscar berhenti."
+
+msgid "Oscam started."
+msgstr "Oscar bermula."
+
+msgid "Oscam binary not found!"
+msgstr "Perduaan oscam tidak dijumpai!"
+
+msgid "Updating plugin..."
+msgstr "Mengemas kini pemalam..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Adakah anda pasti mahu memulakan semula GUI?"
 
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
 msgid "CI+ Helper Plugin"
 msgstr "Pemalam Pembantu CI+"
+
+msgid "Supported devices:"
+msgstr "Peranti yang disokong:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Model lain mungkin memerlukan '/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "Dipasang:"
 
 msgid "CI+ helper"
 msgstr "Pembantu CI+"
@@ -25,96 +97,3 @@ msgstr "Pembantu CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "Pembantu CI+ untuk Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "Menu pembantu CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "Slot CI+"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Lumpuhkan ciplushelper autostart"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "Slot CI+"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Dayakan ciplushelper autostart"
-
-msgid "Install"
-msgstr "Pasang"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "versi lalai"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "versi dari Zgemma"
-
-msgid "Installed:"
-msgstr "Dipasang:"
-
-msgid "Need restart GUI"
-msgstr "Perlu memulakan semula GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Perduaan oscam tidak dijumpai!"
-
-msgid "Oscam started."
-msgstr "Oscar bermula."
-
-msgid "Oscam stopped."
-msgstr "Oscar berhenti."
-
-msgid "Oscam:"
-msgstr "Oscar:"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Model lain mungkin memerlukan '/etc/ciplus'"
-
-msgid "Remove"
-msgstr "Alih keluar"
-
-msgid "Restart GUI"
-msgstr "Mulakan semula GUI"
-
-msgid "Start ciplushelper"
-msgstr "Mulakan ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Hentikan ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Peranti yang disokong:"
-
-msgid "Supported models"
-msgstr "Model yang disokong"
-
-msgid "Unknown"
-msgstr "Tidak diketahui"
-
-msgid "Update plugin"
-msgstr "Kemas kini pemalam"
-
-msgid "Updating plugin..."
-msgstr "Mengemas kini pemalam..."
-
-#~ msgid "ARM"
-#~ msgstr "LENGAN"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Lumpuhkan"
-
-#~ msgid "Enable"
-#~ msgstr "Dayakan"
-
-#~ msgid "For other models"
-#~ msgstr "Untuk model lain"
-
-#~ msgid "use"
-#~ msgstr "guna"

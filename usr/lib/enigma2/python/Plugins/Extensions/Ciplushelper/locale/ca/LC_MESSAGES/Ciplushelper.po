@@ -13,14 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "ARM"
-msgstr "ARM"
+msgid "CI+ helper menu"
+msgstr "Menú d'ajuda CI+"
+
+msgid "Supported models"
+msgstr "Models compatibles"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Desactiveu l'inici automàtic de ciplushelper"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Activa l'inici automàtic de ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Atureu ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Inicieu ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "versió de Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "Ranura CI+"
+
+msgid "Enable CI+ slot"
+msgstr "Ranura CI+"
+
+msgid "Install default version"
+msgstr "versió per defecte"
+
+msgid "Remove"
+msgstr "Eliminar"
+
+msgid "Install"
+msgstr "Instal·lar"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Actualitza el connector"
+
+msgid "Restart GUI"
+msgstr "Reinicieu la GUI"
+
+msgid "Need restart GUI"
+msgstr "Cal reiniciar la GUI"
+
+msgid "Oscam stopped."
+msgstr "L'Oscam es va aturar."
+
+msgid "Oscam started."
+msgstr "L'Oscam va començar."
+
+msgid "Oscam binary not found!"
+msgstr "No s'ha trobat el binari Oscam!"
+
+msgid "Updating plugin..."
+msgstr "S'està actualitzant el connector..."
 
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Esteu segur que voleu reiniciar la GUI?"
 
+msgid "Unknown"
+msgstr "Desconegut"
+
 msgid "CI+ Helper Plugin"
 msgstr "Connector d'ajuda CI+"
+
+msgid "Supported devices:"
+msgstr "Dispositius compatibles:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Altres models poden necessitar \"/etc/ciplus\""
+
+msgid "Installed:"
+msgstr "Instal·lat:"
 
 msgid "CI+ helper"
 msgstr "Ajudant CI+"
@@ -28,75 +97,3 @@ msgstr "Ajudant CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "Ajudant CI+ per a Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "Menú d'ajuda CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "Ranura CI+"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Desactiveu l'inici automàtic de ciplushelper"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "Ranura CI+"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Activa l'inici automàtic de ciplushelper"
-
-msgid "Install"
-msgstr "Instal·lar"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "versió per defecte"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "versió de Zgemma"
-
-msgid "Installed:"
-msgstr "Instal·lat:"
-
-msgid "MIPSEL"
-msgstr "MIPSEL"
-
-msgid "Need restart GUI"
-msgstr "Cal reiniciar la GUI"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Altres models poden necessitar "/etc/ciplus""
-
-msgid "Remove"
-msgstr "Eliminar"
-
-msgid "Restart GUI"
-msgstr "Reinicieu la GUI"
-
-msgid "Start ciplushelper"
-msgstr "Inicieu ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Atureu ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Dispositius compatibles:"
-
-msgid "Supported models"
-msgstr "Models compatibles"
-
-msgid "Unknown"
-msgstr "Desconegut"
-
-#~ msgid "Disable"
-#~ msgstr "Desactivar"
-
-#~ msgid "Enable"
-#~ msgstr "Activa"
-
-#~ msgid "For other models"
-#~ msgstr "Per a altres models"
-
-#~ msgid "use"
-#~ msgstr "utilitzar"

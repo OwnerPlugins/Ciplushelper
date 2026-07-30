@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ pagalbinio meniu"
+
+msgid "Supported models"
+msgstr "Palaikomi modeliai"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Išjungti ciplushelper automatinį paleidimą"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Įgalinti ciplushelper automatinį paleidimą"
+
+msgid "Stop ciplushelper"
+msgstr "Sustabdykite ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Paleiskite ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "versija iš Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ lizdas"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ lizdas"
+
+msgid "Install default version"
+msgstr "numatytoji versija"
+
+msgid "Remove"
+msgstr "Pašalinti"
+
+msgid "Install"
+msgstr "Įdiegti"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Atnaujinti papildinį"
+
+msgid "Restart GUI"
+msgstr "Iš naujo paleiskite GUI"
+
+msgid "Need restart GUI"
+msgstr "Reikia iš naujo paleisti GUI"
+
+msgid "Oscam stopped."
+msgstr "Oscam sustojo."
+
+msgid "Oscam started."
+msgstr "Oscam pradėjo."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam dvejetainis failas nerastas!"
+
+msgid "Updating plugin..."
+msgstr "Atnaujinamas papildinys..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Ar tikrai norite iš naujo paleisti GUI?"
 
+msgid "Unknown"
+msgstr "Nežinoma"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ pagalbinis papildinys"
+
+msgid "Supported devices:"
+msgstr "Palaikomi įrenginiai:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Kituose modeliuose gali prireikti „/etc/ciplus“"
+
+msgid "Installed:"
+msgstr "Įdiegta:"
 
 msgid "CI+ helper"
 msgstr "CI+ pagalbininkas"
@@ -25,96 +97,3 @@ msgstr "CI+ pagalbininkas"
 msgid "CI+ helper for Enigma2"
 msgstr "CI+ pagalbininkas, skirtas Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "CI+ pagalbinio meniu"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ lizdas"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Išjungti ciplushelper automatinį paleidimą"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ lizdas"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Įgalinti ciplushelper automatinį paleidimą"
-
-msgid "Install"
-msgstr "Įdiegti"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "numatytoji versija"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "versija iš Zgemma"
-
-msgid "Installed:"
-msgstr "Įdiegta:"
-
-msgid "Need restart GUI"
-msgstr "Reikia iš naujo paleisti GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam dvejetainis failas nerastas!"
-
-msgid "Oscam started."
-msgstr "Oscam pradėjo."
-
-msgid "Oscam stopped."
-msgstr "Oscam sustojo."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Kituose modeliuose gali prireikti „/etc/ciplus“"
-
-msgid "Remove"
-msgstr "Pašalinti"
-
-msgid "Restart GUI"
-msgstr "Iš naujo paleiskite GUI"
-
-msgid "Start ciplushelper"
-msgstr "Paleiskite ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Sustabdykite ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Palaikomi įrenginiai:"
-
-msgid "Supported models"
-msgstr "Palaikomi modeliai"
-
-msgid "Unknown"
-msgstr "Nežinoma"
-
-msgid "Update plugin"
-msgstr "Atnaujinti papildinį"
-
-msgid "Updating plugin..."
-msgstr "Atnaujinamas papildinys..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Išjungti"
-
-#~ msgid "Enable"
-#~ msgstr "Įgalinti"
-
-#~ msgid "For other models"
-#~ msgstr "Kitiems modeliams"
-
-#~ msgid "use"
-#~ msgstr "naudoti"

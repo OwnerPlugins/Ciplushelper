@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "menu helper CI+"
+
+msgid "Supported models"
+msgstr "Mudelli appoġġjati"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Iddiżattiva l-awtostart ta' ciplushelper"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ippermetti ciplushelper autostart"
+
+msgid "Stop ciplushelper"
+msgstr "Waqqaf ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Ibda ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "verżjoni minn Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ slot"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ slot"
+
+msgid "Install default version"
+msgstr "verżjoni default"
+
+msgid "Remove"
+msgstr "Neħħi"
+
+msgid "Install"
+msgstr "Installa"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Aġġorna l-plugin"
+
+msgid "Restart GUI"
+msgstr "Ibda mill-ġdid GUI"
+
+msgid "Need restart GUI"
+msgstr "Ħtieġa terġa 'tibda GUI"
+
+msgid "Oscam stopped."
+msgstr "Oscam waqaf."
+
+msgid "Oscam started."
+msgstr "Oscam beda."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binarju ma nstabx!"
+
+msgid "Updating plugin..."
+msgstr "Qed jaġġorna l-plugin..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Int żgur li trid terġa' tibda l-GUI?"
 
+msgid "Unknown"
+msgstr "Mhux magħruf"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
+
+msgid "Supported devices:"
+msgstr "Apparat appoġġjat:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Mudelli oħra jistgħu jeħtieġu '/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "Installat:"
 
 msgid "CI+ helper"
 msgstr "CI+ helper"
@@ -25,96 +97,3 @@ msgstr "CI+ helper"
 msgid "CI+ helper for Enigma2"
 msgstr "CI+ helper għal Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "menu helper CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ slot"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Iddiżattiva l-awtostart ta' ciplushelper"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ slot"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Ippermetti ciplushelper autostart"
-
-msgid "Install"
-msgstr "Installa"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "verżjoni default"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "verżjoni minn Zgemma"
-
-msgid "Installed:"
-msgstr "Installat:"
-
-msgid "Need restart GUI"
-msgstr "Ħtieġa terġa 'tibda GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam binarju ma nstabx!"
-
-msgid "Oscam started."
-msgstr "Oscam beda."
-
-msgid "Oscam stopped."
-msgstr "Oscam waqaf."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Mudelli oħra jistgħu jeħtieġu '/etc/ciplus'"
-
-msgid "Remove"
-msgstr "Neħħi"
-
-msgid "Restart GUI"
-msgstr "Ibda mill-ġdid GUI"
-
-msgid "Start ciplushelper"
-msgstr "Ibda ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Waqqaf ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Apparat appoġġjat:"
-
-msgid "Supported models"
-msgstr "Mudelli appoġġjati"
-
-msgid "Unknown"
-msgstr "Mhux magħruf"
-
-msgid "Update plugin"
-msgstr "Aġġorna l-plugin"
-
-msgid "Updating plugin..."
-msgstr "Qed jaġġorna l-plugin..."
-
-#~ msgid "ARM"
-#~ msgstr "DRIEGĦ"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Itfi"
-
-#~ msgid "Enable"
-#~ msgstr "Ippermettiet"
-
-#~ msgid "For other models"
-#~ msgstr "Għal mudelli oħra"
-
-#~ msgid "use"
-#~ msgstr "użu"

@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI + kömekçi menýusy"
+
+msgid "Supported models"
+msgstr "Goldanýan modeller"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Ciplushelper awtostartyny öçüriň"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ciplushelper awtostartyny açyň"
+
+msgid "Stop ciplushelper"
+msgstr "Ciplushelper-i bes et"
+
+msgid "Start ciplushelper"
+msgstr "Ciplushelper başlaň"
+
+msgid "Install version from Zgemma"
+msgstr "Zgemma wersiýasy"
+
+msgid "Disable CI+ slot"
+msgstr "CI + ýeri"
+
+msgid "Enable CI+ slot"
+msgstr "CI + ýeri"
+
+msgid "Install default version"
+msgstr "deslapky wersiýasy"
+
+msgid "Remove"
+msgstr "Aýyr"
+
+msgid "Install"
+msgstr "Gurnama"
+
+msgid "Oscam:"
+msgstr "Oskam:"
+
+msgid "Update plugin"
+msgstr "Plagini täzeläň"
+
+msgid "Restart GUI"
+msgstr "GUI-ny täzeden açyň"
+
+msgid "Need restart GUI"
+msgstr "GUI-ni täzeden açmaly"
+
+msgid "Oscam stopped."
+msgstr "Oskam saklandy."
+
+msgid "Oscam started."
+msgstr "Oskam başlady."
+
+msgid "Oscam binary not found!"
+msgstr "Oskam ikili tapylmady!"
+
+msgid "Updating plugin..."
+msgstr "Plagin täzelenýär ..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI-ni täzeden açmak isleýändigiňize ynanýarsyňyzmy?"
 
+msgid "Unknown"
+msgstr "Näbelli"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI + Kömekçi plugin"
+
+msgid "Supported devices:"
+msgstr "Goldaw enjamlary:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Beýleki modellere '/ etc / ciplus' gerek bolup biler"
+
+msgid "Installed:"
+msgstr "Gurlan:"
 
 msgid "CI+ helper"
 msgstr "CI + kömekçi"
@@ -25,96 +97,3 @@ msgstr "CI + kömekçi"
 msgid "CI+ helper for Enigma2"
 msgstr "Enigma2 üçin CI + kömekçisi"
 
-msgid "CI+ helper menu"
-msgstr "CI + kömekçi menýusy"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI + ýeri"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Ciplushelper awtostartyny öçüriň"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI + ýeri"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Ciplushelper awtostartyny açyň"
-
-msgid "Install"
-msgstr "Gurnama"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "deslapky wersiýasy"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "Zgemma wersiýasy"
-
-msgid "Installed:"
-msgstr "Gurlan:"
-
-msgid "Need restart GUI"
-msgstr "GUI-ni täzeden açmaly"
-
-msgid "Oscam binary not found!"
-msgstr "Oskam ikili tapylmady!"
-
-msgid "Oscam started."
-msgstr "Oskam başlady."
-
-msgid "Oscam stopped."
-msgstr "Oskam saklandy."
-
-msgid "Oscam:"
-msgstr "Oskam:"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Beýleki modellere '/ etc / ciplus' gerek bolup biler"
-
-msgid "Remove"
-msgstr "Aýyr"
-
-msgid "Restart GUI"
-msgstr "GUI-ny täzeden açyň"
-
-msgid "Start ciplushelper"
-msgstr "Ciplushelper başlaň"
-
-msgid "Stop ciplushelper"
-msgstr "Ciplushelper-i bes et"
-
-msgid "Supported devices:"
-msgstr "Goldaw enjamlary:"
-
-msgid "Supported models"
-msgstr "Goldanýan modeller"
-
-msgid "Unknown"
-msgstr "Näbelli"
-
-msgid "Update plugin"
-msgstr "Plagini täzeläň"
-
-msgid "Updating plugin..."
-msgstr "Plagin täzelenýär ..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Öçüriň"
-
-#~ msgid "Enable"
-#~ msgstr "Işlet"
-
-#~ msgid "For other models"
-#~ msgstr "Beýleki modeller üçin"
-
-#~ msgid "use"
-#~ msgstr "ulanmak"

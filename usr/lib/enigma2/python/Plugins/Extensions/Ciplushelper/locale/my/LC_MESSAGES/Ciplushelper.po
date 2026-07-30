@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ အကူအညီ မီနူး"
+
+msgid "Supported models"
+msgstr "ပံ့ပိုးထားသောမော်ဒယ်များ"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper autostart ကိုပိတ်ပါ။"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper autostart ကိုဖွင့်ပါ။"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper ရပ်ပါ။"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper ကိုစတင်ပါ။"
+
+msgid "Install version from Zgemma"
+msgstr "Zgemma မှဗားရှင်း"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ အပေါက်"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ အပေါက်"
+
+msgid "Install default version"
+msgstr "မူရင်းဗားရှင်း"
+
+msgid "Remove"
+msgstr "ဖယ်ရှားပါ။"
+
+msgid "Install"
+msgstr "တပ်ဆင်ပါ။"
+
+msgid "Oscam:"
+msgstr "Oscam-"
+
+msgid "Update plugin"
+msgstr "ပလပ်အင်ကို အပ်ဒိတ်လုပ်ပါ။"
+
+msgid "Restart GUI"
+msgstr "GUI ကို ပြန်လည်စတင်ပါ။"
+
+msgid "Need restart GUI"
+msgstr "GUI ကို ပြန်လည်စတင်ရန် လိုအပ်ပါသည်။"
+
+msgid "Oscam stopped."
+msgstr "Oscam ရပ်တန့်သွားသည်။"
+
+msgid "Oscam started."
+msgstr "Oscam စတင်ခဲ့သည်။"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binary မတွေ့ပါ။"
+
+msgid "Updating plugin..."
+msgstr "ပလပ်အင်ကို အပ်ဒိတ်လုပ်နေသည်..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI ကို ပြန်လည်စတင်လိုသည်မှာ သေချာပါသလား။"
 
+msgid "Unknown"
+msgstr "မသိ"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ အကူအညီပေးသူ ပလပ်အင်"
+
+msgid "Supported devices:"
+msgstr "ပံ့ပိုးထားသော စက်များ-"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "အခြားမော်ဒယ်များသည် '/etc/ciplus' လိုအပ်နိုင်သည်"
+
+msgid "Installed:"
+msgstr "ထည့်သွင်းထားသည်-"
 
 msgid "CI+ helper"
 msgstr "CI+ အကူအညီပေးသူ"
@@ -25,96 +97,3 @@ msgstr "CI+ အကူအညီပေးသူ"
 msgid "CI+ helper for Enigma2"
 msgstr "Enigma2 အတွက် CI+ ကူညီသူ"
 
-msgid "CI+ helper menu"
-msgstr "CI+ အကူအညီ မီနူး"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ အပေါက်"
-
-msgid "Disable ciplushelper autostart"
-msgstr "ciplushelper autostart ကိုပိတ်ပါ။"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ အပေါက်"
-
-msgid "Enable ciplushelper autostart"
-msgstr "ciplushelper autostart ကိုဖွင့်ပါ။"
-
-msgid "Install"
-msgstr "တပ်ဆင်ပါ။"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "မူရင်းဗားရှင်း"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "Zgemma မှဗားရှင်း"
-
-msgid "Installed:"
-msgstr "ထည့်သွင်းထားသည်-"
-
-msgid "Need restart GUI"
-msgstr "GUI ကို ပြန်လည်စတင်ရန် လိုအပ်ပါသည်။"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam binary မတွေ့ပါ။"
-
-msgid "Oscam started."
-msgstr "Oscam စတင်ခဲ့သည်။"
-
-msgid "Oscam stopped."
-msgstr "Oscam ရပ်တန့်သွားသည်။"
-
-msgid "Oscam:"
-msgstr "Oscam-"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "အခြားမော်ဒယ်များသည် '/etc/ciplus' လိုအပ်နိုင်သည်"
-
-msgid "Remove"
-msgstr "ဖယ်ရှားပါ။"
-
-msgid "Restart GUI"
-msgstr "GUI ကို ပြန်လည်စတင်ပါ။"
-
-msgid "Start ciplushelper"
-msgstr "ciplushelper ကိုစတင်ပါ။"
-
-msgid "Stop ciplushelper"
-msgstr "ciplushelper ရပ်ပါ။"
-
-msgid "Supported devices:"
-msgstr "ပံ့ပိုးထားသော စက်များ-"
-
-msgid "Supported models"
-msgstr "ပံ့ပိုးထားသောမော်ဒယ်များ"
-
-msgid "Unknown"
-msgstr "မသိ"
-
-msgid "Update plugin"
-msgstr "ပလပ်အင်ကို အပ်ဒိတ်လုပ်ပါ။"
-
-msgid "Updating plugin..."
-msgstr "ပလပ်အင်ကို အပ်ဒိတ်လုပ်နေသည်..."
-
-#~ msgid "ARM"
-#~ msgstr "လက်ပိုက်"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "ပိတ်ပါ။"
-
-#~ msgid "Enable"
-#~ msgstr "ဖွင့်ပါ။"
-
-#~ msgid "For other models"
-#~ msgstr "အခြားမော်ဒယ်များအတွက်"
-
-#~ msgid "use"
-#~ msgstr "အသုံးပြု"

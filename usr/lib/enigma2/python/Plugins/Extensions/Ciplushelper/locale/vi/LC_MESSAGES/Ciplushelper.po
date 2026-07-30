@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "Trình đơn trợ giúp CI+"
+
+msgid "Supported models"
+msgstr "Các mô hình được hỗ trợ"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Tắt tính năng tự khởi động của ciplushelper"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Bật tính năng tự khởi động ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Dừng ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Bắt đầu ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "phiên bản từ Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "Khe CI+"
+
+msgid "Enable CI+ slot"
+msgstr "Khe CI+"
+
+msgid "Install default version"
+msgstr "phiên bản mặc định"
+
+msgid "Remove"
+msgstr "Di dời"
+
+msgid "Install"
+msgstr "Cài đặt"
+
+msgid "Oscam:"
+msgstr "Oscar:"
+
+msgid "Update plugin"
+msgstr "Cập nhật plugin"
+
+msgid "Restart GUI"
+msgstr "Khởi động lại GUI"
+
+msgid "Need restart GUI"
+msgstr "Cần khởi động lại GUI"
+
+msgid "Oscam stopped."
+msgstr "Oscam dừng lại."
+
+msgid "Oscam started."
+msgstr "Oscar bắt đầu."
+
+msgid "Oscam binary not found!"
+msgstr "Không tìm thấy nhị phân Oscar!"
+
+msgid "Updating plugin..."
+msgstr "Đang cập nhật plugin..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Bạn có chắc chắn muốn khởi động lại GUI không?"
 
+msgid "Unknown"
+msgstr "Không xác định"
+
 msgid "CI+ Helper Plugin"
 msgstr "Plugin trợ giúp CI+"
+
+msgid "Supported devices:"
+msgstr "Các thiết bị được hỗ trợ:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Các mô hình khác có thể cần '/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "Đã cài đặt:"
 
 msgid "CI+ helper"
 msgstr "Người trợ giúp CI+"
@@ -25,96 +97,3 @@ msgstr "Người trợ giúp CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "Trình trợ giúp CI+ cho Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "Trình đơn trợ giúp CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "Khe CI+"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Tắt tính năng tự khởi động của ciplushelper"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "Khe CI+"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Bật tính năng tự khởi động ciplushelper"
-
-msgid "Install"
-msgstr "Cài đặt"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "phiên bản mặc định"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "phiên bản từ Zgemma"
-
-msgid "Installed:"
-msgstr "Đã cài đặt:"
-
-msgid "Need restart GUI"
-msgstr "Cần khởi động lại GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Không tìm thấy nhị phân Oscar!"
-
-msgid "Oscam started."
-msgstr "Oscar bắt đầu."
-
-msgid "Oscam stopped."
-msgstr "Oscam dừng lại."
-
-msgid "Oscam:"
-msgstr "Oscar:"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Các mô hình khác có thể cần '/etc/ciplus'"
-
-msgid "Remove"
-msgstr "Di dời"
-
-msgid "Restart GUI"
-msgstr "Khởi động lại GUI"
-
-msgid "Start ciplushelper"
-msgstr "Bắt đầu ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Dừng ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Các thiết bị được hỗ trợ:"
-
-msgid "Supported models"
-msgstr "Các mô hình được hỗ trợ"
-
-msgid "Unknown"
-msgstr "Không xác định"
-
-msgid "Update plugin"
-msgstr "Cập nhật plugin"
-
-msgid "Updating plugin..."
-msgstr "Đang cập nhật plugin..."
-
-#~ msgid "ARM"
-#~ msgstr "CÁNH TAY"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Vô hiệu hóa"
-
-#~ msgid "Enable"
-#~ msgstr "Cho phép"
-
-#~ msgid "For other models"
-#~ msgstr "Đối với các mô hình khác"
-
-#~ msgid "use"
-#~ msgstr "sử dụng"

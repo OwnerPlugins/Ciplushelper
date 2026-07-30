@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "Menyu ya msaidizi ya CI+"
+
+msgid "Supported models"
+msgstr "Mifano zinazoungwa mkono"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Lemaza kuanza kiotomatiki kwa ciplushelper"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Washa kipengele cha kuanza kiotomatiki kwa ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Acha kutumia kiboreshaji"
+
+msgid "Start ciplushelper"
+msgstr "Anzisha kiboreshaji cha kompyuta"
+
+msgid "Install version from Zgemma"
+msgstr "toleo kutoka Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ yanayopangwa"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ yanayopangwa"
+
+msgid "Install default version"
+msgstr "toleo la msingi"
+
+msgid "Remove"
+msgstr "Ondoa"
+
+msgid "Install"
+msgstr "Sakinisha"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Sasisha programu-jalizi"
+
+msgid "Restart GUI"
+msgstr "Anzisha upya GUI"
+
+msgid "Need restart GUI"
+msgstr "Inahitaji kuanzisha upya GUI"
+
+msgid "Oscam stopped."
+msgstr "Oscam alisimama."
+
+msgid "Oscam started."
+msgstr "Oscam alianza."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binary haipatikani!"
+
+msgid "Updating plugin..."
+msgstr "Inasasisha programu-jalizi..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Je, una uhakika unataka kuwasha upya GUI?"
 
+msgid "Unknown"
+msgstr "Haijulikani"
+
 msgid "CI+ Helper Plugin"
 msgstr "Programu-jalizi ya Msaidizi wa CI+"
+
+msgid "Supported devices:"
+msgstr "Vifaa vinavyotumika:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Aina zingine zinaweza kuhitaji '/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "Imesakinishwa:"
 
 msgid "CI+ helper"
 msgstr "Msaidizi wa CI+"
@@ -25,96 +97,3 @@ msgstr "Msaidizi wa CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "CI+ msaidizi kwa Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "Menyu ya msaidizi ya CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ yanayopangwa"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Lemaza kuanza kiotomatiki kwa ciplushelper"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ yanayopangwa"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Washa kipengele cha kuanza kiotomatiki kwa ciplushelper"
-
-msgid "Install"
-msgstr "Sakinisha"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "toleo la msingi"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "toleo kutoka Zgemma"
-
-msgid "Installed:"
-msgstr "Imesakinishwa:"
-
-msgid "Need restart GUI"
-msgstr "Inahitaji kuanzisha upya GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam binary haipatikani!"
-
-msgid "Oscam started."
-msgstr "Oscam alianza."
-
-msgid "Oscam stopped."
-msgstr "Oscam aliacha."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Aina zingine zinaweza kuhitaji '/etc/ciplus'"
-
-msgid "Remove"
-msgstr "Ondoa"
-
-msgid "Restart GUI"
-msgstr "Anzisha upya GUI"
-
-msgid "Start ciplushelper"
-msgstr "Anzisha kiboreshaji cha kompyuta"
-
-msgid "Stop ciplushelper"
-msgstr "Acha kutumia kiboreshaji"
-
-msgid "Supported devices:"
-msgstr "Vifaa vinavyotumika:"
-
-msgid "Supported models"
-msgstr "Mifano zinazoungwa mkono"
-
-msgid "Unknown"
-msgstr "Haijulikani"
-
-msgid "Update plugin"
-msgstr "Sasisha programu-jalizi"
-
-msgid "Updating plugin..."
-msgstr "Inasasisha programu-jalizi..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Zima"
-
-#~ msgid "Enable"
-#~ msgstr "Wezesha"
-
-#~ msgid "For other models"
-#~ msgstr "Kwa mifano mingine"
-
-#~ msgid "use"
-#~ msgstr "kutumia"

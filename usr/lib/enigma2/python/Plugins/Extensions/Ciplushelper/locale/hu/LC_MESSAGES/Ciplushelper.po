@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ helper menü"
+
+msgid "Supported models"
+msgstr "Támogatott modellek"
+
+msgid "Disable ciplushelper autostart"
+msgstr "A ciplushelper automatikus indítás letiltása"
+
+msgid "Enable ciplushelper autostart"
+msgstr "A ciplushelper automatikus indítás engedélyezése"
+
+msgid "Stop ciplushelper"
+msgstr "Állítsa le a ciplushelpert"
+
+msgid "Start ciplushelper"
+msgstr "Indítsa el a ciplushelpert"
+
+msgid "Install version from Zgemma"
+msgstr "verzió a Zgemmától"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ bővítőhely"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ bővítőhely"
+
+msgid "Install default version"
+msgstr "alapértelmezett verzió"
+
+msgid "Remove"
+msgstr "Távolítsa el"
+
+msgid "Install"
+msgstr "Telepítés"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Frissítse a bővítményt"
+
+msgid "Restart GUI"
+msgstr "Indítsa újra a GUI-t"
+
+msgid "Need restart GUI"
+msgstr "Újra kell indítani a GUI-t"
+
+msgid "Oscam stopped."
+msgstr "Oscam megállt."
+
+msgid "Oscam started."
+msgstr "Oscam elkezdte."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam bináris nem található!"
+
+msgid "Updating plugin..."
+msgstr "Beépülő modul frissítése..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Biztos, hogy újra akarja indítani a GUI-t?"
 
+msgid "Unknown"
+msgstr "Ismeretlen"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
+
+msgid "Supported devices:"
+msgstr "Támogatott eszközök:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Más modellekhez szükség lehet az '/etc/ciplus' fájlra"
+
+msgid "Installed:"
+msgstr "Telepítve:"
 
 msgid "CI+ helper"
 msgstr "CI+ segítő"
@@ -25,96 +97,3 @@ msgstr "CI+ segítő"
 msgid "CI+ helper for Enigma2"
 msgstr "CI+ segítő az Enigma2-hez"
 
-msgid "CI+ helper menu"
-msgstr "CI+ helper menü"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ bővítőhely"
-
-msgid "Disable ciplushelper autostart"
-msgstr "A ciplushelper automatikus indítás letiltása"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ bővítőhely"
-
-msgid "Enable ciplushelper autostart"
-msgstr "A ciplushelper automatikus indítás engedélyezése"
-
-msgid "Install"
-msgstr "Telepítés"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "alapértelmezett verzió"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "verzió a Zgemmától"
-
-msgid "Installed:"
-msgstr "Telepítve:"
-
-msgid "Need restart GUI"
-msgstr "Újra kell indítani a GUI-t"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam bináris nem található!"
-
-msgid "Oscam started."
-msgstr "Oscam elkezdte."
-
-msgid "Oscam stopped."
-msgstr "Oscam megállt."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Más modellekhez szükség lehet az '/etc/ciplus' fájlra"
-
-msgid "Remove"
-msgstr "Távolítsa el"
-
-msgid "Restart GUI"
-msgstr "Indítsa újra a GUI-t"
-
-msgid "Start ciplushelper"
-msgstr "Indítsa el a ciplushelpert"
-
-msgid "Stop ciplushelper"
-msgstr "Állítsa le a ciplushelpert"
-
-msgid "Supported devices:"
-msgstr "Támogatott eszközök:"
-
-msgid "Supported models"
-msgstr "Támogatott modellek"
-
-msgid "Unknown"
-msgstr "Ismeretlen"
-
-msgid "Update plugin"
-msgstr "Frissítse a bővítményt"
-
-msgid "Updating plugin..."
-msgstr "Beépülő modul frissítése..."
-
-#~ msgid "ARM"
-#~ msgstr "KAR"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Letiltás"
-
-#~ msgid "Enable"
-#~ msgstr "Engedélyezés"
-
-#~ msgid "For other models"
-#~ msgstr "Más modellekhez"
-
-#~ msgid "use"
-#~ msgstr "használat"

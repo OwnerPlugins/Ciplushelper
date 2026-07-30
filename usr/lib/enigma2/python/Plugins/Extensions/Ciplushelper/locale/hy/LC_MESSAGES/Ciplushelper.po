@@ -16,9 +16,6 @@ msgstr ""
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Իսկապե՞ս ուզում եք վերագործարկել GUI-ը:"
 
-msgid "CI+ Helper Plugin"
-msgstr "CI+ Helper Plugin"
-
 msgid "CI+ helper"
 msgstr "CI+ օգնական"
 
@@ -28,14 +25,15 @@ msgstr "CI+ օգնական Enigma2-ի համար"
 msgid "CI+ helper menu"
 msgstr "CI+ օգնական մենյու"
 
-#, fuzzy
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
+
 msgid "Disable CI+ slot"
 msgstr "CI+ բնիկ"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Անջատել ciplushelper-ի ավտոմատ մեկնարկը"
 
-#, fuzzy
 msgid "Enable CI+ slot"
 msgstr "CI+ բնիկ"
 
@@ -45,11 +43,9 @@ msgstr "Միացնել ciplushelper-ի ավտոմատ մեկնարկը"
 msgid "Install"
 msgstr "Տեղադրեք"
 
-#, fuzzy
 msgid "Install default version"
 msgstr "լռելյայն տարբերակ"
 
-#, fuzzy
 msgid "Install version from Zgemma"
 msgstr "տարբերակը Zgemma-ից"
 
@@ -70,9 +66,6 @@ msgstr "Օսկամը կանգ առավ։"
 
 msgid "Oscam:"
 msgstr "Օսկամ."
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Այլ մոդելներին կարող է անհրաժեշտ լինել «/etc/ciplus»"
 
 msgid "Remove"
 msgstr "Հեռացնել"
@@ -101,20 +94,3 @@ msgstr "Թարմացրեք փլագինը"
 msgid "Updating plugin..."
 msgstr "Փլագինը թարմացվում է..."
 
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Անջատել"
-
-#~ msgid "Enable"
-#~ msgstr "Միացնել"
-
-#~ msgid "For other models"
-#~ msgstr "Այլ մոդելների համար"
-
-#~ msgid "use"
-#~ msgstr "օգտագործել"

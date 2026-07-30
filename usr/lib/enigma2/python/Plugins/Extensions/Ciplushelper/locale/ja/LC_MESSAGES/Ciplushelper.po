@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ ヘルパー メニュー"
+
+msgid "Supported models"
+msgstr "対応機種"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper の自動起動を無効にする"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper の自動起動を有効にする"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper を停止します"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper を開始する"
+
+msgid "Install version from Zgemma"
+msgstr "Zgemmaのバージョン"
+
+msgid "Disable CI+ slot"
+msgstr "CI+スロット"
+
+msgid "Enable CI+ slot"
+msgstr "CI+スロット"
+
+msgid "Install default version"
+msgstr "デフォルトバージョン"
+
+msgid "Remove"
+msgstr "取り除く"
+
+msgid "Install"
+msgstr "インストール"
+
+msgid "Oscam:"
+msgstr "オスカム:"
+
+msgid "Update plugin"
+msgstr "プラグインを更新する"
+
+msgid "Restart GUI"
+msgstr "GUIを再起動する"
+
+msgid "Need restart GUI"
+msgstr "GUIを再起動する必要があります"
+
+msgid "Oscam stopped."
+msgstr "オスカムは立ち止まった。"
+
+msgid "Oscam started."
+msgstr "オスカム始めました。"
+
+msgid "Oscam binary not found!"
+msgstr "Oscam バイナリが見つかりません!"
+
+msgid "Updating plugin..."
+msgstr "プラグインを更新しています..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUI を再起動してもよろしいですか?"
 
+msgid "Unknown"
+msgstr "未知"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ ヘルパー プラグイン"
+
+msgid "Supported devices:"
+msgstr "サポートされているデバイス:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "他のモデルには「/etc/ciplus」が必要な場合があります"
+
+msgid "Installed:"
+msgstr "インストール済み:"
 
 msgid "CI+ helper"
 msgstr "CI+ヘルパー"
@@ -25,96 +97,3 @@ msgstr "CI+ヘルパー"
 msgid "CI+ helper for Enigma2"
 msgstr "Enigma2 の CI+ ヘルパー"
 
-msgid "CI+ helper menu"
-msgstr "CI+ ヘルパー メニュー"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+スロット"
-
-msgid "Disable ciplushelper autostart"
-msgstr "ciplushelper の自動起動を無効にする"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+スロット"
-
-msgid "Enable ciplushelper autostart"
-msgstr "ciplushelper の自動起動を有効にする"
-
-msgid "Install"
-msgstr "インストール"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "デフォルトバージョン"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "Zgemmaのバージョン"
-
-msgid "Installed:"
-msgstr "インストール済み:"
-
-msgid "Need restart GUI"
-msgstr "GUIを再起動する必要があります"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam バイナリが見つかりません!"
-
-msgid "Oscam started."
-msgstr "オスカム始めました。"
-
-msgid "Oscam stopped."
-msgstr "オスカムは立ち止まった。"
-
-msgid "Oscam:"
-msgstr "オスカム:"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "他のモデルには「/etc/ciplus」が必要な場合があります"
-
-msgid "Remove"
-msgstr "取り除く"
-
-msgid "Restart GUI"
-msgstr "GUIを再起動する"
-
-msgid "Start ciplushelper"
-msgstr "ciplushelper を開始する"
-
-msgid "Stop ciplushelper"
-msgstr "ciplushelper を停止します"
-
-msgid "Supported devices:"
-msgstr "サポートされているデバイス:"
-
-msgid "Supported models"
-msgstr "対応機種"
-
-msgid "Unknown"
-msgstr "未知"
-
-msgid "Update plugin"
-msgstr "プラグインを更新する"
-
-msgid "Updating plugin..."
-msgstr "プラグインを更新しています..."
-
-#~ msgid "ARM"
-#~ msgstr "アーム"
-
-#~ msgid "MIPSEL"
-#~ msgstr "ミプセル"
-
-#~ msgid "Disable"
-#~ msgstr "無効にする"
-
-#~ msgid "Enable"
-#~ msgstr "有効にする"
-
-#~ msgid "For other models"
-#~ msgstr "その他のモデルの場合"
-
-#~ msgid "use"
-#~ msgstr "使用"

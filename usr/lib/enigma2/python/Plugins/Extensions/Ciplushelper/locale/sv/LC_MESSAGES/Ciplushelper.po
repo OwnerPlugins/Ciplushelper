@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ hjälpmeny"
+
+msgid "Supported models"
+msgstr "Modeller som stöds"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Inaktivera ciplushelper autostart"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Aktivera ciplushelper autostart"
+
+msgid "Stop ciplushelper"
+msgstr "Sluta ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Starta ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "version från Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ kortplats"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ kortplats"
+
+msgid "Install default version"
+msgstr "standardversion"
+
+msgid "Remove"
+msgstr "Ta bort"
+
+msgid "Install"
+msgstr "Installera"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Uppdatera plugin"
+
+msgid "Restart GUI"
+msgstr "Starta om GUI"
+
+msgid "Need restart GUI"
+msgstr "Behöver starta om GUI"
+
+msgid "Oscam stopped."
+msgstr "Oscam slutade."
+
+msgid "Oscam started."
+msgstr "Oscam började."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binär hittades inte!"
+
+msgid "Updating plugin..."
+msgstr "Uppdaterar plugin..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Är du säker på att du vill starta om GUI?"
 
+msgid "Unknown"
+msgstr "Okänd"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
+
+msgid "Supported devices:"
+msgstr "Enheter som stöds:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Andra modeller kan behöva '/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "Installerat:"
 
 msgid "CI+ helper"
 msgstr "CI+-hjälpare"
@@ -25,96 +97,3 @@ msgstr "CI+-hjälpare"
 msgid "CI+ helper for Enigma2"
 msgstr "CI+-hjälpare för Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "CI+ hjälpmeny"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ kortplats"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Inaktivera ciplushelper autostart"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ kortplats"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Aktivera ciplushelper autostart"
-
-msgid "Install"
-msgstr "Installera"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "standardversion"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "version från Zgemma"
-
-msgid "Installed:"
-msgstr "Installerat:"
-
-msgid "Need restart GUI"
-msgstr "Behöver starta om GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam binär hittades inte!"
-
-msgid "Oscam started."
-msgstr "Oscam började."
-
-msgid "Oscam stopped."
-msgstr "Oscam slutade."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Andra modeller kan behöva '/etc/ciplus'"
-
-msgid "Remove"
-msgstr "Ta bort"
-
-msgid "Restart GUI"
-msgstr "Starta om GUI"
-
-msgid "Start ciplushelper"
-msgstr "Starta ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Sluta ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Enheter som stöds:"
-
-msgid "Supported models"
-msgstr "Modeller som stöds"
-
-msgid "Unknown"
-msgstr "Okänd"
-
-msgid "Update plugin"
-msgstr "Uppdatera plugin"
-
-msgid "Updating plugin..."
-msgstr "Uppdaterar plugin..."
-
-#~ msgid "ARM"
-#~ msgstr "ÄRM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Inaktivera"
-
-#~ msgid "Enable"
-#~ msgstr "Aktivera"
-
-#~ msgid "For other models"
-#~ msgstr "För andra modeller"
-
-#~ msgid "use"
-#~ msgstr "använda"

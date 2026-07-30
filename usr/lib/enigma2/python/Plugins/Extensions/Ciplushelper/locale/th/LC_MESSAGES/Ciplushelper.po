@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "เมนูตัวช่วย CI+"
+
+msgid "Supported models"
+msgstr "รุ่นที่รองรับ"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ปิดใช้งานการเริ่มต้นอัตโนมัติของ ciplushelper"
+
+msgid "Enable ciplushelper autostart"
+msgstr "เปิดใช้งานการเริ่มอัตโนมัติของ ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "หยุด ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "เริ่ม ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "เวอร์ชันจาก Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "สล็อต CI+"
+
+msgid "Enable CI+ slot"
+msgstr "สล็อต CI+"
+
+msgid "Install default version"
+msgstr "เวอร์ชันเริ่มต้น"
+
+msgid "Remove"
+msgstr "ลบ"
+
+msgid "Install"
+msgstr "ติดตั้ง"
+
+msgid "Oscam:"
+msgstr "ออสแคม:"
+
+msgid "Update plugin"
+msgstr "อัปเดตปลั๊กอิน"
+
+msgid "Restart GUI"
+msgstr "รีสตาร์ท GUI"
+
+msgid "Need restart GUI"
+msgstr "ต้องรีสตาร์ท GUI"
+
+msgid "Oscam stopped."
+msgstr "ออสแคมหยุดแล้ว"
+
+msgid "Oscam started."
+msgstr "ออสแคมเริ่มแล้ว"
+
+msgid "Oscam binary not found!"
+msgstr "ไม่พบไบนารี Oscam!"
+
+msgid "Updating plugin..."
+msgstr "กำลังอัปเดตปลั๊กอิน..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการรีสตาร์ท GUI"
 
+msgid "Unknown"
+msgstr "ไม่ทราบ"
+
 msgid "CI+ Helper Plugin"
 msgstr "ปลั๊กอินตัวช่วย CI+"
+
+msgid "Supported devices:"
+msgstr "อุปกรณ์ที่รองรับ:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "รุ่นอื่นๆ อาจต้องใช้ '/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "ติดตั้งแล้ว:"
 
 msgid "CI+ helper"
 msgstr "ตัวช่วย CI+"
@@ -25,96 +97,3 @@ msgstr "ตัวช่วย CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "ตัวช่วย CI+ สำหรับ Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "เมนูตัวช่วย CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "สล็อต CI+"
-
-msgid "Disable ciplushelper autostart"
-msgstr "ปิดใช้งานการเริ่มต้นอัตโนมัติของ ciplushelper"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "สล็อต CI+"
-
-msgid "Enable ciplushelper autostart"
-msgstr "เปิดใช้งานการเริ่มอัตโนมัติของ ciplushelper"
-
-msgid "Install"
-msgstr "ติดตั้ง"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "เวอร์ชันเริ่มต้น"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "เวอร์ชันจาก Zgemma"
-
-msgid "Installed:"
-msgstr "ติดตั้งแล้ว:"
-
-msgid "Need restart GUI"
-msgstr "ต้องรีสตาร์ท GUI"
-
-msgid "Oscam binary not found!"
-msgstr "ไม่พบไบนารี Oscam!"
-
-msgid "Oscam started."
-msgstr "ออสแคมเริ่มแล้ว"
-
-msgid "Oscam stopped."
-msgstr "ออสแคมหยุดแล้ว"
-
-msgid "Oscam:"
-msgstr "ออสแคม:"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "รุ่นอื่นๆ อาจต้องใช้ '/etc/ciplus'"
-
-msgid "Remove"
-msgstr "ลบ"
-
-msgid "Restart GUI"
-msgstr "รีสตาร์ท GUI"
-
-msgid "Start ciplushelper"
-msgstr "เริ่ม ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "หยุด ciplushelper"
-
-msgid "Supported devices:"
-msgstr "อุปกรณ์ที่รองรับ:"
-
-msgid "Supported models"
-msgstr "รุ่นที่รองรับ"
-
-msgid "Unknown"
-msgstr "ไม่ทราบ"
-
-msgid "Update plugin"
-msgstr "อัปเดตปลั๊กอิน"
-
-msgid "Updating plugin..."
-msgstr "กำลังอัปเดตปลั๊กอิน..."
-
-#~ msgid "ARM"
-#~ msgstr "แขน"
-
-#~ msgid "MIPSEL"
-#~ msgstr "มิตเซล"
-
-#~ msgid "Disable"
-#~ msgstr "ปิดการใช้งาน"
-
-#~ msgid "Enable"
-#~ msgstr "เปิดใช้งาน"
-
-#~ msgid "For other models"
-#~ msgstr "สำหรับรุ่นอื่นๆ"
-
-#~ msgid "use"
-#~ msgstr "ใช้"

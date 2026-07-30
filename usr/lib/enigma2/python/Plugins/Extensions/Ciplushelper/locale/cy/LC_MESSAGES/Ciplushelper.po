@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "Dewislen cynorthwyydd CI+"
+
+msgid "Supported models"
+msgstr "Modelau a gefnogir"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Analluogi ciplushelper cychwyn yn awtomatig"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Galluogi ciplushelper cychwyn yn awtomatig"
+
+msgid "Stop ciplushelper"
+msgstr "Stopiwch ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Cychwyn ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "fersiwn o Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "slot CI+"
+
+msgid "Enable CI+ slot"
+msgstr "slot CI+"
+
+msgid "Install default version"
+msgstr "fersiwn rhagosodedig"
+
+msgid "Remove"
+msgstr "Dileu"
+
+msgid "Install"
+msgstr "Gosod"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Diweddaru ategyn"
+
+msgid "Restart GUI"
+msgstr "Ailgychwyn GUI"
+
+msgid "Need restart GUI"
+msgstr "Angen ailgychwyn GUI"
+
+msgid "Oscam stopped."
+msgstr "Stopiodd Oscam."
+
+msgid "Oscam started."
+msgstr "Dechreuodd Oscar."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam deuaidd heb ei ddarganfod!"
+
+msgid "Updating plugin..."
+msgstr "Wrthi'n diweddaru'r ategyn..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Ydych chi'n siŵr eich bod am ailgychwyn y GUI?"
 
+msgid "Unknown"
+msgstr "Anhysbys"
+
 msgid "CI+ Helper Plugin"
 msgstr "Ategyn Cynorthwyydd CI+"
+
+msgid "Supported devices:"
+msgstr "Dyfeisiau a gefnogir:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Efallai y bydd angen '/etc/ciplus' ar fodelau eraill"
+
+msgid "Installed:"
+msgstr "Wedi'i osod:"
 
 msgid "CI+ helper"
 msgstr "Cynorthwyydd CI+"
@@ -25,96 +97,3 @@ msgstr "Cynorthwyydd CI+"
 msgid "CI+ helper for Enigma2"
 msgstr "Cynorthwyydd CI+ ar gyfer Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "Dewislen cynorthwyydd CI+"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "slot CI+"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Analluogi ciplushelper cychwyn yn awtomatig"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "slot CI+"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Galluogi ciplushelper cychwyn yn awtomatig"
-
-msgid "Install"
-msgstr "Gosod"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "fersiwn rhagosodedig"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "fersiwn o Zgemma"
-
-msgid "Installed:"
-msgstr "Wedi'i osod:"
-
-msgid "Need restart GUI"
-msgstr "Angen ailgychwyn GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam deuaidd heb ei ddarganfod!"
-
-msgid "Oscam started."
-msgstr "Dechreuodd Oscar."
-
-msgid "Oscam stopped."
-msgstr "Stopiodd Oscam."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Efallai y bydd angen '/etc/ciplus' ar fodelau eraill"
-
-msgid "Remove"
-msgstr "Dileu"
-
-msgid "Restart GUI"
-msgstr "Ailgychwyn GUI"
-
-msgid "Start ciplushelper"
-msgstr "Cychwyn ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Stopiwch ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Dyfeisiau a gefnogir:"
-
-msgid "Supported models"
-msgstr "Modelau a gefnogir"
-
-msgid "Unknown"
-msgstr "Anhysbys"
-
-msgid "Update plugin"
-msgstr "Diweddaru ategyn"
-
-msgid "Updating plugin..."
-msgstr "Wrthi'n diweddaru'r ategyn..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Analluogi"
-
-#~ msgid "Enable"
-#~ msgstr "Galluogi"
-
-#~ msgid "For other models"
-#~ msgstr "Ar gyfer modelau eraill"
-
-#~ msgid "use"
-#~ msgstr "defnydd"

@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI + ярдәмче меню"
+
+msgid "Supported models"
+msgstr "Ярдәмче модельләр"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Ciplushelper автостартын сүндерегез"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ciplushelper автостартын эшләгез"
+
+msgid "Stop ciplushelper"
+msgstr "Ciplushelper-ны туктатыгыз"
+
+msgid "Start ciplushelper"
+msgstr "Ciplushelper башлау"
+
+msgid "Install version from Zgemma"
+msgstr "Згемма версиясе"
+
+msgid "Disable CI+ slot"
+msgstr "CI + уяты"
+
+msgid "Enable CI+ slot"
+msgstr "CI + уяты"
+
+msgid "Install default version"
+msgstr "килешү версиясе"
+
+msgid "Remove"
+msgstr "Чыгар"
+
+msgid "Install"
+msgstr "Урнаштыру"
+
+msgid "Oscam:"
+msgstr "Оскам:"
+
+msgid "Update plugin"
+msgstr "Плагинны яңарту"
+
+msgid "Restart GUI"
+msgstr "GUIны яңадан эшләтеп җибәрегез"
+
+msgid "Need restart GUI"
+msgstr "GUIны яңадан башларга кирәк"
+
+msgid "Oscam stopped."
+msgstr "Оскам туктады."
+
+msgid "Oscam started."
+msgstr "Оскам башланды."
+
+msgid "Oscam binary not found!"
+msgstr "Оскам бинар табылмады!"
+
+msgid "Updating plugin..."
+msgstr "Плагинны яңарту ..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "GUIны яңадан башларга телисезме?"
 
+msgid "Unknown"
+msgstr "Билгесез"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI + Ярдәмче Плагин"
+
+msgid "Supported devices:"
+msgstr "Ярдәмче җайланмалар:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Башка модельләргә '/ etc / ciplus' кирәк булырга мөмкин."
+
+msgid "Installed:"
+msgstr "Урнаштырылган:"
 
 msgid "CI+ helper"
 msgstr "CI + ярдәмчесе"
@@ -25,96 +97,3 @@ msgstr "CI + ярдәмчесе"
 msgid "CI+ helper for Enigma2"
 msgstr "Enigma2 өчен CI + ярдәмчесе"
 
-msgid "CI+ helper menu"
-msgstr "CI + ярдәмче меню"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI + уяты"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Ciplushelper автостартын сүндерегез"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI + уяты"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Ciplushelper автостартын эшләгез"
-
-msgid "Install"
-msgstr "Урнаштыру"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "килешү версиясе"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "Згемма версиясе"
-
-msgid "Installed:"
-msgstr "Урнаштырылган:"
-
-msgid "Need restart GUI"
-msgstr "GUIны яңадан башларга кирәк"
-
-msgid "Oscam binary not found!"
-msgstr "Оскам бинар табылмады!"
-
-msgid "Oscam started."
-msgstr "Оскам башланды."
-
-msgid "Oscam stopped."
-msgstr "Оскам туктады."
-
-msgid "Oscam:"
-msgstr "Оскам:"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Башка модельләргә '/ etc / ciplus' кирәк булырга мөмкин."
-
-msgid "Remove"
-msgstr "Чыгар"
-
-msgid "Restart GUI"
-msgstr "GUIны яңадан эшләтеп җибәрегез"
-
-msgid "Start ciplushelper"
-msgstr "Ciplushelper башлау"
-
-msgid "Stop ciplushelper"
-msgstr "Ciplushelper-ны туктатыгыз"
-
-msgid "Supported devices:"
-msgstr "Ярдәмче җайланмалар:"
-
-msgid "Supported models"
-msgstr "Ярдәмче модельләр"
-
-msgid "Unknown"
-msgstr "Билгесез"
-
-msgid "Update plugin"
-msgstr "Плагинны яңарту"
-
-msgid "Updating plugin..."
-msgstr "Плагинны яңарту ..."
-
-#~ msgid "ARM"
-#~ msgstr "ARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Сүндер"
-
-#~ msgid "Enable"
-#~ msgstr "Килеш"
-
-#~ msgid "For other models"
-#~ msgstr "Башка модельләр өчен"
-
-#~ msgid "use"
-#~ msgstr "куллану"

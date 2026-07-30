@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ helpermenu"
+
+msgid "Supported models"
+msgstr "Stipe modellen"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Utskeakelje ciplushelper autostart"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Aktivearje ciplushelper autostart"
+
+msgid "Stop ciplushelper"
+msgstr "Stopje ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Begjin ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "ferzje fan Zgemma"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ slot"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ slot"
+
+msgid "Install default version"
+msgstr "standert ferzje"
+
+msgid "Remove"
+msgstr "Fuortsmite"
+
+msgid "Install"
+msgstr "Ynstallearje"
+
+msgid "Oscam:"
+msgstr "Oscam:"
+
+msgid "Update plugin"
+msgstr "Update plugin"
+
+msgid "Restart GUI"
+msgstr "GUI opnij starte"
+
+msgid "Need restart GUI"
+msgstr "Need GUI opnij starte"
+
+msgid "Oscam stopped."
+msgstr "Oscam stoppe."
+
+msgid "Oscam started."
+msgstr "Oscam begon."
+
+msgid "Oscam binary not found!"
+msgstr "Oscam binêr net fûn!"
+
+msgid "Updating plugin..."
+msgstr "Plugin bywurkje..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Binne jo wis dat jo de GUI opnij starte wolle?"
 
+msgid "Unknown"
+msgstr "Ûnbekend"
+
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
+
+msgid "Supported devices:"
+msgstr "Stipe apparaten:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Oare modellen kinne '/etc/ciplus' nedich wêze"
+
+msgid "Installed:"
+msgstr "Ynstallearre:"
 
 msgid "CI+ helper"
 msgstr "CI+ helper"
@@ -25,96 +97,3 @@ msgstr "CI+ helper"
 msgid "CI+ helper for Enigma2"
 msgstr "CI+ helper foar Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "CI+ helpermenu"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ slot"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Utskeakelje ciplushelper autostart"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ slot"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Aktivearje ciplushelper autostart"
-
-msgid "Install"
-msgstr "Ynstallearje"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "standert ferzje"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "ferzje fan Zgemma"
-
-msgid "Installed:"
-msgstr "Ynstallearre:"
-
-msgid "Need restart GUI"
-msgstr "Need GUI opnij starte"
-
-msgid "Oscam binary not found!"
-msgstr "Oscam binêr net fûn!"
-
-msgid "Oscam started."
-msgstr "Oscam begon."
-
-msgid "Oscam stopped."
-msgstr "Oscam stoppe."
-
-msgid "Oscam:"
-msgstr ""
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Oare modellen kinne '/etc/ciplus' nedich wêze"
-
-msgid "Remove"
-msgstr "Fuortsmite"
-
-msgid "Restart GUI"
-msgstr "GUI opnij starte"
-
-msgid "Start ciplushelper"
-msgstr "Begjin ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Stopje ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Stipe apparaten:"
-
-msgid "Supported models"
-msgstr "Stipe modellen"
-
-msgid "Unknown"
-msgstr "Ûnbekend"
-
-msgid "Update plugin"
-msgstr ""
-
-msgid "Updating plugin..."
-msgstr "Plugin bywurkje..."
-
-#~ msgid "ARM"
-#~ msgstr "EARM"
-
-#~ msgid "MIPSEL"
-#~ msgstr "MIPSEL"
-
-#~ msgid "Disable"
-#~ msgstr "Utskeakelje"
-
-#~ msgid "Enable"
-#~ msgstr "Ynskeakelje"
-
-#~ msgid "For other models"
-#~ msgstr "Foar oare modellen"
-
-#~ msgid "use"
-#~ msgstr "gebrûk"

@@ -13,11 +13,83 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CI+ helper menu"
+msgstr "CI+ мени за помош"
+
+msgid "Supported models"
+msgstr "Поддржани модели"
+
+msgid "Disable ciplushelper autostart"
+msgstr "Оневозможи автоматско стартување на ciplushelper"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Овозможете автоматско стартување на ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Стоп за ciplushelper"
+
+msgid "Start ciplushelper"
+msgstr "Започнете ciplushelper"
+
+msgid "Install version from Zgemma"
+msgstr "верзија од Згема"
+
+msgid "Disable CI+ slot"
+msgstr "CI+ слот"
+
+msgid "Enable CI+ slot"
+msgstr "CI+ слот"
+
+msgid "Install default version"
+msgstr "стандардна верзија"
+
+msgid "Remove"
+msgstr "Отстрани"
+
+msgid "Install"
+msgstr "Инсталирајте"
+
+msgid "Oscam:"
+msgstr "Оскам:"
+
+msgid "Update plugin"
+msgstr "Ажурирајте го приклучокот"
+
+msgid "Restart GUI"
+msgstr "Рестартирајте го GUI"
+
+msgid "Need restart GUI"
+msgstr "Треба да се рестартира GUI"
+
+msgid "Oscam stopped."
+msgstr "Оскам застана."
+
+msgid "Oscam started."
+msgstr "Почна Оскам."
+
+msgid "Oscam binary not found!"
+msgstr "Бинарната верзија на Оскам не е пронајдена!"
+
+msgid "Updating plugin..."
+msgstr "Се ажурира приклучокот..."
+
 msgid "Are you sure you want to restart the GUI?"
 msgstr "Дали сте сигурни дека сакате да го рестартирате GUI?"
 
+msgid "Unknown"
+msgstr "Непознат"
+
 msgid "CI+ Helper Plugin"
 msgstr "Приклучок за помошник CI+"
+
+msgid "Supported devices:"
+msgstr "Поддржани уреди:"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "На други модели можеби им треба '/etc/ciplus'"
+
+msgid "Installed:"
+msgstr "Инсталиран:"
 
 msgid "CI+ helper"
 msgstr "CI+ помошник"
@@ -25,96 +97,3 @@ msgstr "CI+ помошник"
 msgid "CI+ helper for Enigma2"
 msgstr "CI+ помошник за Enigma2"
 
-msgid "CI+ helper menu"
-msgstr "CI+ мени за помош"
-
-#, fuzzy
-msgid "Disable CI+ slot"
-msgstr "CI+ слот"
-
-msgid "Disable ciplushelper autostart"
-msgstr "Оневозможи автоматско стартување на ciplushelper"
-
-#, fuzzy
-msgid "Enable CI+ slot"
-msgstr "CI+ слот"
-
-msgid "Enable ciplushelper autostart"
-msgstr "Овозможете автоматско стартување на ciplushelper"
-
-msgid "Install"
-msgstr "Инсталирајте"
-
-#, fuzzy
-msgid "Install default version"
-msgstr "стандардна верзија"
-
-#, fuzzy
-msgid "Install version from Zgemma"
-msgstr "верзија од Згема"
-
-msgid "Installed:"
-msgstr "Инсталиран:"
-
-msgid "Need restart GUI"
-msgstr "Треба да се рестартира GUI"
-
-msgid "Oscam binary not found!"
-msgstr "Бинарната верзија на Оскам не е пронајдена!"
-
-msgid "Oscam started."
-msgstr "Почна Оскам."
-
-msgid "Oscam stopped."
-msgstr "Оскам застана."
-
-msgid "Oscam:"
-msgstr "Оскам:"
-
-msgid "Other models may need '/etc/ciplus'"
-msgstr "На други модели можеби им треба '/etc/ciplus'"
-
-msgid "Remove"
-msgstr "Отстрани"
-
-msgid "Restart GUI"
-msgstr "Рестартирајте го GUI"
-
-msgid "Start ciplushelper"
-msgstr "Започнете ciplushelper"
-
-msgid "Stop ciplushelper"
-msgstr "Стоп за ciplushelper"
-
-msgid "Supported devices:"
-msgstr "Поддржани уреди:"
-
-msgid "Supported models"
-msgstr "Поддржани модели"
-
-msgid "Unknown"
-msgstr "Непознат"
-
-msgid "Update plugin"
-msgstr "Ажурирајте го приклучокот"
-
-msgid "Updating plugin..."
-msgstr "Се ажурира приклучокот..."
-
-#~ msgid "ARM"
-#~ msgstr "АРМ"
-
-#~ msgid "MIPSEL"
-#~ msgstr "МИПСЕЛ"
-
-#~ msgid "Disable"
-#~ msgstr "Оневозможи"
-
-#~ msgid "Enable"
-#~ msgstr "Овозможи"
-
-#~ msgid "For other models"
-#~ msgstr "За други модели"
-
-#~ msgid "use"
-#~ msgstr "употреба"
