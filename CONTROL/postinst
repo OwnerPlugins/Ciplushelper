@@ -3,6 +3,9 @@
 # postinst script for Ciplushelper plugin v6.7
 # Universal detection for ALL ARM and MIPSEL boxes
 # Priority: boxtype > model > boxbranding > opkg > uname
+#
+# AUTOSTART IS DISABLED BY DEFAULT
+# User must enable it from plugin menu after testing
 
 # ----------------------------------------------------------------------
 # Helper functions
@@ -16,7 +19,8 @@ cleanup_old() {
     echo "Stopping old ciplushelper service..."
     killall ciplushelper 2>/dev/null
     sleep 2
-    update-rc.d -f ciplushelper remove 2>/dev/null
+    # Remove old autostart links (just in case)
+    rm -f /etc/rc?.d/S50ciplushelper
     rm -f /usr/bin/ciplushelper
     rm -f /etc/init.d/ciplushelper
 }
@@ -33,12 +37,11 @@ install_ciplushelper() {
     cp "$src_init" /etc/init.d/ciplushelper
     chmod 755 /etc/init.d/ciplushelper
 
-    if type update-rc.d >/dev/null 2>&1; then
-        echo "Adding to autostart..."
-        update-rc.d ciplushelper defaults 50
-    else
-        echo "update-rc.d not found, skipping autostart configuration."
-    fi
+    # IMPORTANT: AUTOSTART IS NOT ACTIVATED HERE!
+    # The user must enable it manually from the plugin menu
+    # after verifying that the binary works correctly.
+    echo "Autostart is DISABLED by default."
+    echo "Enable it from the plugin menu if everything works."
 }
 
 # ----------------------------------------------------------------------
@@ -118,7 +121,7 @@ if [ -z "$MODEL" ] && [ -f /tmp/boxbranding.cfg ]; then
     MODEL=$(grep -i 'getMachineBuild=' /tmp/boxbranding.cfg | cut -d'=' -f2 | tr '[:upper:]' '[:lower:]' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
 fi
 
-# 4. If still empty, try /proc/stb/info/version (some boxes have model here)
+# 4. If still empty, try /proc/stb/info/version
 if [ -z "$MODEL" ] && [ -f /proc/stb/info/version ]; then
     MODEL=$(cat /proc/stb/info/version | tr '[:upper:]' '[:lower:]' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' | cut -d'-' -f1)
 fi
@@ -158,7 +161,7 @@ fi
 # Determine architecture
 # ----------------------------------------------------------------------
 
-# List of known ARM models (keep adding as needed)
+# List of known ARM models
 ARM_MODELS="h7 h10 h9combo h9twin h9combose h9twinse hd51 vs1500 pulse4k pulse4kmini h17 8100s hd61 ustym4kpro ustym4k dm8000 uclan"
 
 # List of known MIPSEL models
@@ -267,21 +270,21 @@ write_info "ciplushelper-$BIN_SUBDIR"
 # ----------------------------------------------------------------------
 
 echo ""
-echo "*********************************"
-echo "         Warning!!!              "
-echo "      Need reboot box!!!         "
-echo "*********************************"
+echo "**********************************************"
+echo "         Installation completed!"
+echo "  Installed: ciplushelper-$BIN_SUBDIR"
+echo ""
+echo "  AUTOSTART IS DISABLED BY DEFAULT."
+echo "  Please open the plugin menu, test if it"
+echo "  works, then enable autostart manually."
+echo "**********************************************"
 echo ""
 
 # Verify installation
 if [ -z "$(cat /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/info.txt)" ]; then
-    rm -rf "$BIN_DIR" 2>/dev/null
     rm -f /usr/bin/ciplushelper
     echo "Installation failed - cleaning up"
     exit 1
 fi
-
-echo "Installation completed successfully!"
-echo "Installed: $(cat /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/info.txt)"
 
 exit 0
