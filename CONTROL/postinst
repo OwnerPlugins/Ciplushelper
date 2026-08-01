@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# postinst script for Ciplushelper plugin
+# postinst script for Ciplushelper plugin v6.7
 # Universal detection for ALL ARM and MIPSEL boxes
 # Priority: boxtype > model > boxbranding > opkg > uname
 
@@ -13,25 +13,44 @@ write_info() {
 }
 
 cleanup_old() {
+    echo "Stopping old ciplushelper service..."
     killall ciplushelper 2>/dev/null
     sleep 2
+    update-rc.d -f ciplushelper remove 2>/dev/null
     rm -f /usr/bin/ciplushelper
+    rm -f /etc/init.d/ciplushelper
 }
 
 install_ciplushelper() {
     local src_bin="$1"
     local src_init="$2"
 
+    echo "Installing ciplushelper binary..."
     cp "$src_bin" /usr/bin/ciplushelper
     chmod 755 /usr/bin/ciplushelper
 
+    echo "Installing init script..."
     cp "$src_init" /etc/init.d/ciplushelper
     chmod 755 /etc/init.d/ciplushelper
 
     if type update-rc.d >/dev/null 2>&1; then
+        echo "Adding to autostart..."
         update-rc.d ciplushelper defaults 50
+    else
+        echo "update-rc.d not found, skipping autostart configuration."
     fi
 }
+
+# ----------------------------------------------------------------------
+# Check if already installed (cleanup)
+# ----------------------------------------------------------------------
+
+if [ -f /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/info.txt ]; then
+    echo "Existing installation found. Updating..."
+    cleanup_old
+else
+    echo "Fresh installation."
+fi
 
 # ----------------------------------------------------------------------
 # Detect architecture from opkg (fallback)
@@ -81,6 +100,8 @@ detect_arch_from_uname() {
 
 MODEL=""
 ZMODEL="no"
+
+echo "Detecting box model..."
 
 # 1. Try boxtype (MOST RELIABLE)
 if [ -f /proc/stb/info/boxtype ]; then
@@ -183,8 +204,6 @@ echo "Architecture: $ARCH"
 PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper"
 BIN_DIR="$PLUGIN_DIR/ciplushelper_bin"
 INIT_SCRIPT="$PLUGIN_DIR/ciplushelper.sh"
-
-cleanup_old
 
 # Choose binary subdirectory
 case "$ARCH" in

@@ -6,7 +6,7 @@ from Tools.Directories import resolveFilename, SCOPE_PLUGINS
 import gettext
 import re
 
-__version__ = "6.6"
+__version__ = "6.7"
 __license__ = "GPL-v2"
 
 PluginLanguageDomain = "Ciplushelper"

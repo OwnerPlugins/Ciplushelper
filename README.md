@@ -1,6 +1,6 @@
 <h1 align="center">⚙️ CI+ Helper Plugin for Enigma2
 
-[![Version](https://img.shields.io/badge/Version-6.6-blue.svg)](https://github.com/OwnerPlugins/Ciplushelper)
+[![Version](https://img.shields.io/badge/Version-6.7-blue.svg)](https://github.com/OwnerPlugins/Ciplushelper)
 [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
 [![Python](https://img.shields.io/badge/Python3-only-orange.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -41,7 +41,7 @@ It automatically detects your box model and architecture, installing the correct
 - **Certificates Management** – Install/remove `/etc/ciplus` certificates
 - **Autostart Control** – Enable/disable `ciplushelper` at boot
 - **Service Control** – Start/stop `ciplushelper` daemon
-- **Oscam Toggle** – Start/stop Oscam directly from the plugin menu to avoid descrambler conflicts with CI+ helper.
+<!-- - **Oscam Toggle** – Start/stop Oscam directly from the plugin menu to avoid descrambler conflicts with CI+ helper. -->
 - **Open CI Assignment** – Quick access to the system plugin for mapping channels to CI slots (OpenPLi/OpenATV).
 - **Update plugin - Command** – update the plugin directly from the menu via installer.sh.
 
