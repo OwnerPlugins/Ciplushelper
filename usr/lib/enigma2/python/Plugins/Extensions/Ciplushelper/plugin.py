@@ -25,7 +25,7 @@ def debug_log(msg):
     try:
         with open(DEBUG_FILE, "a") as f:
             f.write("[CI+ Helper] %s\n" % msg)
-    except:
+    except BaseException:
         pass
 
 
@@ -72,14 +72,17 @@ class Ciplushelper(Screen):
 
         self.model = model
         self.ret = popen("pgrep ciplushelper").read()
-        debug_log("Model: %s, ciplushelper running: %s" % (model, "yes" if "ciplushelper" in self.ret else "no"))
+        debug_log("Model: %s, ciplushelper running: %s" %
+                  (model, "yes" if "ciplushelper" in self.ret else "no"))
 
         if model:
             # Autostart
             if exists("/etc/rc2.d/S50ciplushelper"):
-                menu_list.append((_("Disable ciplushelper autostart"), "disable"))
+                menu_list.append(
+                    (_("Disable ciplushelper autostart"), "disable"))
             else:
-                menu_list.append((_("Enable ciplushelper autostart"), "enable"))
+                menu_list.append(
+                    (_("Enable ciplushelper autostart"), "enable"))
 
             # Start/Stop
             if "ciplushelper" in self.ret:
@@ -90,16 +93,28 @@ class Ciplushelper(Screen):
             # ARM‑specific
             if "ciplushelper-arm" in model or "ciplushelper-zgemma-arm" in model:
                 if not exists("/etc/cicert.bin"):
-                    menu_list.append((_("Install version from Zgemma"), "install_cicert_bin"))
+                    menu_list.append(
+                        (_("Install version from Zgemma"), "install_cicert_bin"))
                 else:
                     for i in range(2):
                         enable_file = "/etc/ciplus%d_enable" % i
                         disable_file = "/etc/ciplus%d_disable" % i
                         if exists(enable_file):
-                            menu_list.append((_("Disable CI+ slot") + " " + str(i), "disable_ciplus%d" % i))
+                            menu_list.append(
+                                (_("Disable CI+ slot") +
+                                 " " +
+                                 str(i),
+                                    "disable_ciplus%d" %
+                                    i))
                         elif exists(disable_file):
-                            menu_list.append((_("Enable CI+ slot") + " " + str(i), "enable_ciplus%d" % i))
-                    menu_list.append((_("Install default version"), "install_default"))
+                            menu_list.append(
+                                (_("Enable CI+ slot") +
+                                 " " +
+                                 str(i),
+                                    "enable_ciplus%d" %
+                                    i))
+                    menu_list.append(
+                        (_("Install default version"), "install_default"))
 
             # Update init script if needed
             try:
@@ -109,14 +124,19 @@ class Ciplushelper(Screen):
                         copy = False
                 if copy:
                     debug_log("Updating init script...")
-                    cmd = "cp /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/ciplushelper.sh %s && chmod 755 %s" % (ciplushelper, ciplushelper)
+                    cmd = "cp /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/ciplushelper.sh %s && chmod 755 %s" % (
+                        ciplushelper, ciplushelper)
                     os_system(cmd)
                     debug_log("Init script updated")
             except Exception as e:
                 debug_log("Error updating init script: %s" % e)
 
         # Certificates
-        cert_paths = ["/etc/ciplus/customer.pem", "/etc/ciplus/device.pem", "/etc/ciplus/root.pem", "/etc/ciplus/param"]
+        cert_paths = [
+            "/etc/ciplus/customer.pem",
+            "/etc/ciplus/device.pem",
+            "/etc/ciplus/root.pem",
+            "/etc/ciplus/param"]
         if all(exists(p) for p in cert_paths):
             menu_list.append((_("Remove") + " /etc/ciplus", "remove_sert"))
         else:
@@ -126,7 +146,9 @@ class Ciplushelper(Screen):
         menu_list.append((_("Update plugin"), "update_plugin"))
 
         self["menu"] = MenuList(menu_list)
-        self["actions"] = ActionMap(["OkCancelActions"], {"ok": self.run, "cancel": self.close}, -1)
+        self["actions"] = ActionMap(
+            ["OkCancelActions"], {
+                "ok": self.run, "cancel": self.close}, -1)
         debug_log("Menu built with %d items" % len(menu_list))
 
     def run(self):
@@ -142,9 +164,12 @@ class Ciplushelper(Screen):
         commands = {
             "enable": "ln -sf /etc/init.d/ciplushelper /etc/rc2.d/S50ciplushelper && ln -sf /etc/init.d/ciplushelper /etc/rc3.d/S50ciplushelper && ln -sf /etc/init.d/ciplushelper /etc/rc4.d/S50ciplushelper && ln -sf /etc/init.d/ciplushelper /etc/rc5.d/S50ciplushelper",
             "disable": "rm -f /etc/rc2.d/S50ciplushelper /etc/rc3.d/S50ciplushelper /etc/rc4.d/S50ciplushelper /etc/rc5.d/S50ciplushelper",
-            "start": "%s start" % ciplushelper,
-            "stop": "%s stop" % ciplushelper,
-            "install_sert": "cp -R %s/ciplus /etc/ciplus" % plugin_path,
+            "start": "%s start" %
+            ciplushelper,
+            "stop": "%s stop" %
+            ciplushelper,
+            "install_sert": "cp -R %s/ciplus /etc/ciplus" %
+            plugin_path,
             "remove_sert": "rm -rf /etc/ciplus",
             "disable_ciplus0": "mv /etc/ciplus0_enable /etc/ciplus0_disable",
             "enable_ciplus0": "mv /etc/ciplus0_disable /etc/ciplus0_enable",
@@ -170,12 +195,19 @@ class Ciplushelper(Screen):
             for i in range(2):
                 enable_file = "/etc/ciplus%d_enable" % i
                 if not exists(enable_file):
-                    os_system("echo 'rename ciplus*_enable to ciplus*_disable for deactivate ciplus certification of the module.' > %s" % enable_file)
+                    os_system(
+                        "echo 'rename ciplus*_enable to ciplus*_disable for deactivate ciplus certification of the module.' > %s" %
+                        enable_file)
             if "ciplushelper" in self.ret:
                 os_system("killall ciplushelper 2>/dev/null && sleep 2")
-            os_system("cp %s/ciplushelper_bin/zgemma-arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper" % plugin_path)
+            os_system(
+                "cp %s/ciplushelper_bin/zgemma-arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper" %
+                plugin_path)
             if "ciplushelper" in self.ret:
-                self.session.open(Console, _("Start ciplushelper"), ["/etc/init.d/ciplushelper start && echo 'Need restart GUI'"])
+                self.session.open(
+                    Console,
+                    _("Start ciplushelper"),
+                    ["/etc/init.d/ciplushelper start && echo 'Need restart GUI'"])
             self.close()
             return
 
@@ -183,9 +215,14 @@ class Ciplushelper(Screen):
             debug_log("Installing default ARM binary...")
             if "ciplushelper" in self.ret:
                 os_system("killall ciplushelper 2>/dev/null && sleep 2")
-            os_system("cp %s/ciplushelper_bin/arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper" % plugin_path)
+            os_system(
+                "cp %s/ciplushelper_bin/arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper" %
+                plugin_path)
             if "ciplushelper" in self.ret:
-                self.session.open(Console, _("Start ciplushelper"), ["/etc/init.d/ciplushelper start && echo 'Need restart GUI'"])
+                self.session.open(
+                    Console,
+                    _("Start ciplushelper"),
+                    ["/etc/init.d/ciplushelper start && echo 'Need restart GUI'"])
             self.close()
             return
 
@@ -195,7 +232,10 @@ class Ciplushelper(Screen):
                 from Plugins.SystemPlugins.CommonInterfaceAssignment.plugin import CIselectMainMenu
                 self.session.openWithCallback(self.close, CIselectMainMenu)
             except ImportError:
-                self.session.open(MessageBox, _("Common Interface Assignment plugin not found. Please install it from System Plugins."), MessageBox.TYPE_INFO)
+                self.session.open(
+                    MessageBox,
+                    _("Common Interface Assignment plugin not found. Please install it from System Plugins."),
+                    MessageBox.TYPE_INFO)
                 self.close()
             return
 
@@ -248,13 +288,13 @@ def Plugins(**kwargs):
 # def Plugins(**kwargs):
     # from Components.SystemInfo import SystemInfo
     # if SystemInfo.get("CommonInterface", 0):
-        # return [
-            # PluginDescriptor(
-                # name=_("CI+ helper") + " v" + __version__,
-                # description=_("CI+ helper for Enigma2"),
-                # icon="plugin.png",
-                # where=PluginDescriptor.WHERE_PLUGINMENU,
-                # fnc=main
-            # )
-        # ]
+    # return [
+    # PluginDescriptor(
+    # name=_("CI+ helper") + " v" + __version__,
+    # description=_("CI+ helper for Enigma2"),
+    # icon="plugin.png",
+    # where=PluginDescriptor.WHERE_PLUGINMENU,
+    # fnc=main
+    # )
+    # ]
     # return []
