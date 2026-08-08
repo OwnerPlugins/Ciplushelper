@@ -123,9 +123,29 @@ cd ciplushelper
 opkg-build .
 ```
 
----
-
 ## 📋 Changelog
+
+### v6.8
+- **Disable autostart by default; bump to 6.8
+- **Apply auto PEP8 aggressive fixes
+
+### v6.7
+- **Remove** installer, simplify plugin
+
+### v6.6
+- **Update Locale
+- **Bump version to 6.6
+- **Add debug logging and improve autostart/CI handling
+- **Refactor Ciplushelper plugin: autostart & UI
+- **Disable 'Restart GUI' and switch plugin menu
+- **Add shebang and normalize encoding headers
+- **Apply auto PEP8 aggressive fixes
+
+### v6.5
+- **Bump** version to 6.5 and robustness fixes
+- **Apply** auto PEP8 aggressive fixes
+- **Detect** CI module and conditionally register plugin
+- **Apply** auto PEP8 aggressive fixes
 
 ### v6.4
 - **Improved:** Oscam detection now uses `ps -A | grep -i` for universal compatibility (works with `OSCam_11965-803` and all variants).
