@@ -1,6 +1,6 @@
 <h1 align="center">⚙️ CI+ Helper Plugin for Enigma2
 
-[![Version](https://img.shields.io/badge/Version-6.8-blue.svg)](https://github.com/OwnerPlugins/Ciplushelper)
+[![Version](https://img.shields.io/badge/Version-7.0-blue.svg)](https://github.com/OwnerPlugins/Ciplushelper)
 [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
 [![Python](https://img.shields.io/badge/Python3-only-orange.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -24,34 +24,37 @@
 
 ## 📌 Description
 
-**CI+ Helper** is a plugin for Enigma2 that provides comprehensive management of the `ciplushelper` daemon, enabling CI+ certification for a wide range of ARM and MIPSEL set-top boxes.
+**CI+ Helper** is a comprehensive Enigma2 plugin for managing the `ciplushelper` daemon, enabling CI+ certification across ARM and MIPSEL set-top boxes.
 
-It automatically detects your box model and architecture, installing the correct binary for optimal compatibility.
+The plugin automatically detects your hardware architecture and installs the optimal binary for your device, ensuring maximum compatibility and performance.
 
 ---
 
 ## ✨ Features
 
 - **Automatic Hardware Detection** – Supports ARM and MIPSEL boxes via `/proc/stb/`, `opkg`, and `uname` fallbacks
-- **Multi-Architecture Support** – Separate binaries for generic ARM, Zgemma ARM, and MIPSEL
+- **Multi-Architecture Support** – Separate binaries for generic ARM, Zgemma ARM, HD51 ARM, and MIPSEL
 - **WQHD (2560×1440) Skin** – Optimized interface for 2K displays
 - **CI+ Slot Management** – Enable/disable CI+ certification per slot (0 and 1) on ARM boxes
-- **Zgemma ARM Binary** – Dedicated binary for Zgemma models (H7, H9, H10)
-<!-- - **Restart GUI** – Quick restart of Enigma2 interface directly from the plugin -->
-- **Certificates Management** – Install/remove `/etc/ciplus` certificates
-- **Autostart Control** – Enable/disable `ciplushelper` at boot
-- **Service Control** – Start/stop `ciplushelper` daemon
-<!-- - **Oscam Toggle** – Start/stop Oscam directly from the plugin menu to avoid descrambler conflicts with CI+ helper. -->
-- **Open CI Assignment** – Quick access to the system plugin for mapping channels to CI slots (OpenPLi/OpenATV).
-- **Update plugin - Command** – update the plugin directly from the menu via installer.sh.
+- **Zgemma ARM Binary** – Dedicated binary for Zgemma models (H6, H7, H9, H10) using HD51/6.new optimized build
+- **Certificates Management** – Install/remove `/etc/ciplus` certificates with automatic sync to `/etc/ssl/certs/`
+- **Autostart Control** – Enable/disable `ciplushelper` at boot via init script
+- **Service Control** – Start/stop `ciplushelper` daemon with real-time status display
+- **Init Script Management** – Automatically copies and configures `/etc/init.d/ciplushelper`
+- **Open CI Assignment** – Quick access to the system plugin for mapping channels to CI slots (OpenPLi/OpenATV)
+- **Update Plugin** – Update directly from the menu via `installer.sh`
 
 ---
 
 ## 📦 Supported Models
 
-### ARM Architecture
+### ARM Architecture (Binary from hd51/6.new - 1010KB)
 - **Zgemma:** H6, H7, H9combo(se), H9twin(se), H10
-- **Other:** HD51, VS1500, Pulse 4K(mini), h17, 8100s, hd61, Uclan (ustym4kpro), DM8000
+- **HD51, VS1500, Pulse 4K(mini), h17, 8100s, hd61**
+- **Uclan (ustym4kpro), DM8000**
+
+### ARM Architecture (Alternative - 1.7MB)
+- **Zgemma ARM** – alternative binary for specific models
 
 ### MIPSEL Architecture
 - Mutant (hd1500/hd2400)
@@ -75,11 +78,10 @@ It automatically detects your box model and architecture, installing the correct
 
 ### Via Telnet IPK (recommended)
 ```bash
-opkg install /tmp/enigma2-plugin-extensions-ci-plus-helper_6.4_all.ipk
+opkg install /tmp/enigma2-plugin-extensions-ci-plus-helper_7.0_all.ipk
 ```
 
-or command line
-
+### Via Command Line
 ```bash
 wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/Ciplushelper/main/installer.sh -O - | /bin/bash
 ```
@@ -102,14 +104,26 @@ reboot
 
 1. Open the **Plugin Browser** (Menu → Plugins)
 2. Select **CI+ Helper**
-3. Choose from available options:
-   - **Start/Stop** ciplushelper service
-   - **Enable/Disable** autostart
-   - **Install/Remove** `/etc/ciplus` certificates
-   - **Install** Zgemma ARM binary (if applicable)
-   - **Enable/Disable CI+ slots** (ARM only)
-   - **Restart GUI**
-   - **Update Plugin**
+3. The plugin automatically detects your model and shows:
+   - **CI modules detected** – shows which CI slots are present
+   - **Enable auto-check module** – toggles automatic module checking
+   - **CI+ Helper status** – shows if the daemon is running
+   - **Enable/Disable ciplushelper autostart** – manages boot startup
+   - **Start/Stop ciplushelper** – manual service control
+   - **Install WORKING binary (recommended)** – installs the correct binary for your device
+   - **Install /etc/ciplus** – installs certificates (if missing)
+   - **Open CI Assignment** – opens the CI assignment plugin
+   - **Update plugin** – updates to the latest version
+   - **Supported models** – displays compatible devices
+
+4. For first-time setup on ARM/Zgemma boxes:
+   - Select **"Install WORKING binary (recommended)"**
+   - The plugin will:
+     - Copy certificates to `/etc/ciplus/` and `/etc/ssl/certs/`
+     - Copy the init script to `/etc/init.d/ciplushelper`
+     - Install the correct binary (hd51/6.new - 1010KB)
+     - Start the daemon automatically
+   - Wait for confirmation that the daemon is running
 
 ---
 
@@ -123,7 +137,33 @@ cd ciplushelper
 opkg-build .
 ```
 
+---
+
 ## 📋 Changelog
+
+### v7.0 - Major Update
+- **New:** Unified ConfigListScreen interface – all settings and actions in one list
+- **New:** Real-time daemon status display (Running/Not running) with pgrep detection
+- **New:** Automatic init script copying from `ciplushelper.sh` to `/etc/init.d/ciplushelper`
+- **New:** Certificate sync to `/etc/ssl/certs/` in addition to `/etc/ciplus/`
+- **New:** "Install WORKING binary (recommended)" – uses the verified hd51/6.new binary (1010KB)
+- **New:** CI modules detection with slot status display
+- **New:** Action keys with ConfigAction class for menu commands
+- **Improved:** Better error handling with debug logging to `/home/root/ciplus_debug.log`
+- **Improved:** Automatic binary selection based on hardware detection
+- **Improved:** Start/Stop commands now verify daemon status
+- **Improved:** Skin dimensions optimized for WQHD, FHD, and HD displays
+- **Fixed:** ConfigNothing TypeError – replaced with custom ConfigAction class
+- **Fixed:** ci_auto_check_module moved under config.plugins.cionoff
+- **Fixed:** Certificates installation in both `/etc/ciplus/` and `/etc/ssl/certs/`
+- **Fixed:** Init script not being copied correctly
+- **Fixed:** Binary selection for Zgemma ARM models (uses hd51/6.new)
+- **Changed:** All code comments and debug messages now in English
+- **Changed:** Plugin now always visible in plugin list (removed SystemInfo check)
+
+### v6.9
+- **Changed:** All code comments and debug messages now in English
+- **Changed:** Plugin now always visible in plugin list (removed SystemInfo check)
 
 ### v6.8
 - **Disable autostart by default; bump to 6.8
@@ -148,23 +188,23 @@ opkg-build .
 - **Apply** auto PEP8 aggressive fixes
 
 ### v6.4
-- **Improved:** Oscam detection now uses `ps -A | grep -i` for universal compatibility (works with `OSCam_11965-803` and all variants).
-- **Improved:** Oscam status is now updated in real-time using `onShown` callback.
-- **Improved:** Toggle Oscam uses PID-based kill and binary detection via `/proc/<pid>/exe` for reliable start/stop.
-- **Fixed:** Oscam toggle now properly starts Oscam using the exact binary path.
+- **Improved:** Oscam detection now uses `ps -A | grep -i` for universal compatibility
+- **Improved:** Oscam status is now updated in real-time using `onShown` callback
+- **Improved:** Toggle Oscam uses PID-based kill and binary detection via `/proc/<pid>/exe`
+- **Fixed:** Oscam toggle now properly starts Oscam using the exact binary path
 
 ### v6.3
-- **New:** Oscam toggle – start/stop Oscam directly from the plugin menu to avoid descrambler conflicts with CI+ helper.
-- **New:** "Open CI Assignment" menu entry – quick access to the system plugin for mapping channels to CI slots (OpenPLi/OpenATV).
+- **New:** Oscam toggle – start/stop Oscam directly from the plugin menu
+- **New:** "Open CI Assignment" menu entry
 
 ### v6.2
-- **New:** "Update plugin" command – update the plugin directly from the menu via `installer.sh`.
-- **Fixed:** `TypeError` in MessageBox caused by skin inheritance with `getDesktop()` at class level.
-- **Improved:** Skin dimensions for WQHD, FHD, and HD displays.
+- **New:** "Update plugin" command via `installer.sh`
+- **Fixed:** `TypeError` in MessageBox caused by skin inheritance
+- **Improved:** Skin dimensions for WQHD, FHD, and HD displays
 
 ### v6.1
-- **Fixed:** Installer now copies only the `usr/` directory structure, avoiding extra files (`.github`, `screenshots`, `CONTROL`, etc.) being copied to the plugin folder.
-- **Improved:** `postinst` script now detects `ustym4kpro`, `dm8000`, and all generic ARM/MIPSEL boxes.
+- **Fixed:** Installer now copies only the `usr/` directory structure
+- **Improved:** `postinst` script now detects `ustym4kpro`, `dm8000`, and all generic ARM/MIPSEL boxes
 
 ### v6.0
 - **New:** WQHD (2560×1440) skin support
@@ -177,22 +217,66 @@ opkg-build .
 - **Fixed:** Model detection for boxes without `getImageVersion`
 - **Fixed:** Skin dimensions for FHD displays
 - **Fixed:** `postrm` script to properly stop service before removal
-- **Fixed:** `TypeError` in MessageBox caused by skin inheritance with getDesktop() at class level.
 
 ---
 
 ## ⚠️ Important Notes
 
-### Oscam / SoftCAM conflict
+### Oscam / SoftCAM Conflict
+If you have **Oscam** or any other softCAM running on your box, it may conflict with the CI+ helper daemon. Both try to access the same hardware descrambler. To use CI+ helper, stop or disable Oscam temporarily:
+```bash
+/etc/init.d/softcam stop   # or use your softcam's stop command
+```
 
-If you have **Oscam** or any other softCAM running on your box, it may conflict with the CI+ helper daemon.
+### Daemon Status Verification
+After starting the daemon, the plugin shows "Running" if the process is detected. However, if the daemon starts and then crashes, the status will show "Not running". Check the debug log for details:
+```bash
+cat /home/root/ciplus_debug.log
+```
 
-- Both Oscam and `ciplushelper` try to access the same hardware descrambler.
-- To use CI+ helper, **stop or disable Oscam** temporarily:
-  ```bash
-  /etc/init.d/softcam stop   # or use your softcam's stop command
-  ```
-  
+### Binary Selection
+- **ARM/Zgemma models:** Uses `hd51/6.new/ciplushelper` (1010KB) – the verified working binary
+- **Alternative:** `zgemma-arm/ciplushelper` (1.7MB) – available for specific models
+- **MIPSEL models:** Uses `mipsel32/ciplushelper` (1.5MB)
+
+### First-Time Setup
+For ARM/Zgemma boxes, always run **"Install WORKING binary (recommended)"** after installation. This ensures:
+1. Certificates are correctly installed
+2. Init script is properly configured
+3. The correct binary is installed
+4. The daemon is started and verified
+
+### Debug Logging
+The plugin writes debug information to `/home/root/ciplus_debug.log`. Check this file if you encounter issues:
+```bash
+tail -f /home/root/ciplus_debug.log
+```
+
+---
+
+## 🔍 Troubleshooting
+
+### Daemon not starting
+1. Check the debug log: `cat /home/root/ciplus_debug.log`
+2. Verify binary exists: `ls -la /usr/bin/ciplushelper`
+3. Check init script: `ls -la /etc/init.d/ciplushelper`
+4. Test manually: `/usr/bin/ciplushelper`
+5. Verify certificates: `ls -la /etc/ciplus/` and `ls -la /etc/ssl/certs/`
+
+### Daemon starts but channels don't clear
+1. Verify the daemon is running: `pgrep -f ciplushelper`
+2. Check CI module is inserted and recognized
+3. Verify CI Assignment is configured correctly
+4. Check if Oscam/softCAM is conflicting: `ps -A | grep -i oscam`
+
+### Permission issues
+```bash
+chmod 755 /usr/bin/ciplushelper
+chmod 755 /etc/init.d/ciplushelper
+chmod 755 /etc/ciplus
+chmod 644 /etc/ssl/certs/*.pem
+```
+
 ---
 
 ## 📝 Credits
@@ -227,5 +311,3 @@ Contributions are welcome! Please:
 ---
 
 **Enjoy your CI+ Helper!** 🎯
-
-

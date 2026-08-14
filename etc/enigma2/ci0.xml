@@ -1,4 +1,4 @@
-?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ci>
     <slot>
         <id>0</id>
@@ -91,7 +91,7 @@
         <service name="Rai 3 TGR Lombardia" ref="1:0:16:454C:30D4:13E:820000:0:0:0:" />
         <service name="Rai 3 TGR Trentino Alto Adige Bolzano" ref="1:0:16:4558:30D4:13E:820000:0:0:0:" />
         <service name="Rai 3 TGR Trentino Alto Adige Trento" ref="1:0:16:4557:30D4:13E:820000:0:0:0:" />
-        <service name="Rai 3 TGR SÃ¼dtirol HD" ref="1:0:19:454F:30D4:13E:820000:0:0:0:" />
+        <service name="Rai 3 TGR Sùdtirol HD" ref="1:0:19:454F:30D4:13E:820000:0:0:0:" />
         <service name="Rai 3 TGR Friuli Venezia Giulia" ref="1:0:16:4555:30D4:13E:820000:0:0:0:" />
         <service name="Rai 3 TGR Furlanija Julijska Krajina" ref="1:0:16:4556:30D4:13E:820000:0:0:0:" />
         <service name="Rai 3 TGR Veneto" ref="1:0:16:454E:30D4:13E:820000:0:0:0:" />
