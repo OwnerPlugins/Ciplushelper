@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "सीआई+ सहायक मेनू"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- विलंब बंद-->पर (सीआई 1)"
 
-msgid "Supported models"
-msgstr "समर्थित मॉडल"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- विलंब बंद-->पर (सीआई 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "सिप्लसहेल्पर ऑटोस्टार्ट अक्षम करें"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- बंद/चालू के बाद सेवा पुनः प्रारंभ करें (सीआई 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "सिप्लसहेल्पर ऑटोस्टार्ट सक्षम करें"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- बंद/चालू के बाद सेवा पुनः प्रारंभ करें (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "सिप्लसहेल्पर बंद करो"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- सीआई ऑटो ऑफ/ऑन सेटिंग्स ---"
 
-msgid "Start ciplushelper"
-msgstr "सिप्लसहेल्पर प्रारंभ करें"
+msgid "0.5 sec"
+msgstr "0.5 सेकंड"
 
-msgid "Install version from Zgemma"
-msgstr "ज़गेम्मा से संस्करण"
+msgid "1 hour"
+msgstr "1 घंटा"
 
-msgid "Disable CI+ slot"
-msgstr "सीआई+ स्लॉट"
+msgid "1 sec"
+msgstr "1 सेकंड"
 
-msgid "Enable CI+ slot"
-msgstr "सीआई+ स्लॉट"
+msgid "10 sec"
+msgstr "10 सेकंड"
 
-msgid "Install default version"
-msgstr "डिफ़ॉल्ट संस्करण"
+msgid "11 sec"
+msgstr "11 सेकंड"
 
-msgid "Remove"
-msgstr "निकालना"
+msgid "12 sec"
+msgstr "12 सेकंड"
 
-msgid "Install"
-msgstr "स्थापित करना"
+msgid "2 hour"
+msgstr "2 घंटा"
 
-msgid "Oscam:"
-msgstr "ऑस्कैम:"
+msgid "2 sec"
+msgstr "2 सेकेंड्स"
 
-msgid "Update plugin"
-msgstr "प्लगइन अद्यतन करें"
+msgid "3 hour"
+msgstr "3 घंटा"
 
-msgid "Restart GUI"
-msgstr "जीयूआई पुनः प्रारंभ करें"
+msgid "3 sec"
+msgstr "3 सेकंड"
 
-msgid "Need restart GUI"
-msgstr "GUI पुनः प्रारंभ करने की आवश्यकता है"
+msgid "30 min"
+msgstr "30 मि"
 
-msgid "Oscam stopped."
-msgstr "ऑस्कैम रुक गया."
+msgid "4 hour"
+msgstr "4 घंटा"
 
-msgid "Oscam started."
-msgstr "ऑस्कैम शुरू हुआ."
+msgid "4 sec"
+msgstr "4 सेकंड"
 
-msgid "Oscam binary not found!"
-msgstr "ऑस्कैम बाइनरी नहीं मिली!"
+msgid "5 sec"
+msgstr "5 सेकंड"
 
-msgid "Updating plugin..."
-msgstr "प्लगइन अपडेट हो रहा है..."
+msgid "6 sec"
+msgstr "6 सेकंड"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "क्या आप वाकई GUI को पुनः आरंभ करना चाहते हैं?"
+msgid "7 sec"
+msgstr "7 सेकंड"
 
-msgid "Unknown"
-msgstr "अज्ञात"
+msgid "8 sec"
+msgstr "8 सेकंड"
+
+msgid "9 sec"
+msgstr "9 सेकंड"
+
+msgid "Cancel"
+msgstr "रद्द करना"
+
+msgid "CI 1 - auto off/on"
+msgstr "सीआई 1 - स्वतः बंद/चालू"
+
+msgid "CI 2 - auto off/on"
+msgstr "सीआई 2 - स्वतः बंद/चालू"
+
+msgid "CI modules detected:"
+msgstr "सीआई मॉड्यूल का पता चला:"
+
+msgid "CI+ Helper"
+msgstr "सीआई+ हेल्पर"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "सीआई+ हेल्पर और ऑटो ऑफ/ऑन"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "सीआई+ हेल्पर और सीआई मॉड्यूल के लिए ऑटो ऑफ/ऑन"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ हेल्पर स्थापित और चल रहा है!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "सीआई+ हेल्पर प्लगइन"
 
-msgid "Supported devices:"
-msgstr "समर्थित उपकरणों:"
+msgid "CI+ Helper status:"
+msgstr "सीआई+ हेल्पर स्थिति:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "अन्य मॉडलों को '/etc/ciplus' की आवश्यकता हो सकती है"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "सामान्य इंटरफ़ेस असाइनमेंट प्लगइन नहीं मिला. कृपया इसे सिस्टम प्लगइन्स से इंस्टॉल करें।"
+
+msgid "Disable ciplushelper autostart"
+msgstr "सिप्लसहेल्पर ऑटोस्टार्ट अक्षम करें"
+
+msgid "Enable auto-check module"
+msgstr "ऑटो-चेक मॉड्यूल सक्षम करें"
+
+msgid "Enable ciplushelper autostart"
+msgstr "सिप्लसहेल्पर ऑटोस्टार्ट सक्षम करें"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "त्रुटि: CI+ हेल्पर नहीं चल रहा!\nCheck /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "स्थापित करें /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "वैकल्पिक बाइनरी स्थापित करें (ज़गेम्मा-आर्म)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "वर्किंग बाइनरी इंस्टॉल करें (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "स्थापित:"
 
-msgid "CI+ helper"
-msgstr "सीआई+ सहायक"
+msgid "None"
+msgstr "कोई नहीं"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Enigma2 के लिए CI+ सहायक"
+msgid "Not running"
+msgstr "नहीं चल रहा है"
+
+msgid "off"
+msgstr "बंद"
+
+msgid "Open CI Assignment"
+msgstr "सीआई असाइनमेंट खोलें"
+
+msgid "Pause CI 1"
+msgstr "सीआई 1 को रोकता है"
+
+msgid "Pause CI 2"
+msgstr "सीआई 2 को रोकता है"
+
+msgid "Remove /etc/ciplus"
+msgstr "/etc/ciplus हटाएँ"
+
+msgid "Restart service!"
+msgstr "सेवा पुनः आरंभ करें!"
+
+msgid "Running"
+msgstr "दौड़ना"
+
+msgid "Save"
+msgstr "बचाना"
+
+msgid "Show message after off/on"
+msgstr "ऑफ/ऑन के बाद संदेश दिखाएं"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "स्लॉट1: मौजूद नहीं, स्लॉट2: मौजूद"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "स्लॉट1: वर्तमान, स्लॉट2: मौजूद नहीं"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "स्लॉट1: वर्तमान, स्लॉट2: वर्तमान"
+
+msgid "Start ciplushelper"
+msgstr "सिप्लसहेल्पर प्रारंभ करें"
+
+msgid "Stop ciplushelper"
+msgstr "सिप्लसहेल्पर बंद करो"
+
+msgid "Supported devices:"
+msgstr "समर्थित उपकरणों:"
+
+msgid "Supported models"
+msgstr "समर्थित मॉडल"
+
+msgid "Unknown"
+msgstr "अज्ञात"
+
+msgid "Update plugin"
+msgstr "प्लगइन अद्यतन करें"
+
+msgid "Updating plugin..."
+msgstr "प्लगइन अपडेट हो रहा है..."
 

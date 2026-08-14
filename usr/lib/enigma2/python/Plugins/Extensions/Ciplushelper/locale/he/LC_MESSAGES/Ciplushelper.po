@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "תפריט עוזר CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- השהיית כיבוי-->פועל (CI 1)"
 
-msgid "Supported models"
-msgstr "דגמים נתמכים"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- השהיית כיבוי-->פועל (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "השבת את ההפעלה האוטומטית של ciplushelper"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- הפעל מחדש את השירות לאחר כיבוי/הפעלה (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "אפשר את ההפעלה האוטומטית של ciplushelper"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- הפעל מחדש את השירות לאחר כיבוי/הפעלה (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "תפסיק את ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- הגדרות כיבוי/הפעלה אוטומטי של CI ---"
 
-msgid "Start ciplushelper"
-msgstr "התחל ciplushelper"
+msgid "0.5 sec"
+msgstr "0.5 שניות"
 
-msgid "Install version from Zgemma"
-msgstr "גרסה מ-Zgemma"
+msgid "1 hour"
+msgstr "שעה אחת"
 
-msgid "Disable CI+ slot"
-msgstr "חריץ CI+"
+msgid "1 sec"
+msgstr "1 שניה"
 
-msgid "Enable CI+ slot"
-msgstr "חריץ CI+"
+msgid "10 sec"
+msgstr "10 שניות"
 
-msgid "Install default version"
-msgstr "גרסת ברירת המחדל"
+msgid "11 sec"
+msgstr "11 שניות"
 
-msgid "Remove"
-msgstr "לְהַסִיר"
+msgid "12 sec"
+msgstr "12 שניות"
 
-msgid "Install"
-msgstr "לְהַתְקִין"
+msgid "2 hour"
+msgstr "2 שעות"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 שניות"
 
-msgid "Update plugin"
-msgstr "עדכון תוסף"
+msgid "3 hour"
+msgstr "3 שעות"
 
-msgid "Restart GUI"
-msgstr "הפעל מחדש את ה-GUI"
+msgid "3 sec"
+msgstr "3 שניות"
 
-msgid "Need restart GUI"
-msgstr "צריך להפעיל מחדש את ה-GUI"
+msgid "30 min"
+msgstr "30 דקות"
 
-msgid "Oscam stopped."
-msgstr "אוסקם נעצר."
+msgid "4 hour"
+msgstr "4 שעות"
 
-msgid "Oscam started."
-msgstr "אוסקם התחיל."
+msgid "4 sec"
+msgstr "4 שניות"
 
-msgid "Oscam binary not found!"
-msgstr "בינארי Oscam לא נמצא!"
+msgid "5 sec"
+msgstr "5 שניות"
 
-msgid "Updating plugin..."
-msgstr "מעדכן את הפלאגין..."
+msgid "6 sec"
+msgstr "6 שניות"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "האם אתה בטוח שברצונך להפעיל מחדש את ה-GUI?"
+msgid "7 sec"
+msgstr "7 שניות"
 
-msgid "Unknown"
-msgstr "לֹא יְדוּעַ"
+msgid "8 sec"
+msgstr "8 שניות"
+
+msgid "9 sec"
+msgstr "9 שניות"
+
+msgid "Cancel"
+msgstr "לְבַטֵל"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - כיבוי/הפעלה אוטומטי"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - כיבוי/הפעלה אוטומטי"
+
+msgid "CI modules detected:"
+msgstr "זוהו מודולי CI:"
+
+msgid "CI+ Helper"
+msgstr "עוזר CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper וכיבוי/הפעלה אוטומטי"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper וכיבוי/הפעלה אוטומטי עבור מודולי CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper מותקן ופועל!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "תוסף CI+ Helper"
 
-msgid "Supported devices:"
-msgstr "מכשירים נתמכים:"
+msgid "CI+ Helper status:"
+msgstr "סטטוס CI+ Helper:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "דגמים אחרים עשויים להזדקק ל'/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "התוסף Common Interface Assignment לא נמצא. אנא התקן אותו מתוספי מערכת."
+
+msgid "Disable ciplushelper autostart"
+msgstr "השבת את ההפעלה האוטומטית של ciplushelper"
+
+msgid "Enable auto-check module"
+msgstr "הפעל מודול בדיקה אוטומטית"
+
+msgid "Enable ciplushelper autostart"
+msgstr "אפשר את ההפעלה האוטומטית של ciplushelper"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "שגיאה: CI+ Helper לא פועל!\nבדוק /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "התקן את /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "התקן בינארי חלופי (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "התקן WORKING בינארי (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "מוּתקָן:"
 
-msgid "CI+ helper"
-msgstr "עוזר CI+"
+msgid "None"
+msgstr "אַף לֹא אֶחָד"
 
-msgid "CI+ helper for Enigma2"
-msgstr "עוזר CI+ עבור Enigma2"
+msgid "Not running"
+msgstr "לא רץ"
+
+msgid "off"
+msgstr "כבוי"
+
+msgid "Open CI Assignment"
+msgstr "פתח את משימת CI"
+
+msgid "Pause CI 1"
+msgstr "משהה את CI 1"
+
+msgid "Pause CI 2"
+msgstr "משהה את CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "הסר את /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "הפעל מחדש את השירות!"
+
+msgid "Running"
+msgstr "רִיצָה"
+
+msgid "Save"
+msgstr "לְהַצִיל"
+
+msgid "Show message after off/on"
+msgstr "הצג הודעה לאחר כיבוי/הפעלה"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "חריץ1: לא קיים, חריץ2: קיים"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "חריץ1: קיים, חריץ2: אינו קיים"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "חריץ1: הווה, חריץ2: הווה"
+
+msgid "Start ciplushelper"
+msgstr "התחל ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "תפסיק את ciplushelper"
+
+msgid "Supported devices:"
+msgstr "מכשירים נתמכים:"
+
+msgid "Supported models"
+msgstr "דגמים נתמכים"
+
+msgid "Unknown"
+msgstr "לֹא יְדוּעַ"
+
+msgid "Update plugin"
+msgstr "עדכון תוסף"
+
+msgid "Updating plugin..."
+msgstr "מעדכן את הפלאגין..."
 

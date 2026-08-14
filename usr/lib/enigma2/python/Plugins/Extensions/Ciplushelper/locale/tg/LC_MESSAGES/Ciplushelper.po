@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "Менюи ёрирасони CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Таъхир хомӯш --> фаъол (CI 1)"
 
-msgid "Supported models"
-msgstr "Моделҳои дастгирӣшаванда"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Таъхир хомӯш --> фаъол (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Автостарти ciplushelperро хомӯш кунед"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Хизматрасониро пас аз хомӯш/фаъол аз нав оғоз кунед (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Autostart ciplushelper -ро фаъол созед"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Хизматрасониро пас аз хомӯш/фаъол аз нав оғоз кунед (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "ciplushelper-ро бас кунед"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI танзимоти худкор хомӯш/фаъол ---"
 
-msgid "Start ciplushelper"
-msgstr "Ciplushelper-ро оғоз кунед"
+msgid "0.5 sec"
+msgstr "0,5 сек"
 
-msgid "Install version from Zgemma"
-msgstr "версияи Zgemma"
+msgid "1 hour"
+msgstr "1 соат"
 
-msgid "Disable CI+ slot"
-msgstr "Ковокии CI+"
+msgid "1 sec"
+msgstr "1 сония"
 
-msgid "Enable CI+ slot"
-msgstr "Ковокии CI+"
+msgid "10 sec"
+msgstr "10 сония"
 
-msgid "Install default version"
-msgstr "версияи пешфарз"
+msgid "11 sec"
+msgstr "11 сония"
 
-msgid "Remove"
-msgstr "Хориҷ кунед"
+msgid "12 sec"
+msgstr "12 сония"
 
-msgid "Install"
-msgstr "Насб кунед"
+msgid "2 hour"
+msgstr "2 соат"
 
-msgid "Oscam:"
-msgstr "Оскам:"
+msgid "2 sec"
+msgstr "2 сония"
 
-msgid "Update plugin"
-msgstr "Навсозии плагин"
+msgid "3 hour"
+msgstr "3 соат"
 
-msgid "Restart GUI"
-msgstr "GUI-ро аз нав оғоз кунед"
+msgid "3 sec"
+msgstr "3 сония"
 
-msgid "Need restart GUI"
-msgstr "GUI-ро аз нав оғоз кардан лозим аст"
+msgid "30 min"
+msgstr "30 дақиқа"
 
-msgid "Oscam stopped."
-msgstr "Оскам қатъ шуд."
+msgid "4 hour"
+msgstr "4 соат"
 
-msgid "Oscam started."
-msgstr "Оскам оғоз ёфт."
+msgid "4 sec"
+msgstr "4 сония"
 
-msgid "Oscam binary not found!"
-msgstr "Оскам бинарӣ ёфт нашуд!"
+msgid "5 sec"
+msgstr "5 сония"
 
-msgid "Updating plugin..."
-msgstr "Навсозии плагин..."
+msgid "6 sec"
+msgstr "6 сония"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Шумо мутмаин ҳастед, ки мехоҳед GUI-ро аз нав оғоз кунед?"
+msgid "7 sec"
+msgstr "7 сония"
 
-msgid "Unknown"
-msgstr "Номаълум"
+msgid "8 sec"
+msgstr "8 сония"
+
+msgid "9 sec"
+msgstr "9 сония"
+
+msgid "Cancel"
+msgstr "Бекор кардан"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - худкор хомӯш/фаъол"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - худкор хомӯш/фаъол"
+
+msgid "CI modules detected:"
+msgstr "Модулҳои CI ошкор карда шуданд:"
+
+msgid "CI+ Helper"
+msgstr "Ёрдамчии CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "Ёрдамчии CI+ ва худкор хомӯш/фаъол"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI + Ёрдам ва худкор хомӯш/фаъол барои модулҳои CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "Ёрдамчии CI+ насб ва кор мекунад!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "Васлкунаки Ёрдамчии CI+"
 
-msgid "Supported devices:"
-msgstr "Дастгоҳҳои дастгирӣшаванда:"
+msgid "CI+ Helper status:"
+msgstr "Ҳолати ёвари CI+:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Моделҳои дигар метавонанд ба \"/etc/ciplus\" ниёз дошта бошанд."
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Васлкунаки муштараки Интерфейси таъинот ёфт нашуд. Лутфан онро аз плагинҳои система насб кунед."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Автостарти ciplushelperро хомӯш кунед"
+
+msgid "Enable auto-check module"
+msgstr "Модули санҷиши худкорро фаъол созед"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Autostart ciplushelper -ро фаъол созед"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ХАТО: Ёрдамчии CI+ кор намекунад!\nТафтиш кунед /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "/etc/ciplus-ро насб кунед"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Бинарии алтернативӣ насб кунед (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Бинарии WORKING -ро насб кунед (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Насб карда шудааст:"
 
-msgid "CI+ helper"
-msgstr "Ёрдамчии CI+"
+msgid "None"
+msgstr "Ҳеҷ"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Ёвари CI+ барои Enigma2"
+msgid "Not running"
+msgstr "Давидан нест"
+
+msgid "off"
+msgstr "хомӯш"
+
+msgid "Open CI Assignment"
+msgstr "Вазифаи CI-ро кушоед"
+
+msgid "Pause CI 1"
+msgstr "CI 1-ро таваққуф мекунад"
+
+msgid "Pause CI 2"
+msgstr "CI 2-ро таваққуф мекунад"
+
+msgid "Remove /etc/ciplus"
+msgstr "/etc/ciplus-ро хориҷ кунед"
+
+msgid "Restart service!"
+msgstr "Хидматро аз нав оғоз кунед!"
+
+msgid "Running"
+msgstr "Давидан"
+
+msgid "Save"
+msgstr "Захира кунед"
+
+msgid "Show message after off/on"
+msgstr "Паёмро пас аз хомӯш/фаъол нишон диҳед"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: мавҷуд нест, Slot2: мазкур"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: мазкур, Slot2: мавҷуд нест"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: мазкур, Slot2: мазкур"
+
+msgid "Start ciplushelper"
+msgstr "Ciplushelper-ро оғоз кунед"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper-ро бас кунед"
+
+msgid "Supported devices:"
+msgstr "Дастгоҳҳои дастгирӣшаванда:"
+
+msgid "Supported models"
+msgstr "Моделҳои дастгирӣшаванда"
+
+msgid "Unknown"
+msgstr "Номаълум"
+
+msgid "Update plugin"
+msgstr "Навсозии плагин"
+
+msgid "Updating plugin..."
+msgstr "Навсозии плагин..."
 

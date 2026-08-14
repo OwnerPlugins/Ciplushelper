@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ مرستندویه مینو"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- ځنډول --> آن (CI 1)"
 
-msgid "Supported models"
-msgstr "ملاتړ شوي ماډلونه"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- ځنډول --> آن (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "د ciplushelper autostart غیر فعال کړئ"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- له بند/آن وروسته خدمت بیا پیل کړئ (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "ciplushelper autostart فعال کړئ"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- له بند/آن وروسته خدمت بیا پیل کړئ (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "ciplushelper بند کړئ"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI اتومات بند/آن تنظیمات ---"
 
-msgid "Start ciplushelper"
-msgstr "ciplushelper پیل کړئ"
+msgid "0.5 sec"
+msgstr "0.5 ثانیې"
 
-msgid "Install version from Zgemma"
-msgstr "د Zgemma څخه نسخه"
+msgid "1 hour"
+msgstr "1 ساعت"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ سلاټ"
+msgid "1 sec"
+msgstr "1 ثانیه"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ سلاټ"
+msgid "10 sec"
+msgstr "10 ثانیې"
 
-msgid "Install default version"
-msgstr "ډیفالټ نسخه"
+msgid "11 sec"
+msgstr "11 ثانیه"
 
-msgid "Remove"
-msgstr "لرې کړئ"
+msgid "12 sec"
+msgstr "12 ثانیه"
 
-msgid "Install"
-msgstr "نصب کړئ"
+msgid "2 hour"
+msgstr "2 ساعته"
 
-msgid "Oscam:"
-msgstr "اوسکم:"
+msgid "2 sec"
+msgstr "2 ثانیه"
 
-msgid "Update plugin"
-msgstr "پلگ ان تازه کړئ"
+msgid "3 hour"
+msgstr "3 ساعته"
 
-msgid "Restart GUI"
-msgstr "GUI بیا پیل کړئ"
+msgid "3 sec"
+msgstr "3 ثانیه"
 
-msgid "Need restart GUI"
-msgstr "د GUI بیا پیلولو ته اړتیا لري"
+msgid "30 min"
+msgstr "30 دقیقې"
 
-msgid "Oscam stopped."
-msgstr "اوسکم ودرېد."
+msgid "4 hour"
+msgstr "4 ساعته"
 
-msgid "Oscam started."
-msgstr "اوسکم پیل شو."
+msgid "4 sec"
+msgstr "4 ثانیې"
 
-msgid "Oscam binary not found!"
-msgstr "اوسکام بائنری ونه موندل شو!"
+msgid "5 sec"
+msgstr "۵ ثانیه"
 
-msgid "Updating plugin..."
-msgstr "پلگ ان تازه کول..."
+msgid "6 sec"
+msgstr "6 ثانیې"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "ایا تاسو ډاډه یاست چې تاسو غواړئ GUI بیا پیل کړئ؟"
+msgid "7 sec"
+msgstr "7 ثانیه"
 
-msgid "Unknown"
-msgstr "نامعلوم"
+msgid "8 sec"
+msgstr "۸ ثانیه"
+
+msgid "9 sec"
+msgstr "9 ثانیه"
+
+msgid "Cancel"
+msgstr "لغوه کړئ"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - په اتوماتيک ډول بند/آن"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - په اتوماتيک ډول بند/آن"
+
+msgid "CI modules detected:"
+msgstr "د CI ماډلونه کشف شوي:"
+
+msgid "CI+ Helper"
+msgstr "CI+ مرسته کوونکی"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ مرسته کوونکی او اتومات بند/آن"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ مرسته کوونکی او د CI ماډلونو لپاره اتومات بند/آن"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ مرسته کوونکی نصب او روان دی!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ مرستندویه پلگ ان"
 
-msgid "Supported devices:"
-msgstr "ملاتړ شوي وسایل:"
+msgid "CI+ Helper status:"
+msgstr "د CI+ مرستندویه حالت:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "نور ماډل ممکن '/etc/ciplus' ته اړتیا ولري"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "د عام انٹرفیس اسائنمنٹ پلگ ان ونه موندل شو. مهرباني وکړئ دا د سیسټم پلگ انونو څخه نصب کړئ."
+
+msgid "Disable ciplushelper autostart"
+msgstr "د ciplushelper autostart غیر فعال کړئ"
+
+msgid "Enable auto-check module"
+msgstr "د اتوماتیک چیک ماډل فعال کړئ"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper autostart فعال کړئ"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "تېروتنه: CI+ مرسته کوونکی نه روان دی!\n/home/root/ciplus_debug.log وګورئ"
+
+msgid "Install /etc/ciplus"
+msgstr "نصب کړئ /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "بدیل بائنری نصب کړئ (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "د کار کولو بائنری نصب کړئ (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "نصب شوی:"
 
-msgid "CI+ helper"
-msgstr "CI+ مرسته کوونکی"
+msgid "None"
+msgstr "هیڅ نه"
 
-msgid "CI+ helper for Enigma2"
-msgstr "د Enigma2 لپاره CI+ مرسته کوونکی"
+msgid "Not running"
+msgstr "نه چلېدل"
+
+msgid "off"
+msgstr "بند"
+
+msgid "Open CI Assignment"
+msgstr "د CI دنده پرانیزئ"
+
+msgid "Pause CI 1"
+msgstr "د CI 1 مخه نیسي"
+
+msgid "Pause CI 2"
+msgstr "د CI 2 مخه نیسي"
+
+msgid "Remove /etc/ciplus"
+msgstr "لرې کړئ /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "خدمت بیا پیل کړئ!"
+
+msgid "Running"
+msgstr "چلول"
+
+msgid "Save"
+msgstr "خوندي کړئ"
+
+msgid "Show message after off/on"
+msgstr "له بند/آن وروسته پیغام ښکاره کړئ"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "سلاټ 1: شتون نلري، سلاټ 2: حاضر"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "سلاټ 1: حاضر، سلاټ 2: شتون نلري"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "سلاټ 1: حاضر، سلاټ 2: حاضر"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper پیل کړئ"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper بند کړئ"
+
+msgid "Supported devices:"
+msgstr "ملاتړ شوي وسایل:"
+
+msgid "Supported models"
+msgstr "ملاتړ شوي ماډلونه"
+
+msgid "Unknown"
+msgstr "نامعلوم"
+
+msgid "Update plugin"
+msgstr "پلگ ان تازه کړئ"
+
+msgid "Updating plugin..."
+msgstr "پلگ ان تازه کول..."
 

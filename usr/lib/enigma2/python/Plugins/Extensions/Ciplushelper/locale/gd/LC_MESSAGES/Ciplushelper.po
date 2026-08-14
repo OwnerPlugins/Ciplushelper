@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "Clàr cuideachaidh CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Cuir dheth --> air adhart (CI 1)"
 
-msgid "Supported models"
-msgstr "Modailean le taic"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Cuir dheth --> air adhart (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Cuir à comas ciplushelper autostart"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Ath-thòiseachadh seirbheis às deidh dheth / air adhart (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Cuir an comas ciplushelper autostart"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Ath-thòiseachadh seirbheis às deidh dheth / air adhart (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Cuir stad air ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI auto dheth / air roghainnean ---"
 
-msgid "Start ciplushelper"
-msgstr "Tòisich ciplushelper"
+msgid "0.5 sec"
+msgstr "0.5 diog"
 
-msgid "Install version from Zgemma"
-msgstr "dreach bho Zgemma"
+msgid "1 hour"
+msgstr "1 uair"
 
-msgid "Disable CI+ slot"
-msgstr "sliotan CI+"
+msgid "1 sec"
+msgstr "1 diog"
 
-msgid "Enable CI+ slot"
-msgstr "sliotan CI+"
+msgid "10 sec"
+msgstr "10 diog"
 
-msgid "Install default version"
-msgstr "dreach bunaiteach"
+msgid "11 sec"
+msgstr "11 diog"
 
-msgid "Remove"
-msgstr "Thoir air falbh"
+msgid "12 sec"
+msgstr "12 diog"
 
-msgid "Install"
-msgstr "Stàladh"
+msgid "2 hour"
+msgstr "2 uair"
 
-msgid "Oscam:"
-msgstr "Oscar:"
+msgid "2 sec"
+msgstr "2 diog"
 
-msgid "Update plugin"
-msgstr "Luchdaich a-nuas am plugan ùraich"
+msgid "3 hour"
+msgstr "3 uair"
 
-msgid "Restart GUI"
-msgstr "Ath-thòisich an GUI"
+msgid "3 sec"
+msgstr "3 diog"
 
-msgid "Need restart GUI"
-msgstr "Feum air GUI ath-thòiseachadh"
+msgid "30 min"
+msgstr "30 mionaid"
 
-msgid "Oscam stopped."
-msgstr "Sguir Oscam."
+msgid "4 hour"
+msgstr "4 uairean"
 
-msgid "Oscam started."
-msgstr "Thòisich Oscar."
+msgid "4 sec"
+msgstr "4 diog"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam binary cha deach a lorg!"
+msgid "5 sec"
+msgstr "5 diog"
 
-msgid "Updating plugin..."
-msgstr "Ag ùrachadh plugan..."
+msgid "6 sec"
+msgstr "6 diog"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "A bheil thu cinnteach gu bheil thu airson an GUI ath-thòiseachadh?"
+msgid "7 sec"
+msgstr "7 diog"
 
-msgid "Unknown"
-msgstr "Neo-aithnichte"
+msgid "8 sec"
+msgstr "8 diog"
+
+msgid "9 sec"
+msgstr "9 diog"
+
+msgid "Cancel"
+msgstr "Sguir dheth"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - fèin-ghluasadach dheth/air"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - fèin-ghluasadach dheth/air"
+
+msgid "CI modules detected:"
+msgstr "Modalan CI air an lorg:"
+
+msgid "CI+ Helper"
+msgstr "Neach-cuideachaidh CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "Neach-cuideachaidh CI + agus fèin-ghluasadach dheth / air adhart"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "Neach-cuideachaidh CI + agus fèin-ghluasadach dheth / air adhart airson modalan CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "Neach-cuideachaidh CI+ air a stàladh is a' ruith!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "Plugin neach-cuideachaidh CI+"
 
-msgid "Supported devices:"
-msgstr "Innealan le taic:"
+msgid "CI+ Helper status:"
+msgstr "Inbhe neach-cuideachaidh CI+:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Dh’ fhaodadh gum bi feum aig modailean eile air ‘/etc/ciplus’"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Cha deach am plugan Common Interface Assignment a lorg. Feuch an stàlaich thu e bho System Plugins."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Cuir à comas ciplushelper autostart"
+
+msgid "Enable auto-check module"
+msgstr "Cuir an comas modal fèin-sgrùdadh"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Cuir an comas ciplushelper autostart"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "MEARACHD: Neach-cuideachaidh CI+ gun a bhith a' ruith!\nCheck /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Stàlaich /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Stàlaich binary eile (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Stàlaich binary OBRACH (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Air a stàladh:"
 
-msgid "CI+ helper"
-msgstr "Neach-cuideachaidh CI+"
+msgid "None"
+msgstr "Chan eil gin"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Neach-cuideachaidh CI+ airson Enigma2"
+msgid "Not running"
+msgstr "Gun ruith"
+
+msgid "off"
+msgstr "dheth"
+
+msgid "Open CI Assignment"
+msgstr "Sònrachadh CI fosgailte"
+
+msgid "Pause CI 1"
+msgstr "A’ stad CI 1"
+
+msgid "Pause CI 2"
+msgstr "A’ stad CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Thoir air falbh /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Ath-thòisich seirbheis!"
+
+msgid "Running"
+msgstr "A' ruith"
+
+msgid "Save"
+msgstr "Sàbhail"
+
+msgid "Show message after off/on"
+msgstr "Seall an teachdaireachd às deidh dheth / air adhart"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: chan eil an làthair, Slot2: an làthair"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: an làthair, Slot2: chan eil an làthair"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: làthair, Slot2: làthair"
+
+msgid "Start ciplushelper"
+msgstr "Tòisich ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Cuir stad air ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Innealan le taic:"
+
+msgid "Supported models"
+msgstr "Modailean le taic"
+
+msgid "Unknown"
+msgstr "Neo-aithnichte"
+
+msgid "Update plugin"
+msgstr "Luchdaich a-nuas am plugan ùraich"
+
+msgid "Updating plugin..."
+msgstr "Ag ùrachadh plugan..."
 

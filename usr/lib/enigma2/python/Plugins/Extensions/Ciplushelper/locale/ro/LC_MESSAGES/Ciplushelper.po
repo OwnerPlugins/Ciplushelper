@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "Meniu de ajutor CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Întârziere oprire-->pornire (CI 1)"
 
-msgid "Supported models"
-msgstr "Modele acceptate"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Delay off-->on (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Dezactivați pornirea automată a ciplushelper"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Reporniți serviciul după oprire/pornire (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Activați pornirea automată a ciplushelper"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Reporniți serviciul după oprire/pornire (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Opriți ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- Setări CI auto oprire/pornire ---"
 
-msgid "Start ciplushelper"
-msgstr "Porniți ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 sec"
 
-msgid "Install version from Zgemma"
-msgstr "versiunea de la Zgemma"
+msgid "1 hour"
+msgstr "1 oră"
 
-msgid "Disable CI+ slot"
-msgstr "Slot CI+"
+msgid "1 sec"
+msgstr "1 sec"
 
-msgid "Enable CI+ slot"
-msgstr "Slot CI+"
+msgid "10 sec"
+msgstr "10 sec"
 
-msgid "Install default version"
-msgstr "versiunea implicită"
+msgid "11 sec"
+msgstr "11 sec"
 
-msgid "Remove"
-msgstr "Elimina"
+msgid "12 sec"
+msgstr "12 sec"
 
-msgid "Install"
-msgstr "Instala"
+msgid "2 hour"
+msgstr "2 ore"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 sec"
 
-msgid "Update plugin"
-msgstr "Actualizați pluginul"
+msgid "3 hour"
+msgstr "3 ore"
 
-msgid "Restart GUI"
-msgstr "Reporniți GUI"
+msgid "3 sec"
+msgstr "3 sec"
 
-msgid "Need restart GUI"
-msgstr "Trebuie să reporniți GUI"
+msgid "30 min"
+msgstr "30 min"
 
-msgid "Oscam stopped."
-msgstr "Oscam se opri."
+msgid "4 hour"
+msgstr "4 ore"
 
-msgid "Oscam started."
-msgstr "Oscam a început."
+msgid "4 sec"
+msgstr "4 sec"
 
-msgid "Oscam binary not found!"
-msgstr "Binarul Oscam nu a fost găsit!"
+msgid "5 sec"
+msgstr "5 sec"
 
-msgid "Updating plugin..."
-msgstr "Se actualizează pluginul..."
+msgid "6 sec"
+msgstr "6 sec"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Sigur doriți să reporniți GUI?"
+msgid "7 sec"
+msgstr "7 sec"
 
-msgid "Unknown"
-msgstr "Necunoscut"
+msgid "8 sec"
+msgstr "8 sec"
+
+msgid "9 sec"
+msgstr "9 sec"
+
+msgid "Cancel"
+msgstr "Anula"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - oprire/pornire automată"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - oprire/pornire automată"
+
+msgid "CI modules detected:"
+msgstr "Module CI detectate:"
+
+msgid "CI+ Helper"
+msgstr "CI+ Helper"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper și oprire/pornire automată"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper și oprire/pornire automată pentru modulele CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper instalat și rulează!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
 
-msgid "Supported devices:"
-msgstr "Dispozitive acceptate:"
+msgid "CI+ Helper status:"
+msgstr "Statutul CI+ Helper:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Alte modele pot avea nevoie de „/etc/ciplus”"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Pluginul Common Interface Assignment nu a fost găsit. Instalați-l din Pluginuri de sistem."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Dezactivați pornirea automată a ciplushelper"
+
+msgid "Enable auto-check module"
+msgstr "Activați modulul de verificare automată"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Activați pornirea automată a ciplushelper"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "EROARE: CI+ Helper nu rulează!\nVerificați /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Instalați /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Instalați binar alternativ (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Instalați binarul WORKING (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Instalat:"
 
-msgid "CI+ helper"
-msgstr "Ajutor CI+"
+msgid "None"
+msgstr "Nici unul"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Ajutor CI+ pentru Enigma2"
+msgid "Not running"
+msgstr "Nu alerga"
+
+msgid "off"
+msgstr "oprit"
+
+msgid "Open CI Assignment"
+msgstr "Deschideți CI Assignment"
+
+msgid "Pause CI 1"
+msgstr "Întrerupe CI 1"
+
+msgid "Pause CI 2"
+msgstr "Întrerupe CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Eliminați /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Reporniți serviciul!"
+
+msgid "Running"
+msgstr "Funcţionare"
+
+msgid "Save"
+msgstr "Salva"
+
+msgid "Show message after off/on"
+msgstr "Afișați mesajul după oprire/pornire"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: nu este prezent, Slot2: prezent"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: prezent, Slot2: nu este prezent"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: prezent, Slot2: prezent"
+
+msgid "Start ciplushelper"
+msgstr "Porniți ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Opriți ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Dispozitive acceptate:"
+
+msgid "Supported models"
+msgstr "Modele acceptate"
+
+msgid "Unknown"
+msgstr "Necunoscut"
+
+msgid "Update plugin"
+msgstr "Actualizați pluginul"
+
+msgid "Updating plugin..."
+msgstr "Se actualizează pluginul..."
 

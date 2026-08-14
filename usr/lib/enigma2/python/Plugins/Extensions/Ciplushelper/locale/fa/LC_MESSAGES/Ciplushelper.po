@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "منوی کمکی CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- تاخیر خاموش -> روشن (CI 1)"
 
-msgid "Supported models"
-msgstr "مدل های پشتیبانی شده"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- تاخیر خاموش -> روشن (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "ciplushelper autostart را غیرفعال کنید"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- راه اندازی مجدد سرویس پس از خاموش/روشن (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "ciplushelper autostart را فعال کنید"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- راه اندازی مجدد سرویس پس از خاموش/روشن (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "ciplushelper را متوقف کنید"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- تنظیمات خاموش/روشن خودکار CI ---"
 
-msgid "Start ciplushelper"
-msgstr "ciplushelper را شروع کنید"
+msgid "0.5 sec"
+msgstr "0.5 ثانیه"
 
-msgid "Install version from Zgemma"
-msgstr "نسخه از Zgemma"
+msgid "1 hour"
+msgstr "1 ساعت"
 
-msgid "Disable CI+ slot"
-msgstr "اسلات CI+"
+msgid "1 sec"
+msgstr "1 ثانیه"
 
-msgid "Enable CI+ slot"
-msgstr "اسلات CI+"
+msgid "10 sec"
+msgstr "10 ثانیه"
 
-msgid "Install default version"
-msgstr "نسخه پیش فرض"
+msgid "11 sec"
+msgstr "11 ثانیه"
 
-msgid "Remove"
-msgstr "حذف کنید"
+msgid "12 sec"
+msgstr "12 ثانیه"
 
-msgid "Install"
-msgstr "نصب کنید"
+msgid "2 hour"
+msgstr "2 ساعت"
 
-msgid "Oscam:"
-msgstr "اسکام:"
+msgid "2 sec"
+msgstr "2 ثانیه"
 
-msgid "Update plugin"
-msgstr "افزونه را به روز کنید"
+msgid "3 hour"
+msgstr "3 ساعت"
 
-msgid "Restart GUI"
-msgstr "رابط کاربری گرافیکی را مجددا راه اندازی کنید"
+msgid "3 sec"
+msgstr "3 ثانیه"
 
-msgid "Need restart GUI"
-msgstr "نیاز به راه اندازی مجدد رابط کاربری گرافیکی"
+msgid "30 min"
+msgstr "30 دقیقه"
 
-msgid "Oscam stopped."
-msgstr "اسکام متوقف شد."
+msgid "4 hour"
+msgstr "4 ساعت"
 
-msgid "Oscam started."
-msgstr "اسکام شروع کرد."
+msgid "4 sec"
+msgstr "4 ثانیه"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam باینری پیدا نشد!"
+msgid "5 sec"
+msgstr "5 ثانیه"
 
-msgid "Updating plugin..."
-msgstr "در حال به روز رسانی افزونه..."
+msgid "6 sec"
+msgstr "6 ثانیه"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "آیا مطمئن هستید که می خواهید رابط کاربری گرافیکی را مجدداً راه اندازی کنید؟"
+msgid "7 sec"
+msgstr "7 ثانیه"
 
-msgid "Unknown"
-msgstr "ناشناس"
+msgid "8 sec"
+msgstr "8 ثانیه"
+
+msgid "9 sec"
+msgstr "9 ثانیه"
+
+msgid "Cancel"
+msgstr "لغو کنید"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - خاموش/روشن خودکار"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - خاموش/روشن خودکار"
+
+msgid "CI modules detected:"
+msgstr "ماژول های CI شناسایی شده اند:"
+
+msgid "CI+ Helper"
+msgstr "CI+ Helper"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper و خودکار خاموش/روشن"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper و خاموش/روشن خودکار برای ماژول های CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper نصب و اجرا شد!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "پلاگین CI+ Helper"
 
-msgid "Supported devices:"
-msgstr "دستگاه های پشتیبانی شده:"
+msgid "CI+ Helper status:"
+msgstr "وضعیت راهنمای CI+:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "مدل‌های دیگر ممکن است به '/etc/ciplus' نیاز داشته باشند"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "افزونه Common Interface Assignment یافت نشد. لطفاً آن را از پلاگین های سیستم نصب کنید."
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper autostart را غیرفعال کنید"
+
+msgid "Enable auto-check module"
+msgstr "ماژول بررسی خودکار را فعال کنید"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper autostart را فعال کنید"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "خطا: CI+ Helper اجرا نمی شود!\nبررسی /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "/etc/ciplus را نصب کنید"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "نصب باینری جایگزین (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "نصب باینری WORKING (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "نصب شده:"
 
-msgid "CI+ helper"
-msgstr "کمک کننده CI+"
+msgid "None"
+msgstr "هیچ کدام"
 
-msgid "CI+ helper for Enigma2"
-msgstr "کمک کننده CI+ برای Enigma2"
+msgid "Not running"
+msgstr "در حال اجرا نیست"
+
+msgid "off"
+msgstr "خاموش"
+
+msgid "Open CI Assignment"
+msgstr "CI Assignment را باز کنید"
+
+msgid "Pause CI 1"
+msgstr "مکث CI 1"
+
+msgid "Pause CI 2"
+msgstr "مکث CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "/etc/ciplus را حذف کنید"
+
+msgid "Restart service!"
+msgstr "راه اندازی مجدد سرویس!"
+
+msgid "Running"
+msgstr "در حال دویدن"
+
+msgid "Save"
+msgstr "ذخیره کنید"
+
+msgid "Show message after off/on"
+msgstr "نمایش پیام پس از خاموش/روشن"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: موجود نیست، Slot2: موجود"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: موجود، Slot2: موجود نیست"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: حال حاضر، Slot2: حال حاضر"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper را شروع کنید"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper را متوقف کنید"
+
+msgid "Supported devices:"
+msgstr "دستگاه های پشتیبانی شده:"
+
+msgid "Supported models"
+msgstr "مدل های پشتیبانی شده"
+
+msgid "Unknown"
+msgstr "ناشناس"
+
+msgid "Update plugin"
+msgstr "افزونه را به روز کنید"
+
+msgid "Updating plugin..."
+msgstr "در حال به روز رسانی افزونه..."
 

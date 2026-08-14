@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "Roghchlár cúntóir CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Moill as-->ar (CI 1)"
 
-msgid "Supported models"
-msgstr "Múnlaí tacaithe"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Moill as-->ar (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Díchumasaigh ciplushelper autostart"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Atosaigh an tseirbhís tar éis as/ar siúl (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Cumasaigh ciplushelper autostart"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Atosaigh an tseirbhís tar éis as/ar siúl (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Stop ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI uathoibríoch as/ar socruithe ---"
 
-msgid "Start ciplushelper"
-msgstr "Tosaigh ciplushelper"
+msgid "0.5 sec"
+msgstr "0.5 soic"
 
-msgid "Install version from Zgemma"
-msgstr "leagan ó zgemma"
+msgid "1 hour"
+msgstr "1 uair"
 
-msgid "Disable CI+ slot"
-msgstr "Sliotán CI+"
+msgid "1 sec"
+msgstr "1 soic"
 
-msgid "Enable CI+ slot"
-msgstr "Sliotán CI+"
+msgid "10 sec"
+msgstr "10 soic"
 
-msgid "Install default version"
-msgstr "leagan réamhshocraithe"
+msgid "11 sec"
+msgstr "11 soic"
 
-msgid "Remove"
-msgstr "Bain"
+msgid "12 sec"
+msgstr "12 soic"
 
-msgid "Install"
-msgstr "Suiteáil"
+msgid "2 hour"
+msgstr "2 uair"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 soic"
 
-msgid "Update plugin"
-msgstr "Nuashonraigh breiseán"
+msgid "3 hour"
+msgstr "3 uair an chloig"
 
-msgid "Restart GUI"
-msgstr "Atosaigh GUI"
+msgid "3 sec"
+msgstr "3 soic"
 
-msgid "Need restart GUI"
-msgstr "Teastaíonn atosú GUI"
+msgid "30 min"
+msgstr "30 nóim"
 
-msgid "Oscam stopped."
-msgstr "Stopadh Oscam."
+msgid "4 hour"
+msgstr "4 uair an chloig"
 
-msgid "Oscam started."
-msgstr "Thosaigh Oscam."
+msgid "4 sec"
+msgstr "4 soic"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam dénártha gan aimsiú!"
+msgid "5 sec"
+msgstr "5 soic"
 
-msgid "Updating plugin..."
-msgstr "Breiseán á nuashonrú..."
+msgid "6 sec"
+msgstr "6 soic"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "An bhfuil tú cinnte gur mhaith leat an GUI a atosú?"
+msgid "7 sec"
+msgstr "7 soic"
 
-msgid "Unknown"
-msgstr "Anaithnid"
+msgid "8 sec"
+msgstr "8 soic"
+
+msgid "9 sec"
+msgstr "9 soic"
+
+msgid "Cancel"
+msgstr "Cealaigh"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - uathoibríoch as/ar siúl"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - uathoibríoch as/ar siúl"
+
+msgid "CI modules detected:"
+msgstr "Modúil CI braite:"
+
+msgid "CI+ Helper"
+msgstr "Cúntóir CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "Cúntóir CI+ agus uathoibriú as/ar siúl"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "Cúntóir CI+ agus uathoibriú as/ar le haghaidh modúil CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "Suiteáil agus rith Cúntóir CI+!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "Breiseán Cúntóra CI+"
 
-msgid "Supported devices:"
-msgstr "Gléasanna tacaithe:"
+msgid "CI+ Helper status:"
+msgstr "Stádas Cúntóra CI+:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Seans go mbeidh ‘/etc/ciplus’ ag teastáil ó mhúnlaí eile"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Níor aimsíodh an breiseán Tasc Comhéadain Coiteann. Suiteáil é ó System Plugins le do thoil."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Díchumasaigh ciplushelper autostart"
+
+msgid "Enable auto-check module"
+msgstr "Cumasaigh modúl uathsheiceáil"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Cumasaigh ciplushelper autostart"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "EARRÁID: Cúntóir CI+ gan a bheith ag rith! \nCheck /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Suiteáil /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Suiteáil dénártha malartach (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Suiteáil dénártha OIBRE (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Suiteáilte:"
 
-msgid "CI+ helper"
-msgstr "Cúntóir CI+"
+msgid "None"
+msgstr "Dada"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Cúntóir CI+ do Enigma2"
+msgid "Not running"
+msgstr "Gan rith"
+
+msgid "off"
+msgstr "as"
+
+msgid "Open CI Assignment"
+msgstr "Oscail Tasc CI"
+
+msgid "Pause CI 1"
+msgstr "Cuireann sé CI 1 ar sos"
+
+msgid "Pause CI 2"
+msgstr "Cuireann sé CI 2 ar sos"
+
+msgid "Remove /etc/ciplus"
+msgstr "Bain /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Atosaigh an tseirbhís!"
+
+msgid "Running"
+msgstr "Rith"
+
+msgid "Save"
+msgstr "Sábháil"
+
+msgid "Show message after off/on"
+msgstr "Taispeáin teachtaireacht tar éis as/ar siúl"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Sliotán1: Níl i láthair, Sliotán2: láthair"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Sliotán1: láthair, Sliotán2: Níl i láthair"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Sliotán1: láthair, Sliotán2: láthair"
+
+msgid "Start ciplushelper"
+msgstr "Tosaigh ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Stop ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Gléasanna tacaithe:"
+
+msgid "Supported models"
+msgstr "Múnlaí tacaithe"
+
+msgid "Unknown"
+msgstr "Anaithnid"
+
+msgid "Update plugin"
+msgstr "Nuashonraigh breiseán"
+
+msgid "Updating plugin..."
+msgstr "Breiseán á nuashonrú..."
 

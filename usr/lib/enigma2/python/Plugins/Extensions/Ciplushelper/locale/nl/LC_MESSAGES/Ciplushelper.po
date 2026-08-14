@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ helpermenu"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Vertraging uit-->aan (CI 1)"
 
-msgid "Supported models"
-msgstr "Ondersteunde modellen"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Vertraging uit-->aan (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Schakel ciplushelper automatisch starten uit"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Herstart service na uit/aan (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Schakel ciplushelper automatisch starten in"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Herstart service na uit/aan (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Ciplushelper stoppen"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- Instellingen CI automatisch uit/aan ---"
 
-msgid "Start ciplushelper"
-msgstr "Start ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 sec"
 
-msgid "Install version from Zgemma"
-msgstr "versie van Zgemma"
+msgid "1 hour"
+msgstr "1 uur"
 
-msgid "Disable CI+ slot"
-msgstr "CI+-slot"
+msgid "1 sec"
+msgstr "1 sec"
 
-msgid "Enable CI+ slot"
-msgstr "CI+-slot"
+msgid "10 sec"
+msgstr "10 sec"
 
-msgid "Install default version"
-msgstr "standaardversie"
+msgid "11 sec"
+msgstr "11 sec"
 
-msgid "Remove"
-msgstr "Verwijderen"
+msgid "12 sec"
+msgstr "12 sec"
 
-msgid "Install"
-msgstr "Installeren"
+msgid "2 hour"
+msgstr "2 uur"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 sec"
 
-msgid "Update plugin"
-msgstr "Plug-in bijwerken"
+msgid "3 hour"
+msgstr "3 uur"
 
-msgid "Restart GUI"
-msgstr "Start de GUI opnieuw"
+msgid "3 sec"
+msgstr "3 sec"
 
-msgid "Need restart GUI"
-msgstr "Opnieuw opstarten GUI nodig"
+msgid "30 min"
+msgstr "30 minuten"
 
-msgid "Oscam stopped."
-msgstr "Oscam stopte."
+msgid "4 hour"
+msgstr "4 uur"
 
-msgid "Oscam started."
-msgstr "Oscam begon."
+msgid "4 sec"
+msgstr "4 sec"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam binair bestand niet gevonden!"
+msgid "5 sec"
+msgstr "5 sec"
 
-msgid "Updating plugin..."
-msgstr "Plug-in updaten..."
+msgid "6 sec"
+msgstr "6 sec"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Weet u zeker dat u de GUI opnieuw wilt starten?"
+msgid "7 sec"
+msgstr "7 sec"
 
-msgid "Unknown"
-msgstr "Onbekend"
+msgid "8 sec"
+msgstr "8 sec"
+
+msgid "9 sec"
+msgstr "9 sec"
+
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - automatisch uit/aan"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - automatisch uit/aan"
+
+msgid "CI modules detected:"
+msgstr "CI-modules gedetecteerd:"
+
+msgid "CI+ Helper"
+msgstr "CI+ Helper"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper en automatisch uit/aan"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper en automatisch uit/aan voor CI-modules"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper geïnstalleerd en actief!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper-plug-in"
 
-msgid "Supported devices:"
-msgstr "Ondersteunde apparaten:"
+msgid "CI+ Helper status:"
+msgstr "CI+ Helperstatus:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Andere modellen hebben mogelijk '/etc/ciplus' nodig"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Common Interface Assignment-plug-in niet gevonden. Installeer het via systeemplug-ins."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Schakel ciplushelper automatisch starten uit"
+
+msgid "Enable auto-check module"
+msgstr "Schakel de automatische controlemodule in"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Schakel ciplushelper automatisch starten in"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "FOUT: CI+ Helper werkt niet!\nCheck /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Installeer /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Installeer alternatief binair bestand (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Installeer WERKEND binair bestand (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Geïnstalleerd:"
 
-msgid "CI+ helper"
-msgstr "CI+-helper"
+msgid "None"
+msgstr "Geen"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+-helper voor Enigma2"
+msgid "Not running"
+msgstr "Niet actief"
+
+msgid "off"
+msgstr "uit"
+
+msgid "Open CI Assignment"
+msgstr "Open CI-toewijzing"
+
+msgid "Pause CI 1"
+msgstr "Pauzeert CI 1"
+
+msgid "Pause CI 2"
+msgstr "Pauzeert CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Verwijder /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Start de dienst opnieuw!"
+
+msgid "Running"
+msgstr "Rennen"
+
+msgid "Save"
+msgstr "Redden"
+
+msgid "Show message after off/on"
+msgstr "Toon bericht na uit/aan"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: niet aanwezig, Slot2: aanwezig"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: aanwezig, Slot2: niet aanwezig"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: aanwezig, Slot2: aanwezig"
+
+msgid "Start ciplushelper"
+msgstr "Start ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Ciplushelper stoppen"
+
+msgid "Supported devices:"
+msgstr "Ondersteunde apparaten:"
+
+msgid "Supported models"
+msgstr "Ondersteunde modellen"
+
+msgid "Unknown"
+msgstr "Onbekend"
+
+msgid "Update plugin"
+msgstr "Plug-in bijwerken"
+
+msgid "Updating plugin..."
+msgstr "Plug-in updaten..."
 

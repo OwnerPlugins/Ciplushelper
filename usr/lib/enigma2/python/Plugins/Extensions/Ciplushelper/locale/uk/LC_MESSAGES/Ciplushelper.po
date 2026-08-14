@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "Допоміжне меню CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Затримка вимкнення-->увімкнення (CI 1)"
 
-msgid "Supported models"
-msgstr "Підтримувані моделі"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Затримка вимкнення-->увімкнення (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Вимкнути автозапуск ciplushelper"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Перезапуск служби після вимкнення/увімкнення (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Увімкнути автозапуск ciplushelper"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Перезапуск служби після вимкнення/увімкнення (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Зупинити ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- Налаштування автоматичного вимкнення/увімкнення CI ---"
 
-msgid "Start ciplushelper"
-msgstr "Запустіть ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 сек"
 
-msgid "Install version from Zgemma"
-msgstr "версія від Zgemma"
+msgid "1 hour"
+msgstr "1 година"
 
-msgid "Disable CI+ slot"
-msgstr "Слот CI+"
+msgid "1 sec"
+msgstr "1 сек"
 
-msgid "Enable CI+ slot"
-msgstr "Слот CI+"
+msgid "10 sec"
+msgstr "10 сек"
 
-msgid "Install default version"
-msgstr "версія за замовчуванням"
+msgid "11 sec"
+msgstr "11 сек"
 
-msgid "Remove"
-msgstr "видалити"
+msgid "12 sec"
+msgstr "12 сек"
 
-msgid "Install"
-msgstr "встановити"
+msgid "2 hour"
+msgstr "2 години"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 сек"
 
-msgid "Update plugin"
-msgstr "Оновити плагін"
+msgid "3 hour"
+msgstr "3 години"
 
-msgid "Restart GUI"
-msgstr "Перезапустіть GUI"
+msgid "3 sec"
+msgstr "3 сек"
 
-msgid "Need restart GUI"
-msgstr "Потрібно перезапустити GUI"
+msgid "30 min"
+msgstr "30 хв"
 
-msgid "Oscam stopped."
-msgstr "Оскам зупинився."
+msgid "4 hour"
+msgstr "4 години"
 
-msgid "Oscam started."
-msgstr "Оскам почав."
+msgid "4 sec"
+msgstr "4 сек"
 
-msgid "Oscam binary not found!"
-msgstr "Двійковий файл Oscam не знайдено!"
+msgid "5 sec"
+msgstr "5 сек"
 
-msgid "Updating plugin..."
-msgstr "Оновлення плагіна..."
+msgid "6 sec"
+msgstr "6 сек"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Ви впевнені, що бажаєте перезапустити GUI?"
+msgid "7 sec"
+msgstr "7 сек"
 
-msgid "Unknown"
-msgstr "Невідомий"
+msgid "8 sec"
+msgstr "8 сек"
+
+msgid "9 sec"
+msgstr "9 сек"
+
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - автовимкнення/вмикання"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - автовимкнення/вмикання"
+
+msgid "CI modules detected:"
+msgstr "Виявлено модулі CI:"
+
+msgid "CI+ Helper"
+msgstr "Помічник CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "Помічник CI+ і автоматичне вимикання/вмикання"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper і автоматичне вимкнення/вмикання для модулів CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper встановлено та працює!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "Допоміжний плагін CI+"
 
-msgid "Supported devices:"
-msgstr "Підтримувані пристрої:"
+msgid "CI+ Helper status:"
+msgstr "Статус CI+ Helper:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Для інших моделей може знадобитися '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Плагін призначення загального інтерфейсу не знайдено. Будь ласка, встановіть його з системних плагінів."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Вимкнути автозапуск ciplushelper"
+
+msgid "Enable auto-check module"
+msgstr "Увімкнути модуль автоматичної перевірки"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Увімкнути автозапуск ciplushelper"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ПОМИЛКА: CI+ Helper не працює!\nПеревірте /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Встановіть /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Встановити альтернативний двійковий файл (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Встановити РОБОЧИЙ двійковий файл (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Встановлено:"
 
-msgid "CI+ helper"
-msgstr "Помічник CI+"
+msgid "None"
+msgstr "Жодного"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Помічник CI+ для Enigma2"
+msgid "Not running"
+msgstr "Не працює"
+
+msgid "off"
+msgstr "вимкнено"
+
+msgid "Open CI Assignment"
+msgstr "Відкрийте призначення CI"
+
+msgid "Pause CI 1"
+msgstr "Призупиняє CI 1"
+
+msgid "Pause CI 2"
+msgstr "Призупиняє CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Видаліть /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Перезапустіть службу!"
+
+msgid "Running"
+msgstr "Біг"
+
+msgid "Save"
+msgstr "зберегти"
+
+msgid "Show message after off/on"
+msgstr "Показувати повідомлення після вимкнення/увімкнення"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Слот1: відсутній, Слот2: присутній"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Слот1: присутній, Слот2: відсутній"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Слот1: присутній, Слот2: присутній"
+
+msgid "Start ciplushelper"
+msgstr "Запустіть ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Зупинити ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Підтримувані пристрої:"
+
+msgid "Supported models"
+msgstr "Підтримувані моделі"
+
+msgid "Unknown"
+msgstr "Невідомий"
+
+msgid "Update plugin"
+msgstr "Оновити плагін"
+
+msgid "Updating plugin..."
+msgstr "Оновлення плагіна..."
 

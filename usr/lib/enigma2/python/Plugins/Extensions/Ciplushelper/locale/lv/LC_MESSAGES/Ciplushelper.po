@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ palīga izvēlne"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Aizkave off-->on (CI 1)"
 
-msgid "Supported models"
-msgstr "Atbalstītie modeļi"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Aizkave off-->on (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Atspējot ciplushelper automātisko palaišanu"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Restartējiet pakalpojumu pēc izslēgšanas/ieslēgšanas (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Iespējot ciplushelper automātisko palaišanu"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Restartējiet pakalpojumu pēc izslēgšanas/ieslēgšanas (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Apturiet ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI automātiskās izslēgšanas/ieslēgšanās iestatījumi ---"
 
-msgid "Start ciplushelper"
-msgstr "Sāciet programmu ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 sek"
 
-msgid "Install version from Zgemma"
-msgstr "versija no Zgemma"
+msgid "1 hour"
+msgstr "1 stunda"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ slots"
+msgid "1 sec"
+msgstr "1 sek"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ slots"
+msgid "10 sec"
+msgstr "10 sek"
 
-msgid "Install default version"
-msgstr "noklusējuma versija"
+msgid "11 sec"
+msgstr "11 sek"
 
-msgid "Remove"
-msgstr "Noņemt"
+msgid "12 sec"
+msgstr "12 sek"
 
-msgid "Install"
-msgstr "Instalējiet"
+msgid "2 hour"
+msgstr "2 stundas"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 sek"
 
-msgid "Update plugin"
-msgstr "Atjaunināt spraudni"
+msgid "3 hour"
+msgstr "3 stundas"
 
-msgid "Restart GUI"
-msgstr "Restartējiet GUI"
+msgid "3 sec"
+msgstr "3 sek"
 
-msgid "Need restart GUI"
-msgstr "Nepieciešams restartēt GUI"
+msgid "30 min"
+msgstr "30 min"
 
-msgid "Oscam stopped."
-msgstr "Oskam apstājās."
+msgid "4 hour"
+msgstr "4 stundas"
 
-msgid "Oscam started."
-msgstr "Oskam sāka."
+msgid "4 sec"
+msgstr "4 sek"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam binārs nav atrasts!"
+msgid "5 sec"
+msgstr "5 sek"
 
-msgid "Updating plugin..."
-msgstr "Notiek spraudņa atjaunināšana..."
+msgid "6 sec"
+msgstr "6 sek"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Vai tiešām vēlaties restartēt GUI?"
+msgid "7 sec"
+msgstr "7 sek"
 
-msgid "Unknown"
-msgstr "Nezināms"
+msgid "8 sec"
+msgstr "8 sek"
+
+msgid "9 sec"
+msgstr "9 sek"
+
+msgid "Cancel"
+msgstr "Atcelt"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - automātiska izslēgšana/ieslēgšanās"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - automātiska izslēgšana/ieslēgšanās"
+
+msgid "CI modules detected:"
+msgstr "Konstatēti CI moduļi:"
+
+msgid "CI+ Helper"
+msgstr "CI+ palīgs"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ palīgs un automātiska izslēgšana/ieslēgšanās"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ palīgs un automātiska izslēgšana/ieslēgšanās CI moduļiem"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ palīgs ir instalēts un darbojas!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ palīdzības spraudnis"
 
-msgid "Supported devices:"
-msgstr "Atbalstītās ierīces:"
+msgid "CI+ Helper status:"
+msgstr "CI+ palīga statuss:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Citiem modeļiem var būt nepieciešams “/etc/ciplus”"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Kopējā interfeisa piešķiršanas spraudnis nav atrasts. Lūdzu, instalējiet to no sistēmas spraudņiem."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Atspējot ciplushelper automātisko palaišanu"
+
+msgid "Enable auto-check module"
+msgstr "Iespējot automātiskās pārbaudes moduli"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Iespējot ciplushelper automātisko palaišanu"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "KĻŪDA: CI+ palīgs nedarbojas!\nPārbaudiet /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Instalējiet /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Instalējiet alternatīvu bināro (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Instalējiet WORKING bināro failu (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Uzstādīts:"
 
-msgid "CI+ helper"
-msgstr "CI+ palīgs"
+msgid "None"
+msgstr "Nav"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+ palīgs Enigma2"
+msgid "Not running"
+msgstr "Neskrien"
+
+msgid "off"
+msgstr "izslēgts"
+
+msgid "Open CI Assignment"
+msgstr "Atveriet CI uzdevumu"
+
+msgid "Pause CI 1"
+msgstr "Aptur CI 1"
+
+msgid "Pause CI 2"
+msgstr "Aptur CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Noņemiet /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Restartējiet pakalpojumu!"
+
+msgid "Running"
+msgstr "Skriešana"
+
+msgid "Save"
+msgstr "Saglabāt"
+
+msgid "Show message after off/on"
+msgstr "Rādīt ziņojumu pēc izslēgšanas/ieslēgšanas"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "1. vieta: nav, 2. vieta: atrodas"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: klāt, Slot2: nav"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: klāt, Slot2: klāt"
+
+msgid "Start ciplushelper"
+msgstr "Sāciet programmu ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Apturiet ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Atbalstītās ierīces:"
+
+msgid "Supported models"
+msgstr "Atbalstītie modeļi"
+
+msgid "Unknown"
+msgstr "Nezināms"
+
+msgid "Update plugin"
+msgstr "Atjaunināt spraudni"
+
+msgid "Updating plugin..."
+msgstr "Notiek spraudņa atjaunināšana..."
 

@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ pagalbinio meniu"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Vėlavimas išjungti-->įjungti (CI 1)"
 
-msgid "Supported models"
-msgstr "Palaikomi modeliai"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Vėlavimas išjungti-->įjungti (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Išjungti ciplushelper automatinį paleidimą"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Iš naujo paleiskite paslaugą išjungus / įjungus (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Įgalinti ciplushelper automatinį paleidimą"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Iš naujo paleiskite paslaugą išjungus / įjungus (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Sustabdykite ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI automatinio išjungimo/įjungimo nustatymai ---"
 
-msgid "Start ciplushelper"
-msgstr "Paleiskite ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 sek"
 
-msgid "Install version from Zgemma"
-msgstr "versija iš Zgemma"
+msgid "1 hour"
+msgstr "1 valanda"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ lizdas"
+msgid "1 sec"
+msgstr "1 sek"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ lizdas"
+msgid "10 sec"
+msgstr "10 sek"
 
-msgid "Install default version"
-msgstr "numatytoji versija"
+msgid "11 sec"
+msgstr "11 sek"
 
-msgid "Remove"
-msgstr "Pašalinti"
+msgid "12 sec"
+msgstr "12 sek"
 
-msgid "Install"
-msgstr "Įdiegti"
+msgid "2 hour"
+msgstr "2 valandos"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 sek"
 
-msgid "Update plugin"
-msgstr "Atnaujinti papildinį"
+msgid "3 hour"
+msgstr "3 valandos"
 
-msgid "Restart GUI"
-msgstr "Iš naujo paleiskite GUI"
+msgid "3 sec"
+msgstr "3 sek"
 
-msgid "Need restart GUI"
-msgstr "Reikia iš naujo paleisti GUI"
+msgid "30 min"
+msgstr "30 min"
 
-msgid "Oscam stopped."
-msgstr "Oscam sustojo."
+msgid "4 hour"
+msgstr "4 valandos"
 
-msgid "Oscam started."
-msgstr "Oscam pradėjo."
+msgid "4 sec"
+msgstr "4 sek"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam dvejetainis failas nerastas!"
+msgid "5 sec"
+msgstr "5 sek"
 
-msgid "Updating plugin..."
-msgstr "Atnaujinamas papildinys..."
+msgid "6 sec"
+msgstr "6 sek"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Ar tikrai norite iš naujo paleisti GUI?"
+msgid "7 sec"
+msgstr "7 sek"
 
-msgid "Unknown"
-msgstr "Nežinoma"
+msgid "8 sec"
+msgstr "8 sek"
+
+msgid "9 sec"
+msgstr "9 sek"
+
+msgid "Cancel"
+msgstr "Atšaukti"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 – automatinis išjungimas/įjungimas"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 – automatinis išjungimas/įjungimas"
+
+msgid "CI modules detected:"
+msgstr "Aptikti CI moduliai:"
+
+msgid "CI+ Helper"
+msgstr "CI+ pagalbininkas"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper ir automatinis išjungimas/įjungimas"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ pagalbininkas ir automatinis išjungimas/įjungimas CI moduliams"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "Įdiegtas ir paleistas CI+ pagalbininkas!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ pagalbinis papildinys"
 
-msgid "Supported devices:"
-msgstr "Palaikomi įrenginiai:"
+msgid "CI+ Helper status:"
+msgstr "CI+ pagalbininko būsena:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Kituose modeliuose gali prireikti „/etc/ciplus“"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Bendrosios sąsajos priskyrimo įskiepis nerastas. Įdiekite jį iš sistemos papildinių."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Išjungti ciplushelper automatinį paleidimą"
+
+msgid "Enable auto-check module"
+msgstr "Įgalinti automatinio tikrinimo modulį"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Įgalinti ciplushelper automatinį paleidimą"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "KLAIDA: CI+ pagalbininkas neveikia!\nPatikrinkite /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Įdiekite /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Įdiekite alternatyvų dvejetainį failą (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Įdiekite WORKING dvejetainį failą (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Įdiegta:"
 
-msgid "CI+ helper"
-msgstr "CI+ pagalbininkas"
+msgid "None"
+msgstr "Nėra"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+ pagalbininkas, skirtas Enigma2"
+msgid "Not running"
+msgstr "Nebėga"
+
+msgid "off"
+msgstr "išjungti"
+
+msgid "Open CI Assignment"
+msgstr "Atidarykite CI priskyrimą"
+
+msgid "Pause CI 1"
+msgstr "Pristabdo CI 1"
+
+msgid "Pause CI 2"
+msgstr "Pristabdo CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Pašalinkite /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Iš naujo paleiskite paslaugą!"
+
+msgid "Running"
+msgstr "Bėgimas"
+
+msgid "Save"
+msgstr "Išsaugoti"
+
+msgid "Show message after off/on"
+msgstr "Rodyti pranešimą išjungus/įjungus"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "1 lizdas: nėra, 2 lizdas: yra"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "1 lizdas: yra, 2 lizdas: nėra"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "1 lizdas: dabartis, 2 lizdas: dabartis"
+
+msgid "Start ciplushelper"
+msgstr "Paleiskite ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Sustabdykite ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Palaikomi įrenginiai:"
+
+msgid "Supported models"
+msgstr "Palaikomi modeliai"
+
+msgid "Unknown"
+msgstr "Nežinoma"
+
+msgid "Update plugin"
+msgstr "Atnaujinti papildinį"
+
+msgid "Updating plugin..."
+msgstr "Atnaujinamas papildinys..."
 

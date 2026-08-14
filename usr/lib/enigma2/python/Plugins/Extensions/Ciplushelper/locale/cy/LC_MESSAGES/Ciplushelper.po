@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "Dewislen cynorthwyydd CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Oedi i ffwrdd--> ymlaen (CI 1)"
 
-msgid "Supported models"
-msgstr "Modelau a gefnogir"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Oedi i ffwrdd--> ymlaen (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Analluogi ciplushelper cychwyn yn awtomatig"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Ailgychwyn gwasanaeth ar ôl i ffwrdd / ymlaen (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Galluogi ciplushelper cychwyn yn awtomatig"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Ailgychwyn gwasanaeth ar ôl i ffwrdd / ymlaen (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Stopiwch ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- gosodiadau CI auto i ffwrdd / ymlaen ---"
 
-msgid "Start ciplushelper"
-msgstr "Cychwyn ciplushelper"
+msgid "0.5 sec"
+msgstr "0.5 eiliad"
 
-msgid "Install version from Zgemma"
-msgstr "fersiwn o Zgemma"
+msgid "1 hour"
+msgstr "1 awr"
 
-msgid "Disable CI+ slot"
-msgstr "slot CI+"
+msgid "1 sec"
+msgstr "1 eiliad"
 
-msgid "Enable CI+ slot"
-msgstr "slot CI+"
+msgid "10 sec"
+msgstr "10 eiliad"
 
-msgid "Install default version"
-msgstr "fersiwn rhagosodedig"
+msgid "11 sec"
+msgstr "11 eiliad"
 
-msgid "Remove"
-msgstr "Dileu"
+msgid "12 sec"
+msgstr "12 eiliad"
 
-msgid "Install"
-msgstr "Gosod"
+msgid "2 hour"
+msgstr "2 awr"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 eiliad"
 
-msgid "Update plugin"
-msgstr "Diweddaru ategyn"
+msgid "3 hour"
+msgstr "3 awr"
 
-msgid "Restart GUI"
-msgstr "Ailgychwyn GUI"
+msgid "3 sec"
+msgstr "3 eiliad"
 
-msgid "Need restart GUI"
-msgstr "Angen ailgychwyn GUI"
+msgid "30 min"
+msgstr "30 mun"
 
-msgid "Oscam stopped."
-msgstr "Stopiodd Oscam."
+msgid "4 hour"
+msgstr "4 awr"
 
-msgid "Oscam started."
-msgstr "Dechreuodd Oscar."
+msgid "4 sec"
+msgstr "4 eiliad"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam deuaidd heb ei ddarganfod!"
+msgid "5 sec"
+msgstr "5 eiliad"
 
-msgid "Updating plugin..."
-msgstr "Wrthi'n diweddaru'r ategyn..."
+msgid "6 sec"
+msgstr "6 eiliad"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Ydych chi'n siŵr eich bod am ailgychwyn y GUI?"
+msgid "7 sec"
+msgstr "7 eiliad"
 
-msgid "Unknown"
-msgstr "Anhysbys"
+msgid "8 sec"
+msgstr "8 eiliad"
+
+msgid "9 sec"
+msgstr "9 eiliad"
+
+msgid "Cancel"
+msgstr "Canslo"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - auto i ffwrdd/ymlaen"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - auto i ffwrdd/ymlaen"
+
+msgid "CI modules detected:"
+msgstr "Modiwlau CI wedi'u canfod:"
+
+msgid "CI+ Helper"
+msgstr "Cynorthwyydd CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "Cynorthwyydd CI+ a auto i ffwrdd / ymlaen"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "Cynorthwyydd CI+ a diffodd/ymlaen yn awtomatig ar gyfer modiwlau CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "Cynorthwyydd CI+ wedi'i osod a rhedeg!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "Ategyn Cynorthwyydd CI+"
 
-msgid "Supported devices:"
-msgstr "Dyfeisiau a gefnogir:"
+msgid "CI+ Helper status:"
+msgstr "Statws Cynorthwyydd CI+:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Efallai y bydd angen '/etc/ciplus' ar fodelau eraill"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Heb ganfod ategyn Aseiniad Rhyngwyneb Cyffredin. Gosodwch ef o System Plugins."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Analluogi ciplushelper cychwyn yn awtomatig"
+
+msgid "Enable auto-check module"
+msgstr "Galluogi modiwl gwirio awtomatig"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Galluogi ciplushelper cychwyn yn awtomatig"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "GWALL: Cynorthwyydd CI+ ddim yn rhedeg! \nCheck /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Gosod /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Gosod deuaidd amgen (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Gosod deuaidd GWEITHIO (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Wedi'i osod:"
 
-msgid "CI+ helper"
-msgstr "Cynorthwyydd CI+"
+msgid "None"
+msgstr "Dim"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Cynorthwyydd CI+ ar gyfer Enigma2"
+msgid "Not running"
+msgstr "Ddim yn rhedeg"
+
+msgid "off"
+msgstr "i ffwrdd"
+
+msgid "Open CI Assignment"
+msgstr "Agor Aseiniad CI"
+
+msgid "Pause CI 1"
+msgstr "Yn seibio CI 1"
+
+msgid "Pause CI 2"
+msgstr "Yn seibio CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Dileu /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Ailgychwyn gwasanaeth!"
+
+msgid "Running"
+msgstr "Rhedeg"
+
+msgid "Save"
+msgstr "Arbed"
+
+msgid "Show message after off/on"
+msgstr "Dangos neges ar ôl diffodd / ymlaen"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: ddim yn bresennol, Slot2: presennol"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: presennol, Slot2: dim yn bresennol"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: presennol, Slot2: presennol"
+
+msgid "Start ciplushelper"
+msgstr "Cychwyn ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Stopiwch ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Dyfeisiau a gefnogir:"
+
+msgid "Supported models"
+msgstr "Modelau a gefnogir"
+
+msgid "Unknown"
+msgstr "Anhysbys"
+
+msgid "Update plugin"
+msgstr "Diweddaru ategyn"
+
+msgid "Updating plugin..."
+msgstr "Wrthi'n diweddaru'r ategyn..."
 

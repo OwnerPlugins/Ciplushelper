@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "סי + העלפּער מעניו"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- פאַרהאַלטן אַוועק--> אויף (CI 1)"
 
-msgid "Supported models"
-msgstr "שטיצט מאָדעלס"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- פאַרהאַלטן אַוועק--> אויף (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "דיסייבאַל סיפּלוסהעלפּער אַוטאָסטאַרט"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- ריסטאַרט דינסט נאָך אַוועק / אויף (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "געבן סיפּלוסהעלפּער אַוטאָסטאַרט"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- ריסטאַרט דינסט נאָך אַוועק / אויף (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "האַלטן סיפּלוסהעלפּער"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI אַוטאָ אַוועק / אויף סעטטינגס ---"
 
-msgid "Start ciplushelper"
-msgstr "אָנהייב סיפּלוסהעלפּער"
+msgid "0.5 sec"
+msgstr "0.5 סעק"
 
-msgid "Install version from Zgemma"
-msgstr "ווערסיע פון ​​Zgemma"
+msgid "1 hour"
+msgstr "1 שעה"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ שפּעלטל"
+msgid "1 sec"
+msgstr "1 סעק"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ שפּעלטל"
+msgid "10 sec"
+msgstr "10 סעק"
 
-msgid "Install default version"
-msgstr "פעליקייַט ווערסיע"
+msgid "11 sec"
+msgstr "11 סעק"
 
-msgid "Remove"
-msgstr "אַראָפּנעמען"
+msgid "12 sec"
+msgstr "12 סעק"
 
-msgid "Install"
-msgstr "ינסטאַלירן"
+msgid "2 hour"
+msgstr "2 שעה"
 
-msgid "Oscam:"
-msgstr "אָסאַם:"
+msgid "2 sec"
+msgstr "2 סעק"
 
-msgid "Update plugin"
-msgstr "דערהייַנטיקן פּלוגין"
+msgid "3 hour"
+msgstr "3 שעה"
 
-msgid "Restart GUI"
-msgstr "ריסטאַרט GUI"
+msgid "3 sec"
+msgstr "3 סעק"
 
-msgid "Need restart GUI"
-msgstr "דאַרפֿן ריסטאַרט GUI"
+msgid "30 min"
+msgstr "30 מין"
 
-msgid "Oscam stopped."
-msgstr "אסקם האט זיך אפגעשטעלט."
+msgid "4 hour"
+msgstr "4 שעה"
 
-msgid "Oscam started."
-msgstr "אָסקאַם אנגעהויבן."
+msgid "4 sec"
+msgstr "4 סעק"
 
-msgid "Oscam binary not found!"
-msgstr "אָסקאַם ביינערי ניט געפֿונען!"
+msgid "5 sec"
+msgstr "5 סעק"
 
-msgid "Updating plugin..."
-msgstr "דערהייַנטיקט פּלוגין ..."
+msgid "6 sec"
+msgstr "6 סעק"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "זענט איר זיכער אַז איר ווילן צו ריסטאַרט די GUI?"
+msgid "7 sec"
+msgstr "7 סעק"
 
-msgid "Unknown"
-msgstr "אומבאַקאַנט"
+msgid "8 sec"
+msgstr "8 סעק"
+
+msgid "9 sec"
+msgstr "9 סעק"
+
+msgid "Cancel"
+msgstr "באָטל מאַכן"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - אַוטאָ אַוועק / אויף"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - אַוטאָ אַוועק / אויף"
+
+msgid "CI modules detected:"
+msgstr "CI מאַדזשולז דיטעקטאַד:"
+
+msgid "CI+ Helper"
+msgstr "סי+ העלפּער"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ העלפּער און אַוטאָ אַוועק / אויף"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "סי + העלפּער און אַוטאָ אַוועק / אויף פֿאַר סי מאַדזשולז"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "סי+ העלפּער אינסטאַלירן און פליסנדיק!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "סי+ העלפּער פּלוגין"
 
-msgid "Supported devices:"
-msgstr "שטיצט דעוויסעס:"
+msgid "CI+ Helper status:"
+msgstr "CI+ העלפּער סטאַטוס:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "אנדערע מאָדעלס קען דאַרפֿן '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "פּראָסט צובינד אַסיינמאַנט פּלוגין ניט געפֿונען. ביטע ינסטאַלירן עס פֿון סיסטעם פּלוגינס."
+
+msgid "Disable ciplushelper autostart"
+msgstr "דיסייבאַל סיפּלוסהעלפּער אַוטאָסטאַרט"
+
+msgid "Enable auto-check module"
+msgstr "געבן אַוטאָ-טשעק מאָדולע"
+
+msgid "Enable ciplushelper autostart"
+msgstr "געבן סיפּלוסהעלפּער אַוטאָסטאַרט"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "טעות: סי+ העלפּער איז נישט פליסנדיק!\n טשעק /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "ינסטאַלירן /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "ינסטאַלירן אָלטערנאַטיוו ביינערי (זגעממאַ-אַרם)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "ינסטאַלירן WORKING ביינערי (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "אינסטאַלירן:"
 
-msgid "CI+ helper"
-msgstr "סי+ העלפּער"
+msgid "None"
+msgstr "קיינער"
 
-msgid "CI+ helper for Enigma2"
-msgstr "סי + העלפּער פֿאַר Enigma2"
+msgid "Not running"
+msgstr "ניט פליסנדיק"
+
+msgid "off"
+msgstr "אַוועק"
+
+msgid "Open CI Assignment"
+msgstr "עפֿן CI אַסיינמאַנט"
+
+msgid "Pause CI 1"
+msgstr "פּאָוזאַז CI 1"
+
+msgid "Pause CI 2"
+msgstr "פּאָוזאַז CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "אַראָפּנעמען /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "ריסטאַרט דינסט!"
+
+msgid "Running"
+msgstr "פליסנדיק"
+
+msgid "Save"
+msgstr "היט"
+
+msgid "Show message after off/on"
+msgstr "ווייַזן אָנזאָג נאָך אַוועק / אויף"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: ניט פאָרשטעלן, Slot2: פאָרשטעלן"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: פאָרשטעלן, Slot2: ניט פאָרשטעלן"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: פאָרשטעלן, Slot2: פאָרשטעלן"
+
+msgid "Start ciplushelper"
+msgstr "אָנהייב סיפּלוסהעלפּער"
+
+msgid "Stop ciplushelper"
+msgstr "האַלטן סיפּלוסהעלפּער"
+
+msgid "Supported devices:"
+msgstr "שטיצט דעוויסעס:"
+
+msgid "Supported models"
+msgstr "שטיצט מאָדעלס"
+
+msgid "Unknown"
+msgstr "אומבאַקאַנט"
+
+msgid "Update plugin"
+msgstr "דערהייַנטיקן פּלוגין"
+
+msgid "Updating plugin..."
+msgstr "דערהייַנטיקט פּלוגין ..."
 

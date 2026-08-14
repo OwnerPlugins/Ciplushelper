@@ -13,65 +13,173 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Вы ўпэўнены, што хочаце перазапусціць графічны інтэрфейс?"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Затрымка выключэння -> уключэння (CI 1)"
 
-msgid "CI+ helper"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Затрымка выключэння -> уключэння (CI 2)"
+
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Перазапуск службы пасля выключэння/ўключэння (CI 1)"
+
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Перазапуск службы пасля выключэння/ўключэння (CI 2)"
+
+msgid "--- CI auto off/on settings ---"
+msgstr "--- Налады аўтаматычнага выключэння/ўключэння CI ---"
+
+msgid "0.5 sec"
+msgstr "0,5 сек"
+
+msgid "1 hour"
+msgstr "1 гадзіна"
+
+msgid "1 sec"
+msgstr "1 с"
+
+msgid "10 sec"
+msgstr "10 сек"
+
+msgid "11 sec"
+msgstr "11 сек"
+
+msgid "12 sec"
+msgstr "12 сек"
+
+msgid "2 hour"
+msgstr "2 гадзіны"
+
+msgid "2 sec"
+msgstr "2 сек"
+
+msgid "3 hour"
+msgstr "3 гадзіны"
+
+msgid "3 sec"
+msgstr "3 сек"
+
+msgid "30 min"
+msgstr "30 хв"
+
+msgid "4 hour"
+msgstr "4 гадзіны"
+
+msgid "4 sec"
+msgstr "4 сек"
+
+msgid "5 sec"
+msgstr "5 сек"
+
+msgid "6 sec"
+msgstr "6 сек"
+
+msgid "7 sec"
+msgstr "7 сек"
+
+msgid "8 sec"
+msgstr "8 сек"
+
+msgid "9 sec"
+msgstr "9 сек"
+
+msgid "Cancel"
+msgstr "Адмяніць"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - аўтаматычнае выключэнне/ўключэнне"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - аўтаматычнае выключэнне/ўключэнне"
+
+msgid "CI modules detected:"
+msgstr "Выяўлены модулі CI:"
+
+msgid "CI+ Helper"
 msgstr "Памочнік CI+"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Памочнік CI+ для Enigma2"
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper і аўтаматычнае выключэнне/ўключэнне"
 
-msgid "CI+ helper menu"
-msgstr "Дапаможнае меню CI+"
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper і аўтаматычнае выключэнне/ўключэнне для модуляў CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper усталяваны і працуе!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "Убудова CI+ Helper"
 
-msgid "Disable CI+ slot"
-msgstr "Слот CI+"
+msgid "CI+ Helper status:"
+msgstr "Статус CI+ Helper:"
+
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Убудова Common Interface Assignment не знойдзены. Калі ласка, усталюйце яго з сістэмных убудоў."
 
 msgid "Disable ciplushelper autostart"
 msgstr "Адключыць аўтазапуск ciplushelper"
 
-msgid "Enable CI+ slot"
-msgstr "Слот CI+"
+msgid "Enable auto-check module"
+msgstr "Уключыць модуль аўтаматычнай праверкі"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Уключыць аўтазапуск ciplushelper"
 
-msgid "Install"
-msgstr "Усталяваць"
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ПАМЫЛКА: CI+ Helper не працуе!\nПраверце /home/root/ciplus_debug.log"
 
-msgid "Install default version"
-msgstr "версія па змаўчанні"
+msgid "Install /etc/ciplus"
+msgstr "Усталюйце /etc/ciplus"
 
-msgid "Install version from Zgemma"
-msgstr "версія ад Zgemma"
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Усталяваць альтэрнатыўны двайковы файл (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Усталяваць РАБОЧЫ двайковы файл (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Усталявана:"
 
-msgid "Need restart GUI"
-msgstr "Неабходна перазапусціць GUI"
+msgid "None"
+msgstr "Няма"
 
-msgid "Oscam binary not found!"
-msgstr "Двайковы файл Oscam не знойдзены!"
+msgid "Not running"
+msgstr "Не працуе"
 
-msgid "Oscam started."
-msgstr "Оскам пачаў."
+msgid "off"
+msgstr "выключаны"
 
-msgid "Oscam stopped."
-msgstr "Оскам спыніўся."
+msgid "Open CI Assignment"
+msgstr "Адкрыйце прызначэнне CI"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "Pause CI 1"
+msgstr "Прыпыняе CI 1"
 
-msgid "Remove"
-msgstr "Выдаліць"
+msgid "Pause CI 2"
+msgstr "Прыпыняе CI 2"
 
-msgid "Restart GUI"
-msgstr "Перазапусціце графічны інтэрфейс"
+msgid "Remove /etc/ciplus"
+msgstr "Выдаліце ​​/etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Перазапусціць службу!"
+
+msgid "Running"
+msgstr "Бег"
+
+msgid "Save"
+msgstr "Захаваць"
+
+msgid "Show message after off/on"
+msgstr "Паказваць паведамленне пасля выключэння/ўключэння"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Слот1: няма, Слот2: ёсць"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Слот1: ёсць, Слот2: няма"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Слот1: прысутнічае, слот2: прысутнічае"
 
 msgid "Start ciplushelper"
 msgstr "Запусціце ciplushelper"

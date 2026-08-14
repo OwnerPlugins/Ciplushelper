@@ -13,65 +13,173 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Is jy seker jy wil die GUI herbegin?"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Vertraging af-->aan (CI 1)"
 
-msgid "CI+ helper"
-msgstr "CI+ helper"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Vertraging af-->aan (CI 2)"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+ helper vir Enigma2"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Herbegin diens na af/aan (CI 1)"
 
-msgid "CI+ helper menu"
-msgstr "CI+ helper spyskaart"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Herbegin diens na af/aan (CI 2)"
+
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI outomatiese af/aan instellings ---"
+
+msgid "0.5 sec"
+msgstr "0.5 sek"
+
+msgid "1 hour"
+msgstr "1 uur"
+
+msgid "1 sec"
+msgstr "1 sek"
+
+msgid "10 sec"
+msgstr "10 sek"
+
+msgid "11 sec"
+msgstr "11 sek"
+
+msgid "12 sec"
+msgstr "12 sek"
+
+msgid "2 hour"
+msgstr "2 uur"
+
+msgid "2 sec"
+msgstr "2 sek"
+
+msgid "3 hour"
+msgstr "3 uur"
+
+msgid "3 sec"
+msgstr "3 sek"
+
+msgid "30 min"
+msgstr "30 min"
+
+msgid "4 hour"
+msgstr "4 uur"
+
+msgid "4 sec"
+msgstr "4 sek"
+
+msgid "5 sec"
+msgstr "5 sek"
+
+msgid "6 sec"
+msgstr "6 sek"
+
+msgid "7 sec"
+msgstr "7 sek"
+
+msgid "8 sec"
+msgstr "8 sek"
+
+msgid "9 sec"
+msgstr "9 sek"
+
+msgid "Cancel"
+msgstr "Kanselleer"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - outomaties af/aan"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - outomaties af/aan"
+
+msgid "CI modules detected:"
+msgstr "CI-modules bespeur:"
+
+msgid "CI+ Helper"
+msgstr "CI+ Helper"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper en outomaties af/aan"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper en outomaties af/aan vir CI-modules"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper geïnstalleer en loop!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper-inprop"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ gleuf"
+msgid "CI+ Helper status:"
+msgstr "CI+ Helper-status:"
+
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Common Interface Assignment plugin nie gevind nie. Installeer dit asseblief vanaf System Plugins."
 
 msgid "Disable ciplushelper autostart"
 msgstr "Deaktiveer ciplushelper-outobegin"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ gleuf"
+msgid "Enable auto-check module"
+msgstr "Aktiveer outomatiese kontrole-module"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Aktiveer ciplushelper-outobegin"
 
-msgid "Install"
-msgstr "Installeer"
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "FOUT: CI+ Helper loop nie!\nGaan /home/root/ciplus_debug.log na"
 
-msgid "Install default version"
-msgstr "verstek weergawe"
+msgid "Install /etc/ciplus"
+msgstr "Installeer /etc/ciplus"
 
-msgid "Install version from Zgemma"
-msgstr "weergawe van Zgemma"
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Installeer alternatiewe binêre (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Installeer WORKING binary (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Geïnstalleer:"
 
-msgid "Need restart GUI"
-msgstr "Moet GUI herbegin"
+msgid "None"
+msgstr "Geen"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam binêre nie gevind nie!"
+msgid "Not running"
+msgstr "Nie hardloop nie"
 
-msgid "Oscam started."
-msgstr "Oscam begin."
+msgid "off"
+msgstr "af"
 
-msgid "Oscam stopped."
-msgstr "Oscam het gestop."
+msgid "Open CI Assignment"
+msgstr "Maak CI-opdrag oop"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "Pause CI 1"
+msgstr "Onderbreek CI 1"
 
-msgid "Remove"
-msgstr "Verwyder"
+msgid "Pause CI 2"
+msgstr "Onderbreek CI 2"
 
-msgid "Restart GUI"
-msgstr "Herbegin GUI"
+msgid "Remove /etc/ciplus"
+msgstr "Verwyder /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Herbegin diens!"
+
+msgid "Running"
+msgstr "Hardloop"
+
+msgid "Save"
+msgstr "Stoor"
+
+msgid "Show message after off/on"
+msgstr "Wys boodskap na af/aan"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: nie teenwoordig nie, Slot2: teenwoordig"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: teenwoordig, Slot2: nie teenwoordig nie"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: teenwoordig, Slot2: teenwoordig"
 
 msgid "Start ciplushelper"
 msgstr "Begin ciplushelper"

@@ -13,65 +13,173 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Իսկապե՞ս ուզում եք վերագործարկել GUI-ը:"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Հետաձգել անջատում-->միացված (CI 1)"
 
-msgid "CI+ helper"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Հետաձգել անջատում-->միացված (CI 2)"
+
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Վերագործարկեք ծառայությունը անջատումից/միացնելուց հետո (CI 1)"
+
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Վերագործարկեք ծառայությունը անջատելուց/միացնելուց հետո (CI 2)"
+
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI ավտոմատ անջատման/միացման կարգավորումներ ---"
+
+msgid "0.5 sec"
+msgstr "0,5 վրկ"
+
+msgid "1 hour"
+msgstr "1 ժամ"
+
+msgid "1 sec"
+msgstr "1 վրկ"
+
+msgid "10 sec"
+msgstr "10 վրկ"
+
+msgid "11 sec"
+msgstr "11 վրկ"
+
+msgid "12 sec"
+msgstr "12 վրկ"
+
+msgid "2 hour"
+msgstr "2 ժամ"
+
+msgid "2 sec"
+msgstr "2 վրկ"
+
+msgid "3 hour"
+msgstr "3 ժամ"
+
+msgid "3 sec"
+msgstr "3 վրկ"
+
+msgid "30 min"
+msgstr "30 րոպե"
+
+msgid "4 hour"
+msgstr "4 ժամ"
+
+msgid "4 sec"
+msgstr "4 վրկ"
+
+msgid "5 sec"
+msgstr "5 վրկ"
+
+msgid "6 sec"
+msgstr "6 վրկ"
+
+msgid "7 sec"
+msgstr "7 վրկ"
+
+msgid "8 sec"
+msgstr "8 վրկ"
+
+msgid "9 sec"
+msgstr "9 վրկ"
+
+msgid "Cancel"
+msgstr "Չեղարկել"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - ավտոմատ անջատում/միացում"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - ավտոմատ անջատում/միացում"
+
+msgid "CI modules detected:"
+msgstr "Հայտնաբերված CI մոդուլներ."
+
+msgid "CI+ Helper"
 msgstr "CI+ օգնական"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+ օգնական Enigma2-ի համար"
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ օգնական և ավտոմատ անջատում/միացում"
 
-msgid "CI+ helper menu"
-msgstr "CI+ օգնական մենյու"
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ օգնական և ավտոմատ անջատում/միացում CI մոդուլների համար"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Օգնականը տեղադրված է և աշխատում է:\nPID՝ %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ բնիկ"
+msgid "CI+ Helper status:"
+msgstr "CI+ Օգնականի կարգավիճակ."
+
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Common Interface Assignment plugin-ը չի գտնվել: Խնդրում ենք տեղադրել այն System Plugins-ից:"
 
 msgid "Disable ciplushelper autostart"
 msgstr "Անջատել ciplushelper-ի ավտոմատ մեկնարկը"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ բնիկ"
+msgid "Enable auto-check module"
+msgstr "Միացնել ավտոմատ ստուգման մոդուլը"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Միացնել ciplushelper-ի ավտոմատ մեկնարկը"
 
-msgid "Install"
-msgstr "Տեղադրեք"
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ՍԽԱԼ. CI+ Helper-ը չի աշխատում:\nՍտուգեք /home/root/ciplus_debug.log"
 
-msgid "Install default version"
-msgstr "լռելյայն տարբերակ"
+msgid "Install /etc/ciplus"
+msgstr "Տեղադրեք /etc/ciplus"
 
-msgid "Install version from Zgemma"
-msgstr "տարբերակը Zgemma-ից"
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Տեղադրեք այլընտրանքային երկուական (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Տեղադրեք WORKING երկուական (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Տեղադրված՝"
 
-msgid "Need restart GUI"
-msgstr "Անհրաժեշտ է վերագործարկել GUI-ը"
+msgid "None"
+msgstr "Ոչ մեկը"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam-ի երկուական տարբերակը չի գտնվել:"
+msgid "Not running"
+msgstr "Չի վազում"
 
-msgid "Oscam started."
-msgstr "Օսկամը սկսեց."
+msgid "off"
+msgstr "անջատված"
 
-msgid "Oscam stopped."
-msgstr "Օսկամը կանգ առավ։"
+msgid "Open CI Assignment"
+msgstr "Բացեք CI հանձնարարությունը"
 
-msgid "Oscam:"
-msgstr "Օսկամ."
+msgid "Pause CI 1"
+msgstr "Դադարներ CI 1"
 
-msgid "Remove"
-msgstr "Հեռացնել"
+msgid "Pause CI 2"
+msgstr "Դադար CI 2"
 
-msgid "Restart GUI"
-msgstr "Վերագործարկեք GUI-ը"
+msgid "Remove /etc/ciplus"
+msgstr "Հեռացնել /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Վերագործարկեք ծառայությունը:"
+
+msgid "Running"
+msgstr "Վազում"
+
+msgid "Save"
+msgstr "Պահպանել"
+
+msgid "Show message after off/on"
+msgstr "Ցույց տալ հաղորդագրությունը անջատված/միացնելուց հետո"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1՝ ներկա չէ, Slot2՝ ներկա"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1՝ ներկա, Slot2՝ ներկա չէ"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: ներկա, Slot2: ներկա"
 
 msgid "Start ciplushelper"
 msgstr "Սկսեք ciplushelper-ը"

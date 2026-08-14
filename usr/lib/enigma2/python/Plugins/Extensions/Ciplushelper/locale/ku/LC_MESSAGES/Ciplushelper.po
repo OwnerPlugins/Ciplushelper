@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI + menu alîkar"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Dereng girtin--> li ser (CI 1)"
 
-msgid "Supported models"
-msgstr "Modelên piştgirî kirin"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Dereng girtin--> li ser (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Destpêkirina otomatîkî ya ciplushelper neçalak bike"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Karûbarê piştî off/vexistinê ji nû ve bidin destpêkirin (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Destpêkirina xweser a ciplushelper çalak bike"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Karûbarê piştî off/vexistinê ji nû ve bidin destpêkirin (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Stop ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- Mîhengên CI-ê oto off/vekirî ---"
 
-msgid "Start ciplushelper"
-msgstr "ciplushelper dest pê bikin"
+msgid "0.5 sec"
+msgstr "0.5 sec"
 
-msgid "Install version from Zgemma"
-msgstr "guhertoya ji Zgemma"
+msgid "1 hour"
+msgstr "1 saet"
 
-msgid "Disable CI+ slot"
-msgstr "CI + hêlînê"
+msgid "1 sec"
+msgstr "1 sec"
 
-msgid "Enable CI+ slot"
-msgstr "CI + hêlînê"
+msgid "10 sec"
+msgstr "10 sec"
 
-msgid "Install default version"
-msgstr "guhertoya xwerû"
+msgid "11 sec"
+msgstr "11 sec"
 
-msgid "Remove"
-msgstr "Dûrxistin"
+msgid "12 sec"
+msgstr "12 sec"
 
-msgid "Install"
-msgstr "Lêkirin"
+msgid "2 hour"
+msgstr "2 saet"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 sec"
 
-msgid "Update plugin"
-msgstr "Plugin nûve bikin"
+msgid "3 hour"
+msgstr "3 saet"
 
-msgid "Restart GUI"
-msgstr "GUI ji nû ve bidin destpêkirin"
+msgid "3 sec"
+msgstr "3 sec"
 
-msgid "Need restart GUI"
-msgstr "Pêdivî ye ku GUI ji nû ve dest pê bike"
+msgid "30 min"
+msgstr "30 min"
 
-msgid "Oscam stopped."
-msgstr "Oscam rawestiya."
+msgid "4 hour"
+msgstr "4 saet"
 
-msgid "Oscam started."
-msgstr "Oscam dest pê kir."
+msgid "4 sec"
+msgstr "4 sec"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam binary nehat dîtin!"
+msgid "5 sec"
+msgstr "5 sec"
 
-msgid "Updating plugin..."
-msgstr "Plugin nûvekirin..."
+msgid "6 sec"
+msgstr "6 sec"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Ma hûn guman dikin ku hûn dixwazin GUI ji nû ve bidin destpêkirin?"
+msgid "7 sec"
+msgstr "7 sec"
 
-msgid "Unknown"
-msgstr "Nenas"
+msgid "8 sec"
+msgstr "8 sec"
+
+msgid "9 sec"
+msgstr "9 sec"
+
+msgid "Cancel"
+msgstr "Bişûndekirin"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - oto off / on"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - oto off / on"
+
+msgid "CI modules detected:"
+msgstr "Modulên CI-ê hatine dîtin:"
+
+msgid "CI+ Helper"
+msgstr "Alîkarê CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Alîkar û oto off/on"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "Alîkarê CI+ û ji bo modulên CI-ê oto off/on"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "Alîkarê CI+ hate sazkirin û xebitandin!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "Pêveka Alîkariya CI+"
 
-msgid "Supported devices:"
-msgstr "Amûrên piştgirî:"
+msgid "CI+ Helper status:"
+msgstr "Rewşa Alîkariya CI+:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Dibe ku modelên din hewceyê '/etc/ciplus' bin"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Pêveka Peymana Navbera Hevbeş nehat dîtin. Ji kerema xwe wê ji Pêvekên Sîstemê saz bikin."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Destpêkirina otomatîkî ya ciplushelper neçalak bike"
+
+msgid "Enable auto-check module"
+msgstr "Modula kontrolkirina otomatîk çalak bike"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Destpêkirina xweser a ciplushelper çalak bike"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ÇEWT: Alîkariya CI+ nayê xebitandin!\nKontrol bike /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "/etc/ciplus saz bikin"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Binarya alternatîf saz bikin (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "WORKING binary saz bike (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Sazkirî:"
 
-msgid "CI+ helper"
-msgstr "alîkarê CI+"
+msgid "None"
+msgstr "Netû"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Alîkarê CI + ji bo Enigma2"
+msgid "Not running"
+msgstr "Ne direve"
+
+msgid "off"
+msgstr "ji"
+
+msgid "Open CI Assignment"
+msgstr "Peywira CI vekin"
+
+msgid "Pause CI 1"
+msgstr "CI 1 disekine"
+
+msgid "Pause CI 2"
+msgstr "CI 2 disekine"
+
+msgid "Remove /etc/ciplus"
+msgstr "Rake /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Xizmetê ji nû ve bidin destpêkirin!"
+
+msgid "Running"
+msgstr "Running"
+
+msgid "Save"
+msgstr "Rizgarkirin"
+
+msgid "Show message after off/on"
+msgstr "Peyama piştî off/on nîşan bide"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: ne niha, Slot2: niha"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: niha, Slot2: ne"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: niha, Slot2: niha"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper dest pê bikin"
+
+msgid "Stop ciplushelper"
+msgstr "Stop ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Amûrên piştgirî:"
+
+msgid "Supported models"
+msgstr "Modelên piştgirî kirin"
+
+msgid "Unknown"
+msgstr "Nenas"
+
+msgid "Update plugin"
+msgstr "Plugin nûve bikin"
+
+msgid "Updating plugin..."
+msgstr "Plugin nûvekirin..."
 

@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "Trình đơn trợ giúp CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Tắt trễ -> bật (CI 1)"
 
-msgid "Supported models"
-msgstr "Các mô hình được hỗ trợ"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Tắt trễ->bật (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Tắt tính năng tự khởi động của ciplushelper"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Khởi động lại dịch vụ sau khi tắt/bật (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Bật tính năng tự khởi động ciplushelper"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Khởi động lại dịch vụ sau khi tắt/bật (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Dừng ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- Cài đặt tự động tắt/bật CI ---"
 
-msgid "Start ciplushelper"
-msgstr "Bắt đầu ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 giây"
 
-msgid "Install version from Zgemma"
-msgstr "phiên bản từ Zgemma"
+msgid "1 hour"
+msgstr "1 giờ"
 
-msgid "Disable CI+ slot"
-msgstr "Khe CI+"
+msgid "1 sec"
+msgstr "1 giây"
 
-msgid "Enable CI+ slot"
-msgstr "Khe CI+"
+msgid "10 sec"
+msgstr "10 giây"
 
-msgid "Install default version"
-msgstr "phiên bản mặc định"
+msgid "11 sec"
+msgstr "11 giây"
 
-msgid "Remove"
-msgstr "Di dời"
+msgid "12 sec"
+msgstr "12 giây"
 
-msgid "Install"
-msgstr "Cài đặt"
+msgid "2 hour"
+msgstr "2 giờ"
 
-msgid "Oscam:"
-msgstr "Oscar:"
+msgid "2 sec"
+msgstr "2 giây"
 
-msgid "Update plugin"
-msgstr "Cập nhật plugin"
+msgid "3 hour"
+msgstr "3 giờ"
 
-msgid "Restart GUI"
-msgstr "Khởi động lại GUI"
+msgid "3 sec"
+msgstr "3 giây"
 
-msgid "Need restart GUI"
-msgstr "Cần khởi động lại GUI"
+msgid "30 min"
+msgstr "30 phút"
 
-msgid "Oscam stopped."
-msgstr "Oscam dừng lại."
+msgid "4 hour"
+msgstr "4 giờ"
 
-msgid "Oscam started."
-msgstr "Oscar bắt đầu."
+msgid "4 sec"
+msgstr "4 giây"
 
-msgid "Oscam binary not found!"
-msgstr "Không tìm thấy nhị phân Oscar!"
+msgid "5 sec"
+msgstr "5 giây"
 
-msgid "Updating plugin..."
-msgstr "Đang cập nhật plugin..."
+msgid "6 sec"
+msgstr "6 giây"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Bạn có chắc chắn muốn khởi động lại GUI không?"
+msgid "7 sec"
+msgstr "7 giây"
 
-msgid "Unknown"
-msgstr "Không xác định"
+msgid "8 sec"
+msgstr "8 giây"
+
+msgid "9 sec"
+msgstr "9 giây"
+
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - tự động tắt/bật"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - tự động tắt/bật"
+
+msgid "CI modules detected:"
+msgstr "Đã phát hiện thấy mô-đun CI:"
+
+msgid "CI+ Helper"
+msgstr "Người trợ giúp CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "Trình trợ giúp CI+ và tự động tắt/bật"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "Trình trợ giúp CI+ và tự động tắt/bật cho các mô-đun CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "Trình trợ giúp CI+ đã được cài đặt và đang chạy!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "Plugin trợ giúp CI+"
 
-msgid "Supported devices:"
-msgstr "Các thiết bị được hỗ trợ:"
+msgid "CI+ Helper status:"
+msgstr "Trạng thái Người trợ giúp CI+:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Các mô hình khác có thể cần '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Không tìm thấy plugin Gán giao diện chung. Vui lòng cài đặt nó từ Plugin hệ thống."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Tắt tính năng tự khởi động của ciplushelper"
+
+msgid "Enable auto-check module"
+msgstr "Kích hoạt mô-đun tự động kiểm tra"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Bật tính năng tự khởi động ciplushelper"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "LỖI: Trình trợ giúp CI+ không chạy!\nCheck /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Cài đặt /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Cài đặt nhị phân thay thế (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Cài đặt nhị phân LÀM VIỆC (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Đã cài đặt:"
 
-msgid "CI+ helper"
-msgstr "Người trợ giúp CI+"
+msgid "None"
+msgstr "Không có"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Trình trợ giúp CI+ cho Enigma2"
+msgid "Not running"
+msgstr "Không chạy"
+
+msgid "off"
+msgstr "tắt"
+
+msgid "Open CI Assignment"
+msgstr "Mở bài tập CI"
+
+msgid "Pause CI 1"
+msgstr "Tạm dừng CI 1"
+
+msgid "Pause CI 2"
+msgstr "Tạm dừng CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Xóa /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Khởi động lại dịch vụ!"
+
+msgid "Running"
+msgstr "Đang chạy"
+
+msgid "Save"
+msgstr "Cứu"
+
+msgid "Show message after off/on"
+msgstr "Hiển thị thông báo sau khi tắt/bật"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Ô 1: không có, Ô 2: có"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Ô 1: có mặt, Ô 2: không có"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Ô 1: hiện tại, Ô 2: hiện tại"
+
+msgid "Start ciplushelper"
+msgstr "Bắt đầu ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Dừng ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Các thiết bị được hỗ trợ:"
+
+msgid "Supported models"
+msgstr "Các mô hình được hỗ trợ"
+
+msgid "Unknown"
+msgstr "Không xác định"
+
+msgid "Update plugin"
+msgstr "Cập nhật plugin"
+
+msgid "Updating plugin..."
+msgstr "Đang cập nhật plugin..."
 

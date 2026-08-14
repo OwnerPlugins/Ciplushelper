@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "เมนูตัวช่วย CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- หน่วงเวลาปิด ---> เปิด (CI 1)"
 
-msgid "Supported models"
-msgstr "รุ่นที่รองรับ"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- หน่วงเวลาปิด ---> เปิด (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "ปิดใช้งานการเริ่มต้นอัตโนมัติของ ciplushelper"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- เริ่มบริการใหม่หลังจากปิด/เปิด (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "เปิดใช้งานการเริ่มอัตโนมัติของ ciplushelper"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- เริ่มบริการใหม่หลังจากปิด/เปิด (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "หยุด ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- การตั้งค่าปิด/เปิด CI อัตโนมัติ ---"
 
-msgid "Start ciplushelper"
-msgstr "เริ่ม ciplushelper"
+msgid "0.5 sec"
+msgstr "0.5 วินาที"
 
-msgid "Install version from Zgemma"
-msgstr "เวอร์ชันจาก Zgemma"
+msgid "1 hour"
+msgstr "1 ชั่วโมง"
 
-msgid "Disable CI+ slot"
-msgstr "สล็อต CI+"
+msgid "1 sec"
+msgstr "1 วินาที"
 
-msgid "Enable CI+ slot"
-msgstr "สล็อต CI+"
+msgid "10 sec"
+msgstr "10 วินาที"
 
-msgid "Install default version"
-msgstr "เวอร์ชันเริ่มต้น"
+msgid "11 sec"
+msgstr "11 วินาที"
 
-msgid "Remove"
-msgstr "ลบ"
+msgid "12 sec"
+msgstr "12 วินาที"
 
-msgid "Install"
-msgstr "ติดตั้ง"
+msgid "2 hour"
+msgstr "2 ชั่วโมง"
 
-msgid "Oscam:"
-msgstr "ออสแคม:"
+msgid "2 sec"
+msgstr "2 วินาที"
 
-msgid "Update plugin"
-msgstr "อัปเดตปลั๊กอิน"
+msgid "3 hour"
+msgstr "3 ชั่วโมง"
 
-msgid "Restart GUI"
-msgstr "รีสตาร์ท GUI"
+msgid "3 sec"
+msgstr "3 วินาที"
 
-msgid "Need restart GUI"
-msgstr "ต้องรีสตาร์ท GUI"
+msgid "30 min"
+msgstr "30 นาที"
 
-msgid "Oscam stopped."
-msgstr "ออสแคมหยุดแล้ว"
+msgid "4 hour"
+msgstr "4 ชั่วโมง"
 
-msgid "Oscam started."
-msgstr "ออสแคมเริ่มแล้ว"
+msgid "4 sec"
+msgstr "4 วินาที"
 
-msgid "Oscam binary not found!"
-msgstr "ไม่พบไบนารี Oscam!"
+msgid "5 sec"
+msgstr "5 วินาที"
 
-msgid "Updating plugin..."
-msgstr "กำลังอัปเดตปลั๊กอิน..."
+msgid "6 sec"
+msgstr "6 วินาที"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "คุณแน่ใจหรือไม่ว่าต้องการรีสตาร์ท GUI"
+msgid "7 sec"
+msgstr "7 วินาที"
 
-msgid "Unknown"
-msgstr "ไม่ทราบ"
+msgid "8 sec"
+msgstr "8 วินาที"
+
+msgid "9 sec"
+msgstr "9 วินาที"
+
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - ปิด/เปิดอัตโนมัติ"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - ปิด/เปิดอัตโนมัติ"
+
+msgid "CI modules detected:"
+msgstr "ตรวจพบโมดูล CI:"
+
+msgid "CI+ Helper"
+msgstr "ตัวช่วย CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper และปิด/เปิดอัตโนมัติ"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper และปิด/เปิดอัตโนมัติสำหรับโมดูล CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "ติดตั้งและใช้งาน CI+ Helper แล้ว!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "ปลั๊กอินตัวช่วย CI+"
 
-msgid "Supported devices:"
-msgstr "อุปกรณ์ที่รองรับ:"
+msgid "CI+ Helper status:"
+msgstr "สถานะตัวช่วย CI+:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "รุ่นอื่นๆ อาจต้องใช้ '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "ไม่พบปลั๊กอินการกำหนดอินเทอร์เฟซทั่วไป กรุณาติดตั้งจากปลั๊กอินระบบ"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ปิดใช้งานการเริ่มต้นอัตโนมัติของ ciplushelper"
+
+msgid "Enable auto-check module"
+msgstr "เปิดใช้งานโมดูลตรวจสอบอัตโนมัติ"
+
+msgid "Enable ciplushelper autostart"
+msgstr "เปิดใช้งานการเริ่มอัตโนมัติของ ciplushelper"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ข้อผิดพลาด: CI+ Helper ไม่ทำงาน!\nCheck /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "ติดตั้ง /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "ติดตั้งไบนารีทางเลือก (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "ติดตั้งไบนารี่การทำงาน (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "ติดตั้งแล้ว:"
 
-msgid "CI+ helper"
-msgstr "ตัวช่วย CI+"
+msgid "None"
+msgstr "ไม่มี"
 
-msgid "CI+ helper for Enigma2"
-msgstr "ตัวช่วย CI+ สำหรับ Enigma2"
+msgid "Not running"
+msgstr "ไม่ทำงาน"
+
+msgid "off"
+msgstr "ปิด"
+
+msgid "Open CI Assignment"
+msgstr "เปิดการมอบหมาย CI"
+
+msgid "Pause CI 1"
+msgstr "หยุด CI 1 ชั่วคราว"
+
+msgid "Pause CI 2"
+msgstr "หยุด CI 2 ชั่วคราว"
+
+msgid "Remove /etc/ciplus"
+msgstr "ลบ /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "เริ่มบริการใหม่!"
+
+msgid "Running"
+msgstr "วิ่ง"
+
+msgid "Save"
+msgstr "บันทึก"
+
+msgid "Show message after off/on"
+msgstr "แสดงข้อความหลังจากปิด/เปิด"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: ไม่มี, Slot2: ปัจจุบัน"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: ปัจจุบัน, Slot2: ไม่มีอยู่"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: ปัจจุบัน Slot2: ปัจจุบัน"
+
+msgid "Start ciplushelper"
+msgstr "เริ่ม ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "หยุด ciplushelper"
+
+msgid "Supported devices:"
+msgstr "อุปกรณ์ที่รองรับ:"
+
+msgid "Supported models"
+msgstr "รุ่นที่รองรับ"
+
+msgid "Unknown"
+msgstr "ไม่ทราบ"
+
+msgid "Update plugin"
+msgstr "อัปเดตปลั๊กอิน"
+
+msgid "Updating plugin..."
+msgstr "กำลังอัปเดตปลั๊กอิน..."
 

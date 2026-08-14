@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ დამხმარე მენიუ"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- დაგვიანებით გამორთვა-->ჩართვა (CI 1)"
 
-msgid "Supported models"
-msgstr "მხარდაჭერილი მოდელები"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- დაგვიანებით გამორთვა-->ჩართვა (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "გამორთეთ ciplushelper autostart"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- სერვისის გადატვირთვა გამორთვის/ჩართვის შემდეგ (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "ჩართეთ ciplushelper ავტომატური დაწყება"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- სერვისის გადატვირთვა გამორთვის/ჩართვის შემდეგ (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "შეაჩერე ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI ავტომატური გამორთვის/ჩართვის პარამეტრები ---"
 
-msgid "Start ciplushelper"
-msgstr "დაიწყეთ ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 წმ"
 
-msgid "Install version from Zgemma"
-msgstr "ვერსია Zgemma-დან"
+msgid "1 hour"
+msgstr "1 საათი"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ სლოტი"
+msgid "1 sec"
+msgstr "1 წმ"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ სლოტი"
+msgid "10 sec"
+msgstr "10 წმ"
 
-msgid "Install default version"
-msgstr "ნაგულისხმევი ვერსია"
+msgid "11 sec"
+msgstr "11 წმ"
 
-msgid "Remove"
-msgstr "ამოღება"
+msgid "12 sec"
+msgstr "12 წმ"
 
-msgid "Install"
-msgstr "დააინსტალირეთ"
+msgid "2 hour"
+msgstr "2 საათი"
 
-msgid "Oscam:"
-msgstr "ოსკამი:"
+msgid "2 sec"
+msgstr "2 წმ"
 
-msgid "Update plugin"
-msgstr "მოდულის განახლება"
+msgid "3 hour"
+msgstr "3 საათი"
 
-msgid "Restart GUI"
-msgstr "გადატვირთეთ GUI"
+msgid "3 sec"
+msgstr "3 წმ"
 
-msgid "Need restart GUI"
-msgstr "საჭიროა GUI-ს გადატვირთვა"
+msgid "30 min"
+msgstr "30 წთ"
 
-msgid "Oscam stopped."
-msgstr "ოსკამი გაჩერდა."
+msgid "4 hour"
+msgstr "4 საათი"
 
-msgid "Oscam started."
-msgstr "დაიწყო ოსკამმა."
+msgid "4 sec"
+msgstr "4 წმ"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam ორობითი ვერ მოიძებნა!"
+msgid "5 sec"
+msgstr "5 წმ"
 
-msgid "Updating plugin..."
-msgstr "მოდულის განახლება..."
+msgid "6 sec"
+msgstr "6 წმ"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "დარწმუნებული ხართ, რომ გსურთ GUI-ს გადატვირთვა?"
+msgid "7 sec"
+msgstr "7 წმ"
 
-msgid "Unknown"
-msgstr "უცნობი"
+msgid "8 sec"
+msgstr "8 წმ"
+
+msgid "9 sec"
+msgstr "9 წმ"
+
+msgid "Cancel"
+msgstr "გაუქმება"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - ავტომატური გამორთვა/ჩართვა"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - ავტომატური გამორთვა/ჩართვა"
+
+msgid "CI modules detected:"
+msgstr "აღმოჩენილი CI მოდულები:"
+
+msgid "CI+ Helper"
+msgstr "CI+ დამხმარე"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ დამხმარე და ავტომატური გამორთვა/ჩართვა"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ დამხმარე და ავტომატური გამორთვა/ჩართვა CI მოდულებისთვის"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ დამხმარე დაინსტალირებულია და მუშაობს!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ დამხმარე დანამატი"
 
-msgid "Supported devices:"
-msgstr "მხარდაჭერილი მოწყობილობები:"
+msgid "CI+ Helper status:"
+msgstr "CI+ დამხმარე სტატუსი:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "სხვა მოდელებს შეიძლება დასჭირდეთ '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Common Interface Assignment დანამატი ვერ მოიძებნა. გთხოვთ დააინსტალიროთ ის სისტემის დანამატებიდან."
+
+msgid "Disable ciplushelper autostart"
+msgstr "გამორთეთ ciplushelper autostart"
+
+msgid "Enable auto-check module"
+msgstr "ჩართეთ ავტომატური შემოწმების მოდული"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ჩართეთ ciplushelper ავტომატური დაწყება"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "შეცდომა: CI+ დამხმარე არ მუშაობს!\nშეამოწმეთ /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "დააინსტალირეთ /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "დააინსტალირეთ ალტერნატიული ორობითი (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "დააინსტალირეთ WORKING ორობითი (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "დაინსტალირებულია:"
 
-msgid "CI+ helper"
-msgstr "CI+ დამხმარე"
+msgid "None"
+msgstr "არცერთი"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+ დამხმარე Enigma2-ისთვის"
+msgid "Not running"
+msgstr "არ გაშვებული"
+
+msgid "off"
+msgstr "გამორთულია"
+
+msgid "Open CI Assignment"
+msgstr "გახსენით CI დავალება"
+
+msgid "Pause CI 1"
+msgstr "პაუზებს CI 1"
+
+msgid "Pause CI 2"
+msgstr "პაუზებს CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "ამოიღეთ /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "გადატვირთეთ სერვისი!"
+
+msgid "Running"
+msgstr "სირბილი"
+
+msgid "Save"
+msgstr "შენახვა"
+
+msgid "Show message after off/on"
+msgstr "შეტყობინების ჩვენება გამორთვის/ჩართვის შემდეგ"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "სლოტი 1: არ არის, სლოტი2: იმყოფება"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "სლოტი 1: აწმყო, სლოტი 2: არ არის"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "სლოტი 1: აწმყო, სლოტი 2: აწმყო"
+
+msgid "Start ciplushelper"
+msgstr "დაიწყეთ ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "შეაჩერე ciplushelper"
+
+msgid "Supported devices:"
+msgstr "მხარდაჭერილი მოწყობილობები:"
+
+msgid "Supported models"
+msgstr "მხარდაჭერილი მოდელები"
+
+msgid "Unknown"
+msgstr "უცნობი"
+
+msgid "Update plugin"
+msgstr "მოდულის განახლება"
+
+msgid "Updating plugin..."
+msgstr "მოდულის განახლება..."
 

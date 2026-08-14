@@ -13,65 +13,173 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "আপনি কি GUI পুনরায় চালু করার বিষয়ে নিশ্চিত?"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- বিলম্ব বন্ধ -> চালু (CI 1)"
 
-msgid "CI+ helper"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- বিলম্ব বন্ধ -> চালু (CI 2)"
+
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- অফ/অন করার পরে পরিষেবা পুনরায় চালু করুন (CI 1)"
+
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- অফ/অন করার পরে পরিষেবা পুনরায় চালু করুন (CI 2)"
+
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI অটো অফ/অন সেটিংস ---"
+
+msgid "0.5 sec"
+msgstr "0.5 সেকেন্ড"
+
+msgid "1 hour"
+msgstr "1 ঘন্টা"
+
+msgid "1 sec"
+msgstr "1 সেকেন্ড"
+
+msgid "10 sec"
+msgstr "10 সেকেন্ড"
+
+msgid "11 sec"
+msgstr "11 সেকেন্ড"
+
+msgid "12 sec"
+msgstr "12 সেকেন্ড"
+
+msgid "2 hour"
+msgstr "2 ঘন্টা"
+
+msgid "2 sec"
+msgstr "2 সেকেন্ড"
+
+msgid "3 hour"
+msgstr "3 ঘন্টা"
+
+msgid "3 sec"
+msgstr "3 সেকেন্ড"
+
+msgid "30 min"
+msgstr "30 মিনিট"
+
+msgid "4 hour"
+msgstr "4 ঘন্টা"
+
+msgid "4 sec"
+msgstr "4 সেকেন্ড"
+
+msgid "5 sec"
+msgstr "5 সেকেন্ড"
+
+msgid "6 sec"
+msgstr "6 সেকেন্ড"
+
+msgid "7 sec"
+msgstr "7 সেকেন্ড"
+
+msgid "8 sec"
+msgstr "8 সেকেন্ড"
+
+msgid "9 sec"
+msgstr "9 সেকেন্ড"
+
+msgid "Cancel"
+msgstr "বাতিল করুন"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - স্বয়ংক্রিয় বন্ধ/চালু"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - স্বয়ংক্রিয় বন্ধ/চালু"
+
+msgid "CI modules detected:"
+msgstr "CI মডিউল সনাক্ত করা হয়েছে:"
+
+msgid "CI+ Helper"
 msgstr "CI+ সাহায্যকারী"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Enigma2 এর জন্য CI+ সহায়ক"
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ হেল্পার এবং অটো বন্ধ/চালু"
 
-msgid "CI+ helper menu"
-msgstr "CI+ সাহায্যকারী মেনু"
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ হেল্পার এবং CI মডিউলের জন্য অটো অফ/অন"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ হেল্পার ইনস্টল এবং চলছে!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ হেল্পার প্লাগইন"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ স্লট"
+msgid "CI+ Helper status:"
+msgstr "CI+ হেল্পার স্ট্যাটাস:"
+
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "সাধারণ ইন্টারফেস অ্যাসাইনমেন্ট প্লাগইন পাওয়া যায়নি। সিস্টেম প্লাগইন থেকে এটি ইনস্টল করুন."
 
 msgid "Disable ciplushelper autostart"
 msgstr "সিপ্লাসহেলপার অটোস্টার্ট অক্ষম করুন"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ স্লট"
+msgid "Enable auto-check module"
+msgstr "স্বয়ংক্রিয়-চেক মডিউল সক্ষম করুন৷"
 
 msgid "Enable ciplushelper autostart"
 msgstr "ciplushelper অটোস্টার্ট সক্ষম করুন"
 
-msgid "Install"
-msgstr "ইনস্টল করুন"
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ত্রুটি: CI+ হেল্পার চলছে না!\n/home/root/ciplus_debug.log চেক করুন"
 
-msgid "Install default version"
-msgstr "ডিফল্ট সংস্করণ"
+msgid "Install /etc/ciplus"
+msgstr "/etc/ciplus ইনস্টল করুন"
 
-msgid "Install version from Zgemma"
-msgstr "Zgemma থেকে সংস্করণ"
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "বিকল্প বাইনারি ইনস্টল করুন (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "ওয়ার্কিং বাইনারি ইনস্টল করুন (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "ইনস্টল করা হয়েছে:"
 
-msgid "Need restart GUI"
-msgstr "GUI পুনরায় চালু করতে হবে"
+msgid "None"
+msgstr "কোনোটিই নয়"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam বাইনারি পাওয়া যায়নি!"
+msgid "Not running"
+msgstr "চলছে না"
 
-msgid "Oscam started."
-msgstr "ওস্কাম শুরু হয়।"
+msgid "off"
+msgstr "বন্ধ"
 
-msgid "Oscam stopped."
-msgstr "ওস্কাম থেমে গেল।"
+msgid "Open CI Assignment"
+msgstr "CI অ্যাসাইনমেন্ট খুলুন"
 
-msgid "Oscam:"
-msgstr "অসকাম:"
+msgid "Pause CI 1"
+msgstr "বিরতি CI 1"
 
-msgid "Remove"
-msgstr "সরান"
+msgid "Pause CI 2"
+msgstr "CI 2 বিরতি দেয়"
 
-msgid "Restart GUI"
-msgstr "GUI পুনরায় চালু করুন"
+msgid "Remove /etc/ciplus"
+msgstr "/etc/ciplus সরান"
+
+msgid "Restart service!"
+msgstr "পরিষেবা পুনরায় চালু করুন!"
+
+msgid "Running"
+msgstr "চলমান"
+
+msgid "Save"
+msgstr "সংরক্ষণ করুন"
+
+msgid "Show message after off/on"
+msgstr "বন্ধ/চালু করার পর বার্তা দেখান"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "স্লট 1: উপস্থিত নয়, স্লট 2: বর্তমান"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "স্লট 1: বর্তমান, স্লট 2: উপস্থিত নয়"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "স্লট 1: বর্তমান, স্লট 2: বর্তমান"
 
 msgid "Start ciplushelper"
 msgstr "সিপ্লাসহেলপার শুরু করুন"

@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI + kömekçi menýusy"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Gijä galmak -> on (CI 1)"
 
-msgid "Supported models"
-msgstr "Goldanýan modeller"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Gijä goýmak -> on (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Ciplushelper awtostartyny öçüriň"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Öçürilenden / açylandan soň hyzmaty täzeden açyň (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Ciplushelper awtostartyny açyň"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Öçürilen / işledilenden soň hyzmaty täzeden açyň (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Ciplushelper-i bes et"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI awtomatik öçürilýär / sazlanýar ---"
 
-msgid "Start ciplushelper"
-msgstr "Ciplushelper başlaň"
+msgid "0.5 sec"
+msgstr "0,5 sek"
 
-msgid "Install version from Zgemma"
-msgstr "Zgemma wersiýasy"
+msgid "1 hour"
+msgstr "1 sagat"
 
-msgid "Disable CI+ slot"
-msgstr "CI + ýeri"
+msgid "1 sec"
+msgstr "1 sek"
 
-msgid "Enable CI+ slot"
-msgstr "CI + ýeri"
+msgid "10 sec"
+msgstr "10 sek"
 
-msgid "Install default version"
-msgstr "deslapky wersiýasy"
+msgid "11 sec"
+msgstr "11 sek"
 
-msgid "Remove"
-msgstr "Aýyr"
+msgid "12 sec"
+msgstr "12 sek"
 
-msgid "Install"
-msgstr "Gurnama"
+msgid "2 hour"
+msgstr "2 sagat"
 
-msgid "Oscam:"
-msgstr "Oskam:"
+msgid "2 sec"
+msgstr "2 sek"
 
-msgid "Update plugin"
-msgstr "Plagini täzeläň"
+msgid "3 hour"
+msgstr "3 sagat"
 
-msgid "Restart GUI"
-msgstr "GUI-ny täzeden açyň"
+msgid "3 sec"
+msgstr "3 sek"
 
-msgid "Need restart GUI"
-msgstr "GUI-ni täzeden açmaly"
+msgid "30 min"
+msgstr "30 min"
 
-msgid "Oscam stopped."
-msgstr "Oskam saklandy."
+msgid "4 hour"
+msgstr "4 sagat"
 
-msgid "Oscam started."
-msgstr "Oskam başlady."
+msgid "4 sec"
+msgstr "4 sek"
 
-msgid "Oscam binary not found!"
-msgstr "Oskam ikili tapylmady!"
+msgid "5 sec"
+msgstr "5 sek"
 
-msgid "Updating plugin..."
-msgstr "Plagin täzelenýär ..."
+msgid "6 sec"
+msgstr "6 sek"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "GUI-ni täzeden açmak isleýändigiňize ynanýarsyňyzmy?"
+msgid "7 sec"
+msgstr "7 sek"
 
-msgid "Unknown"
-msgstr "Näbelli"
+msgid "8 sec"
+msgstr "8 sek"
+
+msgid "9 sec"
+msgstr "9 sek"
+
+msgid "Cancel"
+msgstr "Elatyr"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - awtomatik öçürmek / açmak"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - awtomatik öçürmek / açmak"
+
+msgid "CI modules detected:"
+msgstr "CI modullary tapyldy:"
+
+msgid "CI+ Helper"
+msgstr "CI + Kömekçi"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI + Kömekçi we awtomatik öçürmek / açmak"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI + Kömekçi we CI modullary üçin awtomatik öçürmek / açmak"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI + Kömekçi guruldy we işleýär! \nPID:% s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI + Kömekçi plugin"
 
-msgid "Supported devices:"
-msgstr "Goldaw enjamlary:"
+msgid "CI+ Helper status:"
+msgstr "CI + Kömekçi ýagdaýy:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Beýleki modellere '/ etc / ciplus' gerek bolup biler"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Umumy interfeýs belligi plugin tapylmady. Ulgam plaginlerinden guruň."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Ciplushelper awtostartyny öçüriň"
+
+msgid "Enable auto-check module"
+msgstr "Awto-barlag modulyny açyň"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ciplushelper awtostartyny açyň"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "RAL .YŞLYK: CI + Kömekçi işlemeýär! \nCheck /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "/ Etc / ciplus guruň"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Alternatiw ikili guruň (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "IŞLER ikili guruň (hd51 / 6.new)"
 
 msgid "Installed:"
 msgstr "Gurlan:"
 
-msgid "CI+ helper"
-msgstr "CI + kömekçi"
+msgid "None"
+msgstr "Hiç"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Enigma2 üçin CI + kömekçisi"
+msgid "Not running"
+msgstr "Işlemeýär"
+
+msgid "off"
+msgstr "öçürildi"
+
+msgid "Open CI Assignment"
+msgstr "CI belligini açyň"
+
+msgid "Pause CI 1"
+msgstr "CI 1-i duruzýar"
+
+msgid "Pause CI 2"
+msgstr "CI 2-i duruzýar"
+
+msgid "Remove /etc/ciplus"
+msgstr "/ Etc / ciplusy aýyryň"
+
+msgid "Restart service!"
+msgstr "Hyzmatlary täzeden başlaň!"
+
+msgid "Running"
+msgstr "Ylgaýar"
+
+msgid "Save"
+msgstr "Saklaň"
+
+msgid "Show message after off/on"
+msgstr "Öçürilen / açylandan soň habary görkeziň"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: ýok, Slot2: häzirki"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: häzirki, Slot2: ýok"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: häzirki, Slot2: häzirki"
+
+msgid "Start ciplushelper"
+msgstr "Ciplushelper başlaň"
+
+msgid "Stop ciplushelper"
+msgstr "Ciplushelper-i bes et"
+
+msgid "Supported devices:"
+msgstr "Goldaw enjamlary:"
+
+msgid "Supported models"
+msgstr "Goldanýan modeller"
+
+msgid "Unknown"
+msgstr "Näbelli"
+
+msgid "Update plugin"
+msgstr "Plagini täzeläň"
+
+msgid "Updating plugin..."
+msgstr "Plagin täzelenýär ..."
 

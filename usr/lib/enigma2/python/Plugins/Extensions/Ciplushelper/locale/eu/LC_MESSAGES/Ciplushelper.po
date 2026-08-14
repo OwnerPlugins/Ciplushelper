@@ -13,65 +13,173 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Ziur GUI berrabiarazi nahi duzula?"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Atzerapena itzali--> piztu (CI 1)"
 
-msgid "CI+ helper"
-msgstr "CI+ laguntzailea"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Atzerapena itzali--> piztu (CI 2)"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Enigma2rako CI+ laguntzailea"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Berrabiarazi zerbitzua itzali/aktibatu ondoren (CI 1)"
 
-msgid "CI+ helper menu"
-msgstr "CI+ laguntzaile menua"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Berrabiarazi zerbitzua itzali/aktibatu ondoren (CI 2)"
+
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI auto itzali/aktibatu ezarpenak ---"
+
+msgid "0.5 sec"
+msgstr "0,5 seg"
+
+msgid "1 hour"
+msgstr "1 ordu"
+
+msgid "1 sec"
+msgstr "1 seg"
+
+msgid "10 sec"
+msgstr "10 seg"
+
+msgid "11 sec"
+msgstr "11 seg"
+
+msgid "12 sec"
+msgstr "12 seg"
+
+msgid "2 hour"
+msgstr "2 ordu"
+
+msgid "2 sec"
+msgstr "2 seg"
+
+msgid "3 hour"
+msgstr "3 ordu"
+
+msgid "3 sec"
+msgstr "3 seg"
+
+msgid "30 min"
+msgstr "30 min"
+
+msgid "4 hour"
+msgstr "4 ordu"
+
+msgid "4 sec"
+msgstr "4 seg"
+
+msgid "5 sec"
+msgstr "5 seg"
+
+msgid "6 sec"
+msgstr "6 seg"
+
+msgid "7 sec"
+msgstr "7 seg"
+
+msgid "8 sec"
+msgstr "8 seg"
+
+msgid "9 sec"
+msgstr "9 seg"
+
+msgid "Cancel"
+msgstr "Utzi"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - itzali/aktibatu automatikoki"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - itzali/aktibatu automatikoki"
+
+msgid "CI modules detected:"
+msgstr "CI moduluak detektatu dira:"
+
+msgid "CI+ Helper"
+msgstr "CI+ Laguntzailea"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper eta automatikoki itzali/aktibatu"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper eta automatikoki itzali/aktibatu CI moduluetarako"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper instalatuta eta martxan!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ zirrikitua"
+msgid "CI+ Helper status:"
+msgstr "CI+ Laguntzaile egoera:"
+
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Ez da aurkitu Common Interface Assignment plugina. Mesedez, instalatu Sistema Pluginetatik."
 
 msgid "Disable ciplushelper autostart"
 msgstr "Desgaitu ciplushelper abiarazte automatikoa"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ zirrikitua"
+msgid "Enable auto-check module"
+msgstr "Gaitu egiaztapen automatikoko modulua"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Gaitu ciplushelper abiarazte automatikoa"
 
-msgid "Install"
-msgstr "Instalatu"
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ERROREA: CI+ Helper ez da martxan!\nEgiaztatu /home/root/ciplus_debug.log"
 
-msgid "Install default version"
-msgstr "bertsio lehenetsia"
+msgid "Install /etc/ciplus"
+msgstr "Instalatu /etc/ciplus"
 
-msgid "Install version from Zgemma"
-msgstr "Zgemma-ren bertsioa"
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Instalatu bitar alternatiboa (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Instalatu WORKING bitarra (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Instalatua:"
 
-msgid "Need restart GUI"
-msgstr "GUI berrabiarazi behar da"
+msgid "None"
+msgstr "Bat ere ez"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam bitarra ez da aurkitu!"
+msgid "Not running"
+msgstr "Ez korrika"
 
-msgid "Oscam started."
-msgstr "Oscam hasi zen."
+msgid "off"
+msgstr "itzali"
 
-msgid "Oscam stopped."
-msgstr "Oscam gelditu zen."
+msgid "Open CI Assignment"
+msgstr "Ireki CI esleipena"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "Pause CI 1"
+msgstr "CI 1 eten egiten du"
 
-msgid "Remove"
-msgstr "Kendu"
+msgid "Pause CI 2"
+msgstr "CI 2 eten egiten du"
 
-msgid "Restart GUI"
-msgstr "Berrabiarazi GUI"
+msgid "Remove /etc/ciplus"
+msgstr "Kendu /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Berrabiarazi zerbitzua!"
+
+msgid "Running"
+msgstr "Korrika"
+
+msgid "Save"
+msgstr "Gorde"
+
+msgid "Show message after off/on"
+msgstr "Erakutsi mezua itzali/aktibatu ondoren"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: ez dago, Slot2: orain"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: presente, Slot2: ez dago"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: presente, Slot2: presente"
 
 msgid "Start ciplushelper"
 msgstr "Hasi ciplushelper"

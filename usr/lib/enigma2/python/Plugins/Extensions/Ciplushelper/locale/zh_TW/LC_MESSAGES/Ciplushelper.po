@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ helper menu"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- 延遲關閉-->開啟 (CI 1)"
 
-msgid "Supported models"
-msgstr "支援機型"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- 延遲關閉-->開啟 (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "禁用 ciplushelper 自動啟動"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- 關閉/開啟後重新啟動服務 (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "啟用 ciplushelper 自動啟動"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- 關閉/開啟後重新啟動服務 (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "停止 ciplushhelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI 自動關閉/開啟設定 ---"
 
-msgid "Start ciplushelper"
-msgstr "啟動ciplushhelper"
+msgid "0.5 sec"
+msgstr "0.5秒"
 
-msgid "Install version from Zgemma"
-msgstr "來自 Zgemma 的版本"
+msgid "1 hour"
+msgstr "1小時"
 
-msgid "Disable CI+ slot"
-msgstr "CI+插槽"
+msgid "1 sec"
+msgstr "1秒"
 
-msgid "Enable CI+ slot"
-msgstr "CI+插槽"
+msgid "10 sec"
+msgstr "10秒"
 
-msgid "Install default version"
-msgstr "預設版本"
+msgid "11 sec"
+msgstr "11秒"
 
-msgid "Remove"
-msgstr "消除"
+msgid "12 sec"
+msgstr "12秒"
 
-msgid "Install"
-msgstr "安裝"
+msgid "2 hour"
+msgstr "2小時"
 
-msgid "Oscam:"
-msgstr "奧斯卡："
+msgid "2 sec"
+msgstr "2秒"
 
-msgid "Update plugin"
-msgstr "更新插件"
+msgid "3 hour"
+msgstr "3小時"
 
-msgid "Restart GUI"
-msgstr "重新啟動圖形使用者介面"
+msgid "3 sec"
+msgstr "3秒"
 
-msgid "Need restart GUI"
-msgstr "需要重啟GUI"
+msgid "30 min"
+msgstr "30分鐘"
 
-msgid "Oscam stopped."
-msgstr "奧斯卡姆停了下來。"
+msgid "4 hour"
+msgstr "4小時"
 
-msgid "Oscam started."
-msgstr "奧斯卡姆開始了。"
+msgid "4 sec"
+msgstr "4秒"
 
-msgid "Oscam binary not found!"
-msgstr "未找到 Oscam 二進位！"
+msgid "5 sec"
+msgstr "5秒"
 
-msgid "Updating plugin..."
-msgstr "正在更新插件..."
+msgid "6 sec"
+msgstr "6秒"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "您確定要重新啟動 GUI 嗎？"
+msgid "7 sec"
+msgstr "7秒"
 
-msgid "Unknown"
-msgstr "未知"
+msgid "8 sec"
+msgstr "8秒"
+
+msgid "9 sec"
+msgstr "9秒"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - 自動關閉/開啟"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - 自動關閉/開啟"
+
+msgid "CI modules detected:"
+msgstr "檢測到 CI 模組："
+
+msgid "CI+ Helper"
+msgstr "CI+ Helper"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper 和自動關閉/打開"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper 和 CI 模組的自動關閉/開啟"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ 助手已安裝並正在運行！ \nPID：%s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ 幫助插件"
 
-msgid "Supported devices:"
-msgstr "支援的設備："
+msgid "CI+ Helper status:"
+msgstr "CI+ 助手狀態："
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "其他型號可能需要“/etc/ciplus”"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "未找到通用介面分配插件。請從系統插件安裝它。"
+
+msgid "Disable ciplushelper autostart"
+msgstr "禁用 ciplushelper 自動啟動"
+
+msgid "Enable auto-check module"
+msgstr "啟用自動檢查模組"
+
+msgid "Enable ciplushelper autostart"
+msgstr "啟用 ciplushelper 自動啟動"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "錯誤：CI+ 幫助程式未運作！ \n檢查 /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "安裝/etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "安裝替代二進位（zgemma-arm）"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "安裝工作二進位（hd51/6.new）"
 
 msgid "Installed:"
 msgstr "安裝："
 
-msgid "CI+ helper"
-msgstr "CI+ helper"
+msgid "None"
+msgstr "沒有任何"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Enigma2 的 CI+ 助手"
+msgid "Not running"
+msgstr "未運行"
+
+msgid "off"
+msgstr "離開"
+
+msgid "Open CI Assignment"
+msgstr "開放 CI 作業"
+
+msgid "Pause CI 1"
+msgstr "暫停 CI 1"
+
+msgid "Pause CI 2"
+msgstr "暫停 CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "刪除/etc/ciplus"
+
+msgid "Restart service!"
+msgstr "重啟服務！"
+
+msgid "Running"
+msgstr "跑步"
+
+msgid "Save"
+msgstr "節省"
+
+msgid "Show message after off/on"
+msgstr "關閉/開啟後顯示訊息"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1：不存在，Slot2：存在"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1：存在，Slot2：不存在"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1：存在，Slot2：存在"
+
+msgid "Start ciplushelper"
+msgstr "啟動ciplushhelper"
+
+msgid "Stop ciplushelper"
+msgstr "停止 ciplushhelper"
+
+msgid "Supported devices:"
+msgstr "支援的設備："
+
+msgid "Supported models"
+msgstr "支援機型"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Update plugin"
+msgstr "更新插件"
+
+msgid "Updating plugin..."
+msgstr "正在更新插件..."
 

@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ көмекші мәзірі"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Кідіртуді өшіру-->қосу (CI 1)"
 
-msgid "Supported models"
-msgstr "Қолдау көрсетілетін үлгілер"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Кідіртуді өшіру-->қосу (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Ciplushelper автоқосылуын өшіріңіз"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Өшіру/қосудан кейін қызметті қайта іске қосу (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Ciplushelper автоқосылуын қосыңыз"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Өшіру/қосудан кейін қызметті қайта іске қосу (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Циплушельперді тоқтатыңыз"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI автоматты өшіру/қосу параметрлері ---"
 
-msgid "Start ciplushelper"
-msgstr "ciplushelper іске қосыңыз"
+msgid "0.5 sec"
+msgstr "0,5 сек"
 
-msgid "Install version from Zgemma"
-msgstr "Zgemma нұсқасы"
+msgid "1 hour"
+msgstr "1 сағат"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ ұясы"
+msgid "1 sec"
+msgstr "1 сек"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ ұясы"
+msgid "10 sec"
+msgstr "10 сек"
 
-msgid "Install default version"
-msgstr "әдепкі нұсқа"
+msgid "11 sec"
+msgstr "11 сек"
 
-msgid "Remove"
-msgstr "Жою"
+msgid "12 sec"
+msgstr "12 сек"
 
-msgid "Install"
-msgstr "Орнату"
+msgid "2 hour"
+msgstr "2 сағат"
 
-msgid "Oscam:"
-msgstr "Оскам:"
+msgid "2 sec"
+msgstr "2 сек"
 
-msgid "Update plugin"
-msgstr "Плагинді жаңарту"
+msgid "3 hour"
+msgstr "3 сағат"
 
-msgid "Restart GUI"
-msgstr "GUI қайта іске қосыңыз"
+msgid "3 sec"
+msgstr "3 сек"
 
-msgid "Need restart GUI"
-msgstr "GUI қайта іске қосу қажет"
+msgid "30 min"
+msgstr "30 мин"
 
-msgid "Oscam stopped."
-msgstr "Оскам тоқтады."
+msgid "4 hour"
+msgstr "4 сағат"
 
-msgid "Oscam started."
-msgstr "Оскам бастады."
+msgid "4 sec"
+msgstr "4 сек"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam екілік файлы табылмады!"
+msgid "5 sec"
+msgstr "5 сек"
 
-msgid "Updating plugin..."
-msgstr "Плагин жаңартылуда..."
+msgid "6 sec"
+msgstr "6 сек"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "GUI қайта іске қосқыңыз келетініне сенімдісіз бе?"
+msgid "7 sec"
+msgstr "7 сек"
 
-msgid "Unknown"
-msgstr "Белгісіз"
+msgid "8 sec"
+msgstr "8 сек"
+
+msgid "9 sec"
+msgstr "9 сек"
+
+msgid "Cancel"
+msgstr "Болдырмау"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - автоматты өшіру/қосу"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - автоматты өшіру/қосу"
+
+msgid "CI modules detected:"
+msgstr "CI модульдері анықталды:"
+
+msgid "CI+ Helper"
+msgstr "CI+ көмекшісі"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ көмекшісі және автоматты өшіру/қосу"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ көмекшісі және CI модульдері үшін автоматты өшіру/қосу"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ көмекшісі орнатылды және жұмыс істейді!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ көмекші плагині"
 
-msgid "Supported devices:"
-msgstr "Қолдау көрсетілетін құрылғылар:"
+msgid "CI+ Helper status:"
+msgstr "CI+ көмекшісі күйі:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Басқа үлгілерге '/etc/ciplus' қажет болуы мүмкін."
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Common Interface Assignment плагині табылмады. Оны жүйелік плагиндерден орнатыңыз."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Ciplushelper автоқосылуын өшіріңіз"
+
+msgid "Enable auto-check module"
+msgstr "Автоматты тексеру модулін қосыңыз"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ciplushelper автоқосылуын қосыңыз"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ҚАТЕ: CI+ көмекшісі жұмыс істемейді!\n /home/root/ciplus_debug.log тексеру"
+
+msgid "Install /etc/ciplus"
+msgstr "/etc/ciplus орнатыңыз"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Балама екілік (zgemma-arm) орнату"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "WORKING екілік нұсқасын орнату (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Орнатылған:"
 
-msgid "CI+ helper"
-msgstr "CI+ көмекшісі"
+msgid "None"
+msgstr "Жоқ"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Enigma2 үшін CI+ көмекшісі"
+msgid "Not running"
+msgstr "Жүгірмейді"
+
+msgid "off"
+msgstr "өшірулі"
+
+msgid "Open CI Assignment"
+msgstr "CI тағайындауын ашыңыз"
+
+msgid "Pause CI 1"
+msgstr "CI 1 кідіртеді"
+
+msgid "Pause CI 2"
+msgstr "CI 2 кідіртеді"
+
+msgid "Remove /etc/ciplus"
+msgstr "/etc/ciplus файлын алып тастаңыз"
+
+msgid "Restart service!"
+msgstr "Қызметті қайта іске қосыңыз!"
+
+msgid "Running"
+msgstr "Жүгіру"
+
+msgid "Save"
+msgstr "Сақтау"
+
+msgid "Show message after off/on"
+msgstr "Өшіру/қосудан кейін хабарды көрсету"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: жоқ, Slot2: бар"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: бар, Slot2: жоқ"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: қазіргі, Slot2: қазіргі"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper іске қосыңыз"
+
+msgid "Stop ciplushelper"
+msgstr "Циплушельперді тоқтатыңыз"
+
+msgid "Supported devices:"
+msgstr "Қолдау көрсетілетін құрылғылар:"
+
+msgid "Supported models"
+msgstr "Қолдау көрсетілетін үлгілер"
+
+msgid "Unknown"
+msgstr "Белгісіз"
+
+msgid "Update plugin"
+msgstr "Плагинді жаңарту"
+
+msgid "Updating plugin..."
+msgstr "Плагин жаңартылуда..."
 

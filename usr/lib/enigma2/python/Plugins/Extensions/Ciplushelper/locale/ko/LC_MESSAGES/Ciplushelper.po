@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ 도우미 메뉴"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- 지연 꺼짐-->켜짐(CI 1)"
 
-msgid "Supported models"
-msgstr "지원되는 모델"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- 지연 꺼짐-->켜짐(CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "ciplushelper 자동 시작 비활성화"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Off/On 후 서비스 재시작(CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "ciplushelper 자동 시작 활성화"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Off/On 후 서비스 재시작(CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "ciplushelper 중지"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI 자동 끄기/켜기 설정 ---"
 
-msgid "Start ciplushelper"
-msgstr "ciplushelper 시작"
+msgid "0.5 sec"
+msgstr "0.5초"
 
-msgid "Install version from Zgemma"
-msgstr "Zgemma 버전"
+msgid "1 hour"
+msgstr "1시간"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ 슬롯"
+msgid "1 sec"
+msgstr "1초"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ 슬롯"
+msgid "10 sec"
+msgstr "10초"
 
-msgid "Install default version"
-msgstr "기본 버전"
+msgid "11 sec"
+msgstr "11초"
 
-msgid "Remove"
-msgstr "제거하다"
+msgid "12 sec"
+msgstr "12초"
 
-msgid "Install"
-msgstr "설치하다"
+msgid "2 hour"
+msgstr "2시간"
 
-msgid "Oscam:"
-msgstr "오스카:"
+msgid "2 sec"
+msgstr "2초"
 
-msgid "Update plugin"
-msgstr "플러그인 업데이트"
+msgid "3 hour"
+msgstr "3시간"
 
-msgid "Restart GUI"
-msgstr "GUI 다시 시작"
+msgid "3 sec"
+msgstr "3초"
 
-msgid "Need restart GUI"
-msgstr "GUI를 다시 시작해야 함"
+msgid "30 min"
+msgstr "30분"
 
-msgid "Oscam stopped."
-msgstr "오스캠이 멈췄습니다."
+msgid "4 hour"
+msgstr "4시간"
 
-msgid "Oscam started."
-msgstr "오캠이 시작되었습니다."
+msgid "4 sec"
+msgstr "4초"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam 바이너리를 찾을 수 없습니다!"
+msgid "5 sec"
+msgstr "5초"
 
-msgid "Updating plugin..."
-msgstr "플러그인 업데이트 중..."
+msgid "6 sec"
+msgstr "6초"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "GUI를 다시 시작하시겠습니까?"
+msgid "7 sec"
+msgstr "7초"
 
-msgid "Unknown"
-msgstr "알려지지 않은"
+msgid "8 sec"
+msgstr "8초"
+
+msgid "9 sec"
+msgstr "9초"
+
+msgid "Cancel"
+msgstr "취소"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - 자동 끄기/켜기"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - 자동 꺼짐/켜짐"
+
+msgid "CI modules detected:"
+msgstr "감지된 CI 모듈:"
+
+msgid "CI+ Helper"
+msgstr "CI+ 도우미"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ 도우미 및 자동 끄기/켜기"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ 도우미 및 CI 모듈 자동 끄기/켜기"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ 도우미가 설치되어 실행 중입니다!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ 도우미 플러그인"
 
-msgid "Supported devices:"
-msgstr "지원되는 장치:"
+msgid "CI+ Helper status:"
+msgstr "CI+ 도우미 상태:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "다른 모델에는 '/etc/ciplus'가 필요할 수 있습니다."
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "공통 인터페이스 할당 플러그인을 찾을 수 없습니다. 시스템 플러그인에서 설치해 주세요."
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper 자동 시작 비활성화"
+
+msgid "Enable auto-check module"
+msgstr "자동 확인 모듈 활성화"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper 자동 시작 활성화"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "오류: CI+ 도우미가 실행되지 않습니다!\n/home/root/ciplus_debug.log를 확인하세요."
+
+msgid "Install /etc/ciplus"
+msgstr "/etc/ciplus 설치"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "대체 바이너리 설치(zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "WORKING 바이너리(hd51/6.new) 설치"
 
 msgid "Installed:"
 msgstr "설치됨:"
 
-msgid "CI+ helper"
-msgstr "CI+ 도우미"
+msgid "None"
+msgstr "없음"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Enigma2용 CI+ 도우미"
+msgid "Not running"
+msgstr "실행되지 않음"
+
+msgid "off"
+msgstr "끄다"
+
+msgid "Open CI Assignment"
+msgstr "공개 CI 할당"
+
+msgid "Pause CI 1"
+msgstr "CI 1을 일시중지합니다."
+
+msgid "Pause CI 2"
+msgstr "CI 2를 일시중지합니다."
+
+msgid "Remove /etc/ciplus"
+msgstr "/etc/ciplus 제거"
+
+msgid "Restart service!"
+msgstr "서비스를 다시 시작하세요!"
+
+msgid "Running"
+msgstr "달리기"
+
+msgid "Save"
+msgstr "구하다"
+
+msgid "Show message after off/on"
+msgstr "꺼짐/켜짐 후 메시지 표시"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: 없음, Slot2: 있음"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: 있음, Slot2: 없음"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: 현재, Slot2: 현재"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper 시작"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper 중지"
+
+msgid "Supported devices:"
+msgstr "지원되는 장치:"
+
+msgid "Supported models"
+msgstr "지원되는 모델"
+
+msgid "Unknown"
+msgstr "알려지지 않은"
+
+msgid "Update plugin"
+msgstr "플러그인 업데이트"
+
+msgid "Updating plugin..."
+msgstr "플러그인 업데이트 중..."
 

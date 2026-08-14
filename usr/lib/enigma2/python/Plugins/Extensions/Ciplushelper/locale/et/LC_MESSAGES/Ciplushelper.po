@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ abimeeste menüü"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Viivitus välja-->sisse (CI 1)"
 
-msgid "Supported models"
-msgstr "Toetatud mudelid"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Viivitus välja-->sisse (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Keela ciplushelperi automaatkäivitus"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Taaskäivitage teenus pärast välja-/sisselülitamist (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Luba ciplushelperi automaatne käivitamine"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Taaskäivitage teenus pärast välja-/sisselülitamist (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Peatage ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI automaatse välja-/sisselülitamise seaded ---"
 
-msgid "Start ciplushelper"
-msgstr "Käivitage ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 sek"
 
-msgid "Install version from Zgemma"
-msgstr "Zgemma versioon"
+msgid "1 hour"
+msgstr "1 tund"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ pesa"
+msgid "1 sec"
+msgstr "1 sek"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ pesa"
+msgid "10 sec"
+msgstr "10 sek"
 
-msgid "Install default version"
-msgstr "vaikeversioon"
+msgid "11 sec"
+msgstr "11 sek"
 
-msgid "Remove"
-msgstr "Eemalda"
+msgid "12 sec"
+msgstr "12 sek"
 
-msgid "Install"
-msgstr "Installige"
+msgid "2 hour"
+msgstr "2 tundi"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 sek"
 
-msgid "Update plugin"
-msgstr "Värskenda pistikprogrammi"
+msgid "3 hour"
+msgstr "3 tundi"
 
-msgid "Restart GUI"
-msgstr "Taaskäivitage GUI"
+msgid "3 sec"
+msgstr "3 sek"
 
-msgid "Need restart GUI"
-msgstr "Vajab GUI taaskäivitamist"
+msgid "30 min"
+msgstr "30 min"
 
-msgid "Oscam stopped."
-msgstr "Oscam peatus."
+msgid "4 hour"
+msgstr "4 tundi"
 
-msgid "Oscam started."
-msgstr "Oscam alustas."
+msgid "4 sec"
+msgstr "4 sek"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam binaarfaili ei leitud!"
+msgid "5 sec"
+msgstr "5 sek"
 
-msgid "Updating plugin..."
-msgstr "Pistikprogrammi värskendamine..."
+msgid "6 sec"
+msgstr "6 sek"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Kas olete kindel, et soovite GUI-d taaskäivitada?"
+msgid "7 sec"
+msgstr "7 sek"
 
-msgid "Unknown"
-msgstr "Tundmatu"
+msgid "8 sec"
+msgstr "8 sek"
+
+msgid "9 sec"
+msgstr "9 sek"
+
+msgid "Cancel"
+msgstr "Tühista"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 – automaatne välja/sisse"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 – automaatne välja/sisse"
+
+msgid "CI modules detected:"
+msgstr "Tuvastatud CI-moodulid:"
+
+msgid "CI+ Helper"
+msgstr "CI+ abimees"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper ja automaatne välja-/sisselülitamine"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ abimees ja automaatne välja-/sisselülitamine CI-moodulite jaoks"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ abimees on installitud ja töötab!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
 
-msgid "Supported devices:"
-msgstr "Toetatud seadmed:"
+msgid "CI+ Helper status:"
+msgstr "CI+ abistaja olek:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Muud mudelid võivad vajada faili '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Ühise liidese määramise pistikprogrammi ei leitud. Installige see süsteemi pluginatest."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Keela ciplushelperi automaatkäivitus"
+
+msgid "Enable auto-check module"
+msgstr "Luba automaatse kontrolli moodul"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Luba ciplushelperi automaatne käivitamine"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "VIGA: CI+ abimees ei tööta!\nKontrollige /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Installige /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Installige alternatiivne binaarfail (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Installige binaarfail WORKING (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Installitud:"
 
-msgid "CI+ helper"
-msgstr "CI+ abimees"
+msgid "None"
+msgstr "Mitte ühtegi"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+ abimees Enigma2 jaoks"
+msgid "Not running"
+msgstr "Ei jookse"
+
+msgid "off"
+msgstr "välja"
+
+msgid "Open CI Assignment"
+msgstr "Avage CI määramine"
+
+msgid "Pause CI 1"
+msgstr "Peatab CI 1"
+
+msgid "Pause CI 2"
+msgstr "Peatab CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Eemalda /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Taaskäivitage teenus!"
+
+msgid "Running"
+msgstr "Jooksmine"
+
+msgid "Save"
+msgstr "Salvesta"
+
+msgid "Show message after off/on"
+msgstr "Kuva sõnum pärast välja-/sisselülitamist"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "1. pesa: puudub, 2. pesa: olemas"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Pilu 1: olemas, pesa 2: ei ole"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Pilu 1: kohal, pesa 2: kohal"
+
+msgid "Start ciplushelper"
+msgstr "Käivitage ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Peatage ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Toetatud seadmed:"
+
+msgid "Supported models"
+msgstr "Toetatud mudelid"
+
+msgid "Unknown"
+msgstr "Tundmatu"
+
+msgid "Update plugin"
+msgstr "Värskenda pistikprogrammi"
+
+msgid "Updating plugin..."
+msgstr "Pistikprogrammi värskendamine..."
 

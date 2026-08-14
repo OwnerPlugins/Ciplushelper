@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "Menú de axuda CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Retraso apagado-->activado (CI 1)"
 
-msgid "Supported models"
-msgstr "Modelos compatibles"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Retraso apagado-->activado (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Desactivar o inicio automático de ciplushelper"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Reiniciar o servizo despois de apagar/encender (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Activa o inicio automático de ciplushelper"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Reiniciar o servizo despois de apagar/encender (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Detén ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- Configuración de apagado/activado automático CI ---"
 
-msgid "Start ciplushelper"
-msgstr "Inicia ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 seg"
 
-msgid "Install version from Zgemma"
-msgstr "versión de Zgemma"
+msgid "1 hour"
+msgstr "1 hora"
 
-msgid "Disable CI+ slot"
-msgstr "Ranura CI+"
+msgid "1 sec"
+msgstr "1 seg"
 
-msgid "Enable CI+ slot"
-msgstr "Ranura CI+"
+msgid "10 sec"
+msgstr "10 seg"
 
-msgid "Install default version"
-msgstr "versión predeterminada"
+msgid "11 sec"
+msgstr "11 seg"
 
-msgid "Remove"
-msgstr "Eliminar"
+msgid "12 sec"
+msgstr "12 seg"
 
-msgid "Install"
-msgstr "Instalar"
+msgid "2 hour"
+msgstr "2 horas"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 seg"
 
-msgid "Update plugin"
-msgstr "Actualizar o complemento"
+msgid "3 hour"
+msgstr "3 horas"
 
-msgid "Restart GUI"
-msgstr "Reinicie a GUI"
+msgid "3 sec"
+msgstr "3 seg"
 
-msgid "Need restart GUI"
-msgstr "É necesario reiniciar a GUI"
+msgid "30 min"
+msgstr "30 min"
 
-msgid "Oscam stopped."
-msgstr "Oscam parou."
+msgid "4 hour"
+msgstr "4 horas"
 
-msgid "Oscam started."
-msgstr "Oscam comezou."
+msgid "4 sec"
+msgstr "4 seg"
 
-msgid "Oscam binary not found!"
-msgstr "O binario de Oscam non se atopou!"
+msgid "5 sec"
+msgstr "5 seg"
 
-msgid "Updating plugin..."
-msgstr "Actualizando o complemento..."
+msgid "6 sec"
+msgstr "6 seg"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Estás seguro de que queres reiniciar a GUI?"
+msgid "7 sec"
+msgstr "7 seg"
 
-msgid "Unknown"
-msgstr "Descoñecido"
+msgid "8 sec"
+msgstr "8 seg"
+
+msgid "9 sec"
+msgstr "9 seg"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - apagado/encendido automático"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - apagado/encendido automático"
+
+msgid "CI modules detected:"
+msgstr "Módulos CI detectados:"
+
+msgid "CI+ Helper"
+msgstr "Axudante CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper e apagado/encendido automático"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper e apagado/encendido automático para módulos CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper instalado e en execución!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "Complemento de axudante CI+"
 
-msgid "Supported devices:"
-msgstr "Dispositivos compatibles:"
+msgid "CI+ Helper status:"
+msgstr "Estado de axudante CI+:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Outros modelos poden necesitar '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Non se atopou o complemento de asignación de interface común. Instálao desde os complementos do sistema."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Desactivar o inicio automático de ciplushelper"
+
+msgid "Enable auto-check module"
+msgstr "Activar o módulo de comprobación automática"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Activa o inicio automático de ciplushelper"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ERRO: CI+ Helper non se está a executar!\nComprobe /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Instalar /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Instalar binario alternativo (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Instalar o binario WORKING (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Instalado:"
 
-msgid "CI+ helper"
-msgstr "Axudante CI+"
+msgid "None"
+msgstr "Ningún"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+ helper para Enigma2"
+msgid "Not running"
+msgstr "Non correndo"
+
+msgid "off"
+msgstr "apagado"
+
+msgid "Open CI Assignment"
+msgstr "Abrir a asignación de CI"
+
+msgid "Pause CI 1"
+msgstr "Pausa CI 1"
+
+msgid "Pause CI 2"
+msgstr "Pausa CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Eliminar /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Reinicia o servizo!"
+
+msgid "Running"
+msgstr "Correndo"
+
+msgid "Save"
+msgstr "Gardar"
+
+msgid "Show message after off/on"
+msgstr "Mostrar a mensaxe despois de activar/desactivar"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: non presente, Slot2: presente"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: presente, Slot2: non presente"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: presente, Slot2: presente"
+
+msgid "Start ciplushelper"
+msgstr "Inicia ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Detén ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Dispositivos compatibles:"
+
+msgid "Supported models"
+msgstr "Modelos compatibles"
+
+msgid "Unknown"
+msgstr "Descoñecido"
+
+msgid "Update plugin"
+msgstr "Actualizar o complemento"
+
+msgid "Updating plugin..."
+msgstr "Actualizando o complemento..."
 

@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "Βοηθητικό μενού CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Delay off-->on (CI 1)"
 
-msgid "Supported models"
-msgstr "Υποστηριζόμενα μοντέλα"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Delay off-->on (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Απενεργοποιήστε την αυτόματη εκκίνηση του ciplushelper"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Επανεκκίνηση της υπηρεσίας μετά την απενεργοποίηση/ενεργοποίηση (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Ενεργοποίηση αυτόματης εκκίνησης του ciplushelper"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Επανεκκίνηση της υπηρεσίας μετά την απενεργοποίηση/ενεργοποίηση (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Σταματήστε το ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- Ρυθμίσεις αυτόματης απενεργοποίησης/ενεργοποίησης CI ---"
 
-msgid "Start ciplushelper"
-msgstr "Ξεκινήστε το ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 δευτ"
 
-msgid "Install version from Zgemma"
-msgstr "έκδοση από το Zgemma"
+msgid "1 hour"
+msgstr "1 ώρα"
 
-msgid "Disable CI+ slot"
-msgstr "υποδοχή CI+"
+msgid "1 sec"
+msgstr "1 δευτερόλεπτο"
 
-msgid "Enable CI+ slot"
-msgstr "υποδοχή CI+"
+msgid "10 sec"
+msgstr "10 δευτ"
 
-msgid "Install default version"
-msgstr "προεπιλεγμένη έκδοση"
+msgid "11 sec"
+msgstr "11 δευτ"
 
-msgid "Remove"
-msgstr "Αφαιρώ"
+msgid "12 sec"
+msgstr "12 δευτ"
 
-msgid "Install"
-msgstr "Εγκαθιστώ"
+msgid "2 hour"
+msgstr "2 ωρες"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 δευτ"
 
-msgid "Update plugin"
-msgstr "Ενημέρωση προσθήκης"
+msgid "3 hour"
+msgstr "3 ωρες"
 
-msgid "Restart GUI"
-msgstr "Επανεκκινήστε το GUI"
+msgid "3 sec"
+msgstr "3 δευτ"
 
-msgid "Need restart GUI"
-msgstr "Χρειάζεται επανεκκίνηση του GUI"
+msgid "30 min"
+msgstr "30 λεπτά"
 
-msgid "Oscam stopped."
-msgstr "Ο Όσκαμ σταμάτησε."
+msgid "4 hour"
+msgstr "4 ωρες"
 
-msgid "Oscam started."
-msgstr "Ο Oscam ξεκίνησε."
+msgid "4 sec"
+msgstr "4 δευτ"
 
-msgid "Oscam binary not found!"
-msgstr "Το δυαδικό σύστημα Oscam δεν βρέθηκε!"
+msgid "5 sec"
+msgstr "5 δευτ"
 
-msgid "Updating plugin..."
-msgstr "Ενημέρωση προσθήκης..."
+msgid "6 sec"
+msgstr "6 δευτ"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Είστε βέβαιοι ότι θέλετε να επανεκκινήσετε το GUI;"
+msgid "7 sec"
+msgstr "7 δευτ"
 
-msgid "Unknown"
-msgstr "Αγνωστος"
+msgid "8 sec"
+msgstr "8 δευτ"
+
+msgid "9 sec"
+msgstr "9 δευτ"
+
+msgid "Cancel"
+msgstr "Ματαίωση"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - αυτόματη απενεργοποίηση/ενεργοποίηση"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - αυτόματη απενεργοποίηση/ενεργοποίηση"
+
+msgid "CI modules detected:"
+msgstr "Εντοπίστηκαν μονάδες CI:"
+
+msgid "CI+ Helper"
+msgstr "Βοηθός CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper και αυτόματη απενεργοποίηση/ενεργοποίηση"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper και αυτόματη απενεργοποίηση/ενεργοποίηση για μονάδες CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "Το CI+ Helper έχει εγκατασταθεί και εκτελείται!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "Πρόσθετο βοήθειας CI+"
 
-msgid "Supported devices:"
-msgstr "Υποστηριζόμενες συσκευές:"
+msgid "CI+ Helper status:"
+msgstr "Κατάσταση βοηθού CI+:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Άλλα μοντέλα μπορεί να χρειάζονται \"/etc/ciplus\""
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Δεν βρέθηκε το πρόσθετο Common Interface Assignment. Εγκαταστήστε το από το System Plugins."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Απενεργοποιήστε την αυτόματη εκκίνηση του ciplushelper"
+
+msgid "Enable auto-check module"
+msgstr "Ενεργοποίηση μονάδας αυτόματου ελέγχου"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ενεργοποίηση αυτόματης εκκίνησης του ciplushelper"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ΣΦΑΛΜΑ: Το Helper CI+ δεν εκτελείται!\nΈλεγχος /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Εγκαταστήστε το /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Εγκατάσταση εναλλακτικού δυαδικού (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Εγκατάσταση δυαδικού αρχείου WORKING (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Εγκατεστημένο:"
 
-msgid "CI+ helper"
-msgstr "Βοηθός CI+"
+msgid "None"
+msgstr "Κανένας"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Βοηθός CI+ για το Enigma2"
+msgid "Not running"
+msgstr "Δεν τρέχει"
+
+msgid "off"
+msgstr "μακριά από"
+
+msgid "Open CI Assignment"
+msgstr "Ανοίξτε το CI Assignment"
+
+msgid "Pause CI 1"
+msgstr "Παύσεις CI 1"
+
+msgid "Pause CI 2"
+msgstr "Παύσεις CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Αφαιρέστε το /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Επανεκκινήστε την υπηρεσία!"
+
+msgid "Running"
+msgstr "Τρέξιμο"
+
+msgid "Save"
+msgstr "Εκτός"
+
+msgid "Show message after off/on"
+msgstr "Εμφάνιση μηνύματος μετά την απενεργοποίηση/ενεργοποίηση"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Θέση 1: δεν υπάρχει, Θέση 2: παρούσα"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Θέση 1: παρούσα, Θέση 2: δεν υπάρχει"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Υποδοχή 1: παρόν, Θέση 2: δώρο"
+
+msgid "Start ciplushelper"
+msgstr "Ξεκινήστε το ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Σταματήστε το ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Υποστηριζόμενες συσκευές:"
+
+msgid "Supported models"
+msgstr "Υποστηριζόμενα μοντέλα"
+
+msgid "Unknown"
+msgstr "Αγνωστος"
+
+msgid "Update plugin"
+msgstr "Ενημέρωση προσθήκης"
+
+msgid "Updating plugin..."
+msgstr "Ενημέρωση προσθήκης..."
 

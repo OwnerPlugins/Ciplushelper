@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "Menu pembantu CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Penundaan mati-->aktif (CI 1)"
 
-msgid "Supported models"
-msgstr "Model yang didukung"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Penundaan mati-->hidup (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Nonaktifkan mulai otomatis ciplushelper"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Mulai ulang layanan setelah mati/hidup (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Aktifkan mulai otomatis ciplushelper"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Mulai ulang layanan setelah mati/hidup (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Hentikan ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- Pengaturan CI mati/hidup otomatis ---"
 
-msgid "Start ciplushelper"
-msgstr "Mulai ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 detik"
 
-msgid "Install version from Zgemma"
-msgstr "versi dari Zgemma"
+msgid "1 hour"
+msgstr "1 jam"
 
-msgid "Disable CI+ slot"
-msgstr "slot CI+"
+msgid "1 sec"
+msgstr "1 detik"
 
-msgid "Enable CI+ slot"
-msgstr "slot CI+"
+msgid "10 sec"
+msgstr "10 detik"
 
-msgid "Install default version"
-msgstr "versi bawaan"
+msgid "11 sec"
+msgstr "11 detik"
 
-msgid "Remove"
-msgstr "Menghapus"
+msgid "12 sec"
+msgstr "12 detik"
 
-msgid "Install"
-msgstr "Memasang"
+msgid "2 hour"
+msgstr "2 jam"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 detik"
 
-msgid "Update plugin"
-msgstr "Perbarui plugin"
+msgid "3 hour"
+msgstr "3 jam"
 
-msgid "Restart GUI"
-msgstr "Mulai ulang GUI"
+msgid "3 sec"
+msgstr "3 detik"
 
-msgid "Need restart GUI"
-msgstr "Perlu memulai ulang GUI"
+msgid "30 min"
+msgstr "30 menit"
 
-msgid "Oscam stopped."
-msgstr "Oscam berhenti."
+msgid "4 hour"
+msgstr "4 jam"
 
-msgid "Oscam started."
-msgstr "Oscam dimulai."
+msgid "4 sec"
+msgstr "4 detik"
 
-msgid "Oscam binary not found!"
-msgstr "Biner Oscam tidak ditemukan!"
+msgid "5 sec"
+msgstr "5 detik"
 
-msgid "Updating plugin..."
-msgstr "Memperbarui plugin..."
+msgid "6 sec"
+msgstr "6 detik"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Apakah Anda yakin ingin memulai ulang GUI?"
+msgid "7 sec"
+msgstr "7 detik"
 
-msgid "Unknown"
-msgstr "Tidak dikenal"
+msgid "8 sec"
+msgstr "8 detik"
+
+msgid "9 sec"
+msgstr "9 detik"
+
+msgid "Cancel"
+msgstr "Membatalkan"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - mati/hidup otomatis"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - mati/hidup otomatis"
+
+msgid "CI modules detected:"
+msgstr "Modul CI terdeteksi:"
+
+msgid "CI+ Helper"
+msgstr "Pembantu CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper dan mati/hidup otomatis"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper dan mati/hidup otomatis untuk modul CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper terpasang dan berjalan!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "Plugin Pembantu CI+"
 
-msgid "Supported devices:"
-msgstr "Perangkat yang didukung:"
+msgid "CI+ Helper status:"
+msgstr "Status Pembantu CI+:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Model lain mungkin memerlukan '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Plugin Penugasan Antarmuka Umum tidak ditemukan. Silakan instal dari System Plugins."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Nonaktifkan mulai otomatis ciplushelper"
+
+msgid "Enable auto-check module"
+msgstr "Aktifkan modul pemeriksaan otomatis"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Aktifkan mulai otomatis ciplushelper"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "KESALAHAN: CI+ Helper tidak berjalan!\nPeriksa /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Instal /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Instal biner alternatif (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Instal biner KERJA (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Dipasang:"
 
-msgid "CI+ helper"
-msgstr "pembantu CI+"
+msgid "None"
+msgstr "Tidak ada"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Pembantu CI+ untuk Enigma2"
+msgid "Not running"
+msgstr "Tidak berjalan"
+
+msgid "off"
+msgstr "mati"
+
+msgid "Open CI Assignment"
+msgstr "Buka Penugasan CI"
+
+msgid "Pause CI 1"
+msgstr "Menjeda CI 1"
+
+msgid "Pause CI 2"
+msgstr "Menjeda CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Hapus /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Mulai ulang layanan!"
+
+msgid "Running"
+msgstr "Berlari"
+
+msgid "Save"
+msgstr "Menyimpan"
+
+msgid "Show message after off/on"
+msgstr "Tampilkan pesan setelah mati/hidup"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: tidak ada, Slot2: ada"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: ada, Slot2: tidak ada"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: sekarang, Slot2: sekarang"
+
+msgid "Start ciplushelper"
+msgstr "Mulai ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Hentikan ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Perangkat yang didukung:"
+
+msgid "Supported models"
+msgstr "Model yang didukung"
+
+msgid "Unknown"
+msgstr "Tidak dikenal"
+
+msgid "Update plugin"
+msgstr "Perbarui plugin"
+
+msgid "Updating plugin..."
+msgstr "Memperbarui plugin..."
 

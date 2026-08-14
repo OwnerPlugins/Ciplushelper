@@ -13,65 +13,173 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "GUI-ni yenidən başlatmaq istədiyinizə əminsiniz?"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Gecikmə söndürülməsi-->on (CI 1)"
 
-msgid "CI+ helper"
-msgstr "CI+ köməkçisi"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Gecikmə söndürülməsi-->on (CI 2)"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Enigma2 üçün CI+ köməkçisi"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Söndürüldükdən/yandıqdan sonra xidməti yenidən başladın (CI 1)"
 
-msgid "CI+ helper menu"
-msgstr "CI+ köməkçi menyusu"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Söndürüldükdən/yandıqdan sonra xidməti yenidən başladın (CI 2)"
+
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI avtomatik söndürmə/açma parametrləri ---"
+
+msgid "0.5 sec"
+msgstr "0.5 san"
+
+msgid "1 hour"
+msgstr "1 saat"
+
+msgid "1 sec"
+msgstr "1 san"
+
+msgid "10 sec"
+msgstr "10 san"
+
+msgid "11 sec"
+msgstr "11 san"
+
+msgid "12 sec"
+msgstr "12 san"
+
+msgid "2 hour"
+msgstr "2 saat"
+
+msgid "2 sec"
+msgstr "2 san"
+
+msgid "3 hour"
+msgstr "3 saat"
+
+msgid "3 sec"
+msgstr "3 san"
+
+msgid "30 min"
+msgstr "30 dəq"
+
+msgid "4 hour"
+msgstr "4 saat"
+
+msgid "4 sec"
+msgstr "4 san"
+
+msgid "5 sec"
+msgstr "5 san"
+
+msgid "6 sec"
+msgstr "6 san"
+
+msgid "7 sec"
+msgstr "7 san"
+
+msgid "8 sec"
+msgstr "8 san"
+
+msgid "9 sec"
+msgstr "9 san"
+
+msgid "Cancel"
+msgstr "Ləğv et"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - avtomatik söndürmə/açma"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - avtomatik söndürmə/açma"
+
+msgid "CI modules detected:"
+msgstr "CI modulları aşkar edildi:"
+
+msgid "CI+ Helper"
+msgstr "CI+ Köməkçisi"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper və avtomatik söndürmə/açma"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper və CI modulları üçün avtomatik söndürmə/açma"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper quraşdırılıb və işləyir!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Köməkçi Plugin"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ yuvası"
+msgid "CI+ Helper status:"
+msgstr "CI+ Köməkçi statusu:"
+
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Ümumi İnterfeys Təyinatı plagini tapılmadı. Zəhmət olmasa onu Sistem Pluginlərindən quraşdırın."
 
 msgid "Disable ciplushelper autostart"
 msgstr "ciplushelper autostartını söndürün"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ yuvası"
+msgid "Enable auto-check module"
+msgstr "Avtomatik yoxlama modulunu aktivləşdirin"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Ciplushelper autostartını aktivləşdirin"
 
-msgid "Install"
-msgstr "Quraşdırın"
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "XƏTA: CI+ Helper işləmir!\n /home/root/ciplus_debug.log-u yoxlayın"
 
-msgid "Install default version"
-msgstr "standart versiya"
+msgid "Install /etc/ciplus"
+msgstr "/etc/ciplus quraşdırın"
 
-msgid "Install version from Zgemma"
-msgstr "Zgemma-dan versiya"
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Alternativ binar (zgemma-arm) quraşdırın"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "WORKING binarını quraşdırın (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Quraşdırılıb:"
 
-msgid "Need restart GUI"
-msgstr "GUI-ni yenidən başlatmaq lazımdır"
+msgid "None"
+msgstr "Heç biri"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam binar tapılmadı!"
+msgid "Not running"
+msgstr "Qaçış deyil"
 
-msgid "Oscam started."
-msgstr "Oscam başladı."
+msgid "off"
+msgstr "off"
 
-msgid "Oscam stopped."
-msgstr "Oscam dayandı."
+msgid "Open CI Assignment"
+msgstr "CI Təyinatını açın"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "Pause CI 1"
+msgstr "CI 1-i dayandırır"
 
-msgid "Remove"
-msgstr "Sil"
+msgid "Pause CI 2"
+msgstr "CI 2-ni dayandırır"
 
-msgid "Restart GUI"
-msgstr "GUI-ni yenidən başladın"
+msgid "Remove /etc/ciplus"
+msgstr "/etc/ciplus silin"
+
+msgid "Restart service!"
+msgstr "Xidməti yenidən başladın!"
+
+msgid "Running"
+msgstr "Qaçış"
+
+msgid "Save"
+msgstr "Saxla"
+
+msgid "Show message after off/on"
+msgstr "Söndürüldükdən/yandıqdan sonra mesajı göstərin"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: mövcud deyil, Yuva2: indiki"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: indiki, Slot2: mövcud deyil"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Yuva 1: indiki, Yuva2: indiki"
 
 msgid "Start ciplushelper"
 msgstr "Ciplushelper işə salın"

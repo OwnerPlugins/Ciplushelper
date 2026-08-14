@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ helper menu"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Delay off-->on (CI 1)"
 
-msgid "Supported models"
-msgstr "Mga sinusuportahang modelo"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Delay off-->on (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Huwag paganahin ang ciplushelper autostart"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- I-restart ang serbisyo pagkatapos ng off/on (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Paganahin ang ciplushelper autostart"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- I-restart ang serbisyo pagkatapos ng off/on (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Itigil ang ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI auto off/on setting ---"
 
-msgid "Start ciplushelper"
-msgstr "Simulan ang ciplushelper"
+msgid "0.5 sec"
+msgstr "0.5 seg"
 
-msgid "Install version from Zgemma"
-msgstr "bersyon mula sa Zgemma"
+msgid "1 hour"
+msgstr "1 oras"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ slot"
+msgid "1 sec"
+msgstr "1 seg"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ slot"
+msgid "10 sec"
+msgstr "10 seg"
 
-msgid "Install default version"
-msgstr "default na bersyon"
+msgid "11 sec"
+msgstr "11 seg"
 
-msgid "Remove"
-msgstr "Alisin"
+msgid "12 sec"
+msgstr "12 seg"
 
-msgid "Install"
-msgstr "I-install"
+msgid "2 hour"
+msgstr "2 oras"
 
-msgid "Oscam:"
-msgstr "Oscar:"
+msgid "2 sec"
+msgstr "2 seg"
 
-msgid "Update plugin"
-msgstr "I-update ang plugin"
+msgid "3 hour"
+msgstr "3 oras"
 
-msgid "Restart GUI"
-msgstr "I-restart ang GUI"
+msgid "3 sec"
+msgstr "3 seg"
 
-msgid "Need restart GUI"
-msgstr "Kailangang i-restart ang GUI"
+msgid "30 min"
+msgstr "30 min"
 
-msgid "Oscam stopped."
-msgstr "Huminto si Oscar."
+msgid "4 hour"
+msgstr "4 na oras"
 
-msgid "Oscam started."
-msgstr "Nagsimula ang Oscar."
+msgid "4 sec"
+msgstr "4 seg"
 
-msgid "Oscam binary not found!"
-msgstr "Hindi nahanap ang binary ng Oscar!"
+msgid "5 sec"
+msgstr "5 seg"
 
-msgid "Updating plugin..."
-msgstr "Ina-update ang plugin..."
+msgid "6 sec"
+msgstr "6 seg"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Sigurado ka bang gusto mong i-restart ang GUI?"
+msgid "7 sec"
+msgstr "7 seg"
 
-msgid "Unknown"
-msgstr "Hindi alam"
+msgid "8 sec"
+msgstr "8 seg"
+
+msgid "9 sec"
+msgstr "9 seg"
+
+msgid "Cancel"
+msgstr "Kanselahin"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - auto off/on"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - auto off/on"
+
+msgid "CI modules detected:"
+msgstr "Natukoy ang mga module ng CI:"
+
+msgid "CI+ Helper"
+msgstr "CI+ Helper"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper at auto off/on"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper at auto off/on para sa CI modules"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "Naka-install at tumatakbo ang CI+ Helper!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
 
-msgid "Supported devices:"
-msgstr "Mga sinusuportahang device:"
+msgid "CI+ Helper status:"
+msgstr "Status ng CI+ Helper:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Maaaring kailanganin ng ibang mga modelo ang '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Hindi nahanap ang plugin ng Common Interface Assignment. Mangyaring i-install ito mula sa System Plugins."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Huwag paganahin ang ciplushelper autostart"
+
+msgid "Enable auto-check module"
+msgstr "Paganahin ang auto-check module"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Paganahin ang ciplushelper autostart"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ERROR: Hindi tumatakbo ang CI+ Helper!\nTingnan ang /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "I-install ang /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Mag-install ng alternatibong binary (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "I-install ang WORKING binary (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Naka-install:"
 
-msgid "CI+ helper"
-msgstr "Katulong ng CI+"
+msgid "None"
+msgstr "wala"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+ helper para sa Enigma2"
+msgid "Not running"
+msgstr "Hindi tumatakbo"
+
+msgid "off"
+msgstr "off"
+
+msgid "Open CI Assignment"
+msgstr "Buksan ang CI Assignment"
+
+msgid "Pause CI 1"
+msgstr "Naka-pause ang CI 1"
+
+msgid "Pause CI 2"
+msgstr "Naka-pause ang CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Alisin ang /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "I-restart ang serbisyo!"
+
+msgid "Running"
+msgstr "Tumatakbo"
+
+msgid "Save"
+msgstr "I-save"
+
+msgid "Show message after off/on"
+msgstr "Ipakita ang mensahe pagkatapos ng off/on"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: hindi kasalukuyan, Slot2: kasalukuyan"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: kasalukuyan, Slot2: hindi kasalukuyan"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: kasalukuyan, Slot2: kasalukuyan"
+
+msgid "Start ciplushelper"
+msgstr "Simulan ang ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Itigil ang ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Mga sinusuportahang device:"
+
+msgid "Supported models"
+msgstr "Mga sinusuportahang modelo"
+
+msgid "Unknown"
+msgstr "Hindi alam"
+
+msgid "Update plugin"
+msgstr "I-update ang plugin"
+
+msgid "Updating plugin..."
+msgstr "Ina-update ang plugin..."
 

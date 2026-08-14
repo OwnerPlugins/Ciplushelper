@@ -13,71 +13,179 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "እርግጠኛ ነህ GUI ን እንደገና ማስጀመር ትፈልጋለህ?"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- መዘግየት ጠፍቷል -> በርቷል (CI 1)"
 
-msgid "CI+ helper"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- መዘግየት ጠፍቷል -> በርቷል (CI 2)"
+
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- ከጠፋ/ከበራ በኋላ አገልግሎቱን እንደገና ያስጀምሩ (CI 1)"
+
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- ከጠፋ/ከበራ በኋላ አገልግሎቱን እንደገና ያስጀምሩ (CI 2)"
+
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI ራስ-ሰር አጥፋ/ቅንብሮች ---"
+
+msgid "0.5 sec"
+msgstr "0.5 ሰከንድ"
+
+msgid "1 hour"
+msgstr "1 ሰዓት"
+
+msgid "1 sec"
+msgstr "1 ሰከንድ"
+
+msgid "10 sec"
+msgstr "10 ሰከንድ"
+
+msgid "11 sec"
+msgstr "11 ሰከንድ"
+
+msgid "12 sec"
+msgstr "12 ሰከንድ"
+
+msgid "2 hour"
+msgstr "2 ሰዓት"
+
+msgid "2 sec"
+msgstr "2 ሰከንድ"
+
+msgid "3 hour"
+msgstr "3 ሰዓት"
+
+msgid "3 sec"
+msgstr "3 ሰከንድ"
+
+msgid "30 min"
+msgstr "30 ደቂቃ"
+
+msgid "4 hour"
+msgstr "4 ሰዓት"
+
+msgid "4 sec"
+msgstr "4 ሰከንድ"
+
+msgid "5 sec"
+msgstr "5 ሰከንድ"
+
+msgid "6 sec"
+msgstr "6 ሰከንድ"
+
+msgid "7 sec"
+msgstr "7 ሰከንድ"
+
+msgid "8 sec"
+msgstr "8 ሰከንድ"
+
+msgid "9 sec"
+msgstr "9 ሰከንድ"
+
+msgid "Cancel"
+msgstr "ሰርዝ"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - ራስ-ሰር ጠፍቷል / በርቷል"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - ራስ-ሰር ጠፍቷል / በርቷል"
+
+msgid "CI modules detected:"
+msgstr "CI ሞጁሎች ተገኝተዋል፡-"
+
+msgid "CI+ Helper"
 msgstr "CI + አጋዥ"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI + አጋዥ ለEnigma2"
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ አጋዥ እና በራስ-ሰር ጠፍቷል/ማብራት"
 
-msgid "CI+ helper menu"
-msgstr "CI + አጋዥ ምናሌ"
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI + አጋዥ እና ለ CI ሞጁሎች አውቶማቲክ ማጥፋት/ማብራት"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ አጋዥ ተጭኗል እና እየሰራ ነው!\nPID፡%s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ አጋዥ ተሰኪ"
 
-msgid "Disable CI+ slot"
-msgstr "CI + ማስገቢያ"
+msgid "CI+ Helper status:"
+msgstr "የCI+ አጋዥ ሁኔታ፡-"
+
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "የጋራ የበይነገጽ ምደባ ተሰኪ አልተገኘም። እባክዎ ከስርዓት ፕለጊኖች ይጫኑት።"
 
 msgid "Disable ciplushelper autostart"
 msgstr "የ ciplushelper ራስ-ጀምርን አሰናክል"
 
-msgid "Enable CI+ slot"
-msgstr "CI + ማስገቢያ"
+msgid "Enable auto-check module"
+msgstr "ራስ-አረጋግጥ ሞጁሉን አንቃ"
 
 msgid "Enable ciplushelper autostart"
-msgstr "ciplushelper autostartን አንቃ"
+msgstr "Ciplushelper autostartን አንቃ"
 
-msgid "Install"
-msgstr "ጫን"
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ስህተት፡ CI+ አጋዥ አይሰራም!\nCheck /home/root/ciplus_debug.log"
 
-msgid "Install default version"
-msgstr "ነባሪ ስሪት"
+msgid "Install /etc/ciplus"
+msgstr "/etc/ciplus ጫን"
 
-msgid "Install version from Zgemma"
-msgstr "ስሪት ከ Zgemma"
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "አማራጭ ሁለትዮሽ (zgemma-arm) ጫን"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "WORKING ሁለትዮሽ ጫን (hd51/6.አዲስ)"
 
 msgid "Installed:"
 msgstr "ተጭኗል፡"
 
-msgid "Need restart GUI"
-msgstr "GUI እንደገና ማስጀመር ያስፈልጋል"
+msgid "None"
+msgstr "ምንም"
 
-msgid "Oscam binary not found!"
-msgstr "ኦስካም ሁለትዮሽ አልተገኘም!"
+msgid "Not running"
+msgstr "እየሮጠ አይደለም"
 
-msgid "Oscam started."
-msgstr "ኦስካም ጀመረ።"
+msgid "off"
+msgstr "ጠፍቷል"
 
-msgid "Oscam stopped."
-msgstr "ኦስካም ቆሟል።"
+msgid "Open CI Assignment"
+msgstr "የ CI ምደባን ይክፈቱ"
 
-msgid "Oscam:"
-msgstr "ኦስካም"
+msgid "Pause CI 1"
+msgstr "CI 1 ባለበት ያቆማል"
 
-msgid "Remove"
-msgstr "አስወግድ"
+msgid "Pause CI 2"
+msgstr "CI 2 ባለበት ያቆማል"
 
-msgid "Restart GUI"
-msgstr "GUI ን እንደገና ያስጀምሩ"
+msgid "Remove /etc/ciplus"
+msgstr "/etc/ciplusን አስወግድ"
+
+msgid "Restart service!"
+msgstr "አገልግሎቱን እንደገና ያስጀምሩ!"
+
+msgid "Running"
+msgstr "መሮጥ"
+
+msgid "Save"
+msgstr "አስቀምጥ"
+
+msgid "Show message after off/on"
+msgstr "ከጠፋ/ከበራ በኋላ መልእክት አሳይ"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: የለም, Slot2: የአሁን"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: በአሁኑ, Slot2: አይደለም"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: የአሁን, Slot2: የአሁን"
 
 msgid "Start ciplushelper"
-msgstr "ciplushelper ጀምር"
+msgstr "Ciplushelper ጀምር"
 
 msgid "Stop ciplushelper"
-msgstr "ciplushelper አቁም"
+msgstr "Ciplushelper አቁም"
 
 msgid "Supported devices:"
 msgstr "የሚደገፉ መሳሪያዎች፡"

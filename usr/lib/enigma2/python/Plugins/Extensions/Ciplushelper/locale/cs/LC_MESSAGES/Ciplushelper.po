@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "Pomocná nabídka CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Zpoždění vypnutí --> zapnutí (CI 1)"
 
-msgid "Supported models"
-msgstr "Podporované modely"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Zpoždění vypnutí --> zapnutí (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Zakázat automatické spouštění ciplushelper"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Restartujte službu po vypnutí/zapnutí (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Povolit automatické spouštění ciplushelper"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Restartujte službu po vypnutí/zapnutí (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Zastavte ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- Nastavení automatického vypnutí/zapnutí CI ---"
 
-msgid "Start ciplushelper"
-msgstr "Spusťte ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 sec"
 
-msgid "Install version from Zgemma"
-msgstr "verze od Zgemmy"
+msgid "1 hour"
+msgstr "1 hodina"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ slot"
+msgid "1 sec"
+msgstr "1 sec"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ slot"
+msgid "10 sec"
+msgstr "10 sec"
 
-msgid "Install default version"
-msgstr "výchozí verze"
+msgid "11 sec"
+msgstr "11 sec"
 
-msgid "Remove"
-msgstr "Odstranit"
+msgid "12 sec"
+msgstr "12 sec"
 
-msgid "Install"
-msgstr "Instalovat"
+msgid "2 hour"
+msgstr "2 hodiny"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 sec"
 
-msgid "Update plugin"
-msgstr "Aktualizovat plugin"
+msgid "3 hour"
+msgstr "3 hodiny"
 
-msgid "Restart GUI"
-msgstr "Restartujte GUI"
+msgid "3 sec"
+msgstr "3 sec"
 
-msgid "Need restart GUI"
-msgstr "Je potřeba restartovat GUI"
+msgid "30 min"
+msgstr "30 min"
 
-msgid "Oscam stopped."
-msgstr "Oscam se zastavil."
+msgid "4 hour"
+msgstr "4 hodiny"
 
-msgid "Oscam started."
-msgstr "Oscam začal."
+msgid "4 sec"
+msgstr "4 sec"
 
-msgid "Oscam binary not found!"
-msgstr "Binární soubor Oscam nebyl nalezen!"
+msgid "5 sec"
+msgstr "5 sec"
 
-msgid "Updating plugin..."
-msgstr "Aktualizace pluginu..."
+msgid "6 sec"
+msgstr "6 sec"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Opravdu chcete restartovat GUI?"
+msgid "7 sec"
+msgstr "7 sec"
 
-msgid "Unknown"
-msgstr "Neznámý"
+msgid "8 sec"
+msgstr "8 sec"
+
+msgid "9 sec"
+msgstr "9 sekund"
+
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - automatické vypnutí/zapnutí"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - automatické vypnutí/zapnutí"
+
+msgid "CI modules detected:"
+msgstr "Rozpoznané moduly CI:"
+
+msgid "CI+ Helper"
+msgstr "Pomocník CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper a automatické vypnutí/zapnutí"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper a automatické vypnutí/zapnutí pro moduly CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "Pomocník CI+ je nainstalován a spuštěn! \nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
 
-msgid "Supported devices:"
-msgstr "Podporovaná zařízení:"
+msgid "CI+ Helper status:"
+msgstr "Stav pomocníka CI+:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Jiné modely mohou potřebovat '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Plugin Common Interface Assignment nebyl nalezen. Nainstalujte jej ze systémových pluginů."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Zakázat automatické spouštění ciplushelper"
+
+msgid "Enable auto-check module"
+msgstr "Povolit modul automatické kontroly"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Povolit automatické spouštění ciplushelper"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "CHYBA: Pomocník CI+ neběží! \nZkontrolujte /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Nainstalujte /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Nainstalujte alternativní binární (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Nainstalujte WORKING binary (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Instalováno:"
 
-msgid "CI+ helper"
-msgstr "CI+ pomocník"
+msgid "None"
+msgstr "Žádný"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+ pomocník pro Enigmu2"
+msgid "Not running"
+msgstr "Neběží"
+
+msgid "off"
+msgstr "vypnuto"
+
+msgid "Open CI Assignment"
+msgstr "Otevřete CI Assignment"
+
+msgid "Pause CI 1"
+msgstr "Pozastaví CI 1"
+
+msgid "Pause CI 2"
+msgstr "Pozastaví CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Odeberte /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Restartujte službu!"
+
+msgid "Running"
+msgstr "Běh"
+
+msgid "Save"
+msgstr "Uložit"
+
+msgid "Show message after off/on"
+msgstr "Zobrazit zprávu po vypnutí/zapnutí"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: není přítomen, Slot2: přítomný"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: přítomen, Slot2: není přítomen"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: přítomný, Slot2: přítomný"
+
+msgid "Start ciplushelper"
+msgstr "Spusťte ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Zastavte ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Podporovaná zařízení:"
+
+msgid "Supported models"
+msgstr "Podporované modely"
+
+msgid "Unknown"
+msgstr "Neznámý"
+
+msgid "Update plugin"
+msgstr "Aktualizovat plugin"
+
+msgid "Updating plugin..."
+msgstr "Aktualizace pluginu..."
 

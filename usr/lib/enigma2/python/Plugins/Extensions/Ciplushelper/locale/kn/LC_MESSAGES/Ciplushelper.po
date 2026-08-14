@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ ಸಹಾಯಕ ಮೆನು"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- ವಿಳಂಬ-->ಆನ್ (CI 1)"
 
-msgid "Supported models"
-msgstr "ಬೆಂಬಲಿತ ಮಾದರಿಗಳು"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- ವಿಳಂಬ-->ಆನ್ (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "ciplushelper ಸ್ವಯಂಪ್ರಾರಂಭವನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- ಆಫ್/ಆನ್ ನಂತರ ಸೇವೆಯನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "ciplushelper ಸ್ವಯಂಪ್ರಾರಂಭವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- ಆಫ್/ಆನ್ ನಂತರ ಸೇವೆಯನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "ciplushelper ನಿಲ್ಲಿಸಿ"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI ಸ್ವಯಂ ಆಫ್/ಆನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ---"
 
-msgid "Start ciplushelper"
-msgstr "ciplushelper ಅನ್ನು ಪ್ರಾರಂಭಿಸಿ"
+msgid "0.5 sec"
+msgstr "0.5 ಸೆ"
 
-msgid "Install version from Zgemma"
-msgstr "Zgemma ನಿಂದ ಆವೃತ್ತಿ"
+msgid "1 hour"
+msgstr "1 ಗಂಟೆ"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ ಸ್ಲಾಟ್"
+msgid "1 sec"
+msgstr "1 ಸೆ"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ ಸ್ಲಾಟ್"
+msgid "10 sec"
+msgstr "10 ಸೆ"
 
-msgid "Install default version"
-msgstr "ಡೀಫಾಲ್ಟ್ ಆವೃತ್ತಿ"
+msgid "11 sec"
+msgstr "11 ಸೆ"
 
-msgid "Remove"
-msgstr "ತೆಗೆದುಹಾಕಿ"
+msgid "12 sec"
+msgstr "12 ಸೆ"
 
-msgid "Install"
-msgstr "ಸ್ಥಾಪಿಸಿ"
+msgid "2 hour"
+msgstr "2 ಗಂಟೆ"
 
-msgid "Oscam:"
-msgstr "ಓಸ್ಕಾಮ್:"
+msgid "2 sec"
+msgstr "2 ಸೆ"
 
-msgid "Update plugin"
-msgstr "ಪ್ಲಗಿನ್ ಅನ್ನು ನವೀಕರಿಸಿ"
+msgid "3 hour"
+msgstr "3 ಗಂಟೆ"
 
-msgid "Restart GUI"
-msgstr "GUI ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ"
+msgid "3 sec"
+msgstr "3 ಸೆ"
 
-msgid "Need restart GUI"
-msgstr "GUI ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸುವ ಅಗತ್ಯವಿದೆ"
+msgid "30 min"
+msgstr "30 ನಿಮಿಷ"
 
-msgid "Oscam stopped."
-msgstr "ಓಸ್ಕಾಮ್ ನಿಲ್ಲಿಸಿದರು."
+msgid "4 hour"
+msgstr "4 ಗಂಟೆ"
 
-msgid "Oscam started."
-msgstr "ಓಸ್ಕಾಮ್ ಪ್ರಾರಂಭವಾಯಿತು."
+msgid "4 sec"
+msgstr "4 ಸೆ"
 
-msgid "Oscam binary not found!"
-msgstr "ಓಸ್ಕಾಮ್ ಬೈನರಿ ಕಂಡುಬಂದಿಲ್ಲ!"
+msgid "5 sec"
+msgstr "5 ಸೆ"
 
-msgid "Updating plugin..."
-msgstr "ಪ್ಲಗಿನ್ ಅನ್ನು ನವೀಕರಿಸಲಾಗುತ್ತಿದೆ..."
+msgid "6 sec"
+msgstr "6 ಸೆ"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "GUI ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?"
+msgid "7 sec"
+msgstr "7 ಸೆ"
 
-msgid "Unknown"
-msgstr "ಅಜ್ಞಾತ"
+msgid "8 sec"
+msgstr "8 ಸೆ"
+
+msgid "9 sec"
+msgstr "9 ಸೆ"
+
+msgid "Cancel"
+msgstr "ರದ್ದುಮಾಡಿ"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - ಸ್ವಯಂ ಆಫ್/ಆನ್"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - ಸ್ವಯಂ ಆಫ್/ಆನ್"
+
+msgid "CI modules detected:"
+msgstr "CI ಮಾಡ್ಯೂಲ್‌ಗಳು ಪತ್ತೆಯಾಗಿವೆ:"
+
+msgid "CI+ Helper"
+msgstr "CI+ ಸಹಾಯಕ"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ ಸಹಾಯಕ ಮತ್ತು ಸ್ವಯಂ ಆಫ್/ಆನ್"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI ಮಾಡ್ಯೂಲ್‌ಗಳಿಗಾಗಿ CI+ ಸಹಾಯಕ ಮತ್ತು ಸ್ವಯಂ ಆಫ್/ಆನ್"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ ಸಹಾಯಕವನ್ನು ಸ್ಥಾಪಿಸಲಾಗಿದೆ ಮತ್ತು ಚಾಲನೆಯಲ್ಲಿದೆ!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ ಸಹಾಯಕ ಪ್ಲಗಿನ್"
 
-msgid "Supported devices:"
-msgstr "ಬೆಂಬಲಿತ ಸಾಧನಗಳು:"
+msgid "CI+ Helper status:"
+msgstr "CI+ ಸಹಾಯಕ ಸ್ಥಿತಿ:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "ಇತರ ಮಾದರಿಗಳಿಗೆ '/etc/ciplus' ಬೇಕಾಗಬಹುದು"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "ಸಾಮಾನ್ಯ ಇಂಟರ್ಫೇಸ್ ನಿಯೋಜನೆ ಪ್ಲಗಿನ್ ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ಇದನ್ನು ಸಿಸ್ಟಮ್ ಪ್ಲಗಿನ್‌ಗಳಿಂದ ಸ್ಥಾಪಿಸಿ."
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper ಸ್ವಯಂಪ್ರಾರಂಭವನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+
+msgid "Enable auto-check module"
+msgstr "ಸ್ವಯಂ ಚೆಕ್ ಮಾಡ್ಯೂಲ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper ಸ್ವಯಂಪ್ರಾರಂಭವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ದೋಷ: CI+ ಸಹಾಯಕ ಚಾಲನೆಯಲ್ಲಿಲ್ಲ!\n/home/root/ciplus_debug.log ಪರಿಶೀಲಿಸಿ"
+
+msgid "Install /etc/ciplus"
+msgstr "/etc/ciplus ಅನ್ನು ಸ್ಥಾಪಿಸಿ"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "ಪರ್ಯಾಯ ಬೈನರಿ (zgemma-arm) ಅನ್ನು ಸ್ಥಾಪಿಸಿ"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "ವರ್ಕಿಂಗ್ ಬೈನರಿ ಸ್ಥಾಪಿಸಿ (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "ಸ್ಥಾಪಿಸಲಾಗಿದೆ:"
 
-msgid "CI+ helper"
-msgstr "CI+ ಸಹಾಯಕ"
+msgid "None"
+msgstr "ಯಾವುದೂ ಇಲ್ಲ"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Enigma2 ಗಾಗಿ CI+ ಸಹಾಯಕ"
+msgid "Not running"
+msgstr "ಓಡುತ್ತಿಲ್ಲ"
+
+msgid "off"
+msgstr "ಆಫ್"
+
+msgid "Open CI Assignment"
+msgstr "CI ನಿಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ"
+
+msgid "Pause CI 1"
+msgstr "CI 1 ಅನ್ನು ವಿರಾಮಗೊಳಿಸುತ್ತದೆ"
+
+msgid "Pause CI 2"
+msgstr "CI 2 ಅನ್ನು ವಿರಾಮಗೊಳಿಸುತ್ತದೆ"
+
+msgid "Remove /etc/ciplus"
+msgstr "/etc/ciplus ತೆಗೆದುಹಾಕಿ"
+
+msgid "Restart service!"
+msgstr "ಸೇವೆಯನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ!"
+
+msgid "Running"
+msgstr "ಓಡುತ್ತಿದೆ"
+
+msgid "Save"
+msgstr "ಉಳಿಸಿ"
+
+msgid "Show message after off/on"
+msgstr "ಆಫ್/ಆನ್ ನಂತರ ಸಂದೇಶವನ್ನು ತೋರಿಸಿ"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: ಪ್ರಸ್ತುತ ಇಲ್ಲ, Slot2: ಪ್ರಸ್ತುತ"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: ಪ್ರಸ್ತುತ, Slot2: ಪ್ರಸ್ತುತ ಇಲ್ಲ"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "ಸ್ಲಾಟ್ 1: ಪ್ರಸ್ತುತ, ಸ್ಲಾಟ್ 2: ಪ್ರಸ್ತುತ"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper ಅನ್ನು ಪ್ರಾರಂಭಿಸಿ"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper ನಿಲ್ಲಿಸಿ"
+
+msgid "Supported devices:"
+msgstr "ಬೆಂಬಲಿತ ಸಾಧನಗಳು:"
+
+msgid "Supported models"
+msgstr "ಬೆಂಬಲಿತ ಮಾದರಿಗಳು"
+
+msgid "Unknown"
+msgstr "ಅಜ್ಞಾತ"
+
+msgid "Update plugin"
+msgstr "ಪ್ಲಗಿನ್ ಅನ್ನು ನವೀಕರಿಸಿ"
+
+msgid "Updating plugin..."
+msgstr "ಪ್ಲಗಿನ್ ಅನ್ನು ನವೀಕರಿಸಲಾಗುತ್ತಿದೆ..."
 

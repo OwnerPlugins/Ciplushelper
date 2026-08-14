@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "Menu d'aide CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Retard à l'arrêt -> à l'allumage (CI 1)"
 
-msgid "Supported models"
-msgstr "Modèles pris en charge"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Retard à l'arrêt -> à l'allumage (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Désactiver le démarrage automatique de ciplushelper"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Redémarrer le service après off/on (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Activer le démarrage automatique de ciplushelper"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Redémarrer le service après off/on (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Arrêter ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- Paramètres d'arrêt/marche automatique CI ---"
 
-msgid "Start ciplushelper"
-msgstr "Démarrer ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 seconde"
 
-msgid "Install version from Zgemma"
-msgstr "version de Zgemma"
+msgid "1 hour"
+msgstr "1 heure"
 
-msgid "Disable CI+ slot"
-msgstr "Emplacement CI+"
+msgid "1 sec"
+msgstr "1 seconde"
 
-msgid "Enable CI+ slot"
-msgstr "Emplacement CI+"
+msgid "10 sec"
+msgstr "10 secondes"
 
-msgid "Install default version"
-msgstr "version par défaut"
+msgid "11 sec"
+msgstr "11 secondes"
 
-msgid "Remove"
-msgstr "Retirer"
+msgid "12 sec"
+msgstr "12 secondes"
 
-msgid "Install"
-msgstr "Installer"
+msgid "2 hour"
+msgstr "2 heures"
 
-msgid "Oscam:"
-msgstr "Oscam :"
+msgid "2 sec"
+msgstr "2 secondes"
 
-msgid "Update plugin"
-msgstr "Plugin de mise à jour"
+msgid "3 hour"
+msgstr "3 heures"
 
-msgid "Restart GUI"
-msgstr "Redémarrer l'interface graphique"
+msgid "3 sec"
+msgstr "3 secondes"
 
-msgid "Need restart GUI"
-msgstr "Besoin de redémarrer l'interface graphique"
+msgid "30 min"
+msgstr "30 minutes"
 
-msgid "Oscam stopped."
-msgstr "Oscam s'est arrêté."
+msgid "4 hour"
+msgstr "4 heures"
 
-msgid "Oscam started."
-msgstr "L'arnaque a commencé."
+msgid "4 sec"
+msgstr "4 secondes"
 
-msgid "Oscam binary not found!"
-msgstr "Binaire Oscam introuvable !"
+msgid "5 sec"
+msgstr "5 secondes"
 
-msgid "Updating plugin..."
-msgstr "Mise à jour du plugin..."
+msgid "6 sec"
+msgstr "6 secondes"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Êtes-vous sûr de vouloir redémarrer l'interface graphique ?"
+msgid "7 sec"
+msgstr "7 secondes"
 
-msgid "Unknown"
-msgstr "Inconnu"
+msgid "8 sec"
+msgstr "8 secondes"
+
+msgid "9 sec"
+msgstr "9 secondes"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - arrêt/marche automatique"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - arrêt/marche automatique"
+
+msgid "CI modules detected:"
+msgstr "Modules CI détectés :"
+
+msgid "CI+ Helper"
+msgstr "Assistant CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper et arrêt/marche automatique"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper et arrêt/marche automatique pour les modules CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper installé et en cours d'exécution !\nPID : %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "Plugin d'assistance CI+"
 
-msgid "Supported devices:"
-msgstr "Appareils pris en charge :"
+msgid "CI+ Helper status:"
+msgstr "Statut d'assistance CI+ :"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "D'autres modèles peuvent avoir besoin de '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Plugin Common Interface Assignment introuvable. Veuillez l'installer à partir des plugins système."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Désactiver le démarrage automatique de ciplushelper"
+
+msgid "Enable auto-check module"
+msgstr "Activer le module de vérification automatique"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Activer le démarrage automatique de ciplushelper"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ERREUR : CI+ Helper ne fonctionne pas ! \nCheck /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Installer /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Installer un binaire alternatif (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Installer le binaire WORKING (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Installé:"
 
-msgid "CI+ helper"
-msgstr "Assistant CI+"
+msgid "None"
+msgstr "Aucun"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Assistant CI+ pour Enigma2"
+msgid "Not running"
+msgstr "Ne fonctionne pas"
+
+msgid "off"
+msgstr "désactivé"
+
+msgid "Open CI Assignment"
+msgstr "Affectation CI ouverte"
+
+msgid "Pause CI 1"
+msgstr "Met en pause CI 1"
+
+msgid "Pause CI 2"
+msgstr "Met en pause CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Supprimer /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Redémarrez le service !"
+
+msgid "Running"
+msgstr "En cours d'exécution"
+
+msgid "Save"
+msgstr "Sauvegarder"
+
+msgid "Show message after off/on"
+msgstr "Afficher le message après l'activation/la désactivation"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1 : non présent, Slot2 : présent"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1 : présent, Slot2 : non présent"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1 : présent, Slot2 : présent"
+
+msgid "Start ciplushelper"
+msgstr "Démarrer ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Arrêter ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Appareils pris en charge :"
+
+msgid "Supported models"
+msgstr "Modèles pris en charge"
+
+msgid "Unknown"
+msgstr "Inconnu"
+
+msgid "Update plugin"
+msgstr "Plugin de mise à jour"
+
+msgid "Updating plugin..."
+msgstr "Mise à jour du plugin..."
 

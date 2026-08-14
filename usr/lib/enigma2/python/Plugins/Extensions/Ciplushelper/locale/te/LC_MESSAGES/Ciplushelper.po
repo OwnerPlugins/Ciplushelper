@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ సహాయక మెను"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- ఆలస్యం ఆఫ్-->ఆన్ (CI 1)"
 
-msgid "Supported models"
-msgstr "మద్దతు ఉన్న నమూనాలు"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- ఆలస్యం ఆఫ్-->ఆన్ (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "ciplushelper ఆటోస్టార్ట్‌ను నిలిపివేయండి"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- ఆఫ్/ఆన్ తర్వాత సేవను పునఃప్రారంభించండి (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "ciplushelper ఆటోస్టార్ట్‌ని ప్రారంభించండి"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- ఆఫ్/ఆన్ తర్వాత సేవను పునఃప్రారంభించండి (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "ciplushelperని ఆపండి"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI ఆటో ఆఫ్/ఆన్ సెట్టింగ్‌లు ---"
 
-msgid "Start ciplushelper"
-msgstr "ciplushelperని ప్రారంభించండి"
+msgid "0.5 sec"
+msgstr "0.5 సె"
 
-msgid "Install version from Zgemma"
-msgstr "Zgemma నుండి వెర్షన్"
+msgid "1 hour"
+msgstr "1 గంట"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ స్లాట్"
+msgid "1 sec"
+msgstr "1 సెకను"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ స్లాట్"
+msgid "10 sec"
+msgstr "10 సె"
 
-msgid "Install default version"
-msgstr "డిఫాల్ట్ వెర్షన్"
+msgid "11 sec"
+msgstr "11 సె"
 
-msgid "Remove"
-msgstr "తొలగించు"
+msgid "12 sec"
+msgstr "12 సె"
 
-msgid "Install"
-msgstr "ఇన్‌స్టాల్ చేయండి"
+msgid "2 hour"
+msgstr "2 గంటలు"
 
-msgid "Oscam:"
-msgstr "ఓస్కామ్:"
+msgid "2 sec"
+msgstr "2 సె"
 
-msgid "Update plugin"
-msgstr "ప్లగిన్‌ని నవీకరించండి"
+msgid "3 hour"
+msgstr "3 గంటలు"
 
-msgid "Restart GUI"
-msgstr "GUIని పునఃప్రారంభించండి"
+msgid "3 sec"
+msgstr "3 సె"
 
-msgid "Need restart GUI"
-msgstr "GUIని పునఃప్రారంభించాలి"
+msgid "30 min"
+msgstr "30 నిమి"
 
-msgid "Oscam stopped."
-msgstr "ఓస్కామ్ ఆగిపోయింది."
+msgid "4 hour"
+msgstr "4 గంటలు"
 
-msgid "Oscam started."
-msgstr "ఓస్కామ్ ప్రారంభమైంది."
+msgid "4 sec"
+msgstr "4 సె"
 
-msgid "Oscam binary not found!"
-msgstr "ఓస్కామ్ బైనరీ కనుగొనబడలేదు!"
+msgid "5 sec"
+msgstr "5 సె"
 
-msgid "Updating plugin..."
-msgstr "ప్లగిన్‌ని నవీకరిస్తోంది..."
+msgid "6 sec"
+msgstr "6 సె"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "మీరు ఖచ్చితంగా GUIని పునఃప్రారంభించాలనుకుంటున్నారా?"
+msgid "7 sec"
+msgstr "7 సె"
 
-msgid "Unknown"
-msgstr "తెలియదు"
+msgid "8 sec"
+msgstr "8 సె"
+
+msgid "9 sec"
+msgstr "9 సె"
+
+msgid "Cancel"
+msgstr "రద్దు చేయి"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - ఆటో ఆఫ్/ఆన్"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - ఆటో ఆఫ్/ఆన్"
+
+msgid "CI modules detected:"
+msgstr "CI మాడ్యూల్స్ కనుగొనబడ్డాయి:"
+
+msgid "CI+ Helper"
+msgstr "CI+ హెల్పర్"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ హెల్పర్ మరియు ఆటో ఆఫ్/ఆన్"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI మాడ్యూల్స్ కోసం CI+ హెల్పర్ మరియు ఆటో ఆఫ్/ఆన్"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ హెల్పర్ ఇన్‌స్టాల్ చేయబడింది మరియు రన్ అవుతోంది!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ హెల్పర్ ప్లగిన్"
 
-msgid "Supported devices:"
-msgstr "మద్దతు ఉన్న పరికరాలు:"
+msgid "CI+ Helper status:"
+msgstr "CI+ సహాయక స్థితి:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "ఇతర మోడళ్లకు '/etc/ciplus' అవసరం కావచ్చు"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "సాధారణ ఇంటర్‌ఫేస్ అసైన్‌మెంట్ ప్లగ్ఇన్ కనుగొనబడలేదు. దయచేసి దీన్ని సిస్టమ్ ప్లగిన్‌ల నుండి ఇన్‌స్టాల్ చేయండి."
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper ఆటోస్టార్ట్‌ను నిలిపివేయండి"
+
+msgid "Enable auto-check module"
+msgstr "ఆటో-చెక్ మాడ్యూల్‌ని ప్రారంభించండి"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper ఆటోస్టార్ట్‌ని ప్రారంభించండి"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "లోపం: CI+ హెల్పర్ అమలులో లేదు!\n/home/root/ciplus_debug.logని తనిఖీ చేయండి"
+
+msgid "Install /etc/ciplus"
+msgstr "/etc/ciplus ఇన్‌స్టాల్ చేయండి"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "ప్రత్యామ్నాయ బైనరీని ఇన్‌స్టాల్ చేయండి (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "వర్కింగ్ బైనరీని ఇన్‌స్టాల్ చేయండి (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "ఇన్‌స్టాల్ చేయబడింది:"
 
-msgid "CI+ helper"
-msgstr "CI+ సహాయకుడు"
+msgid "None"
+msgstr "ఏదీ లేదు"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Enigma2 కోసం CI+ హెల్పర్"
+msgid "Not running"
+msgstr "పరుగు లేదు"
+
+msgid "off"
+msgstr "ఆఫ్"
+
+msgid "Open CI Assignment"
+msgstr "CI అసైన్‌మెంట్‌ని తెరవండి"
+
+msgid "Pause CI 1"
+msgstr "CI 1ని పాజ్ చేస్తుంది"
+
+msgid "Pause CI 2"
+msgstr "CI 2ని పాజ్ చేస్తుంది"
+
+msgid "Remove /etc/ciplus"
+msgstr "/etc/ciplusని తీసివేయండి"
+
+msgid "Restart service!"
+msgstr "సేవను పునఃప్రారంభించండి!"
+
+msgid "Running"
+msgstr "నడుస్తోంది"
+
+msgid "Save"
+msgstr "సేవ్ చేయండి"
+
+msgid "Show message after off/on"
+msgstr "ఆఫ్/ఆన్ తర్వాత సందేశాన్ని చూపండి"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: ప్రస్తుతం లేదు, Slot2: ప్రస్తుతం ఉంది"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: ప్రస్తుతం, Slot2: ప్రస్తుతం లేదు"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: ప్రస్తుతం, Slot2: ప్రస్తుతం"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelperని ప్రారంభించండి"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelperని ఆపండి"
+
+msgid "Supported devices:"
+msgstr "మద్దతు ఉన్న పరికరాలు:"
+
+msgid "Supported models"
+msgstr "మద్దతు ఉన్న నమూనాలు"
+
+msgid "Unknown"
+msgstr "తెలియదు"
+
+msgid "Update plugin"
+msgstr "ప్లగిన్‌ని నవీకరించండి"
+
+msgid "Updating plugin..."
+msgstr "ప్లగిన్‌ని నవీకరిస్తోంది..."
 

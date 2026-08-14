@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ hjælpemenu"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Forsinkelse fra-->til (CI 1)"
 
-msgid "Supported models"
-msgstr "Understøttede modeller"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Forsinkelse fra-->til (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Deaktiver ciplushelper autostart"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Genstart service efter off/on (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Aktiver ciplushelper autostart"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Genstart service efter off/on (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Stop ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI auto sluk/tænd indstillinger ---"
 
-msgid "Start ciplushelper"
-msgstr "Start ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 sek"
 
-msgid "Install version from Zgemma"
-msgstr "version fra Zgemma"
+msgid "1 hour"
+msgstr "1 time"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ slot"
+msgid "1 sec"
+msgstr "1 sek"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ slot"
+msgid "10 sec"
+msgstr "10 sek"
 
-msgid "Install default version"
-msgstr "standardversion"
+msgid "11 sec"
+msgstr "11 sek"
 
-msgid "Remove"
-msgstr "Fjerne"
+msgid "12 sec"
+msgstr "12 sek"
 
-msgid "Install"
-msgstr "Installere"
+msgid "2 hour"
+msgstr "2 timer"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 sek"
 
-msgid "Update plugin"
-msgstr "Opdater plugin"
+msgid "3 hour"
+msgstr "3 timer"
 
-msgid "Restart GUI"
-msgstr "Genstart GUI"
+msgid "3 sec"
+msgstr "3 sek"
 
-msgid "Need restart GUI"
-msgstr "Skal genstarte GUI"
+msgid "30 min"
+msgstr "30 min"
 
-msgid "Oscam stopped."
-msgstr "Oscam stoppede."
+msgid "4 hour"
+msgstr "4 timer"
 
-msgid "Oscam started."
-msgstr "Oscam startede."
+msgid "4 sec"
+msgstr "4 sek"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam binær ikke fundet!"
+msgid "5 sec"
+msgstr "5 sek"
 
-msgid "Updating plugin..."
-msgstr "Opdaterer plugin..."
+msgid "6 sec"
+msgstr "6 sek"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Er du sikker på, at du vil genstarte GUI?"
+msgid "7 sec"
+msgstr "7 sek"
 
-msgid "Unknown"
-msgstr "Ukendt"
+msgid "8 sec"
+msgstr "8 sek"
+
+msgid "9 sec"
+msgstr "9 sek"
+
+msgid "Cancel"
+msgstr "Ophæve"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - automatisk sluk/tænd"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - automatisk sluk/tænd"
+
+msgid "CI modules detected:"
+msgstr "CI-moduler fundet:"
+
+msgid "CI+ Helper"
+msgstr "CI+ hjælper"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper og automatisk sluk/tænd"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Hjælper og automatisk sluk/tænd for CI-moduler"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper installeret og kører!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
 
-msgid "Supported devices:"
-msgstr "Understøttede enheder:"
+msgid "CI+ Helper status:"
+msgstr "CI+ Helper status:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Andre modeller kan have brug for '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Common Interface Assignment plugin blev ikke fundet. Installer det venligst fra System Plugins."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Deaktiver ciplushelper autostart"
+
+msgid "Enable auto-check module"
+msgstr "Aktiver automatisk kontrolmodul"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Aktiver ciplushelper autostart"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "FEJL: CI+ Hjælper kører ikke!\nTjek /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Installer /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Installer alternativ binær (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Installer WORKING binær (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Installeret:"
 
-msgid "CI+ helper"
-msgstr "CI+ hjælper"
+msgid "None"
+msgstr "Ingen"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+ hjælper til Enigma2"
+msgid "Not running"
+msgstr "Løber ikke"
+
+msgid "off"
+msgstr "slukket"
+
+msgid "Open CI Assignment"
+msgstr "Åbn CI-opgave"
+
+msgid "Pause CI 1"
+msgstr "Pause CI 1"
+
+msgid "Pause CI 2"
+msgstr "Pause CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Fjern /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Genstart service!"
+
+msgid "Running"
+msgstr "Løb"
+
+msgid "Save"
+msgstr "Spare"
+
+msgid "Show message after off/on"
+msgstr "Vis besked efter slukket/tændt"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: ikke til stede, Slot2: til stede"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: til stede, Slot2: ikke til stede"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: nuværende, Slot2: nuværende"
+
+msgid "Start ciplushelper"
+msgstr "Start ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Stop ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Understøttede enheder:"
+
+msgid "Supported models"
+msgstr "Understøttede modeller"
+
+msgid "Unknown"
+msgstr "Ukendt"
+
+msgid "Update plugin"
+msgstr "Opdater plugin"
+
+msgid "Updating plugin..."
+msgstr "Opdaterer plugin..."
 

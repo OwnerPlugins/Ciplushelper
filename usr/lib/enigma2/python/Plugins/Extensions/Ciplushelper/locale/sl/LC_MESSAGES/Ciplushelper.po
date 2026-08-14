@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "Pomožni meni CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Zakasnitev izklopa-->vklopa (CI 1)"
 
-msgid "Supported models"
-msgstr "Podprti modeli"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Zakasnitev izklopa-->vklopa (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Onemogoči samodejni zagon ciplushelper"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Ponovni zagon storitve po izklopu/vklopu (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Omogoči samodejni zagon ciplushelper"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Ponovni zagon storitve po izklopu/vklopu (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Ustavi ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- Nastavitve samodejnega vklopa/izklopa CI ---"
 
-msgid "Start ciplushelper"
-msgstr "Zaženite ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 s"
 
-msgid "Install version from Zgemma"
-msgstr "različica od Zgemma"
+msgid "1 hour"
+msgstr "1 uro"
 
-msgid "Disable CI+ slot"
-msgstr "reža CI+"
+msgid "1 sec"
+msgstr "1 s"
 
-msgid "Enable CI+ slot"
-msgstr "reža CI+"
+msgid "10 sec"
+msgstr "10 sekund"
 
-msgid "Install default version"
-msgstr "privzeta različica"
+msgid "11 sec"
+msgstr "11 sekund"
 
-msgid "Remove"
-msgstr "Odstrani"
+msgid "12 sec"
+msgstr "12 sekund"
 
-msgid "Install"
-msgstr "Namestite"
+msgid "2 hour"
+msgstr "2 uri"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 s"
 
-msgid "Update plugin"
-msgstr "Posodobi vtičnik"
+msgid "3 hour"
+msgstr "3 ure"
 
-msgid "Restart GUI"
-msgstr "Znova zaženite GUI"
+msgid "3 sec"
+msgstr "3 sekunde"
 
-msgid "Need restart GUI"
-msgstr "Potreben je ponovni zagon GUI"
+msgid "30 min"
+msgstr "30 min"
 
-msgid "Oscam stopped."
-msgstr "Oscam se je ustavil."
+msgid "4 hour"
+msgstr "4 ure"
 
-msgid "Oscam started."
-msgstr "Oscam je začel."
+msgid "4 sec"
+msgstr "4 sekunde"
 
-msgid "Oscam binary not found!"
-msgstr "Dvojiške datoteke Oscam ni mogoče najti!"
+msgid "5 sec"
+msgstr "5 sekund"
 
-msgid "Updating plugin..."
-msgstr "Posodabljanje vtičnika ..."
+msgid "6 sec"
+msgstr "6 sekund"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Ali ste prepričani, da želite znova zagnati GUI?"
+msgid "7 sec"
+msgstr "7 sekund"
 
-msgid "Unknown"
-msgstr "Neznano"
+msgid "8 sec"
+msgstr "8 sekund"
+
+msgid "9 sec"
+msgstr "9 sekund"
+
+msgid "Cancel"
+msgstr "Prekliči"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - samodejni izklop/vklop"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - samodejni izklop/vklop"
+
+msgid "CI modules detected:"
+msgstr "Zaznani moduli CI:"
+
+msgid "CI+ Helper"
+msgstr "Pomočnik za CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper in samodejni izklop/vklop"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper in samodejni izklop/vklop za module CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper je nameščen in deluje!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
 
-msgid "Supported devices:"
-msgstr "Podprte naprave:"
+msgid "CI+ Helper status:"
+msgstr "Stanje pomočnika CI+:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Drugi modeli morda potrebujejo '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Vtičnika za dodelitev skupnega vmesnika ni bilo mogoče najti. Namestite ga iz sistemskih vtičnikov."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Onemogoči samodejni zagon ciplushelper"
+
+msgid "Enable auto-check module"
+msgstr "Omogoči modul za samodejno preverjanje"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Omogoči samodejni zagon ciplushelper"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "NAPAKA: Pomočnik CI+ se ne izvaja!\nPreverite /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Namestite /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Namestite alternativno binarno (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Namestite DELUJOČO binarno (hd51/6.novo)"
 
 msgid "Installed:"
 msgstr "Nameščeno:"
 
-msgid "CI+ helper"
-msgstr "CI+ pomočnik"
+msgid "None"
+msgstr "Noben"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+ pomočnik za Enigmo2"
+msgid "Not running"
+msgstr "Ne teče"
+
+msgid "off"
+msgstr "izklopljeno"
+
+msgid "Open CI Assignment"
+msgstr "Odpri dodelitev CI"
+
+msgid "Pause CI 1"
+msgstr "Začasno ustavi CI 1"
+
+msgid "Pause CI 2"
+msgstr "Začasno ustavi CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Odstranite /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Ponovno zaženi storitev!"
+
+msgid "Running"
+msgstr "tek"
+
+msgid "Save"
+msgstr "Shrani"
+
+msgid "Show message after off/on"
+msgstr "Pokaži sporočilo po izklopu/vklopu"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Reža1: ni prisotna, reža2: prisotna"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Reža1: prisotna, Reža2: ni"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Reža1: prisotna, Reža2: prisotna"
+
+msgid "Start ciplushelper"
+msgstr "Zaženite ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Ustavi ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Podprte naprave:"
+
+msgid "Supported models"
+msgstr "Podprti modeli"
+
+msgid "Unknown"
+msgstr "Neznano"
+
+msgid "Update plugin"
+msgstr "Posodobi vtičnik"
+
+msgid "Updating plugin..."
+msgstr "Posodabljanje vtičnika ..."
 

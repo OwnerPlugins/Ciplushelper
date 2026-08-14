@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "ម៉ឺនុយជំនួយ CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- ពន្យាពេលបិទ--> បើក (CI 1)"
 
-msgid "Supported models"
-msgstr "ម៉ូដែលដែលគាំទ្រ"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- ពន្យាពេលបិទ--> បើក (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "បិទដំណើរការ ciplushelper autostart"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- ចាប់ផ្តើមសេវាកម្មឡើងវិញបន្ទាប់ពីបិទ/បើក (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "បើកដំណើរការ ciplushelper autostart"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- ចាប់ផ្តើមសេវាកម្មឡើងវិញបន្ទាប់ពីបិទ/បើក (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "បញ្ឈប់​អ្នក​ជំនួយ​ទឹក​ភ្នែក"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI បិទ/បើកការកំណត់ដោយស្វ័យប្រវត្តិ ---"
 
-msgid "Start ciplushelper"
-msgstr "ចាប់ផ្តើម ciplushelper"
+msgid "0.5 sec"
+msgstr "0.5 វិ"
 
-msgid "Install version from Zgemma"
-msgstr "កំណែពី Zgemma"
+msgid "1 hour"
+msgstr "1 ម៉ោង។"
 
-msgid "Disable CI+ slot"
-msgstr "ស៊ីអាយ + រន្ធ"
+msgid "1 sec"
+msgstr "1 វិ"
 
-msgid "Enable CI+ slot"
-msgstr "ស៊ីអាយ + រន្ធ"
+msgid "10 sec"
+msgstr "10 វិ"
 
-msgid "Install default version"
-msgstr "កំណែលំនាំដើម"
+msgid "11 sec"
+msgstr "11 វិ"
 
-msgid "Remove"
-msgstr "ដកចេញ"
+msgid "12 sec"
+msgstr "12 វិ"
 
-msgid "Install"
-msgstr "ដំឡើង"
+msgid "2 hour"
+msgstr "2 ម៉ោង។"
 
-msgid "Oscam:"
-msgstr "Oscam៖"
+msgid "2 sec"
+msgstr "2 វិ"
 
-msgid "Update plugin"
-msgstr "ធ្វើបច្ចុប្បន្នភាពកម្មវិធីជំនួយ"
+msgid "3 hour"
+msgstr "3 ម៉ោង។"
 
-msgid "Restart GUI"
-msgstr "ចាប់ផ្ដើម GUI ឡើងវិញ"
+msgid "3 sec"
+msgstr "3 វិ"
 
-msgid "Need restart GUI"
-msgstr "ត្រូវការចាប់ផ្តើម GUI ឡើងវិញ"
+msgid "30 min"
+msgstr "30 នាទី"
 
-msgid "Oscam stopped."
-msgstr "Oscam បានឈប់។"
+msgid "4 hour"
+msgstr "4 ម៉ោង។"
 
-msgid "Oscam started."
-msgstr "Oscam បានចាប់ផ្តើម។"
+msgid "4 sec"
+msgstr "4 វិ"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam binary រកមិនឃើញ!"
+msgid "5 sec"
+msgstr "5 វិ"
 
-msgid "Updating plugin..."
-msgstr "កំពុងអាប់ដេតកម្មវិធីជំនួយ..."
+msgid "6 sec"
+msgstr "6 វិ"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "តើអ្នកប្រាកដថាចង់ចាប់ផ្តើម GUI ឡើងវិញទេ?"
+msgid "7 sec"
+msgstr "7 វិ"
 
-msgid "Unknown"
-msgstr "មិនស្គាល់"
+msgid "8 sec"
+msgstr "8 វិ"
+
+msgid "9 sec"
+msgstr "9 វិ"
+
+msgid "Cancel"
+msgstr "បោះបង់"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - បិទ/បើកដោយស្វ័យប្រវត្តិ"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - បិទ/បើកដោយស្វ័យប្រវត្តិ"
+
+msgid "CI modules detected:"
+msgstr "ម៉ូឌុល CI បានរកឃើញ៖"
+
+msgid "CI+ Helper"
+msgstr "CI+ ជំនួយ"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "កម្មវិធីជំនួយ CI+ និងបិទ/បើកដោយស្វ័យប្រវត្តិ"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "កម្មវិធីជំនួយ CI+ និងបិទ/បើកដោយស្វ័យប្រវត្តិសម្រាប់ម៉ូឌុល CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper បានដំឡើង និងដំណើរការ!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "កម្មវិធីជំនួយ CI+"
 
-msgid "Supported devices:"
-msgstr "ឧបករណ៍ដែលគាំទ្រ៖"
+msgid "CI+ Helper status:"
+msgstr "ស្ថានភាពជំនួយ CI+៖"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "ម៉ូដែលផ្សេងទៀតអាចត្រូវការ '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "រកមិនឃើញកម្មវិធីជំនួយការចាត់តាំងចំណុចប្រទាក់ទូទៅទេ។ សូមដំឡើងវាពីកម្មវិធីជំនួយប្រព័ន្ធ។"
+
+msgid "Disable ciplushelper autostart"
+msgstr "បិទដំណើរការ ciplushelper autostart"
+
+msgid "Enable auto-check module"
+msgstr "បើកម៉ូឌុលពិនិត្យដោយស្វ័យប្រវត្តិ"
+
+msgid "Enable ciplushelper autostart"
+msgstr "បើកដំណើរការ ciplushelper autostart"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "កំហុស៖ CI+ Helper មិនដំណើរការទេ!\nCheck /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "ដំឡើង /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "ដំឡើងប្រព័ន្ធគោលពីរជំនួស (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "ដំឡើងប្រព័ន្ធគោលពីរ WORKING (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "បានដំឡើង៖"
 
-msgid "CI+ helper"
-msgstr "ជំនួយ CI+"
+msgid "None"
+msgstr "គ្មាន"
 
-msgid "CI+ helper for Enigma2"
-msgstr "ជំនួយ CI+ សម្រាប់ Enigma2"
+msgid "Not running"
+msgstr "មិនរត់"
+
+msgid "off"
+msgstr "បិទ"
+
+msgid "Open CI Assignment"
+msgstr "បើកកិច្ចការ CI"
+
+msgid "Pause CI 1"
+msgstr "ផ្អាក CI 1"
+
+msgid "Pause CI 2"
+msgstr "ផ្អាក CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "លុប /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "ចាប់ផ្តើមសេវាកម្មឡើងវិញ!"
+
+msgid "Running"
+msgstr "កំពុងរត់"
+
+msgid "Save"
+msgstr "រក្សាទុក"
+
+msgid "Show message after off/on"
+msgstr "បង្ហាញសារបន្ទាប់ពីបិទ/បើក"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: មិនមានវត្តមាន, Slot2: បច្ចុប្បន្ន"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: បច្ចុប្បន្ន, Slot2: មិនមានវត្តមាន"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: បច្ចុប្បន្ន, Slot2: បច្ចុប្បន្ន"
+
+msgid "Start ciplushelper"
+msgstr "ចាប់ផ្តើម ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "បញ្ឈប់​អ្នក​ជំនួយ​ទឹក​ភ្នែក"
+
+msgid "Supported devices:"
+msgstr "ឧបករណ៍ដែលគាំទ្រ៖"
+
+msgid "Supported models"
+msgstr "ម៉ូដែលដែលគាំទ្រ"
+
+msgid "Unknown"
+msgstr "មិនស្គាល់"
+
+msgid "Update plugin"
+msgstr "ធ្វើបច្ចុប្បន្នភាពកម្មវិធីជំនួយ"
+
+msgid "Updating plugin..."
+msgstr "កំពុងអាប់ដេតកម្មវិធីជំនួយ..."
 

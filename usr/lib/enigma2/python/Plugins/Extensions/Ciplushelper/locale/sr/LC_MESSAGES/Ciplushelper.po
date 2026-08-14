@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "ЦИ+ помоћни мени"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Кашњење искључено-->укључено (ЦИ 1)"
 
-msgid "Supported models"
-msgstr "Подржани модели"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Кашњење искључено-->укључено (ЦИ 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Онемогућите аутоматско покретање циплусхелпер-а"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Поново покрените услугу након искључивања/укључења (ЦИ 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Омогући аутоматско покретање циплусхелпер-а"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Поново покрените услугу након искључивања/укључивања (ЦИ 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Стоп циплусхелпер"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- Поставке аутоматског искључивања/укључивања ЦИ ---"
 
-msgid "Start ciplushelper"
-msgstr "Покрените циплусхелпер"
+msgid "0.5 sec"
+msgstr "0.5 сец"
 
-msgid "Install version from Zgemma"
-msgstr "верзија из Згеме"
+msgid "1 hour"
+msgstr "1 сат"
 
-msgid "Disable CI+ slot"
-msgstr "ЦИ+ слот"
+msgid "1 sec"
+msgstr "1 сек"
 
-msgid "Enable CI+ slot"
-msgstr "ЦИ+ слот"
+msgid "10 sec"
+msgstr "10 сец"
 
-msgid "Install default version"
-msgstr "подразумевана верзија"
+msgid "11 sec"
+msgstr "11 сец"
 
-msgid "Remove"
-msgstr "Уклони"
+msgid "12 sec"
+msgstr "12 сец"
 
-msgid "Install"
-msgstr "Инсталирај"
+msgid "2 hour"
+msgstr "2 сата"
 
-msgid "Oscam:"
-msgstr "Осцам:"
+msgid "2 sec"
+msgstr "2 сек"
 
-msgid "Update plugin"
-msgstr "Ажурирајте додатак"
+msgid "3 hour"
+msgstr "3 сата"
 
-msgid "Restart GUI"
-msgstr "Поново покрените ГУИ"
+msgid "3 sec"
+msgstr "3 сек"
 
-msgid "Need restart GUI"
-msgstr "Треба поново покренути ГУИ"
+msgid "30 min"
+msgstr "30 мин"
 
-msgid "Oscam stopped."
-msgstr "Осцам је стао."
+msgid "4 hour"
+msgstr "4 сата"
 
-msgid "Oscam started."
-msgstr "Осцам је почео."
+msgid "4 sec"
+msgstr "4 сец"
 
-msgid "Oscam binary not found!"
-msgstr "Осцам бинарни фајл није пронађен!"
+msgid "5 sec"
+msgstr "5 сец"
 
-msgid "Updating plugin..."
-msgstr "Ажурирање додатка..."
+msgid "6 sec"
+msgstr "6 сец"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Да ли сте сигурни да желите да поново покренете ГУИ?"
+msgid "7 sec"
+msgstr "7 сец"
 
-msgid "Unknown"
-msgstr "Непознато"
+msgid "8 sec"
+msgstr "8 сец"
+
+msgid "9 sec"
+msgstr "9 сец"
+
+msgid "Cancel"
+msgstr "Откажи"
+
+msgid "CI 1 - auto off/on"
+msgstr "ЦИ 1 - аутоматско искључивање/укључивање"
+
+msgid "CI 2 - auto off/on"
+msgstr "ЦИ 2 - аутоматско искључивање/укључивање"
+
+msgid "CI modules detected:"
+msgstr "Откривени ЦИ модули:"
+
+msgid "CI+ Helper"
+msgstr "ЦИ+ Хелпер"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "ЦИ+ Хелпер и аутоматско искључивање/укључивање"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "ЦИ+ Хелпер и аутоматско искључивање/укључивање за ЦИ модуле"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "ЦИ+ Хелпер је инсталиран и ради!ЕСЦ_0ПИД: %с"
 
 msgid "CI+ Helper Plugin"
 msgstr "ЦИ+ помоћни додатак"
 
-msgid "Supported devices:"
-msgstr "Подржани уређаји:"
+msgid "CI+ Helper status:"
+msgstr "Статус ЦИ+ помоћника:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Други модели ће можда требати '/етц/циплус'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Додатак Цоммон Интерфаце Ассигнмент није пронађен. Инсталирајте га из системских додатака."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Онемогућите аутоматско покретање циплусхелпер-а"
+
+msgid "Enable auto-check module"
+msgstr "Омогућите модул за аутоматску проверу"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Омогући аутоматско покретање циплусхелпер-а"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ГРЕШКА: ЦИ+ Хелпер не ради!ЕСЦ_0Провери /хоме/роот/циплус_дебуг.лог"
+
+msgid "Install /etc/ciplus"
+msgstr "Инсталирајте /етц/циплус"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Инсталирајте алтернативни бинарни фајл (згемма-арм)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Инсталирајте РАДНИ бинарни фајл (хд51/6.нев)"
 
 msgid "Installed:"
 msgstr "Инсталирано:"
 
-msgid "CI+ helper"
-msgstr "ЦИ+ помоћник"
+msgid "None"
+msgstr "Ниједан"
 
-msgid "CI+ helper for Enigma2"
-msgstr "ЦИ+ помоћник за Енигма2"
+msgid "Not running"
+msgstr "Не трчи"
+
+msgid "off"
+msgstr "искључено"
+
+msgid "Open CI Assignment"
+msgstr "Отворите ЦИ задатак"
+
+msgid "Pause CI 1"
+msgstr "Паузира ЦИ 1"
+
+msgid "Pause CI 2"
+msgstr "Паузира ЦИ 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Уклоните /етц/циплус"
+
+msgid "Restart service!"
+msgstr "Поново покрените услугу!"
+
+msgid "Running"
+msgstr "Трчање"
+
+msgid "Save"
+msgstr "Сачувај"
+
+msgid "Show message after off/on"
+msgstr "Прикажи поруку након искључења/укључења"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Слот1: није присутан, Слот2: присутан"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Слот1: присутан, Слот2: није присутан"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Слот1: присутан, Слот2: присутан"
+
+msgid "Start ciplushelper"
+msgstr "Покрените циплусхелпер"
+
+msgid "Stop ciplushelper"
+msgstr "Стоп циплусхелпер"
+
+msgid "Supported devices:"
+msgstr "Подржани уређаји:"
+
+msgid "Supported models"
+msgstr "Подржани модели"
+
+msgid "Unknown"
+msgstr "Непознато"
+
+msgid "Update plugin"
+msgstr "Ажурирајте додатак"
+
+msgid "Updating plugin..."
+msgstr "Ажурирање додатка..."
 

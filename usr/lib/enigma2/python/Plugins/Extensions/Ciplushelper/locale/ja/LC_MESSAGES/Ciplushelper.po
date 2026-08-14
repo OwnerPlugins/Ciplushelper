@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ ヘルパー メニュー"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- 遅延オフ→オン (CI 1)"
 
-msgid "Supported models"
-msgstr "対応機種"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- 遅延オフ→オン (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "ciplushelper の自動起動を無効にする"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- オフ/オン後にサービスを再起動する (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "ciplushelper の自動起動を有効にする"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- オフ/オン後にサービスを再起動する (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "ciplushelper を停止します"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CIオートオフ/オン設定 ---"
 
-msgid "Start ciplushelper"
-msgstr "ciplushelper を開始する"
+msgid "0.5 sec"
+msgstr "0.5秒"
 
-msgid "Install version from Zgemma"
-msgstr "Zgemmaのバージョン"
+msgid "1 hour"
+msgstr "1時間"
 
-msgid "Disable CI+ slot"
-msgstr "CI+スロット"
+msgid "1 sec"
+msgstr "1秒"
 
-msgid "Enable CI+ slot"
-msgstr "CI+スロット"
+msgid "10 sec"
+msgstr "10秒"
 
-msgid "Install default version"
-msgstr "デフォルトバージョン"
+msgid "11 sec"
+msgstr "11秒"
 
-msgid "Remove"
-msgstr "取り除く"
+msgid "12 sec"
+msgstr "12秒"
 
-msgid "Install"
-msgstr "インストール"
+msgid "2 hour"
+msgstr "2時間"
 
-msgid "Oscam:"
-msgstr "オスカム:"
+msgid "2 sec"
+msgstr "2秒"
 
-msgid "Update plugin"
-msgstr "プラグインを更新する"
+msgid "3 hour"
+msgstr "3時間"
 
-msgid "Restart GUI"
-msgstr "GUIを再起動する"
+msgid "3 sec"
+msgstr "3秒"
 
-msgid "Need restart GUI"
-msgstr "GUIを再起動する必要があります"
+msgid "30 min"
+msgstr "30分"
 
-msgid "Oscam stopped."
-msgstr "オスカムは立ち止まった。"
+msgid "4 hour"
+msgstr "4時間"
 
-msgid "Oscam started."
-msgstr "オスカム始めました。"
+msgid "4 sec"
+msgstr "4秒"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam バイナリが見つかりません!"
+msgid "5 sec"
+msgstr "5秒"
 
-msgid "Updating plugin..."
-msgstr "プラグインを更新しています..."
+msgid "6 sec"
+msgstr "6秒"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "GUI を再起動してもよろしいですか?"
+msgid "7 sec"
+msgstr "7秒"
 
-msgid "Unknown"
-msgstr "未知"
+msgid "8 sec"
+msgstr "8秒"
+
+msgid "9 sec"
+msgstr "9秒"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - 自動オフ/オン"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - 自動オフ/オン"
+
+msgid "CI modules detected:"
+msgstr "検出された CI モジュール:"
+
+msgid "CI+ Helper"
+msgstr "CI+ ヘルパー"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ ヘルパーと自動オフ/オン"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ ヘルパーと CI モジュールの自動オフ/オン"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ ヘルパーがインストールされ、実行されています!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ ヘルパー プラグイン"
 
-msgid "Supported devices:"
-msgstr "サポートされているデバイス:"
+msgid "CI+ Helper status:"
+msgstr "CI+ ヘルパーのステータス:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "他のモデルには「/etc/ciplus」が必要な場合があります"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "共通インターフェイス割り当てプラグインが見つかりません。システムプラグインからインストールしてください。"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper の自動起動を無効にする"
+
+msgid "Enable auto-check module"
+msgstr "自動チェックモジュールを有効にする"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper の自動起動を有効にする"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "エラー: CI+ ヘルパーが実行されていません!\nCheck /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "/etc/ciplus をインストールする"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "代替バイナリ (zgemma-arm) をインストールする"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "動作するバイナリ (hd51/6.new) をインストールします。"
 
 msgid "Installed:"
 msgstr "インストール済み:"
 
-msgid "CI+ helper"
-msgstr "CI+ヘルパー"
+msgid "None"
+msgstr "なし"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Enigma2 の CI+ ヘルパー"
+msgid "Not running"
+msgstr "稼働していない"
+
+msgid "off"
+msgstr "オフ"
+
+msgid "Open CI Assignment"
+msgstr "オープンCIの割り当て"
+
+msgid "Pause CI 1"
+msgstr "CI 1 を一時停止します"
+
+msgid "Pause CI 2"
+msgstr "CI 2 を一時停止します"
+
+msgid "Remove /etc/ciplus"
+msgstr "/etc/ciplus を削除します"
+
+msgid "Restart service!"
+msgstr "サービス再開！"
+
+msgid "Running"
+msgstr "ランニング"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Show message after off/on"
+msgstr "オフ/オン後にメッセージを表示する"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "スロット 1: 存在しません、スロット 2: 存在します"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "スロット 1: 存在、スロット 2: 存在しない"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "スロット 1: 存在、スロット 2: 存在"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper を開始する"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper を停止します"
+
+msgid "Supported devices:"
+msgstr "サポートされているデバイス:"
+
+msgid "Supported models"
+msgstr "対応機種"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Update plugin"
+msgstr "プラグインを更新する"
+
+msgid "Updating plugin..."
+msgstr "プラグインを更新しています..."
 

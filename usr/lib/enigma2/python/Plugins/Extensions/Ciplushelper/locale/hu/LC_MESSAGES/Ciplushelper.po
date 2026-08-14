@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ helper menü"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Késleltetés ki-->be (CI 1)"
 
-msgid "Supported models"
-msgstr "Támogatott modellek"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Késleltetés ki-->be (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "A ciplushelper automatikus indítás letiltása"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- A szolgáltatás újraindítása ki/bekapcsolás után (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "A ciplushelper automatikus indítás engedélyezése"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- A szolgáltatás újraindítása ki/bekapcsolás után (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Állítsa le a ciplushelpert"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI automatikus ki/beállítás beállításai ---"
 
-msgid "Start ciplushelper"
-msgstr "Indítsa el a ciplushelpert"
+msgid "0.5 sec"
+msgstr "0,5 mp"
 
-msgid "Install version from Zgemma"
-msgstr "verzió a Zgemmától"
+msgid "1 hour"
+msgstr "1 óra"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ bővítőhely"
+msgid "1 sec"
+msgstr "1 mp"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ bővítőhely"
+msgid "10 sec"
+msgstr "10 mp"
 
-msgid "Install default version"
-msgstr "alapértelmezett verzió"
+msgid "11 sec"
+msgstr "11 mp"
 
-msgid "Remove"
-msgstr "Távolítsa el"
+msgid "12 sec"
+msgstr "12 mp"
 
-msgid "Install"
-msgstr "Telepítés"
+msgid "2 hour"
+msgstr "2 óra"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 mp"
 
-msgid "Update plugin"
-msgstr "Frissítse a bővítményt"
+msgid "3 hour"
+msgstr "3 óra"
 
-msgid "Restart GUI"
-msgstr "Indítsa újra a GUI-t"
+msgid "3 sec"
+msgstr "3 mp"
 
-msgid "Need restart GUI"
-msgstr "Újra kell indítani a GUI-t"
+msgid "30 min"
+msgstr "30 perc"
 
-msgid "Oscam stopped."
-msgstr "Oscam megállt."
+msgid "4 hour"
+msgstr "4 óra"
 
-msgid "Oscam started."
-msgstr "Oscam elkezdte."
+msgid "4 sec"
+msgstr "4 mp"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam bináris nem található!"
+msgid "5 sec"
+msgstr "5 mp"
 
-msgid "Updating plugin..."
-msgstr "Beépülő modul frissítése..."
+msgid "6 sec"
+msgstr "6 mp"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Biztos, hogy újra akarja indítani a GUI-t?"
+msgid "7 sec"
+msgstr "7 mp"
 
-msgid "Unknown"
-msgstr "Ismeretlen"
+msgid "8 sec"
+msgstr "8 mp"
+
+msgid "9 sec"
+msgstr "9 mp"
+
+msgid "Cancel"
+msgstr "Mégse"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - automatikus ki/be"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - automatikus ki/be"
+
+msgid "CI modules detected:"
+msgstr "CI modulok észlelve:"
+
+msgid "CI+ Helper"
+msgstr "CI+ Helper"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper és automatikus ki/be"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper és automatikus ki/bekapcsolás a CI modulokhoz"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper telepítve és fut!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
 
-msgid "Supported devices:"
-msgstr "Támogatott eszközök:"
+msgid "CI+ Helper status:"
+msgstr "CI+ Helper állapota:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Más modellekhez szükség lehet az '/etc/ciplus' fájlra"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "A Common Interface Assignment bővítmény nem található. Kérjük, telepítse a rendszerbővítményekből."
+
+msgid "Disable ciplushelper autostart"
+msgstr "A ciplushelper automatikus indítás letiltása"
+
+msgid "Enable auto-check module"
+msgstr "Az automatikus ellenőrző modul engedélyezése"
+
+msgid "Enable ciplushelper autostart"
+msgstr "A ciplushelper automatikus indítás engedélyezése"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "HIBA: A CI+ Helper nem fut!\nEllenőrizze a /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Telepítse az /etc/ciplus fájlt"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Alternatív bináris telepítés (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "A WORKING bináris telepítése (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Telepítve:"
 
-msgid "CI+ helper"
-msgstr "CI+ segítő"
+msgid "None"
+msgstr "Egyik sem"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+ segítő az Enigma2-hez"
+msgid "Not running"
+msgstr "Nem fut"
+
+msgid "off"
+msgstr "le"
+
+msgid "Open CI Assignment"
+msgstr "Nyissa meg a CI-hozzárendelést"
+
+msgid "Pause CI 1"
+msgstr "CI 1 szünetel"
+
+msgid "Pause CI 2"
+msgstr "CI 2 szünetel"
+
+msgid "Remove /etc/ciplus"
+msgstr "Távolítsa el az /etc/ciplus fájlt"
+
+msgid "Restart service!"
+msgstr "Indítsa újra a szolgáltatást!"
+
+msgid "Running"
+msgstr "Futás"
+
+msgid "Save"
+msgstr "Megtakarítás"
+
+msgid "Show message after off/on"
+msgstr "Üzenet megjelenítése ki/bekapcsolás után"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: nincs jelen, Slot2: van"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: jelen van, Slot2: nincs jelen"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: jelen, Slot2: jelen"
+
+msgid "Start ciplushelper"
+msgstr "Indítsa el a ciplushelpert"
+
+msgid "Stop ciplushelper"
+msgstr "Állítsa le a ciplushelpert"
+
+msgid "Supported devices:"
+msgstr "Támogatott eszközök:"
+
+msgid "Supported models"
+msgstr "Támogatott modellek"
+
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+msgid "Update plugin"
+msgstr "Frissítse a bővítményt"
+
+msgid "Updating plugin..."
+msgstr "Beépülő modul frissítése..."
 

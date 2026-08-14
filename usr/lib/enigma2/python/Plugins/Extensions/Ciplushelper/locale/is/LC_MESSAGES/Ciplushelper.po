@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ hjálparvalmynd"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Seinkað slökkt-->kveikt (CI 1)"
 
-msgid "Supported models"
-msgstr "Stuðlar gerðir"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Seinkað slökkt-->kveikt (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Slökktu á sjálfvirkri ræsingu ciplushelper"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Endurræstu þjónustu eftir slökkt/kveikt (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Virkja sjálfvirka ræsingu ciplushelper"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Endurræstu þjónustu eftir slökkt/kveikt (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Hættu ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI sjálfvirkt slökkt/kveikt stillingar ---"
 
-msgid "Start ciplushelper"
-msgstr "Byrjaðu ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 sek"
 
-msgid "Install version from Zgemma"
-msgstr "útgáfa frá Zgemma"
+msgid "1 hour"
+msgstr "1 klst"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ rauf"
+msgid "1 sec"
+msgstr "1 sek"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ rauf"
+msgid "10 sec"
+msgstr "10 sek"
 
-msgid "Install default version"
-msgstr "sjálfgefin útgáfa"
+msgid "11 sec"
+msgstr "11 sek"
 
-msgid "Remove"
-msgstr "Fjarlægja"
+msgid "12 sec"
+msgstr "12 sek"
 
-msgid "Install"
-msgstr "Settu upp"
+msgid "2 hour"
+msgstr "2 klst"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 sek"
 
-msgid "Update plugin"
-msgstr "Uppfæra viðbót"
+msgid "3 hour"
+msgstr "3 klst"
 
-msgid "Restart GUI"
-msgstr "Endurræstu GUI"
+msgid "3 sec"
+msgstr "3 sek"
 
-msgid "Need restart GUI"
-msgstr "Þarf að endurræsa GUI"
+msgid "30 min"
+msgstr "30 mín"
 
-msgid "Oscam stopped."
-msgstr "Oscam hætti."
+msgid "4 hour"
+msgstr "4 klst"
 
-msgid "Oscam started."
-msgstr "Oscam byrjaði."
+msgid "4 sec"
+msgstr "4 sek"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam tvöfaldur fannst ekki!"
+msgid "5 sec"
+msgstr "5 sek"
 
-msgid "Updating plugin..."
-msgstr "Uppfærir viðbót..."
+msgid "6 sec"
+msgstr "6 sek"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Ertu viss um að þú viljir endurræsa GUI?"
+msgid "7 sec"
+msgstr "7 sek"
 
-msgid "Unknown"
-msgstr "Óþekkt"
+msgid "8 sec"
+msgstr "8 sek"
+
+msgid "9 sec"
+msgstr "9 sek"
+
+msgid "Cancel"
+msgstr "Hætta við"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - sjálfvirk slökkt/kveikt"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - sjálfvirk slökkt/kveikt"
+
+msgid "CI modules detected:"
+msgstr "CI einingar fundust:"
+
+msgid "CI+ Helper"
+msgstr "CI+ hjálpari"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper og sjálfvirk slökkt/kveikt"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper og sjálfvirk slökkt/kveikt fyrir CI einingar"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper uppsett og í gangi!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ hjálparviðbót"
 
-msgid "Supported devices:"
-msgstr "Stuðningur tæki:"
+msgid "CI+ Helper status:"
+msgstr "CI+ hjálparstaða:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Aðrar gerðir gætu þurft '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Common Interface Assignment viðbót fannst ekki. Vinsamlegast settu það upp frá System Plugins."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Slökktu á sjálfvirkri ræsingu ciplushelper"
+
+msgid "Enable auto-check module"
+msgstr "Virkja sjálfvirka athugunareiningu"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Virkja sjálfvirka ræsingu ciplushelper"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "VILLA: CI+ hjálparinn er ekki í gangi!\nAthugaðu /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Settu upp /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Settu upp annan tvöfaldan (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Settu upp WORKING binary (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Uppsett:"
 
-msgid "CI+ helper"
-msgstr "CI+ hjálpari"
+msgid "None"
+msgstr "Engin"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+ hjálpari fyrir Enigma2"
+msgid "Not running"
+msgstr "Ekki í gangi"
+
+msgid "off"
+msgstr "af"
+
+msgid "Open CI Assignment"
+msgstr "Opna CI verkefni"
+
+msgid "Pause CI 1"
+msgstr "Gerir hlé á CI 1"
+
+msgid "Pause CI 2"
+msgstr "Gerir hlé á CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Fjarlægðu /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Endurræstu þjónustu!"
+
+msgid "Running"
+msgstr "Hlaupandi"
+
+msgid "Save"
+msgstr "Vista"
+
+msgid "Show message after off/on"
+msgstr "Sýna skilaboð eftir slökkt/kveikt"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Rauf1: ekki til staðar, Rauf2: til staðar"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Rauf1: til staðar, rauf2: ekki til staðar"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Rauf1: til staðar, Rauf2: til staðar"
+
+msgid "Start ciplushelper"
+msgstr "Byrjaðu ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Hættu ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Stuðningur tæki:"
+
+msgid "Supported models"
+msgstr "Stuðlar gerðir"
+
+msgid "Unknown"
+msgstr "Óþekkt"
+
+msgid "Update plugin"
+msgstr "Uppfæra viðbót"
+
+msgid "Updating plugin..."
+msgstr "Uppfærir viðbót..."
 

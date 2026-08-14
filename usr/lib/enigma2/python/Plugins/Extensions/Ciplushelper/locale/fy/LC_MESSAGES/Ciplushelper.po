@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ helpermenu"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Fertraging út--> oan (CI 1)"
 
-msgid "Supported models"
-msgstr "Stipe modellen"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Fertraging út--> oan (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Utskeakelje ciplushelper autostart"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Tsjinst opnij starte nei út/oan (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Aktivearje ciplushelper autostart"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Tsjinst opnij starte nei út/oan (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Stopje ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI auto út/oan ynstellings ---"
 
-msgid "Start ciplushelper"
-msgstr "Begjin ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 sek"
 
-msgid "Install version from Zgemma"
-msgstr "ferzje fan Zgemma"
+msgid "1 hour"
+msgstr "1 oere"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ slot"
+msgid "1 sec"
+msgstr "1 sek"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ slot"
+msgid "10 sec"
+msgstr "10 sek"
 
-msgid "Install default version"
-msgstr "standert ferzje"
+msgid "11 sec"
+msgstr "11 sek"
 
-msgid "Remove"
-msgstr "Fuortsmite"
+msgid "12 sec"
+msgstr "12 sek"
 
-msgid "Install"
-msgstr "Ynstallearje"
+msgid "2 hour"
+msgstr "2 oere"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 sek"
 
-msgid "Update plugin"
-msgstr "Update plugin"
+msgid "3 hour"
+msgstr "3 oere"
 
-msgid "Restart GUI"
-msgstr "GUI opnij starte"
+msgid "3 sec"
+msgstr "3 sek"
 
-msgid "Need restart GUI"
-msgstr "Need GUI opnij starte"
+msgid "30 min"
+msgstr "30 min"
 
-msgid "Oscam stopped."
-msgstr "Oscam stoppe."
+msgid "4 hour"
+msgstr "4 oere"
 
-msgid "Oscam started."
-msgstr "Oscam begon."
+msgid "4 sec"
+msgstr "4 sek"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam binêr net fûn!"
+msgid "5 sec"
+msgstr "5 sek"
 
-msgid "Updating plugin..."
-msgstr "Plugin bywurkje..."
+msgid "6 sec"
+msgstr "6 sek"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Binne jo wis dat jo de GUI opnij starte wolle?"
+msgid "7 sec"
+msgstr "7 sek"
 
-msgid "Unknown"
-msgstr "Ûnbekend"
+msgid "8 sec"
+msgstr "8 sek"
+
+msgid "9 sec"
+msgstr "9 sek"
+
+msgid "Cancel"
+msgstr "Ofbrekke"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - automatysk út/oan"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - automatysk út/oan"
+
+msgid "CI modules detected:"
+msgstr "CI-modules ûntdutsen:"
+
+msgid "CI+ Helper"
+msgstr "CI+ Helper"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper en auto út/oan"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI + Helper en auto út / oan foar CI modules"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper ynstallearre en rint!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
 
-msgid "Supported devices:"
-msgstr "Stipe apparaten:"
+msgid "CI+ Helper status:"
+msgstr "CI+ Helper status:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Oare modellen kinne '/etc/ciplus' nedich wêze"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Common Interface Assignment plugin net fûn. Ynstallearje it asjebleaft fan System Plugins."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Utskeakelje ciplushelper autostart"
+
+msgid "Enable auto-check module"
+msgstr "Aktivearje auto-kontrôle module"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Aktivearje ciplushelper autostart"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "FOUT: CI+ Helper rint net!\nKontrolearje /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Ynstallearje /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Ynstallearje alternative binary (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Ynstallearje WORKING binary (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Ynstallearre:"
 
-msgid "CI+ helper"
-msgstr "CI+ helper"
+msgid "None"
+msgstr "Gjin"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+ helper foar Enigma2"
+msgid "Not running"
+msgstr "Net rinne"
+
+msgid "off"
+msgstr "út"
+
+msgid "Open CI Assignment"
+msgstr "Iepenje CI Opdracht"
+
+msgid "Pause CI 1"
+msgstr "Pauzes CI 1"
+
+msgid "Pause CI 2"
+msgstr "Pauzes CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Fuortsmite /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Tsjinst opnij starte!"
+
+msgid "Running"
+msgstr "Te rinnen"
+
+msgid "Save"
+msgstr "Rêde"
+
+msgid "Show message after off/on"
+msgstr "Lit berjocht sjen nei út / oan"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: net oanwêzich, Slot2: oanwêzich"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: oanwêzich, Slot2: net oanwêzich"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: oanwêzich, Slot2: oanwêzich"
+
+msgid "Start ciplushelper"
+msgstr "Begjin ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Stopje ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Stipe apparaten:"
+
+msgid "Supported models"
+msgstr "Stipe modellen"
+
+msgid "Unknown"
+msgstr "Ûnbekend"
+
+msgid "Update plugin"
+msgstr "Update plugin"
+
+msgid "Updating plugin..."
+msgstr "Plugin bywurkje..."
 

@@ -13,65 +13,173 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Jeste li sigurni da želite ponovo pokrenuti GUI?"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Kašnjenje isključeno-->uključeno (CI 1)"
 
-msgid "CI+ helper"
-msgstr "CI+ pomoćnik"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Kašnjenje isključeno-->uključeno (CI 2)"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+ pomoćnik za Enigmu2"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Ponovno pokretanje servisa nakon isključenja/uključenja (CI 1)"
 
-msgid "CI+ helper menu"
-msgstr "CI+ pomoćni meni"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Ponovno pokretanje servisa nakon isključenja/uključenja (CI 2)"
+
+msgid "--- CI auto off/on settings ---"
+msgstr "--- Postavke automatskog isključivanja/uključivanja CI ---"
+
+msgid "0.5 sec"
+msgstr "0,5 sek"
+
+msgid "1 hour"
+msgstr "1 sat"
+
+msgid "1 sec"
+msgstr "1 sek"
+
+msgid "10 sec"
+msgstr "10 sek"
+
+msgid "11 sec"
+msgstr "11 sek"
+
+msgid "12 sec"
+msgstr "12 sek"
+
+msgid "2 hour"
+msgstr "2 sata"
+
+msgid "2 sec"
+msgstr "2 sek"
+
+msgid "3 hour"
+msgstr "3 sata"
+
+msgid "3 sec"
+msgstr "3 sek"
+
+msgid "30 min"
+msgstr "30 min"
+
+msgid "4 hour"
+msgstr "4 sata"
+
+msgid "4 sec"
+msgstr "4 sek"
+
+msgid "5 sec"
+msgstr "5 sek"
+
+msgid "6 sec"
+msgstr "6 sek"
+
+msgid "7 sec"
+msgstr "7 sek"
+
+msgid "8 sec"
+msgstr "8 sek"
+
+msgid "9 sec"
+msgstr "9 sek"
+
+msgid "Cancel"
+msgstr "Otkaži"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - automatsko isključivanje/uključivanje"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - automatsko isključivanje/uključivanje"
+
+msgid "CI modules detected:"
+msgstr "Otkriveni CI moduli:"
+
+msgid "CI+ Helper"
+msgstr "CI+ Helper"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper i automatsko isključivanje/uključivanje"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper i automatsko isključivanje/uključivanje za CI module"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper je instaliran i radi!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ slot"
+msgid "CI+ Helper status:"
+msgstr "Status CI+ pomoćnika:"
+
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Dodatak Common Interface Assignment nije pronađen. Instalirajte ga iz sistemskih dodataka."
 
 msgid "Disable ciplushelper autostart"
 msgstr "Onemogućite automatsko pokretanje ciplushelpera"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ slot"
+msgid "Enable auto-check module"
+msgstr "Omogućite modul za automatsku provjeru"
 
 msgid "Enable ciplushelper autostart"
 msgstr "Omogući automatsko pokretanje ciplushelpera"
 
-msgid "Install"
-msgstr "Instaliraj"
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "GREŠKA: CI+ Helper ne radi!\nProvjerite /home/root/ciplus_debug.log"
 
-msgid "Install default version"
-msgstr "zadana verzija"
+msgid "Install /etc/ciplus"
+msgstr "Instalirajte /etc/ciplus"
 
-msgid "Install version from Zgemma"
-msgstr "verzija od Zgemma"
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Instalirajte alternativni binarni fajl (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Instaliraj RADNI binarni fajl (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Instalirano:"
 
-msgid "Need restart GUI"
-msgstr "Treba ponovo pokrenuti GUI"
+msgid "None"
+msgstr "Nema"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam binarni fajl nije pronađen!"
+msgid "Not running"
+msgstr "Ne trči"
 
-msgid "Oscam started."
-msgstr "Oscam je počeo."
+msgid "off"
+msgstr "off"
 
-msgid "Oscam stopped."
-msgstr "Oscam je stao."
+msgid "Open CI Assignment"
+msgstr "Otvorite CI zadatak"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "Pause CI 1"
+msgstr "Pauzira CI 1"
 
-msgid "Remove"
-msgstr "Ukloni"
+msgid "Pause CI 2"
+msgstr "Pauzira CI 2"
 
-msgid "Restart GUI"
-msgstr "Ponovo pokrenite GUI"
+msgid "Remove /etc/ciplus"
+msgstr "Uklonite /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Ponovo pokrenite uslugu!"
+
+msgid "Running"
+msgstr "Trčanje"
+
+msgid "Save"
+msgstr "Sačuvaj"
+
+msgid "Show message after off/on"
+msgstr "Prikaži poruku nakon isključenja/uključenja"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: nije prisutan, Slot2: prisutan"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: prisutan, Slot2: nije prisutan"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: prisutan, Slot2: prisutan"
 
 msgid "Start ciplushelper"
 msgstr "Pokrenite ciplushelper"

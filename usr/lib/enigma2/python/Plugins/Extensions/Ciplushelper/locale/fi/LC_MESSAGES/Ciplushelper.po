@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+-apuvalikko"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Viive pois--> päällä (CI 1)"
 
-msgid "Supported models"
-msgstr "Tuetut mallit"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Viive pois--> päällä (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Poista ciplushelperin automaattinen käynnistys käytöstä"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Käynnistä palvelu uudelleen sammutuksen ja päällekytkennän jälkeen (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Ota ciplushelperin automaattinen käynnistys käyttöön"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Käynnistä palvelu uudelleen sammutuksen ja päällekytkennän jälkeen (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Lopeta ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI:n automaattiset sammutus/päälle-asetukset ---"
 
-msgid "Start ciplushelper"
-msgstr "Käynnistä ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 sekuntia"
 
-msgid "Install version from Zgemma"
-msgstr "Zgemman versio"
+msgid "1 hour"
+msgstr "1 tunti"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ paikka"
+msgid "1 sec"
+msgstr "1 sek"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ paikka"
+msgid "10 sec"
+msgstr "10 sek"
 
-msgid "Install default version"
-msgstr "oletusversio"
+msgid "11 sec"
+msgstr "11 sek"
 
-msgid "Remove"
-msgstr "Poistaa"
+msgid "12 sec"
+msgstr "12 sek"
 
-msgid "Install"
-msgstr "Asentaa"
+msgid "2 hour"
+msgstr "2 tuntia"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 sek"
 
-msgid "Update plugin"
-msgstr "Päivitä laajennus"
+msgid "3 hour"
+msgstr "3 tuntia"
 
-msgid "Restart GUI"
-msgstr "Käynnistä GUI uudelleen"
+msgid "3 sec"
+msgstr "3 sek"
 
-msgid "Need restart GUI"
-msgstr "GUI on käynnistettävä uudelleen"
+msgid "30 min"
+msgstr "30 min"
 
-msgid "Oscam stopped."
-msgstr "Oscam pysähtyi."
+msgid "4 hour"
+msgstr "4 tuntia"
 
-msgid "Oscam started."
-msgstr "Oscam alkoi."
+msgid "4 sec"
+msgstr "4 sek"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam-binaaria ei löydy!"
+msgid "5 sec"
+msgstr "5 sek"
 
-msgid "Updating plugin..."
-msgstr "Päivitetään laajennusta..."
+msgid "6 sec"
+msgstr "6 sek"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Oletko varma, että haluat käynnistää graafisen käyttöliittymän uudelleen?"
+msgid "7 sec"
+msgstr "7 sek"
 
-msgid "Unknown"
-msgstr "Tuntematon"
+msgid "8 sec"
+msgstr "8 sek"
+
+msgid "9 sec"
+msgstr "9 sek"
+
+msgid "Cancel"
+msgstr "Peruuttaa"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - automaattinen sammutus/päälle"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - automaattinen sammutus/päälle"
+
+msgid "CI modules detected:"
+msgstr "CI-moduuleja havaittu:"
+
+msgid "CI+ Helper"
+msgstr "CI+ Apulainen"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper ja automaattinen sammutus/päälle"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper ja automaattinen virrankatkaisu CI-moduuleille"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper asennettu ja käynnissä!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Plugin"
 
-msgid "Supported devices:"
-msgstr "Tuetut laitteet:"
+msgid "CI+ Helper status:"
+msgstr "CI+ Helper -tila:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Muut mallit saattavat tarvita '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Common Interface Assignment -laajennusta ei löydy. Asenna se System Pluginsista."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Poista ciplushelperin automaattinen käynnistys käytöstä"
+
+msgid "Enable auto-check module"
+msgstr "Ota automaattinen tarkistusmoduuli käyttöön"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ota ciplushelperin automaattinen käynnistys käyttöön"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "VIRHE: CI+ Helper ei ole käynnissä!\nTarkista /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Asenna /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Asenna vaihtoehtoinen binaari (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Asenna WORKING-binaari (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Asennettu:"
 
-msgid "CI+ helper"
-msgstr "CI+ apulainen"
+msgid "None"
+msgstr "Ei mitään"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+-apuohjelma Enigma2:lle"
+msgid "Not running"
+msgstr "Ei juosta"
+
+msgid "off"
+msgstr "pois"
+
+msgid "Open CI Assignment"
+msgstr "Avaa CI Assignment"
+
+msgid "Pause CI 1"
+msgstr "Keskeyttää CI 1:n"
+
+msgid "Pause CI 2"
+msgstr "Keskeyttää CI 2:n"
+
+msgid "Remove /etc/ciplus"
+msgstr "Poista /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Käynnistä palvelu uudelleen!"
+
+msgid "Running"
+msgstr "Juoksemassa"
+
+msgid "Save"
+msgstr "Tallentaa"
+
+msgid "Show message after off/on"
+msgstr "Näytä viesti pois päältä/päälle"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Paikka 1: ei läsnä, Paikka 2: läsnä"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Paikka 1: läsnä, paikka 2: ei ole läsnä"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Paikka 1: läsnä, Paikka 2: läsnä"
+
+msgid "Start ciplushelper"
+msgstr "Käynnistä ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Lopeta ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Tuetut laitteet:"
+
+msgid "Supported models"
+msgstr "Tuetut mallit"
+
+msgid "Unknown"
+msgstr "Tuntematon"
+
+msgid "Update plugin"
+msgstr "Päivitä laajennus"
+
+msgid "Updating plugin..."
+msgstr "Päivitetään laajennusta..."
 

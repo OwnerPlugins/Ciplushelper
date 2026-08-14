@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "Menuja ndihmëse CI+"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Vonesa joaktive-->aktivizuar (CI 1)"
 
-msgid "Supported models"
-msgstr "Modelet e mbështetura"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Vonesa joaktive-->aktivizuar (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Çaktivizo nisjen automatike të ciplushelper"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Rinis shërbimin pas fikjes/ndezjes (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Aktivizo nisjen automatike të ciplushelper"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Rinis shërbimin pas fikjes/ndezjes (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Stop ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- Cilësimet e fikjes/ndezjes automatike CI ---"
 
-msgid "Start ciplushelper"
-msgstr "Fillo ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 sek"
 
-msgid "Install version from Zgemma"
-msgstr "version nga Zgemma"
+msgid "1 hour"
+msgstr "1 orë"
 
-msgid "Disable CI+ slot"
-msgstr "slot CI+"
+msgid "1 sec"
+msgstr "1 sek"
 
-msgid "Enable CI+ slot"
-msgstr "slot CI+"
+msgid "10 sec"
+msgstr "10 sek"
 
-msgid "Install default version"
-msgstr "versioni i paracaktuar"
+msgid "11 sec"
+msgstr "11 sek"
 
-msgid "Remove"
-msgstr "Hiq"
+msgid "12 sec"
+msgstr "12 sek"
 
-msgid "Install"
-msgstr "Instaloni"
+msgid "2 hour"
+msgstr "2 orë"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 sek"
 
-msgid "Update plugin"
-msgstr "Përditëso shtojcën"
+msgid "3 hour"
+msgstr "3 orë"
 
-msgid "Restart GUI"
-msgstr "Rinisni GUI-në"
+msgid "3 sec"
+msgstr "3 sek"
 
-msgid "Need restart GUI"
-msgstr "Duhet rifilluar GUI"
+msgid "30 min"
+msgstr "30 min"
 
-msgid "Oscam stopped."
-msgstr "Oscam ndaloi."
+msgid "4 hour"
+msgstr "4 orë"
 
-msgid "Oscam started."
-msgstr "Oscam filloi."
+msgid "4 sec"
+msgstr "4 sek"
 
-msgid "Oscam binary not found!"
-msgstr "Binar Oscam nuk u gjet!"
+msgid "5 sec"
+msgstr "5 sek"
 
-msgid "Updating plugin..."
-msgstr "Po përditëson shtesën..."
+msgid "6 sec"
+msgstr "6 sek"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Jeni i sigurt që dëshironi të rinisni GUI-në?"
+msgid "7 sec"
+msgstr "7 sek"
 
-msgid "Unknown"
-msgstr "E panjohur"
+msgid "8 sec"
+msgstr "8 sek"
+
+msgid "9 sec"
+msgstr "9 sek"
+
+msgid "Cancel"
+msgstr "Anulo"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - fikje / ndezje automatike"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - fikje / ndezje automatike"
+
+msgid "CI modules detected:"
+msgstr "Modulet CI të zbuluara:"
+
+msgid "CI+ Helper"
+msgstr "Ndihmës CI+"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "Ndihmës CI+ dhe fikje/ndezje automatike"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "Ndihmës CI+ dhe fikja/ndezja automatike për modulet CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "Ndihmësi CI+ është instaluar dhe funksionon!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "Shtojca ndihmëse CI+"
 
-msgid "Supported devices:"
-msgstr "Pajisjet e mbështetura:"
+msgid "CI+ Helper status:"
+msgstr "Statusi i ndihmësit CI+:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Modele të tjera mund të kenë nevojë për '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Shtojca e përbashkët e caktimit të ndërfaqes nuk u gjet. Ju lutemi instaloni atë nga Shtojcat e Sistemit."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Çaktivizo nisjen automatike të ciplushelper"
+
+msgid "Enable auto-check module"
+msgstr "Aktivizo modulin e kontrollit automatik"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Aktivizo nisjen automatike të ciplushelper"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "GABIM: Ndihmësi CI+ nuk funksionon!\nKontrollo /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Instaloni /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Instaloni binare alternative (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Instalo binarin WORKING (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Instaluar:"
 
-msgid "CI+ helper"
-msgstr "Ndihmës CI+"
+msgid "None"
+msgstr "Asnjë"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Ndihmës CI+ për Enigma2"
+msgid "Not running"
+msgstr "Jo duke vrapuar"
+
+msgid "off"
+msgstr "fikur"
+
+msgid "Open CI Assignment"
+msgstr "Hap Detyrën CI"
+
+msgid "Pause CI 1"
+msgstr "Ndalon CI 1"
+
+msgid "Pause CI 2"
+msgstr "Pushon CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Hiq /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Rinis shërbimin!"
+
+msgid "Running"
+msgstr "Vrapimi"
+
+msgid "Save"
+msgstr "Ruaj"
+
+msgid "Show message after off/on"
+msgstr "Shfaq mesazhin pas çaktivizimit/ndezjes"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot 1: jo i pranishëm, Slot2: i pranishëm"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: i pranishëm, Slot2: jo i pranishëm"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot 1: i pranishëm, Slot2: i pranishëm"
+
+msgid "Start ciplushelper"
+msgstr "Fillo ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Stop ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Pajisjet e mbështetura:"
+
+msgid "Supported models"
+msgstr "Modelet e mbështetura"
+
+msgid "Unknown"
+msgstr "E panjohur"
+
+msgid "Update plugin"
+msgstr "Përditëso shtojcën"
+
+msgid "Updating plugin..."
+msgstr "Po përditëson shtesën..."
 

@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ help menuo"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Prokrasto malŝaltita-->ŝaltita (CI 1)"
 
-msgid "Supported models"
-msgstr "Subtenataj modeloj"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Prokrasto malŝaltita-->ŝaltita (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Malebligu ciplushelper-aŭtomatan lanĉon"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Rekomencu servon post malŝalto/ŝaltado (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Ebligu ciplushelper-aŭtomatan lanĉon"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Rekomencu servon post malŝalto/ŝaltado (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Haltu ciplushelper"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI aŭtomate malŝalti/ŝalti agordojn ---"
 
-msgid "Start ciplushelper"
-msgstr "Komencu ciplushelper"
+msgid "0.5 sec"
+msgstr "0,5 sek"
 
-msgid "Install version from Zgemma"
-msgstr "versio de Zgemma"
+msgid "1 hour"
+msgstr "1 horo"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ fendo"
+msgid "1 sec"
+msgstr "1 sek"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ fendo"
+msgid "10 sec"
+msgstr "10 sek"
 
-msgid "Install default version"
-msgstr "defaŭlta versio"
+msgid "11 sec"
+msgstr "11 sek"
 
-msgid "Remove"
-msgstr "Forigi"
+msgid "12 sec"
+msgstr "12 sek"
 
-msgid "Install"
-msgstr "Instali"
+msgid "2 hour"
+msgstr "2 horo"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 sek"
 
-msgid "Update plugin"
-msgstr "Ĝisdatigi kromaĵon"
+msgid "3 hour"
+msgstr "3 horo"
 
-msgid "Restart GUI"
-msgstr "Rekomencu GUI"
+msgid "3 sec"
+msgstr "3 sek"
 
-msgid "Need restart GUI"
-msgstr "Necesas rekomenci GUI"
+msgid "30 min"
+msgstr "30 min"
 
-msgid "Oscam stopped."
-msgstr "Oscam haltis."
+msgid "4 hour"
+msgstr "4 horo"
 
-msgid "Oscam started."
-msgstr "Oscam komencis."
+msgid "4 sec"
+msgstr "4 sek"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam-binaro ne trovita!"
+msgid "5 sec"
+msgstr "5 sek"
 
-msgid "Updating plugin..."
-msgstr "Ĝisdatigante aldonaĵon..."
+msgid "6 sec"
+msgstr "6 sek"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "Ĉu vi certas, ke vi volas rekomenci la GUI?"
+msgid "7 sec"
+msgstr "7 sek"
 
-msgid "Unknown"
-msgstr "Nekonata"
+msgid "8 sec"
+msgstr "8 sek"
+
+msgid "9 sec"
+msgstr "9 sek"
+
+msgid "Cancel"
+msgstr "Nuligi"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - aŭtomata malŝalto/ŝaltita"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - aŭtomata malŝaltita/ŝaltita"
+
+msgid "CI modules detected:"
+msgstr "CI-moduloj detektitaj:"
+
+msgid "CI+ Helper"
+msgstr "CI+ Helpanto"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper kaj aŭtomata malŝalto/ŝaltilo"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper kaj aŭtomata malŝalto/ŝaltilo por CI-moduloj"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Helper instalita kaj funkcianta!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Helper Kromaĵo"
 
-msgid "Supported devices:"
-msgstr "Subtenataj aparatoj:"
+msgid "CI+ Helper status:"
+msgstr "CI+-Helpanta statuso:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Aliaj modeloj eble bezonas '/etc/ciplus'"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Aldonaĵo pri Komuna Interfaco-Asigno ne trovita. Bonvolu instali ĝin de Sistemaj Kromaĵoj."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Malebligu ciplushelper-aŭtomatan lanĉon"
+
+msgid "Enable auto-check module"
+msgstr "Ebligu aŭtomatan kontrolon-modulon"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ebligu ciplushelper-aŭtomatan lanĉon"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "ERARO: CI+ Helper ne funkcias!\nKontrolu /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "Instalu /etc/ciplus"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Instalu alternativan binaron (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "Instalu WORKING-binaron (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Instalita:"
 
-msgid "CI+ helper"
-msgstr "CI+ helpanto"
+msgid "None"
+msgstr "Neniu"
 
-msgid "CI+ helper for Enigma2"
-msgstr "CI+-helpanto por Enigma2"
+msgid "Not running"
+msgstr "Ne kuras"
+
+msgid "off"
+msgstr "for"
+
+msgid "Open CI Assignment"
+msgstr "Malfermu CI-Asignon"
+
+msgid "Pause CI 1"
+msgstr "Paŭzoj CI 1"
+
+msgid "Pause CI 2"
+msgstr "Paŭzoj CI 2"
+
+msgid "Remove /etc/ciplus"
+msgstr "Forigu /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Rekomencu servon!"
+
+msgid "Running"
+msgstr "Kurante"
+
+msgid "Save"
+msgstr "Konservu"
+
+msgid "Show message after off/on"
+msgstr "Montru mesaĝon post malŝalto/ŝaltita"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: ne ĉeestas, Slot2: ĉeestas"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: ĉeestanta, Slot2: ne ĉeestanta"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: ĉeestanta, Slot2: ĉeestanta"
+
+msgid "Start ciplushelper"
+msgstr "Komencu ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Haltu ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Subtenataj aparatoj:"
+
+msgid "Supported models"
+msgstr "Subtenataj modeloj"
+
+msgid "Unknown"
+msgstr "Nekonata"
+
+msgid "Update plugin"
+msgstr "Ĝisdatigi kromaĵon"
+
+msgid "Updating plugin..."
+msgstr "Ĝisdatigante aldonaĵon..."
 

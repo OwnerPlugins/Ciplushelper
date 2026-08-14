@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ yardımcı menüsü"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Gecikme kapalı-->açık (CI 1)"
 
-msgid "Supported models"
-msgstr "Desteklenen modeller"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Gecikme kapalı-->açık (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "Ciplushelper otomatik başlatmayı devre dışı bırak"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Kapatma/açma sonrasında hizmeti yeniden başlatın (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "Ciplushelper otomatik başlatmayı etkinleştir"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Kapatma/açma sonrasında hizmeti yeniden başlatın (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "Ciplushelper'ı durdur"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI otomatik kapatma/açma ayarları ---"
 
-msgid "Start ciplushelper"
-msgstr "Ciplushelper'ı başlat"
+msgid "0.5 sec"
+msgstr "0,5 saniye"
 
-msgid "Install version from Zgemma"
-msgstr "Zgemma'dan versiyon"
+msgid "1 hour"
+msgstr "1 saat"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ yuvası"
+msgid "1 sec"
+msgstr "1 saniye"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ yuvası"
+msgid "10 sec"
+msgstr "10 saniye"
 
-msgid "Install default version"
-msgstr "varsayılan sürüm"
+msgid "11 sec"
+msgstr "11 saniye"
 
-msgid "Remove"
-msgstr "Kaldırmak"
+msgid "12 sec"
+msgstr "12 saniye"
 
-msgid "Install"
-msgstr "Düzenlemek"
+msgid "2 hour"
+msgstr "2 saat"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 saniye"
 
-msgid "Update plugin"
-msgstr "Eklentiyi güncelle"
+msgid "3 hour"
+msgstr "3 saat"
 
-msgid "Restart GUI"
-msgstr "GUI'yi yeniden başlat"
+msgid "3 sec"
+msgstr "3 saniye"
 
-msgid "Need restart GUI"
-msgstr "GUI'nin yeniden başlatılması gerekiyor"
+msgid "30 min"
+msgstr "30 dakika"
 
-msgid "Oscam stopped."
-msgstr "Oscam durdu."
+msgid "4 hour"
+msgstr "4 saat"
 
-msgid "Oscam started."
-msgstr "Oscam başladı."
+msgid "4 sec"
+msgstr "4 saniye"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam ikili dosyası bulunamadı!"
+msgid "5 sec"
+msgstr "5 saniye"
 
-msgid "Updating plugin..."
-msgstr "Eklenti güncelleniyor..."
+msgid "6 sec"
+msgstr "6 saniye"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "GUI'yi yeniden başlatmak istediğinizden emin misiniz?"
+msgid "7 sec"
+msgstr "7 saniye"
 
-msgid "Unknown"
-msgstr "Bilinmiyor"
+msgid "8 sec"
+msgstr "8 saniye"
+
+msgid "9 sec"
+msgstr "9 saniye"
+
+msgid "Cancel"
+msgstr "İptal etmek"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - otomatik kapatma/açma"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - otomatik kapatma/açma"
+
+msgid "CI modules detected:"
+msgstr "CI modülleri algılandı:"
+
+msgid "CI+ Helper"
+msgstr "CI+ Yardımcısı"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Yardımcısı ve otomatik kapatma/açma"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Yardımcısı ve CI modülleri için otomatik kapatma/açma"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ Yardımcısı kuruldu ve çalışıyor!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ Yardımcı Eklentisi"
 
-msgid "Supported devices:"
-msgstr "Desteklenen cihazlar:"
+msgid "CI+ Helper status:"
+msgstr "CI+ Yardımcısı durumu:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "Diğer modellerde '/etc/ciplus' gerekebilir"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Ortak Arayüz Atama eklentisi bulunamadı. Lütfen Sistem Eklentilerinden yükleyin."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Ciplushelper otomatik başlatmayı devre dışı bırak"
+
+msgid "Enable auto-check module"
+msgstr "Otomatik kontrol modülünü etkinleştir"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Ciplushelper otomatik başlatmayı etkinleştir"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "HATA: CI+ Yardımcısı çalışmıyor!\nKontrol edin /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "/etc/ciplus'ı yükleyin"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "Alternatif ikili programı (zgemma-arm) yükleyin"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "WORKING ikili dosyasını yükleyin (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "Kurulu:"
 
-msgid "CI+ helper"
-msgstr "CI+ yardımcısı"
+msgid "None"
+msgstr "Hiçbiri"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Enigma2 için CI+ yardımcısı"
+msgid "Not running"
+msgstr "Çalışmıyor"
+
+msgid "off"
+msgstr "kapalı"
+
+msgid "Open CI Assignment"
+msgstr "CI Atamasını Aç"
+
+msgid "Pause CI 1"
+msgstr "CI 1'i duraklatır"
+
+msgid "Pause CI 2"
+msgstr "CI 2'yi duraklatır"
+
+msgid "Remove /etc/ciplus"
+msgstr "/etc/ciplus'ı kaldır"
+
+msgid "Restart service!"
+msgstr "Hizmeti yeniden başlatın!"
+
+msgid "Running"
+msgstr "Koşma"
+
+msgid "Save"
+msgstr "Kaydetmek"
+
+msgid "Show message after off/on"
+msgstr "Mesajı kapattıktan/açtıktan sonra göster"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: mevcut değil, Slot2: mevcut"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: mevcut, Slot2: mevcut değil"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: mevcut, Slot2: mevcut"
+
+msgid "Start ciplushelper"
+msgstr "Ciplushelper'ı başlat"
+
+msgid "Stop ciplushelper"
+msgstr "Ciplushelper'ı durdur"
+
+msgid "Supported devices:"
+msgstr "Desteklenen cihazlar:"
+
+msgid "Supported models"
+msgstr "Desteklenen modeller"
+
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+msgid "Update plugin"
+msgstr "Eklentiyi güncelle"
+
+msgid "Updating plugin..."
+msgstr "Eklenti güncelleniyor..."
 

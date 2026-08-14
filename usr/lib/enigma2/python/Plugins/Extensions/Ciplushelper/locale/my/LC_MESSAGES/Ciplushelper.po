@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ အကူအညီ မီနူး"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- နှောင့်နှေးပိတ်ခြင်း--> (CI 1) ကိုဖွင့်ပါ။"
 
-msgid "Supported models"
-msgstr "ပံ့ပိုးထားသောမော်ဒယ်များ"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- နှောင့်နှေးပိတ်ခြင်း--> (CI 2) ကိုဖွင့်ပါ။"
 
-msgid "Disable ciplushelper autostart"
-msgstr "ciplushelper autostart ကိုပိတ်ပါ။"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- ပိတ်/ဖွင့်ပြီးနောက် ဝန်ဆောင်မှုကို ပြန်လည်စတင်ပါ (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "ciplushelper autostart ကိုဖွင့်ပါ။"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- ပိတ်/ဖွင့်ပြီးနောက် ဝန်ဆောင်မှုကို ပြန်လည်စတင်ပါ (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "ciplushelper ရပ်ပါ။"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI အလိုအလျောက် ပိတ်/ဖွင့် ဆက်တင်များ ---"
 
-msgid "Start ciplushelper"
-msgstr "ciplushelper ကိုစတင်ပါ။"
+msgid "0.5 sec"
+msgstr "0.5 စက္ကန့်"
 
-msgid "Install version from Zgemma"
-msgstr "Zgemma မှဗားရှင်း"
+msgid "1 hour"
+msgstr "၁ နာရီ"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ အပေါက်"
+msgid "1 sec"
+msgstr "1 စက္ကန့်"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ အပေါက်"
+msgid "10 sec"
+msgstr "10 စက္ကန့်"
 
-msgid "Install default version"
-msgstr "မူရင်းဗားရှင်း"
+msgid "11 sec"
+msgstr "11 စက္ကန့်"
 
-msgid "Remove"
-msgstr "ဖယ်ရှားပါ။"
+msgid "12 sec"
+msgstr "12 စက္ကန့်"
 
-msgid "Install"
-msgstr "တပ်ဆင်ပါ။"
+msgid "2 hour"
+msgstr "၂ နာရီ"
 
-msgid "Oscam:"
-msgstr "Oscam-"
+msgid "2 sec"
+msgstr "2 စက္ကန့်"
 
-msgid "Update plugin"
-msgstr "ပလပ်အင်ကို အပ်ဒိတ်လုပ်ပါ။"
+msgid "3 hour"
+msgstr "၃ နာရီ"
 
-msgid "Restart GUI"
-msgstr "GUI ကို ပြန်လည်စတင်ပါ။"
+msgid "3 sec"
+msgstr "3 စက္ကန့်"
 
-msgid "Need restart GUI"
-msgstr "GUI ကို ပြန်လည်စတင်ရန် လိုအပ်ပါသည်။"
+msgid "30 min"
+msgstr "30 မိနစ်"
 
-msgid "Oscam stopped."
-msgstr "Oscam ရပ်တန့်သွားသည်။"
+msgid "4 hour"
+msgstr "၄ နာရီ"
 
-msgid "Oscam started."
-msgstr "Oscam စတင်ခဲ့သည်။"
+msgid "4 sec"
+msgstr "4 စက္ကန့်"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam binary မတွေ့ပါ။"
+msgid "5 sec"
+msgstr "5 စက္ကန့်"
 
-msgid "Updating plugin..."
-msgstr "ပလပ်အင်ကို အပ်ဒိတ်လုပ်နေသည်..."
+msgid "6 sec"
+msgstr "6 စက္ကန့်"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "GUI ကို ပြန်လည်စတင်လိုသည်မှာ သေချာပါသလား။"
+msgid "7 sec"
+msgstr "7 စက္ကန့်"
 
-msgid "Unknown"
-msgstr "မသိ"
+msgid "8 sec"
+msgstr "8 စက္ကန့်"
+
+msgid "9 sec"
+msgstr "၉ စက္ကန့်"
+
+msgid "Cancel"
+msgstr "မလုပ်တော့"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - အလိုအလျောက်ပိတ်/ဖွင့်ပါ။"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - အလိုအလျောက်ပိတ်/ဖွင့်ပါ။"
+
+msgid "CI modules detected:"
+msgstr "CI မော်ဂျူးများကို တွေ့ရှိသည်-"
+
+msgid "CI+ Helper"
+msgstr "CI+ အကူအညီပေးသူ"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ အကူအညီပေးသူနှင့် အလိုအလျောက်ပိတ်/ဖွင့်ပါ။"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ အထောက်အကူနှင့် CI မော်ဂျူးများအတွက် အလိုအလျောက်ပိတ်/ဖွင့်ပါ။"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ အကူအညီပေးသူကို ထည့်သွင်းပြီး လုပ်ဆောင်နေသည်!\nPID- %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ အကူအညီပေးသူ ပလပ်အင်"
 
-msgid "Supported devices:"
-msgstr "ပံ့ပိုးထားသော စက်များ-"
+msgid "CI+ Helper status:"
+msgstr "CI+ အကူအညီပေးသူ အခြေအနေ-"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "အခြားမော်ဒယ်များသည် '/etc/ciplus' လိုအပ်နိုင်သည်"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Common Interface Assignment plugin ကို ရှာမတွေ့ပါ။ System Plugins မှ ကျေးဇူးပြု၍ ထည့်သွင်းပါ။"
+
+msgid "Disable ciplushelper autostart"
+msgstr "ciplushelper autostart ကိုပိတ်ပါ။"
+
+msgid "Enable auto-check module"
+msgstr "အလိုအလျောက်စစ်ဆေးခြင်း module ကိုဖွင့်ပါ။"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper autostart ကိုဖွင့်ပါ။"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "အမှားအယွင်း- CI+ အကူအညီပေးသူ မလည်ပတ်ပါ!\nစစ်ဆေးပါ /home/root/ciplus_debug.log"
+
+msgid "Install /etc/ciplus"
+msgstr "/etc/ciplus ကို ထည့်သွင်းပါ။"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "အစားထိုး binary (zgemma-arm) ကို ထည့်သွင်းပါ"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "WORKING binary ကို ထည့်သွင်းပါ (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "ထည့်သွင်းထားသည်-"
 
-msgid "CI+ helper"
-msgstr "CI+ အကူအညီပေးသူ"
+msgid "None"
+msgstr "တစ်ခုမှ"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Enigma2 အတွက် CI+ ကူညီသူ"
+msgid "Not running"
+msgstr "မပြေးဘူး။"
+
+msgid "off"
+msgstr "off"
+
+msgid "Open CI Assignment"
+msgstr "CI Assignment ကိုဖွင့်ပါ။"
+
+msgid "Pause CI 1"
+msgstr "CI 1 ကို ခေတ္တရပ်သည်။"
+
+msgid "Pause CI 2"
+msgstr "CI 2 ကို ခေတ္တရပ်သည်။"
+
+msgid "Remove /etc/ciplus"
+msgstr "/etc/ciplus ကို ဖယ်ရှားပါ။"
+
+msgid "Restart service!"
+msgstr "ဝန်ဆောင်မှုကို ပြန်လည်စတင်ပါ။"
+
+msgid "Running"
+msgstr "ပြေးသည်။"
+
+msgid "Save"
+msgstr "သိမ်းဆည်းပါ။"
+
+msgid "Show message after off/on"
+msgstr "ပိတ်/ဖွင့်ပြီးနောက် မက်ဆေ့ချ်ကို ပြပါ။"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: မရှိပါ၊ Slot2: လက်ရှိပါ။"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1- ပစ္စုပ္ပန်၊ Slot2- မတည်ရှိပါ။"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1- ပစ္စုပ္ပန်၊ Slot2- ပစ္စုပ္ပန်"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper ကိုစတင်ပါ။"
+
+msgid "Stop ciplushelper"
+msgstr "ciplushelper ရပ်ပါ။"
+
+msgid "Supported devices:"
+msgstr "ပံ့ပိုးထားသော စက်များ-"
+
+msgid "Supported models"
+msgstr "ပံ့ပိုးထားသောမော်ဒယ်များ"
+
+msgid "Unknown"
+msgstr "မသိ"
+
+msgid "Update plugin"
+msgstr "ပလပ်အင်ကို အပ်ဒိတ်လုပ်ပါ။"
+
+msgid "Updating plugin..."
+msgstr "ပလပ်အင်ကို အပ်ဒိတ်လုပ်နေသည်..."
 

@@ -13,65 +13,173 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "هل أنت متأكد أنك تريد إعادة تشغيل واجهة المستخدم الرسومية؟"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- إيقاف التأخير-->تشغيل (CI 1)"
 
-msgid "CI+ helper"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- إيقاف التأخير-->تشغيل (CI 2)"
+
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- إعادة تشغيل الخدمة بعد إيقاف/تشغيل (CI 1)"
+
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- إعادة تشغيل الخدمة بعد إيقاف/تشغيل (CI 2)"
+
+msgid "--- CI auto off/on settings ---"
+msgstr "--- إعدادات إيقاف/تشغيل CI تلقائيًا ---"
+
+msgid "0.5 sec"
+msgstr "0.5 ثانية"
+
+msgid "1 hour"
+msgstr "1 ساعة"
+
+msgid "1 sec"
+msgstr "1 ثانية"
+
+msgid "10 sec"
+msgstr "10 ثانية"
+
+msgid "11 sec"
+msgstr "11 ثانية"
+
+msgid "12 sec"
+msgstr "12 ثانية"
+
+msgid "2 hour"
+msgstr "2 ساعة"
+
+msgid "2 sec"
+msgstr "2 ثانية"
+
+msgid "3 hour"
+msgstr "3 ساعات"
+
+msgid "3 sec"
+msgstr "3 ثانية"
+
+msgid "30 min"
+msgstr "30 دقيقة"
+
+msgid "4 hour"
+msgstr "4 ساعات"
+
+msgid "4 sec"
+msgstr "4 ثانية"
+
+msgid "5 sec"
+msgstr "5 ثانية"
+
+msgid "6 sec"
+msgstr "6 ثانية"
+
+msgid "7 sec"
+msgstr "7 ثانية"
+
+msgid "8 sec"
+msgstr "8 ثانية"
+
+msgid "9 sec"
+msgstr "9 ثانية"
+
+msgid "Cancel"
+msgstr "يلغي"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - إيقاف/تشغيل تلقائي"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - إيقاف/تشغيل تلقائي"
+
+msgid "CI modules detected:"
+msgstr "تم اكتشاف وحدات CI:"
+
+msgid "CI+ Helper"
 msgstr "مساعد سي +"
 
-msgid "CI+ helper for Enigma2"
-msgstr "مساعد CI+ لـ Enigma2"
+msgid "CI+ Helper and auto off/on"
+msgstr "مساعد CI+ وإيقاف/تشغيل تلقائي"
 
-msgid "CI+ helper menu"
-msgstr "قائمة مساعد CI+"
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "مساعد CI+ وإيقاف/تشغيل تلقائي لوحدات CI"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "تم تثبيت وتشغيل مساعد CI+!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "البرنامج المساعد CI +"
 
-msgid "Disable CI+ slot"
-msgstr "فتحة CI+"
+msgid "CI+ Helper status:"
+msgstr "حالة مساعد CI+:"
+
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "لم يتم العثور على البرنامج المساعد لتعيين الواجهة المشتركة. يرجى تثبيته من مكونات النظام الإضافية."
 
 msgid "Disable ciplushelper autostart"
 msgstr "تعطيل التشغيل التلقائي لـ ciplushelper"
 
-msgid "Enable CI+ slot"
-msgstr "فتحة CI+"
+msgid "Enable auto-check module"
+msgstr "تمكين وحدة الفحص التلقائي"
 
 msgid "Enable ciplushelper autostart"
 msgstr "تمكين التشغيل التلقائي لـ ciplushelper"
 
-msgid "Install"
-msgstr "ثَبَّتَ"
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "خطأ: مساعد CI+ لا يعمل!\nCheck /home/root/ciplus_debug.log"
 
-msgid "Install default version"
-msgstr "الإصدار الافتراضي"
+msgid "Install /etc/ciplus"
+msgstr "تثبيت /etc/ciplus"
 
-msgid "Install version from Zgemma"
-msgstr "نسخة من Zgemma"
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "تثبيت ثنائي بديل (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "تثبيت العمل الثنائي (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "تم التثبيت:"
 
-msgid "Need restart GUI"
-msgstr "تحتاج إلى إعادة تشغيل واجهة المستخدم الرسومية"
+msgid "None"
+msgstr "لا أحد"
 
-msgid "Oscam binary not found!"
-msgstr "لم يتم العثور على ثنائي أوسكام!"
+msgid "Not running"
+msgstr "لا يعمل"
 
-msgid "Oscam started."
-msgstr "بدأ أوسكام."
+msgid "off"
+msgstr "عن"
 
-msgid "Oscam stopped."
-msgstr "توقف أوسكام."
+msgid "Open CI Assignment"
+msgstr "افتح مهمة CI"
 
-msgid "Oscam:"
-msgstr "أوسكام:"
+msgid "Pause CI 1"
+msgstr "توقف مؤقت CI 1"
 
-msgid "Remove"
-msgstr "يزيل"
+msgid "Pause CI 2"
+msgstr "توقف مؤقت CI 2"
 
-msgid "Restart GUI"
-msgstr "أعد تشغيل واجهة المستخدم الرسومية"
+msgid "Remove /etc/ciplus"
+msgstr "قم بإزالة /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "إعادة تشغيل الخدمة!"
+
+msgid "Running"
+msgstr "جري"
+
+msgid "Save"
+msgstr "يحفظ"
+
+msgid "Show message after off/on"
+msgstr "إظهار الرسالة بعد الإيقاف/التشغيل"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "الفتحة 1: غير موجودة، الفتحة 2: موجودة"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "الفتحة 1: موجودة، الفتحة 2: غير موجودة"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "الفتحة 1: الحاضر، الفتحة 2: الحاضر"
 
 msgid "Start ciplushelper"
 msgstr "ابدأ تشغيل ciplushelper"

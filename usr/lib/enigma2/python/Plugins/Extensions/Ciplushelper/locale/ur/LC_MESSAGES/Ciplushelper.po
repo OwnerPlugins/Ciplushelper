@@ -13,87 +13,192 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "CI+ helper menu"
-msgstr "CI+ مددگار مینو"
+msgid "- Delay off-->on (CI 1)"
+msgstr "- تاخیر آف --> آن (CI 1)"
 
-msgid "Supported models"
-msgstr "تائید شدہ ماڈلز"
+msgid "- Delay off-->on (CI 2)"
+msgstr "- تاخیر سے آف --> آن (CI 2)"
 
-msgid "Disable ciplushelper autostart"
-msgstr "سیپلس ہیلپر آٹو اسٹارٹ کو غیر فعال کریں۔"
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- آف/آن کے بعد سروس دوبارہ شروع کریں (CI 1)"
 
-msgid "Enable ciplushelper autostart"
-msgstr "ciplushelper آٹو اسٹارٹ کو فعال کریں۔"
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- آف/آن کے بعد سروس دوبارہ شروع کریں (CI 2)"
 
-msgid "Stop ciplushelper"
-msgstr "سیپلس ہیلپر کو روکیں۔"
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI آٹو آف/آن سیٹنگز ---"
 
-msgid "Start ciplushelper"
-msgstr "ciplushelper شروع کریں۔"
+msgid "0.5 sec"
+msgstr "0.5 سیکنڈ"
 
-msgid "Install version from Zgemma"
-msgstr "Zgemma سے ورژن"
+msgid "1 hour"
+msgstr "1 گھنٹہ"
 
-msgid "Disable CI+ slot"
-msgstr "CI+ سلاٹ"
+msgid "1 sec"
+msgstr "1 سیکنڈ"
 
-msgid "Enable CI+ slot"
-msgstr "CI+ سلاٹ"
+msgid "10 sec"
+msgstr "10 سیکنڈ"
 
-msgid "Install default version"
-msgstr "پہلے سے طے شدہ ورژن"
+msgid "11 sec"
+msgstr "11 سیکنڈ"
 
-msgid "Remove"
-msgstr "ہٹا دیں۔"
+msgid "12 sec"
+msgstr "12 سیکنڈ"
 
-msgid "Install"
-msgstr "انسٹال کریں۔"
+msgid "2 hour"
+msgstr "2 گھنٹے"
 
-msgid "Oscam:"
-msgstr "Oscam:"
+msgid "2 sec"
+msgstr "2 سیکنڈ"
 
-msgid "Update plugin"
-msgstr "پلگ ان کو اپ ڈیٹ کریں۔"
+msgid "3 hour"
+msgstr "3 گھنٹے"
 
-msgid "Restart GUI"
-msgstr "GUI دوبارہ شروع کریں۔"
+msgid "3 sec"
+msgstr "3 سیکنڈ"
 
-msgid "Need restart GUI"
-msgstr "GUI کو دوبارہ شروع کرنے کی ضرورت ہے۔"
+msgid "30 min"
+msgstr "30 منٹ"
 
-msgid "Oscam stopped."
-msgstr "اوسکم رک گیا۔"
+msgid "4 hour"
+msgstr "4 گھنٹے"
 
-msgid "Oscam started."
-msgstr "آسام شروع ہوا۔"
+msgid "4 sec"
+msgstr "4 سیکنڈ"
 
-msgid "Oscam binary not found!"
-msgstr "Oscam بائنری نہیں ملا!"
+msgid "5 sec"
+msgstr "5 سیکنڈ"
 
-msgid "Updating plugin..."
-msgstr "پلگ ان کو اپ ڈیٹ کر رہا ہے..."
+msgid "6 sec"
+msgstr "6 سیکنڈ"
 
-msgid "Are you sure you want to restart the GUI?"
-msgstr "کیا آپ واقعی GUI کو دوبارہ شروع کرنا چاہتے ہیں؟"
+msgid "7 sec"
+msgstr "7 سیکنڈ"
 
-msgid "Unknown"
-msgstr "نامعلوم"
+msgid "8 sec"
+msgstr "8 سیکنڈ"
+
+msgid "9 sec"
+msgstr "9 سیکنڈ"
+
+msgid "Cancel"
+msgstr "منسوخ کریں۔"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - آٹو آف/آن"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - آٹو آف/آن"
+
+msgid "CI modules detected:"
+msgstr "CI ماڈیولز کا پتہ چلا:"
+
+msgid "CI+ Helper"
+msgstr "CI+ مددگار"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ مددگار اور آٹو آف/آن"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI ماڈیولز کے لیے CI+ مددگار اور آٹو آف/آن"
+
+msgid "CI+ Helper installed and running!\nPID: %s"
+msgstr "CI+ مددگار انسٹال اور چل رہا ہے!\nPID: %s"
 
 msgid "CI+ Helper Plugin"
 msgstr "CI+ مددگار پلگ ان"
 
-msgid "Supported devices:"
-msgstr "معاون آلات:"
+msgid "CI+ Helper status:"
+msgstr "CI+ مددگار کی حیثیت:"
 
-msgid "Other models may need '/etc/ciplus'"
-msgstr "دوسرے ماڈلز کو '/etc/ciplus' کی ضرورت ہو سکتی ہے"
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "کامن انٹرفیس اسائنمنٹ پلگ ان نہیں ملا۔ براہ کرم اسے سسٹم پلگ انز سے انسٹال کریں۔"
+
+msgid "Disable ciplushelper autostart"
+msgstr "سیپلس ہیلپر آٹو اسٹارٹ کو غیر فعال کریں۔"
+
+msgid "Enable auto-check module"
+msgstr "آٹو چیک ماڈیول کو فعال کریں۔"
+
+msgid "Enable ciplushelper autostart"
+msgstr "ciplushelper آٹو اسٹارٹ کو فعال کریں۔"
+
+msgid "ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"
+msgstr "خرابی: CI+ مددگار نہیں چل رہا ہے!\n/home/root/ciplus_debug.log چیک کریں"
+
+msgid "Install /etc/ciplus"
+msgstr "/etc/ciplus انسٹال کریں۔"
+
+msgid "Install alternative binary (zgemma-arm)"
+msgstr "متبادل بائنری انسٹال کریں (zgemma-arm)"
+
+msgid "Install WORKING binary (hd51/6.new)"
+msgstr "ورکنگ بائنری انسٹال کریں (hd51/6.new)"
 
 msgid "Installed:"
 msgstr "انسٹال:"
 
-msgid "CI+ helper"
-msgstr "CI+ مددگار"
+msgid "None"
+msgstr "کوئی نہیں۔"
 
-msgid "CI+ helper for Enigma2"
-msgstr "Enigma2 کے لیے CI+ مددگار"
+msgid "Not running"
+msgstr "نہیں چل رہا ہے۔"
+
+msgid "off"
+msgstr "بند"
+
+msgid "Open CI Assignment"
+msgstr "CI اسائنمنٹ کھولیں۔"
+
+msgid "Pause CI 1"
+msgstr "CI 1 کو روکتا ہے۔"
+
+msgid "Pause CI 2"
+msgstr "CI 2 کو روکتا ہے۔"
+
+msgid "Remove /etc/ciplus"
+msgstr "/etc/ciplus کو ہٹا دیں۔"
+
+msgid "Restart service!"
+msgstr "سروس دوبارہ شروع کریں!"
+
+msgid "Running"
+msgstr "چل رہا ہے۔"
+
+msgid "Save"
+msgstr "محفوظ کریں۔"
+
+msgid "Show message after off/on"
+msgstr "آف/آن کے بعد پیغام دکھائیں۔"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "سلاٹ 1: موجود نہیں، سلاٹ 2: موجود"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "سلاٹ 1: موجود، سلاٹ 2: موجود نہیں۔"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "سلاٹ 1: حاضر، سلاٹ 2: حاضر"
+
+msgid "Start ciplushelper"
+msgstr "ciplushelper شروع کریں۔"
+
+msgid "Stop ciplushelper"
+msgstr "سیپلس ہیلپر کو روکیں۔"
+
+msgid "Supported devices:"
+msgstr "معاون آلات:"
+
+msgid "Supported models"
+msgstr "تائید شدہ ماڈلز"
+
+msgid "Unknown"
+msgstr "نامعلوم"
+
+msgid "Update plugin"
+msgstr "پلگ ان کو اپ ڈیٹ کریں۔"
+
+msgid "Updating plugin..."
+msgstr "پلگ ان کو اپ ڈیٹ کر رہا ہے..."
 
