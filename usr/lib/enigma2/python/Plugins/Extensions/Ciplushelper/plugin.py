@@ -29,22 +29,138 @@ class ConfigAction(ConfigNothing):
 # ----------------------------------------------------------------------
 config.plugins.cionoff = ConfigSubsection()
 config.plugins.cionoff.ci_auto_check_module = ConfigYesNo(False)
-config.plugins.cionoff.ci1delay = ConfigSelection(default="off", choices=[("off", _("off")), ("1800", _("30 min")), ("3600", _("1 hour")), ("7200", _("2 hour")), ("10800", _("3 hour")), ("14400", _("4 hour"))])
-config.plugins.cionoff.ci2delay = ConfigSelection(default="off", choices=[("off", _("off")), ("1800", _("30 min")), ("3600", _("1 hour")), ("7200", _("2 hour")), ("10800", _("3 hour")), ("14400", _("4 hour"))])
+config.plugins.cionoff.ci1delay = ConfigSelection(
+    default="off",
+    choices=[
+        ("off",
+         _("off")),
+        ("1800",
+         _("30 min")),
+        ("3600",
+         _("1 hour")),
+        ("7200",
+         _("2 hour")),
+        ("10800",
+         _("3 hour")),
+        ("14400",
+         _("4 hour"))])
+config.plugins.cionoff.ci2delay = ConfigSelection(
+    default="off",
+    choices=[
+        ("off",
+         _("off")),
+        ("1800",
+         _("30 min")),
+        ("3600",
+         _("1 hour")),
+        ("7200",
+         _("2 hour")),
+        ("10800",
+         _("3 hour")),
+        ("14400",
+         _("4 hour"))])
 config.plugins.cionoff.cimessage = ConfigYesNo(default=True)
-config.plugins.cionoff.ci1restartservice = ConfigSelection(default="off", choices=[("off", _("off")), ("1000", _("1 sec")), ("2000", _("2 sec")), ("3000", _("3 sec")), ("4000", _("4 sec")), ("5000", _("5 sec")), ("6000", _("6 sec")), ("7000", _("7 sec")), ("8000", _("8 sec")), ("9000", _("9 sec")), ("10000", _("10 sec")), ("11000", _("11 sec")), ("12000", _("12 sec"))])
-config.plugins.cionoff.ci2restartservice = ConfigSelection(default="off", choices=[("off", _("off")), ("1000", _("1 sec")), ("2000", _("2 sec")), ("3000", _("3 sec")), ("4000", _("4 sec")), ("5000", _("5 sec")), ("6000", _("6 sec")), ("7000", _("7 sec")), ("8000", _("8 sec")), ("9000", _("9 sec")), ("10000", _("10 sec")), ("11000", _("11 sec")), ("12000", _("12 sec"))])
-config.plugins.cionoff.ci1onoffdelay = ConfigSelection(default="500", choices=[("500", _("0.5 sec")), ("1000", _("1 sec")), ("2000", _("2 sec")), ("3000", _("3 sec")), ("4000", _("4 sec")), ("5000", _("5 sec")), ("6000", _("6 sec"))])
-config.plugins.cionoff.ci2onoffdelay = ConfigSelection(default="500", choices=[("500", _("0.5 sec")), ("1000", _("1 sec")), ("2000", _("2 sec")), ("3000", _("3 sec")), ("4000", _("4 sec")), ("5000", _("5 sec")), ("6000", _("6 sec"))])
+config.plugins.cionoff.ci1restartservice = ConfigSelection(
+    default="off",
+    choices=[
+        ("off",
+         _("off")),
+        ("1000",
+         _("1 sec")),
+        ("2000",
+         _("2 sec")),
+        ("3000",
+         _("3 sec")),
+        ("4000",
+         _("4 sec")),
+        ("5000",
+         _("5 sec")),
+        ("6000",
+         _("6 sec")),
+        ("7000",
+         _("7 sec")),
+        ("8000",
+         _("8 sec")),
+        ("9000",
+         _("9 sec")),
+        ("10000",
+         _("10 sec")),
+        ("11000",
+         _("11 sec")),
+        ("12000",
+         _("12 sec"))])
+config.plugins.cionoff.ci2restartservice = ConfigSelection(
+    default="off",
+    choices=[
+        ("off",
+         _("off")),
+        ("1000",
+         _("1 sec")),
+        ("2000",
+         _("2 sec")),
+        ("3000",
+         _("3 sec")),
+        ("4000",
+         _("4 sec")),
+        ("5000",
+         _("5 sec")),
+        ("6000",
+         _("6 sec")),
+        ("7000",
+         _("7 sec")),
+        ("8000",
+         _("8 sec")),
+        ("9000",
+         _("9 sec")),
+        ("10000",
+         _("10 sec")),
+        ("11000",
+         _("11 sec")),
+        ("12000",
+         _("12 sec"))])
+config.plugins.cionoff.ci1onoffdelay = ConfigSelection(
+    default="500",
+    choices=[
+        ("500",
+         _("0.5 sec")),
+        ("1000",
+         _("1 sec")),
+        ("2000",
+         _("2 sec")),
+        ("3000",
+         _("3 sec")),
+        ("4000",
+         _("4 sec")),
+        ("5000",
+         _("5 sec")),
+        ("6000",
+         _("6 sec"))])
+config.plugins.cionoff.ci2onoffdelay = ConfigSelection(
+    default="500",
+    choices=[
+        ("500",
+         _("0.5 sec")),
+        ("1000",
+         _("1 sec")),
+        ("2000",
+         _("2 sec")),
+        ("3000",
+         _("3 sec")),
+        ("4000",
+         _("4 sec")),
+        ("5000",
+         _("5 sec")),
+        ("6000",
+         _("6 sec"))])
 
 
 try:
     CImodule1 = config.ci[0].enabled
-except:
+except BaseException:
     CImodule1 = None
 try:
     CImodule2 = config.ci[1].enabled
-except:
+except BaseException:
     CImodule2 = None
 
 CImodule1onoffdelay = False
@@ -63,7 +179,7 @@ def debug_log(msg):
     try:
         with open(DEBUG_FILE, "a") as f:
             f.write("[CI+ Helper] %s\n" % msg)
-    except:
+    except BaseException:
         pass
 
 
@@ -160,61 +276,132 @@ class Ciplushelper(Screen, ConfigListScreen):
             ci_status += _("Slot1: not present, Slot2: present")
         else:
             ci_status += _("None")
-        self.list.append(getConfigListEntry(ci_status, ConfigAction("separator")))
+        self.list.append(
+            getConfigListEntry(
+                ci_status,
+                ConfigAction("separator")))
 
         # Auto-check module
-        self.list.append(getConfigListEntry(_("Enable auto-check module"), config.plugins.cionoff.ci_auto_check_module))
+        self.list.append(
+            getConfigListEntry(
+                _("Enable auto-check module"),
+                config.plugins.cionoff.ci_auto_check_module))
 
         # Daemon status
-        status = _("Running") if "ciplushelper" in self.ret else _("Not running")
-        self.list.append(getConfigListEntry(_("CI+ Helper status:") + " " + status, ConfigAction("separator")))
+        status = _("Running") if "ciplushelper" in self.ret else _(
+            "Not running")
+        self.list.append(
+            getConfigListEntry(
+                _("CI+ Helper status:") +
+                " " +
+                status,
+                ConfigAction("separator")))
 
         # Autostart and binary management
         if model:
             if exists("/etc/rc2.d/S50ciplushelper"):
-                self.list.append(getConfigListEntry(_("Disable ciplushelper autostart"), ConfigAction("disable_autostart")))
+                self.list.append(
+                    getConfigListEntry(
+                        _("Disable ciplushelper autostart"),
+                        ConfigAction("disable_autostart")))
             else:
-                self.list.append(getConfigListEntry(_("Enable ciplushelper autostart"), ConfigAction("enable_autostart")))
+                self.list.append(
+                    getConfigListEntry(
+                        _("Enable ciplushelper autostart"),
+                        ConfigAction("enable_autostart")))
 
             # Start/Stop
             if "ciplushelper" in self.ret:
-                self.list.append(getConfigListEntry(_("Stop ciplushelper"), ConfigAction("stop")))
+                self.list.append(
+                    getConfigListEntry(
+                        _("Stop ciplushelper"),
+                        ConfigAction("stop")))
             else:
-                self.list.append(getConfigListEntry(_("Start ciplushelper"), ConfigAction("start")))
+                self.list.append(
+                    getConfigListEntry(
+                        _("Start ciplushelper"),
+                        ConfigAction("start")))
 
             # ARM binary installation - use the working binary from hd51/6.new/
             if "ciplushelper-arm" in model or "ciplushelper-zgemma-arm" in model:
-                self.list.append(getConfigListEntry(_("Install WORKING binary (recommended)"), ConfigAction("install_working_bin")))
+                self.list.append(
+                    getConfigListEntry(
+                        _("Install WORKING binary (recommended)"),
+                        ConfigAction("install_working_bin")))
 
         # Certificates
-        cert_paths = ["/etc/ciplus/customer.pem", "/etc/ciplus/device.pem", "/etc/ciplus/root.pem", "/etc/ciplus/param", "/etc/ssl/certs/customer.pem"]
+        cert_paths = [
+            "/etc/ciplus/customer.pem",
+            "/etc/ciplus/device.pem",
+            "/etc/ciplus/root.pem",
+            "/etc/ciplus/param",
+            "/etc/ssl/certs/customer.pem"]
         if all(exists(p) for p in cert_paths):
-            self.list.append(getConfigListEntry(_("Remove /etc/ciplus"), ConfigAction("remove_sert")))
+            self.list.append(
+                getConfigListEntry(
+                    _("Remove /etc/ciplus"),
+                    ConfigAction("remove_sert")))
         else:
-            self.list.append(getConfigListEntry(_("Install /etc/ciplus"), ConfigAction("install_sert")))
+            self.list.append(
+                getConfigListEntry(
+                    _("Install /etc/ciplus"),
+                    ConfigAction("install_sert")))
 
         # Other actions
-        self.list.append(getConfigListEntry(_("Open CI Assignment"), ConfigAction("open_ci_assignment")))
+        self.list.append(
+            getConfigListEntry(
+                _("Open CI Assignment"),
+                ConfigAction("open_ci_assignment")))
 
         # CI auto off/on settings (only if CI modules exist)
         if CImodule1 is not None or CImodule2 is not None:
-            self.list.append(getConfigListEntry(_("--- CI auto off/on settings ---"), ConfigAction("separator")))
+            self.list.append(
+                getConfigListEntry(
+                    _("--- CI auto off/on settings ---"),
+                    ConfigAction("separator")))
             if CImodule1 is not None:
-                self.list.append(getConfigListEntry(_("Pause CI 1"), config.plugins.cionoff.ci1delay))
+                self.list.append(
+                    getConfigListEntry(
+                        _("Pause CI 1"),
+                        config.plugins.cionoff.ci1delay))
                 if config.plugins.cionoff.ci1delay.value != "off":
-                    self.list.append(getConfigListEntry(_("  - Delay off-->on (CI 1)"), config.plugins.cionoff.ci1onoffdelay))
-                    self.list.append(getConfigListEntry(_("  - Restart service after off/on (CI 1)"), config.plugins.cionoff.ci1restartservice))
+                    self.list.append(
+                        getConfigListEntry(
+                            _("  - Delay off-->on (CI 1)"),
+                            config.plugins.cionoff.ci1onoffdelay))
+                    self.list.append(
+                        getConfigListEntry(
+                            _("  - Restart service after off/on (CI 1)"),
+                            config.plugins.cionoff.ci1restartservice))
             if CImodule2 is not None:
-                self.list.append(getConfigListEntry(_("Pause CI 2"), config.plugins.cionoff.ci2delay))
+                self.list.append(
+                    getConfigListEntry(
+                        _("Pause CI 2"),
+                        config.plugins.cionoff.ci2delay))
                 if config.plugins.cionoff.ci2delay.value != "off":
-                    self.list.append(getConfigListEntry(_("  - Delay off-->on (CI 2)"), config.plugins.cionoff.ci2onoffdelay))
-                    self.list.append(getConfigListEntry(_("  - Restart service after off/on (CI 2)"), config.plugins.cionoff.ci2restartservice))
+                    self.list.append(
+                        getConfigListEntry(
+                            _("  - Delay off-->on (CI 2)"),
+                            config.plugins.cionoff.ci2onoffdelay))
+                    self.list.append(
+                        getConfigListEntry(
+                            _("  - Restart service after off/on (CI 2)"),
+                            config.plugins.cionoff.ci2restartservice))
             if any(c is not None for c in (CImodule1, CImodule2)):
-                self.list.append(getConfigListEntry(_("Show message after off/on"), config.plugins.cionoff.cimessage))
+                self.list.append(
+                    getConfigListEntry(
+                        _("Show message after off/on"),
+                        config.plugins.cionoff.cimessage))
 
         # Other actions
-        self.list.append(getConfigListEntry(_("Update plugin"), ConfigAction("update_plugin")))
-        self.list.append(getConfigListEntry(_("Supported models"), ConfigAction("about_ciplushelper")))
+        self.list.append(
+            getConfigListEntry(
+                _("Update plugin"),
+                ConfigAction("update_plugin")))
+        self.list.append(
+            getConfigListEntry(
+                _("Supported models"),
+                ConfigAction("about_ciplushelper")))
 
     def keyOK(self):
         current = self["config"].getCurrent()
@@ -237,7 +424,8 @@ class Ciplushelper(Screen, ConfigListScreen):
             os_system("ln -sf /etc/init.d/ciplushelper /etc/rc2.d/S50ciplushelper && ln -sf /etc/init.d/ciplushelper /etc/rc3.d/S50ciplushelper && ln -sf /etc/init.d/ciplushelper /etc/rc4.d/S50ciplushelper && ln -sf /etc/init.d/ciplushelper /etc/rc5.d/S50ciplushelper")
             self.close()
         elif action == "disable_autostart":
-            os_system("rm -f /etc/rc2.d/S50ciplushelper /etc/rc3.d/S50ciplushelper /etc/rc4.d/S50ciplushelper /etc/rc5.d/S50ciplushelper")
+            os_system(
+                "rm -f /etc/rc2.d/S50ciplushelper /etc/rc3.d/S50ciplushelper /etc/rc4.d/S50ciplushelper /etc/rc5.d/S50ciplushelper")
             self.close()
         elif action == "start":
             debug_log("Starting ciplushelper...")
@@ -266,11 +454,16 @@ class Ciplushelper(Screen, ConfigListScreen):
             os_system("cp -R %s/ciplus /etc/ciplus" % plugin_path)
             os_system("cp /etc/ciplus/*.pem /etc/ssl/certs/ 2>/dev/null")
             # Copy init script from plugin to /etc/init.d/
-            os_system("cp %s/ciplushelper.sh /etc/init.d/ciplushelper && sed -i 's/\\r$//' /etc/init.d/ciplushelper && chmod 755 /etc/init.d/ciplushelper" % plugin_path)
+            os_system(
+                "cp %s/ciplushelper.sh /etc/init.d/ciplushelper && sed -i 's/\\r$//' /etc/init.d/ciplushelper && chmod 755 /etc/init.d/ciplushelper" %
+                plugin_path)
             # Use the binary from hd51/6.new/ (1010KB) - the one that works
-            os_system("cp %s/ciplushelper_bin/hd51/6.new/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper" % plugin_path)
+            os_system(
+                "cp %s/ciplushelper_bin/hd51/6.new/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper" %
+                plugin_path)
             # Debug: check file info
-            os_system("ls -la /usr/bin/ciplushelper >> /home/root/ciplus_debug.log")
+            os_system(
+                "ls -la /usr/bin/ciplushelper >> /home/root/ciplus_debug.log")
             # Kill any existing instance and start
             os_system("killall ciplushelper 2>/dev/null || true")
             os_system("%s start" % ciplushelper)
@@ -278,13 +471,19 @@ class Ciplushelper(Screen, ConfigListScreen):
             ret = popen("pgrep -f ciplushelper").read()
             if ret:
                 debug_log("SUCCESS: Daemon started with PID: %s" % ret.strip())
-                self.session.open(MessageBox, _("CI+ Helper installed and running!\nPID: %s") % ret.strip(), MessageBox.TYPE_INFO)
+                self.session.open(
+                    MessageBox, _("CI+ Helper installed and running!\nPID: %s") %
+                    ret.strip(), MessageBox.TYPE_INFO)
             else:
                 debug_log("ERROR: Daemon not started!")
                 # Try to run binary directly to see error
                 debug_log("Trying to run /usr/bin/ciplushelper directly:")
-                os_system("/usr/bin/ciplushelper 2>&1 | head -20 >> /home/root/ciplus_debug.log")
-                self.session.open(MessageBox, _("ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"), MessageBox.TYPE_ERROR)
+                os_system(
+                    "/usr/bin/ciplushelper 2>&1 | head -20 >> /home/root/ciplus_debug.log")
+                self.session.open(
+                    MessageBox,
+                    _("ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"),
+                    MessageBox.TYPE_ERROR)
             self.close()
 
         elif action == "open_ci_assignment":
@@ -292,7 +491,10 @@ class Ciplushelper(Screen, ConfigListScreen):
                 from Plugins.SystemPlugins.CommonInterfaceAssignment.plugin import CIselectMainMenu
                 self.session.openWithCallback(self.close, CIselectMainMenu)
             except ImportError:
-                self.session.open(MessageBox, _("Common Interface Assignment plugin not found. Please install it from System Plugins."), MessageBox.TYPE_INFO)
+                self.session.open(
+                    MessageBox,
+                    _("Common Interface Assignment plugin not found. Please install it from System Plugins."),
+                    MessageBox.TYPE_INFO)
                 self.close()
         elif action == "update_plugin":
             cmd = "wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/Ciplushelper/main/installer.sh -O - | /bin/bash"
@@ -318,9 +520,11 @@ class Ciplushelper(Screen, ConfigListScreen):
         CImodule1onoffdelay = False
         CImodule2onoffdelay = False
         if CImodule1 is not None and config.plugins.cionoff.ci1delay.value != "off":
-            pause_checkOffOnCi1Timer.start(int(config.plugins.cionoff.ci1delay.value) * 1000, True)
+            pause_checkOffOnCi1Timer.start(
+                int(config.plugins.cionoff.ci1delay.value) * 1000, True)
         if CImodule2 is not None and config.plugins.cionoff.ci2delay.value != "off":
-            pause_checkOffOnCi2Timer.start(int(config.plugins.cionoff.ci2delay.value) * 1000, True)
+            pause_checkOffOnCi2Timer.start(
+                int(config.plugins.cionoff.ci2delay.value) * 1000, True)
         self.close()
 
     def keyCancel(self):
@@ -354,7 +558,8 @@ def setCI1moduleState(force=False):
                     CImodule1.save()
                 if not CImodule1onoffdelay:
                     CImodule1onoffdelay = True
-                    CImodule1onoffdelayTimer.start(int(config.plugins.cionoff.ci1onoffdelay.value), True)
+                    CImodule1onoffdelayTimer.start(
+                        int(config.plugins.cionoff.ci1onoffdelay.value), True)
                     return
                 else:
                     CImodule1.value = CImodule1onoffdelay
@@ -362,12 +567,19 @@ def setCI1moduleState(force=False):
                     CImodule1onoffdelay = False
                     extra_text = ""
                     if config.plugins.cionoff.ci1restartservice.value != "off" and _OnSession is not None:
-                        pause_restartserviceTimer.start(int(config.plugins.cionoff.ci1restartservice.value), True)
+                        pause_restartserviceTimer.start(
+                            int(config.plugins.cionoff.ci1restartservice.value), True)
                         extra_text = "\n\n" + _("Restart service!")
                     if config.plugins.cionoff.cimessage.value and _OnSession is not None and Standby.inStandby is None:
-                        _OnSession.open(MessageBox, _("CI 1 - auto off/on") + extra_text, MessageBox.TYPE_INFO, timeout=3)
+                        _OnSession.open(
+                            MessageBox,
+                            _("CI 1 - auto off/on") +
+                            extra_text,
+                            MessageBox.TYPE_INFO,
+                            timeout=3)
             if config.plugins.cionoff.ci1delay.value != "off":
-                pause_checkOffOnCi1Timer.start(int(config.plugins.cionoff.ci1delay.value) * 1000, True)
+                pause_checkOffOnCi1Timer.start(
+                    int(config.plugins.cionoff.ci1delay.value) * 1000, True)
     except Exception as e:
         debug_log("setCI1moduleState error: %s" % e)
 
@@ -387,7 +599,8 @@ def setCI2moduleState(force=False):
                     CImodule2.save()
                 if not CImodule2onoffdelay:
                     CImodule2onoffdelay = True
-                    CImodule2onoffdelayTimer.start(int(config.plugins.cionoff.ci2onoffdelay.value), True)
+                    CImodule2onoffdelayTimer.start(
+                        int(config.plugins.cionoff.ci2onoffdelay.value), True)
                     return
                 else:
                     CImodule2.value = CImodule2onoffdelay
@@ -395,12 +608,19 @@ def setCI2moduleState(force=False):
                     CImodule2onoffdelay = False
                     extra_text = ""
                     if config.plugins.cionoff.ci2restartservice.value != "off" and _OnSession is not None:
-                        pause_restartserviceTimer.start(int(config.plugins.cionoff.ci2restartservice.value), True)
+                        pause_restartserviceTimer.start(
+                            int(config.plugins.cionoff.ci2restartservice.value), True)
                         extra_text = "\n\n" + _("Restart service!")
                     if config.plugins.cionoff.cimessage.value and _OnSession is not None and Standby.inStandby is None:
-                        _OnSession.open(MessageBox, _("CI 2 - auto off/on") + extra_text, MessageBox.TYPE_INFO, timeout=3)
+                        _OnSession.open(
+                            MessageBox,
+                            _("CI 2 - auto off/on") +
+                            extra_text,
+                            MessageBox.TYPE_INFO,
+                            timeout=3)
             if config.plugins.cionoff.ci2delay.value != "off":
-                pause_checkOffOnCi2Timer.start(int(config.plugins.cionoff.ci2delay.value) * 1000, True)
+                pause_checkOffOnCi2Timer.start(
+                    int(config.plugins.cionoff.ci2delay.value) * 1000, True)
     except Exception as e:
         debug_log("setCI2moduleState error: %s" % e)
 
@@ -409,14 +629,15 @@ def restartStartServiceCallback():
     if _OnSession is not None:
         try:
             start_ref = _OnSession.nav.getCurrentlyPlayingServiceOrGroup()
-        except:
+        except BaseException:
             start_ref = _OnSession.nav.getCurrentlyPlayingServiceReference()
         if start_ref:
             str_ref = start_ref.toString()
             if '%3a//' not in str_ref and str_ref.startswith("1:"):
                 try:
-                    _OnSession.nav.playService(start_ref, checkParentalControl=False, forceRestart=True)
-                except:
+                    _OnSession.nav.playService(
+                        start_ref, checkParentalControl=False, forceRestart=True)
+                except BaseException:
                     pass
 
 
@@ -432,9 +653,11 @@ def OnSessionStart(reason, session):
     if reason == 0 and session and _OnSession is None:
         _OnSession = session
         if CImodule1 is not None and config.plugins.cionoff.ci1delay.value != "off":
-            pause_checkOffOnCi1Timer.start(int(config.plugins.cionoff.ci1delay.value) * 1000, True)
+            pause_checkOffOnCi1Timer.start(
+                int(config.plugins.cionoff.ci1delay.value) * 1000, True)
         if CImodule2 is not None and config.plugins.cionoff.ci2delay.value != "off":
-            pause_checkOffOnCi2Timer.start(int(config.plugins.cionoff.ci2delay.value) * 1000, True)
+            pause_checkOffOnCi2Timer.start(
+                int(config.plugins.cionoff.ci2delay.value) * 1000, True)
 
 
 def main(session, **kwargs):
