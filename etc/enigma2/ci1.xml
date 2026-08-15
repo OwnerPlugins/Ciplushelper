@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ci>
-    <slot>
-        <id>0</id>
+	<slot>
+		<id>1</id>
         <caid id="0x183D" />
         <caid id="0x183E" />
         <caid id="0x1856" />
@@ -134,5 +134,5 @@
         <service name="VIDEOLINA" ref="1:0:1:4260:3DB8:13E:820000:0:0:0:" />
         <service name="VIRGIN RADIO" ref="1:0:19:76:4B0:110:820000:0:0:0:" />
         <service name="wedotv Movies" ref="1:0:19:2C9:14B4:13E:820000:0:0:0:" />
-    </slot>
+	</slot>
 </ci>
