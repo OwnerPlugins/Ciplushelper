@@ -5,15 +5,13 @@ version='7.0'
 changelog='
 **Version 7.0 - Major Update**
 - Unified ConfigListScreen interface - all settings and actions in one list
-- Real-time daemon status display (Running/Not running) with pgrep -f
-- Automatic init script copying with CRLF fix and pgrep -f patch
-- Certificate sync to /etc/ssl/certs/ in addition to /etc/ciplus/
-- Install WORKING binary from hd51/6.new (1010KB) - the verified working binary
-- CI modules detection with slot status display
-- ConfigAction class for menu commands (fixes ConfigNothing TypeError)
+- Real-time daemon status display (Running/Not running)
+- Automatic init script copying with CRLF fix
+- Certificate sync to /etc/ssl/certs/
+- Install WORKING binary (hd51/6.new - 1010KB)
+- CI modules detection with slot status
+- ConfigAction class for menu commands
 - All code comments and debug messages in English
-- Improved error handling and debug logging
-- Postinst and plugin.py fully aligned
 '
 
 TMPPATH=/tmp/Ciplushelper-install
@@ -100,8 +98,10 @@ install_pkg() {
     fi
 }
 
-# Install dependencies
-install_pkg "tar"
+# Install dependencies (skip tar if already installed)
+if ! command -v tar >/dev/null 2>&1; then
+    install_pkg "tar"
+fi
 
 cleanup
 mkdir -p "$TMPPATH"
@@ -125,11 +125,21 @@ fi
 echo "Installing plugin files..."
 mkdir -p "$PLUGINPATH"
 
-# Find the extracted directory
-EXTRACTED_DIR=$(find "$TMPPATH" -type d -name "Ciplushelper*" -o -name "ciplushelper*" | head -1)
+# Find the extracted directory - more robust search
+EXTRACTED_DIR=""
+if [ -d "$TMPPATH/Ciplushelper-main" ]; then
+    EXTRACTED_DIR="$TMPPATH/Ciplushelper-main"
+elif [ -d "$TMPPATH/ciplushelper-main" ]; then
+    EXTRACTED_DIR="$TMPPATH/ciplushelper-main"
+else
+    # Try to find any directory containing plugin.py
+    EXTRACTED_DIR=$(find "$TMPPATH" -type f -name "plugin.py" -exec dirname {} \; | head -1)
+fi
 
 if [ -z "$EXTRACTED_DIR" ] || [ ! -d "$EXTRACTED_DIR" ]; then
     echo "Could not find extracted plugin directory!"
+    echo "Available directories in $TMPPATH:"
+    ls -la "$TMPPATH"
     cleanup
     exit 1
 fi
@@ -140,14 +150,14 @@ echo "Found extracted directory: $EXTRACTED_DIR"
 if [ -d "$EXTRACTED_DIR/usr" ]; then
     echo "Copying usr/ to / ..."
     cp -r "$EXTRACTED_DIR/usr"/* / 2>/dev/null
-    echo "✅ Plugin files copied to system"
+    echo "Plugin files copied to system"
 else
     # Fallback: find plugin.py and copy that directory
     PLUGIN_SRC=$(find "$EXTRACTED_DIR" -type f -name "plugin.py" -exec dirname {} \; | head -1)
     if [ -n "$PLUGIN_SRC" ] && [ -d "$PLUGIN_SRC" ]; then
         echo "Found plugin source: $PLUGIN_SRC"
         cp -r "$PLUGIN_SRC"/* "$PLUGINPATH/" 2>/dev/null
-        echo "✅ Plugin files copied to $PLUGINPATH"
+        echo "Plugin files copied to $PLUGINPATH"
     else
         echo "ERROR: Could not find plugin files!"
         echo "Available directories:"
@@ -170,14 +180,16 @@ chmod 755 "$PLUGINPATH/__init__.py" 2>/dev/null
 if [ -f "$PLUGINPATH/postinst" ]; then
     echo "Running postinst..."
     sh "$PLUGINPATH/postinst"
-else
-    echo "WARNING: postinst not found! Installation may be incomplete."
 fi
 
 sync
 
-# Detection info
-box_type=$(head -n 1 /etc/hostname 2>/dev/null || echo "Unknown")
+# Detection info - use head -1 for BusyBox compatibility
+if [ -f /etc/hostname ]; then
+    box_type=$(head -1 /etc/hostname 2>/dev/null || echo "Unknown")
+else
+    box_type="Unknown"
+fi
 
 if [ -f /usr/lib/enigma.info ]; then
     distro_value=$(grep '^distro=' /usr/lib/enigma.info 2>/dev/null | awk -F '=' '{print $2}')
@@ -206,8 +218,7 @@ cat <<EOF
 #                                                       #
 #  Then enable autostart if everything works.          #
 #                                                       #
-#  If the daemon does not start, check the log:        #
-#  cat /home/root/ciplus_debug.log                     #
+#  Check debug log: /home/root/ciplus_debug.log        #
 #                                                       #
 #########################################################
 #           Please REBOOT your device to apply          #
