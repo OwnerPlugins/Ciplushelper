@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # CI+ Helper + CI modules auto off/on - All in one
+# Thank's Dimitrij and team Openatv & OpenPLi comunity
+# the code refactory from lululla 20260822 (last update)
 
 from os import popen, system as os_system
 from os.path import exists
