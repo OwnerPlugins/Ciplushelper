@@ -102,7 +102,6 @@ class Ciplushelper(Screen, ConfigListScreen):
         Screen.__init__(self, session)
         self.session = session
         self.setTitle(_("CI+ Helper") + " v" + __version__)
-
         self["key_red"] = StaticText(_("Cancel"))
         self["key_green"] = StaticText(_("Save"))
         self["shortcuts"] = ActionMap(

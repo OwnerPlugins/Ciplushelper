@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# postinst script for Ciplushelper plugin v6.7
+# postinst script for Ciplushelper plugin v7.0
 # Universal detection for ALL ARM and MIPSEL boxes
 # Priority: boxtype > model > boxbranding > opkg > uname
 #
@@ -35,11 +35,14 @@ install_ciplushelper() {
 
     echo "Installing init script..."
     cp "$src_init" /etc/init.d/ciplushelper
+
+    # Fix: Remove CRLF and fix pgrep -x to pgrep -f
+    sed -i 's/\r$//' /etc/init.d/ciplushelper
+    sed -i 's/pgrep -x ciplushelper/pgrep -f ciplushelper/g' /etc/init.d/ciplushelper
     chmod 755 /etc/init.d/ciplushelper
 
     # IMPORTANT: AUTOSTART IS NOT ACTIVATED HERE!
     # The user must enable it manually from the plugin menu
-    # after verifying that the binary works correctly.
     echo "Autostart is DISABLED by default."
     echo "Enable it from the plugin menu if everything works."
 }
@@ -208,14 +211,20 @@ PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper"
 BIN_DIR="$PLUGIN_DIR/ciplushelper_bin"
 INIT_SCRIPT="$PLUGIN_DIR/ciplushelper.sh"
 
-# Choose binary subdirectory
+# Choose binary subdirectory - ALIGNED WITH plugin.py
 case "$ARCH" in
     arm)
-        # Zgemma ARM models use specific binary
-        ZGEMMA_MODELS="h7 h10 h9combo h9twin h9combose h9twinse"
-        if echo "$ZGEMMA_MODELS" | grep -qw "$MODEL"; then
-            BIN_SUBDIR="zgemma-arm"
+        # For Zgemma ARM, use hd51/6.new/ (1010KB) - the verified working binary
+        # This is the same binary that plugin.py installs with "Install WORKING binary"
+        if [ "$ZMODEL" = "zgemma-arm" ]; then
+            # Check if hd51/6.new exists, otherwise fallback to zgemma-arm
+            if [ -f "$BIN_DIR/hd51/6.new/ciplushelper" ]; then
+                BIN_SUBDIR="hd51/6.new"
+            else
+                BIN_SUBDIR="zgemma-arm"
+            fi
         else
+            # Generic ARM - use arm/ (1010KB)
             BIN_SUBDIR="arm"
         fi
         ;;
@@ -240,7 +249,7 @@ echo "Using binary: $BIN_FILE"
 install_ciplushelper "$BIN_FILE" "$INIT_SCRIPT"
 
 # ----------------------------------------------------------------------
-# Copy certificates if needed
+# Copy certificates
 # ----------------------------------------------------------------------
 
 if [ -d "$PLUGIN_DIR/ciplus" ]; then
@@ -248,11 +257,17 @@ if [ -d "$PLUGIN_DIR/ciplus" ]; then
     mkdir -p /etc/ciplus
     cp -f "$PLUGIN_DIR/ciplus/"* /etc/ciplus/ 2>/dev/null
     chmod 644 /etc/ciplus/* 2>/dev/null
+
+    # ALSO copy to /etc/ssl/certs/ (for compatibility with plugin.py)
+    echo "Copying certificates to /etc/ssl/certs/"
+    mkdir -p /etc/ssl/certs
+    cp -f "$PLUGIN_DIR/ciplus/"*.pem /etc/ssl/certs/ 2>/dev/null
+    chmod 644 /etc/ssl/certs/*.pem 2>/dev/null
 fi
 
-# Copy cicert.bin if exists and not already installed (Zgemma ARM)
+# Copy cicert.bin if exists and not already installed
 if [ -f "$PLUGIN_DIR/cicert.bin" ] && [ ! -f "/etc/cicert.bin" ]; then
-    if [ "$BIN_SUBDIR" = "zgemma-arm" ]; then
+    if [ "$BIN_SUBDIR" = "zgemma-arm" ] || [ "$BIN_SUBDIR" = "hd51/6.new" ]; then
         echo "Copying cicert.bin to /etc/"
         cp "$PLUGIN_DIR/cicert.bin" /etc/cicert.bin
         chmod 644 /etc/cicert.bin
@@ -260,10 +275,26 @@ if [ -f "$PLUGIN_DIR/cicert.bin" ] && [ ! -f "/etc/cicert.bin" ]; then
 fi
 
 # ----------------------------------------------------------------------
-# Write info
+# Write info - ALIGNED WITH plugin.py
 # ----------------------------------------------------------------------
 
-write_info "ciplushelper-$BIN_SUBDIR"
+# Map BIN_SUBDIR to the format expected by plugin.py
+case "$BIN_SUBDIR" in
+    arm|hd51/6.new)
+        INFO_TYPE="ciplushelper-arm"
+        ;;
+    zgemma-arm)
+        INFO_TYPE="ciplushelper-zgemma-arm"
+        ;;
+    mipsel32)
+        INFO_TYPE="ciplushelper-mipsel32"
+        ;;
+    *)
+        INFO_TYPE="ciplushelper-$BIN_SUBDIR"
+        ;;
+esac
+
+write_info "$INFO_TYPE"
 
 # ----------------------------------------------------------------------
 # Final messages
@@ -272,7 +303,8 @@ write_info "ciplushelper-$BIN_SUBDIR"
 echo ""
 echo "**********************************************"
 echo "         Installation completed!"
-echo "  Installed: ciplushelper-$BIN_SUBDIR"
+echo "  Installed: $INFO_TYPE"
+echo "  Binary: $BIN_SUBDIR"
 echo ""
 echo "  AUTOSTART IS DISABLED BY DEFAULT."
 echo "  Please open the plugin menu, test if it"
