@@ -36,13 +36,14 @@ install_ciplushelper() {
     echo "Installing init script..."
     cp "$src_init" /etc/init.d/ciplushelper
 
-    # Fix: Remove CRLF and fix pgrep -x to pgrep -f
+    # FIX: Remove CRLF and fix pgrep -x to pgrep -f
     sed -i 's/\r$//' /etc/init.d/ciplushelper
     sed -i 's/pgrep -x ciplushelper/pgrep -f ciplushelper/g' /etc/init.d/ciplushelper
     chmod 755 /etc/init.d/ciplushelper
 
     # IMPORTANT: AUTOSTART IS NOT ACTIVATED HERE!
     # The user must enable it manually from the plugin menu
+    # after verifying that the binary works correctly.
     echo "Autostart is DISABLED by default."
     echo "Enable it from the plugin menu if everything works."
 }

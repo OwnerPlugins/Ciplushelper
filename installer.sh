@@ -98,10 +98,8 @@ install_pkg() {
     fi
 }
 
-# Install dependencies (skip tar if already installed)
-if ! command -v tar >/dev/null 2>&1; then
-    install_pkg "tar"
-fi
+# Install dependencies
+install_pkg "tar"
 
 cleanup
 mkdir -p "$TMPPATH"
@@ -125,21 +123,11 @@ fi
 echo "Installing plugin files..."
 mkdir -p "$PLUGINPATH"
 
-# Find the extracted directory - more robust search
-EXTRACTED_DIR=""
-if [ -d "$TMPPATH/Ciplushelper-main" ]; then
-    EXTRACTED_DIR="$TMPPATH/Ciplushelper-main"
-elif [ -d "$TMPPATH/ciplushelper-main" ]; then
-    EXTRACTED_DIR="$TMPPATH/ciplushelper-main"
-else
-    # Try to find any directory containing plugin.py
-    EXTRACTED_DIR=$(find "$TMPPATH" -type f -name "plugin.py" -exec dirname {} \; | head -1)
-fi
+# Find the extracted directory
+EXTRACTED_DIR=$(find "$TMPPATH" -type d -name "Ciplushelper*" -o -name "ciplushelper*" | head -1 2>/dev/null)
 
 if [ -z "$EXTRACTED_DIR" ] || [ ! -d "$EXTRACTED_DIR" ]; then
     echo "Could not find extracted plugin directory!"
-    echo "Available directories in $TMPPATH:"
-    ls -la "$TMPPATH"
     cleanup
     exit 1
 fi
@@ -153,7 +141,7 @@ if [ -d "$EXTRACTED_DIR/usr" ]; then
     echo "Plugin files copied to system"
 else
     # Fallback: find plugin.py and copy that directory
-    PLUGIN_SRC=$(find "$EXTRACTED_DIR" -type f -name "plugin.py" -exec dirname {} \; | head -1)
+    PLUGIN_SRC=$(find "$EXTRACTED_DIR" -type f -name "plugin.py" -exec dirname {} \; | head -1 2>/dev/null)
     if [ -n "$PLUGIN_SRC" ] && [ -d "$PLUGIN_SRC" ]; then
         echo "Found plugin source: $PLUGIN_SRC"
         cp -r "$PLUGIN_SRC"/* "$PLUGINPATH/" 2>/dev/null
@@ -182,11 +170,16 @@ if [ -f "$PLUGINPATH/postinst" ]; then
     sh "$PLUGINPATH/postinst"
 fi
 
+# FORCE plugin cache rebuild (fix for DM8000/OpenPLi)
+echo "Rebuilding plugin cache..."
+rm -f /tmp/plugin_list*
+rm -f /tmp/epgcache*
+
 sync
 
 # Detection info - use head -1 for BusyBox compatibility
 if [ -f /etc/hostname ]; then
-    box_type=$(head -1 /etc/hostname 2>/dev/null || echo "Unknown")
+    box_type=$(head -1 /etc/hostname 2>/dev/null || cat /etc/hostname 2>/dev/null || echo "Unknown")
 else
     box_type="Unknown"
 fi

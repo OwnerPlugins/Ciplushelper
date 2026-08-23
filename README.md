@@ -158,8 +158,6 @@ opkg-build .
 - **Fixed:** Certificates installation in both `/etc/ciplus/` and `/etc/ssl/certs/`
 - **Fixed:** Init script not being copied correctly
 - **Fixed:** Binary selection for Zgemma ARM models (uses hd51/6.new)
-- **Changed:** All code comments and debug messages now in English
-- **Changed:** Plugin now always visible in plugin list (removed SystemInfo check)
 
 ### v6.9
 - **Changed:** All code comments and debug messages now in English
@@ -309,5 +307,32 @@ Contributions are welcome! Please:
 - **Forum:** [LinuxSat Support](https://www.linuxsat-support.com/thread/163204-test-ciplus-helper-all/)
 
 ---
+
+## 📜 CI+ Helper v7.0 – Plugin History
+
+**V.7.0 was born from 3 original plugins:**
+
+1. `enigma2-plugin-extensions-ci_plus_helper-openpli8.x_5_all` – User Interface
+2. `enigma2-plugin-systemplugins-ciplushelper_5.8-r3_all` – Daemon and binaries
+3. `enigma2-plugin-systemplugins-cioffon_1.2_all` – CI auto off/on
+
+---
+
+### Changes and fixes applied for v7.0
+
+- Unified `ConfigListScreen` into a single list
+- Added real-time daemon status (`Running` / `Not running`)
+- Added automatic CI module detection (`Slot1` / `Slot2`)
+- Added `installer.sh` for GitHub installation
+- Created unified `postinst` with improved detection
+- CRLF fix (`sed -i 's/\r$//'` on init script)
+- `pgrep -x` → `pgrep -f` for daemon detection
+- Certificates copied to `/etc/ssl/certs/` in addition to `/etc/ciplus/`
+- BusyBox support (`head -1` instead of `head -n 1`)
+- Improved ARM/MIPSEL model detection
+- Added translations (`locale/`)
+- Removed `SystemInfo` to make the plugin always visible
+
+
 
 **Enjoy your CI+ Helper!** 🎯
