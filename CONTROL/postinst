@@ -36,14 +36,13 @@ install_ciplushelper() {
     echo "Installing init script..."
     cp "$src_init" /etc/init.d/ciplushelper
 
-    # FIX: Remove CRLF and fix pgrep -x to pgrep -f
+    # Fix: Remove CRLF and fix pgrep -x to pgrep -f
     sed -i 's/\r$//' /etc/init.d/ciplushelper
     sed -i 's/pgrep -x ciplushelper/pgrep -f ciplushelper/g' /etc/init.d/ciplushelper
     chmod 755 /etc/init.d/ciplushelper
 
     # IMPORTANT: AUTOSTART IS NOT ACTIVATED HERE!
     # The user must enable it manually from the plugin menu
-    # after verifying that the binary works correctly.
     echo "Autostart is DISABLED by default."
     echo "Enable it from the plugin menu if everything works."
 }
@@ -166,10 +165,10 @@ fi
 # ----------------------------------------------------------------------
 
 # List of known ARM models
-ARM_MODELS="h7 h10 h9combo h9twin h9combose h9twinse hd51 vs1500 pulse4k pulse4kmini h17 8100s hd61 ustym4kpro ustym4k dm8000 uclan"
+ARM_MODELS="h7 h10 h9combo h9twin h9combose h9twinse hd51 vs1500 pulse4k pulse4kmini h17 8100s hd61 ustym4kpro ustym4k uclan"
 
 # List of known MIPSEL models
-MIPSEL_MODELS="h6 hd2400 hd1500 et8000 et10000 formuler1 formuler3 formuler4 triplex cube formuler4turbo formuler1tc formuler3ip formuler4ip"
+MIPSEL_MODELS="h6 hd2400 hd1500 et8000 et10000 formuler1 formuler3 formuler4 triplex cube formuler4turbo formuler1tc formuler3ip formuler4ip dm8000 dm7020hd dm7020hdv2 dm7080"
 
 ARCH=""
 
