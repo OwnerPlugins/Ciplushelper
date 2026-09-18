@@ -124,7 +124,7 @@ echo "Installing plugin files..."
 mkdir -p "$PLUGINPATH"
 
 # Find the extracted directory
-EXTRACTED_DIR=$(find "$TMPPATH" -type d -name "Ciplushelper*" -o -name "ciplushelper*" | head -1 2>/dev/null)
+EXTRACTED_DIR=$(find "$TMPPATH" -type d -iname "Ciplushelper-main" 2>/dev/null)
 
 if [ -z "$EXTRACTED_DIR" ] || [ ! -d "$EXTRACTED_DIR" ]; then
     echo "Could not find extracted plugin directory!"
@@ -139,6 +139,9 @@ if [ -d "$EXTRACTED_DIR/usr" ]; then
     echo "Copying usr/ to / ..."
     cp -r "$EXTRACTED_DIR/usr"/* / 2>/dev/null
     echo "Plugin files copied to system"
+    echo "Copying CONTROL files"
+    cp -r "$EXTRACTED_DIR/CONTROL"/* "$PLUGINPATH"/
+    echo "CONTROL files copied"
 else
     # Fallback: find plugin.py and copy that directory
     PLUGIN_SRC=$(find "$EXTRACTED_DIR" -type f -name "plugin.py" -exec dirname {} \; | head -1 2>/dev/null)
