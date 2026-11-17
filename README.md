@@ -152,6 +152,7 @@ opkg-build .
 - **Fixed:** `postinst` no longer rewrites `pgrep -x` to `pgrep -f`, and preserves the autostart links when the plugin is updated
 - **Improved:** `installer.sh` also looks for `postinst` in `CONTROL/`, strips CRLF from the scripts and warns if `postinst` is missing
 - **Fixed:** License badge now matches the license (GPLv2)
+- **Docs:** Oscam conflict is solved with `I:` (ignore) lines in `oscam.dvbapi`, no need to stop Oscam
 
 ### v7.0 - Major Update
 - **New:** Unified ConfigListScreen interface – all settings and actions in one list
@@ -233,7 +234,15 @@ opkg-build .
 ## ⚠️ Important Notes
 
 ### Oscam / SoftCAM Conflict
-If you have **Oscam** or any other softCAM running on your box, it may conflict with the CI+ helper daemon. Both try to access the same hardware descrambler. To use CI+ helper, stop or disable Oscam temporarily:
+If **Oscam** (or another softCAM) tries to decode the same channels as the CAM, the two compete for the descrambler. You do **not** need to stop Oscam: tell it to ignore the CAIDs that the CAM handles. Add these lines to `oscam.dvbapi` (usually `/etc/tuxbox/config/oscam.dvbapi`; the path may differ on your image) and restart Oscam:
+```
+I: 1856
+I: 183D
+I: 183E
+```
+Channels with these CAIDs are then decoded by the CAM, and everything else (for example HD+ or ORF) keeps going through Oscam. Use the CAIDs of your own CAM and cards: they are the ones listed in the CI Assignment of the plugin, or shown by the CAM in its info menu.
+
+If you do not need Oscam at all, you can simply stop it while testing:
 ```bash
 /etc/init.d/softcam stop   # or use your softcam's stop command
 ```
@@ -277,7 +286,7 @@ tail -f /home/root/ciplus_debug.log
 1. Verify the daemon is running: `/etc/init.d/ciplushelper status`
 2. Check CI module is inserted and recognized
 3. Verify CI Assignment is configured correctly
-4. Check if Oscam/softCAM is conflicting: `ps -A | grep -i oscam`
+4. Check if Oscam/softCAM is conflicting: `ps -A | grep -i oscam`. If it runs, add the `I:` lines described in *Oscam / SoftCAM Conflict* above
 
 ### Permission issues
 ```bash
