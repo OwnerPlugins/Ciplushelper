@@ -28,7 +28,9 @@ def daemon_pids():
         for p in listdir("/proc"):
             if p.isdigit():
                 try:
-                    if readlink("/proc/%s/exe" % p).startswith("/usr/bin/ciplushelper"):
+                    if readlink(
+                        "/proc/%s/exe" %
+                            p).startswith("/usr/bin/ciplushelper"):
                         pids.append(p)
                 except OSError:
                     pass
@@ -361,7 +363,9 @@ class Ciplushelper(Screen, ConfigListScreen):
                         _("Install WORKING binary (recommended)"),
                         ConfigAction("install_working_bin")))
                 alt = binary_choices(model)[1]
-                if exists("%s/ciplushelper_bin/%s/ciplushelper" % (PLUGIN_PATH, alt)):
+                if exists(
+                    "%s/ciplushelper_bin/%s/ciplushelper" %
+                        (PLUGIN_PATH, alt)):
                     self.list.append(
                         getConfigListEntry(
                             _("Install ALTERNATIVE binary (try if the daemon stops)"),
@@ -479,7 +483,9 @@ class Ciplushelper(Screen, ConfigListScreen):
             self.close()
         elif action == "install_sert":
             debug_log("Installing certificates...")
-            os_system("mkdir -p /etc/ciplus && cp -f %s/ciplus/* /etc/ciplus/" % plugin_path)
+            os_system(
+                "mkdir -p /etc/ciplus && cp -f %s/ciplus/* /etc/ciplus/" %
+                plugin_path)
             os_system("cp /etc/ciplus/*.pem /etc/ssl/certs/ 2>/dev/null")
             self.close()
         elif action == "remove_sert":
@@ -530,7 +536,9 @@ class Ciplushelper(Screen, ConfigListScreen):
         # Stop first: cp over a running binary fails with "Text file busy"
         os_system("killall ciplushelper 2>/dev/null; sleep 1")
         # Install certificates in both places
-        os_system("mkdir -p /etc/ciplus && cp -f %s/ciplus/* /etc/ciplus/" % plugin_path)
+        os_system(
+            "mkdir -p /etc/ciplus && cp -f %s/ciplus/* /etc/ciplus/" %
+            plugin_path)
         os_system("cp /etc/ciplus/*.pem /etc/ssl/certs/ 2>/dev/null")
         # cicert.bin (same rule as postinst: only if missing)
         os_system(
@@ -549,11 +557,15 @@ class Ciplushelper(Screen, ConfigListScreen):
         os_system("sleep 3")
         ret = " ".join(daemon_pids())
         if ret:
-            debug_log("SUCCESS: Daemon (%s) running, PID: %s" % (subdir, ret.strip()))
+            debug_log(
+                "SUCCESS: Daemon (%s) running, PID: %s" %
+                (subdir, ret.strip()))
             self.session.open(
                 MessageBox,
-                _("CI+ Helper installed and running!\nPID: %s") % ret.strip() +
-                "\n" + _("Reboot the box so the helper starts before enigma2."),
+                _("CI+ Helper installed and running!\nPID: %s") %
+                ret.strip() +
+                "\n" +
+                _("Reboot the box so the helper starts before enigma2."),
                 MessageBox.TYPE_INFO)
         else:
             debug_log("ERROR: Daemon (%s) not running after start!" % subdir)
@@ -563,7 +575,8 @@ class Ciplushelper(Screen, ConfigListScreen):
             self.session.open(
                 MessageBox,
                 _("ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log") +
-                "\n" + _("Try the ALTERNATIVE binary entry."),
+                "\n" +
+                _("Try the ALTERNATIVE binary entry."),
                 MessageBox.TYPE_ERROR)
         self.close()
 
