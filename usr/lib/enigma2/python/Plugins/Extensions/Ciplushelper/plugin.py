@@ -28,7 +28,9 @@ def daemon_pids():
         for p in listdir("/proc"):
             if p.isdigit():
                 try:
-                    if readlink("/proc/%s/exe" % p).startswith("/usr/bin/ciplushelper"):
+                    if readlink(
+                        "/proc/%s/exe" %
+                            p).startswith("/usr/bin/ciplushelper"):
                         pids.append(p)
                 except OSError:
                     pass
@@ -459,7 +461,9 @@ class Ciplushelper(Screen, ConfigListScreen):
             self.close()
         elif action == "install_sert":
             debug_log("Installing certificates...")
-            os_system("mkdir -p /etc/ciplus && cp -f %s/ciplus/* /etc/ciplus/" % plugin_path)
+            os_system(
+                "mkdir -p /etc/ciplus && cp -f %s/ciplus/* /etc/ciplus/" %
+                plugin_path)
             os_system("cp /etc/ciplus/*.pem /etc/ssl/certs/ 2>/dev/null")
             self.close()
         elif action == "remove_sert":
@@ -471,7 +475,9 @@ class Ciplushelper(Screen, ConfigListScreen):
             # Stop first: cp over a running binary fails with "Text file busy"
             os_system("killall ciplushelper 2>/dev/null; sleep 1")
             # Install certificates in both places
-            os_system("mkdir -p /etc/ciplus && cp -f %s/ciplus/* /etc/ciplus/" % plugin_path)
+            os_system(
+                "mkdir -p /etc/ciplus && cp -f %s/ciplus/* /etc/ciplus/" %
+                plugin_path)
             os_system("cp /etc/ciplus/*.pem /etc/ssl/certs/ 2>/dev/null")
             # Copy init script from plugin to /etc/init.d/
             os_system(
