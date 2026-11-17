@@ -1,9 +1,9 @@
 <h1 align="center">⚙️ CI+ Helper Plugin for Enigma2
 
-[![Version](https://img.shields.io/badge/Version-7.0-blue.svg)](https://github.com/OwnerPlugins/Ciplushelper)
+[![Version](https://img.shields.io/badge/Version-7.1-blue.svg)](https://github.com/OwnerPlugins/Ciplushelper)
 [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
 [![Python](https://img.shields.io/badge/Python3-only-orange.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 </h1>
 <p align="center">
   <a href="https://github.com/OwnerPlugins">
@@ -78,7 +78,7 @@ The plugin automatically detects your hardware architecture and installs the opt
 
 ### Via Telnet IPK (recommended)
 ```bash
-opkg install /tmp/enigma2-plugin-extensions-ci-plus-helper_7.0_all.ipk
+opkg install /tmp/enigma2-plugin-extensions-ci-plus-helper_7.1_all.ipk
 ```
 
 ### Via Command Line
@@ -116,7 +116,9 @@ reboot
    - **Update plugin** – updates to the latest version
    - **Supported models** – displays compatible devices
 
-4. For first-time setup on ARM/Zgemma boxes:
+4. The installer (`postinst`) already installs the binary, init script and certificates.
+   Check the daemon from telnet (`/etc/init.d/ciplushelper start`), test a CI+ channel and then enable autostart.
+   If the daemon is missing, or to repair a broken setup on ARM/Zgemma boxes:
    - Select **"Install WORKING binary (recommended)"**
    - The plugin will:
      - Copy certificates to `/etc/ciplus/` and `/etc/ssl/certs/`
@@ -140,6 +142,16 @@ opkg-build .
 ---
 
 ## 📋 Changelog
+
+### v7.1 - Init script fix
+- **Fixed:** The init script looked for the daemon by name (`pgrep -x/-f ciplushelper`) and found *itself*, so it believed the daemon was already running and never started it (the `-f` variant installed by 7.0 `postinst` never started it at all, not even at boot)
+- **Fixed:** `stop`/`restart` used `killall ciplushelper`, which also killed the init script itself, so `restart` never reached `start`
+- **Fixed:** The daemon is now detected by its real executable (`/proc/<pid>/exe`) in both the init script and the plugin
+- **Fixed:** Status line always showed "Not running" and the menu always offered "Start" (it tested for the word "ciplushelper" in a list of PIDs)
+- **Fixed:** "Install WORKING binary" now stops the daemon before copying (no more "Text file busy") and no longer creates a nested `/etc/ciplus/ciplus`
+- **Fixed:** `postinst` no longer rewrites `pgrep -x` to `pgrep -f`, and preserves the autostart links when the plugin is updated
+- **Improved:** `installer.sh` also looks for `postinst` in `CONTROL/`, strips CRLF from the scripts and warns if `postinst` is missing
+- **Fixed:** License badge now matches the license (GPLv2)
 
 ### v7.0 - Major Update
 - **New:** Unified ConfigListScreen interface – all settings and actions in one list
@@ -227,7 +239,7 @@ If you have **Oscam** or any other softCAM running on your box, it may conflict 
 ```
 
 ### Daemon Status Verification
-After starting the daemon, the plugin shows "Running" if the process is detected. However, if the daemon starts and then crashes, the status will show "Not running". Check the debug log for details:
+After starting the daemon, the plugin shows "Running" if the process `/usr/bin/ciplushelper` is detected. However, if the daemon starts and then crashes, the status will show "Not running". Check the debug log for details:
 ```bash
 cat /home/root/ciplus_debug.log
 ```
@@ -238,7 +250,7 @@ cat /home/root/ciplus_debug.log
 - **MIPSEL models:** Uses `mipsel32/ciplushelper` (1.5MB)
 
 ### First-Time Setup
-For ARM/Zgemma boxes, always run **"Install WORKING binary (recommended)"** after installation. This ensures:
+For ARM/Zgemma boxes, if the daemon does not start after installation, run **"Install WORKING binary (recommended)"**. This ensures:
 1. Certificates are correctly installed
 2. Init script is properly configured
 3. The correct binary is installed
@@ -262,7 +274,7 @@ tail -f /home/root/ciplus_debug.log
 5. Verify certificates: `ls -la /etc/ciplus/` and `ls -la /etc/ssl/certs/`
 
 ### Daemon starts but channels don't clear
-1. Verify the daemon is running: `pgrep -f ciplushelper`
+1. Verify the daemon is running: `/etc/init.d/ciplushelper status`
 2. Check CI module is inserted and recognized
 3. Verify CI Assignment is configured correctly
 4. Check if Oscam/softCAM is conflicting: `ps -A | grep -i oscam`
@@ -308,7 +320,7 @@ Contributions are welcome! Please:
 
 ---
 
-## 📜 CI+ Helper v7.0 – Plugin History
+## 📜 CI+ Helper – Plugin History
 
 **V.7.0 was born from 3 original plugins:**
 
@@ -326,7 +338,7 @@ Contributions are welcome! Please:
 - Added `installer.sh` for GitHub installation
 - Created unified `postinst` with improved detection
 - CRLF fix (`sed -i 's/\r$//'` on init script)
-- `pgrep -x` → `pgrep -f` for daemon detection
+- ~~`pgrep -x` → `pgrep -f` for daemon detection~~ (reverted in 7.1: name-based detection matches the init script itself)
 - Certificates copied to `/etc/ssl/certs/` in addition to `/etc/ciplus/`
 - BusyBox support (`head -1` instead of `head -n 1`)
 - Improved ARM/MIPSEL model detection

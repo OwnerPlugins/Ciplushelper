@@ -4,7 +4,7 @@
 # Thank's Dimitrij and team Openatv & OpenPLi comunity
 # the code refactory from lululla 20260822 (last update)
 
-from os import popen, system as os_system
+from os import listdir, readlink, system as os_system
 from os.path import exists
 from Components.ActionMap import ActionMap
 from Components.config import ConfigYesNo, config, getConfigListEntry, ConfigSubsection, ConfigSelection, ConfigNothing
@@ -18,6 +18,23 @@ from Components.Sources.StaticText import StaticText
 from Components.ConfigList import ConfigListScreen
 
 from . import _, __version__
+
+
+def daemon_pids():
+    """PID del demone, cercato per eseguibile reale (/proc/<pid>/exe) e non per nome:
+    pgrep -f / -x trovano anche shell e script che contengono 'ciplushelper'."""
+    pids = []
+    try:
+        for p in listdir("/proc"):
+            if p.isdigit():
+                try:
+                    if readlink("/proc/%s/exe" % p).startswith("/usr/bin/ciplushelper"):
+                        pids.append(p)
+                except OSError:
+                    pass
+    except OSError:
+        pass
+    return pids
 
 
 class ConfigAction(ConfigNothing):
@@ -264,7 +281,7 @@ class Ciplushelper(Screen, ConfigListScreen):
         self.model = model
 
         # Check if daemon is running
-        self.ret = popen("pgrep -f ciplushelper").read()
+        self.ret = " ".join(daemon_pids())
         debug_log("pgrep output: '%s'" % self.ret.strip())
 
         # CI modules status
@@ -289,7 +306,7 @@ class Ciplushelper(Screen, ConfigListScreen):
                 config.plugins.cionoff.ci_auto_check_module))
 
         # Daemon status
-        status = _("Running") if "ciplushelper" in self.ret else _(
+        status = _("Running") if self.ret else _(
             "Not running")
         self.list.append(
             getConfigListEntry(
@@ -312,7 +329,7 @@ class Ciplushelper(Screen, ConfigListScreen):
                         ConfigAction("enable_autostart")))
 
             # Start/Stop
-            if "ciplushelper" in self.ret:
+            if self.ret:
                 self.list.append(
                     getConfigListEntry(
                         _("Stop ciplushelper"),
@@ -431,7 +448,7 @@ class Ciplushelper(Screen, ConfigListScreen):
         elif action == "start":
             debug_log("Starting ciplushelper...")
             os_system("%s start" % ciplushelper)
-            ret = popen("pgrep -f ciplushelper").read()
+            ret = " ".join(daemon_pids())
             if ret:
                 debug_log("Daemon started (PID: %s)" % ret.strip())
             else:
@@ -442,7 +459,7 @@ class Ciplushelper(Screen, ConfigListScreen):
             self.close()
         elif action == "install_sert":
             debug_log("Installing certificates...")
-            os_system("cp -R %s/ciplus /etc/ciplus" % plugin_path)
+            os_system("mkdir -p /etc/ciplus && cp -f %s/ciplus/* /etc/ciplus/" % plugin_path)
             os_system("cp /etc/ciplus/*.pem /etc/ssl/certs/ 2>/dev/null")
             self.close()
         elif action == "remove_sert":
@@ -451,8 +468,10 @@ class Ciplushelper(Screen, ConfigListScreen):
 
         elif action == "install_working_bin":
             debug_log("Installing WORKING binary from hd51/6.new/...")
+            # Stop first: cp over a running binary fails with "Text file busy"
+            os_system("killall ciplushelper 2>/dev/null; sleep 1")
             # Install certificates in both places
-            os_system("cp -R %s/ciplus /etc/ciplus" % plugin_path)
+            os_system("mkdir -p /etc/ciplus && cp -f %s/ciplus/* /etc/ciplus/" % plugin_path)
             os_system("cp /etc/ciplus/*.pem /etc/ssl/certs/ 2>/dev/null")
             # Copy init script from plugin to /etc/init.d/
             os_system(
@@ -465,11 +484,9 @@ class Ciplushelper(Screen, ConfigListScreen):
             # Debug: check file info
             os_system(
                 "ls -la /usr/bin/ciplushelper >> /home/root/ciplus_debug.log")
-            # Kill any existing instance and start
-            os_system("killall ciplushelper 2>/dev/null || true")
             os_system("%s start" % ciplushelper)
             # Verify
-            ret = popen("pgrep -f ciplushelper").read()
+            ret = " ".join(daemon_pids())
             if ret:
                 debug_log("SUCCESS: Daemon started with PID: %s" % ret.strip())
                 self.session.open(

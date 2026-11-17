@@ -1,17 +1,16 @@
 #!/bin/bash
 ## command line == wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/Ciplushelper/main/installer.sh -O - | /bin/bash
 
-version='7.0'
+version='7.1'
 changelog='
-**Version 7.0 - Major Update**
-- Unified ConfigListScreen interface - all settings and actions in one list
-- Real-time daemon status display (Running/Not running)
-- Automatic init script copying with CRLF fix
-- Certificate sync to /etc/ssl/certs/
-- Install WORKING binary (hd51/6.new - 1010KB)
-- CI modules detection with slot status
-- ConfigAction class for menu commands
-- All code comments and debug messages in English
+**Version 7.1 - Init script fix**
+- Fixed: init script detected itself as the running daemon (never started it)
+- Fixed: stop/restart killed the init script itself
+- Fixed: plugin status line always showed "Not running"
+- Fixed: "Install WORKING binary" now stops the daemon before copying
+- Fixed: no more nested /etc/ciplus/ciplus on repeated install
+- Fixed: autostart is preserved when the plugin is updated
+- Installer: postinst is now also looked up in CONTROL/, CRLF stripped from scripts
 '
 
 TMPPATH=/tmp/Ciplushelper-install
@@ -155,6 +154,14 @@ else
     fi
 fi
 
+# Strip CRLF from shell scripts (a CRLF shebang makes them unexecutable)
+sed -i 's/\r$//' "$PLUGINPATH/ciplushelper.sh" 2>/dev/null
+POSTINST=""
+for f in "$PLUGINPATH/postinst" "$EXTRACTED_DIR/CONTROL/postinst"; do
+    [ -f "$f" ] && { POSTINST="$f"; break; }
+done
+[ -n "$POSTINST" ] && sed -i 's/\r$//' "$POSTINST" 2>/dev/null
+
 # Ensure all binaries are executable
 find "$PLUGINPATH" -name "ciplushelper" -exec chmod 755 {} \;
 chmod 755 "$PLUGINPATH/ciplushelper.sh" 2>/dev/null
@@ -164,10 +171,13 @@ chmod 755 "$PLUGINPATH/postrm" 2>/dev/null
 chmod 755 "$PLUGINPATH/plugin.py" 2>/dev/null
 chmod 755 "$PLUGINPATH/__init__.py" 2>/dev/null
 
-# Run postinst manually
-if [ -f "$PLUGINPATH/postinst" ]; then
-    echo "Running postinst..."
-    sh "$PLUGINPATH/postinst"
+# Run postinst manually (it writes info.txt, installs binary, init script and certificates)
+if [ -n "$POSTINST" ]; then
+    echo "Running postinst ($POSTINST)..."
+    sh "$POSTINST"
+else
+    echo "WARNING: postinst not found - info.txt, binary and init script were NOT installed."
+    echo "         Open the plugin and use 'Install WORKING binary' to complete the setup."
 fi
 
 # FORCE plugin cache rebuild (fix for DM8000/OpenPLi)
@@ -206,10 +216,12 @@ cat <<EOF
 #               https://corvoboys.org                   #
 #########################################################
 #                                                       #
-#  To complete setup, open the plugin and select:      #
-#  "Install WORKING binary (recommended)"              #
-#                                                       #
-#  Then enable autostart if everything works.          #
+#  Test from telnet:                                    #
+#    /etc/init.d/ciplushelper start                     #
+#  Check a CI+ channel, then open the plugin and        #
+#  enable autostart if everything works.                #
+#  (Only if the daemon is missing, use the plugin       #
+#   entry "Install WORKING binary")                     #
 #                                                       #
 #  Check debug log: /home/root/ciplus_debug.log        #
 #                                                       #

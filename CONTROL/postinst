@@ -36,9 +36,8 @@ install_ciplushelper() {
     echo "Installing init script..."
     cp "$src_init" /etc/init.d/ciplushelper
 
-    # Fix: Remove CRLF and fix pgrep -x to pgrep -f
+    # Remove CRLF only. Do NOT touch pgrep: the init script no longer uses it.
     sed -i 's/\r$//' /etc/init.d/ciplushelper
-    sed -i 's/pgrep -x ciplushelper/pgrep -f ciplushelper/g' /etc/init.d/ciplushelper
     chmod 755 /etc/init.d/ciplushelper
 
     # IMPORTANT: AUTOSTART IS NOT ACTIVATED HERE!
@@ -50,6 +49,9 @@ install_ciplushelper() {
 # ----------------------------------------------------------------------
 # Check if already installed (cleanup)
 # ----------------------------------------------------------------------
+
+AUTOSTART_WAS_ON=0
+[ -e /etc/rc3.d/S50ciplushelper ] && AUTOSTART_WAS_ON=1
 
 if [ -f /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/info.txt ]; then
     echo "Existing installation found. Updating..."
@@ -311,6 +313,11 @@ echo "  Please open the plugin menu, test if it"
 echo "  works, then enable autostart manually."
 echo "**********************************************"
 echo ""
+
+# Restore autostart if it was enabled before the update
+if [ "$AUTOSTART_WAS_ON" = "1" ]; then
+    for r in 2 3 4 5; do ln -sf /etc/init.d/ciplushelper /etc/rc$r.d/S50ciplushelper; done
+fi
 
 # Verify installation
 if [ -z "$(cat /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/info.txt)" ]; then
