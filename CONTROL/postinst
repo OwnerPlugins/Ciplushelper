@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# postinst script for Ciplushelper plugin v7.0
+# postinst script for Ciplushelper plugin v7.2
 # Universal detection for ALL ARM and MIPSEL boxes
 # Priority: boxtype > model > boxbranding > opkg > uname
 #
@@ -133,7 +133,7 @@ fi
 
 # Set ZMODEL for Zgemma ARM
 case "$MODEL" in
-    h7|h10|h9combo|h9twin|h9combose|h9twinse)
+    h7|h10|h9*)
         ZMODEL="zgemma-arm"
         ;;
 esac
@@ -216,11 +216,12 @@ INIT_SCRIPT="$PLUGIN_DIR/ciplushelper.sh"
 # Choose binary subdirectory - ALIGNED WITH plugin.py
 case "$ARCH" in
     arm)
-        # For Zgemma ARM, use hd51/6.new/ (1010KB) - the verified working binary
-        # This is the same binary that plugin.py installs with "Install WORKING binary"
+        # Zgemma H9 (Twin/Combo/SE): hd51/6.new exits right after start, use zgemma-arm.
+        # Other Zgemma ARM: hd51/6.new first, zgemma-arm as fallback.
         if [ "$ZMODEL" = "zgemma-arm" ]; then
-            # Check if hd51/6.new exists, otherwise fallback to zgemma-arm
-            if [ -f "$BIN_DIR/hd51/6.new/ciplushelper" ]; then
+            if echo "$MODEL" | grep -qE "^h9" && [ -f "$BIN_DIR/zgemma-arm/ciplushelper" ]; then
+                BIN_SUBDIR="zgemma-arm"
+            elif [ -f "$BIN_DIR/hd51/6.new/ciplushelper" ]; then
                 BIN_SUBDIR="hd51/6.new"
             else
                 BIN_SUBDIR="zgemma-arm"
@@ -269,7 +270,7 @@ fi
 
 # Copy cicert.bin if exists and not already installed
 if [ -f "$PLUGIN_DIR/cicert.bin" ] && [ ! -f "/etc/cicert.bin" ]; then
-    if [ "$BIN_SUBDIR" = "zgemma-arm" ] || [ "$BIN_SUBDIR" = "hd51/6.new" ]; then
+    if [ "$ARCH" = "arm" ]; then
         echo "Copying cicert.bin to /etc/"
         cp "$PLUGIN_DIR/cicert.bin" /etc/cicert.bin
         chmod 644 /etc/cicert.bin

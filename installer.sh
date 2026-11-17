@@ -1,16 +1,18 @@
 #!/bin/bash
 ## command line == wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/Ciplushelper/main/installer.sh -O - | /bin/bash
 
-version='7.1'
+version='7.2'
 changelog='
-**Version 7.1 - Init script fix**
+**Version 7.2 - Init script and binary fixes**
 - Fixed: init script detected itself as the running daemon (never started it)
 - Fixed: stop/restart killed the init script itself
 - Fixed: plugin status line always showed "Not running"
 - Fixed: "Install WORKING binary" now stops the daemon before copying
 - Fixed: no more nested /etc/ciplus/ciplus on repeated install
 - Fixed: autostart is preserved when the plugin is updated
-- Installer: postinst is now also looked up in CONTROL/, CRLF stripped from scripts
+- Zgemma H9: zgemma-arm binary is installed (hd51/6.new exits right after start on the H9 Twin)
+- New menu entry: Install ALTERNATIVE binary (switch binary if the daemon stops)
+- Installer: fixed detection of the extracted directory (it picked the temp dir itself, so postinst in CONTROL/ was never found and never run); CRLF stripped from scripts
 '
 
 TMPPATH=/tmp/Ciplushelper-install
@@ -123,7 +125,10 @@ echo "Installing plugin files..."
 mkdir -p "$PLUGINPATH"
 
 # Find the extracted directory
-EXTRACTED_DIR=$(find "$TMPPATH" -type d -name "Ciplushelper*" -o -name "ciplushelper*" | head -1 2>/dev/null)
+# NB: take the single top-level directory of the archive (e.g. Ciplushelper-main).
+# The old "find -name Ciplushelper*" matched $TMPPATH itself (Ciplushelper-install),
+# so usr/ and CONTROL/ were never found.
+EXTRACTED_DIR=$(find "$TMPPATH" -mindepth 1 -maxdepth 1 -type d | head -1)
 
 if [ -z "$EXTRACTED_DIR" ] || [ ! -d "$EXTRACTED_DIR" ]; then
     echo "Could not find extracted plugin directory!"
@@ -133,33 +138,29 @@ fi
 
 echo "Found extracted directory: $EXTRACTED_DIR"
 
-# Copy only the usr/ directory structure
-if [ -d "$EXTRACTED_DIR/usr" ]; then
-    echo "Copying usr/ to / ..."
-    cp -r "$EXTRACTED_DIR/usr"/* / 2>/dev/null
-    echo "Plugin files copied to system"
+# Copy the plugin folder straight into $PLUGINPATH (works for /usr/lib and /usr/lib64 images).
+# NB: "cp -r usr/* /" would put the files in /lib/..., not /usr/lib/...
+PLUGIN_SRC=$(find "$EXTRACTED_DIR" -type f -path "*Extensions/Ciplushelper/plugin.py" -exec dirname {} \; | head -1)
+[ -z "$PLUGIN_SRC" ] && PLUGIN_SRC=$(find "$EXTRACTED_DIR" -type f -name plugin.py -exec dirname {} \; | head -1)
+if [ -n "$PLUGIN_SRC" ] && [ -d "$PLUGIN_SRC" ]; then
+    echo "Found plugin source: $PLUGIN_SRC"
+    cp -r "$PLUGIN_SRC"/* "$PLUGINPATH/" || { echo "ERROR: copy failed"; cleanup; exit 1; }
+    echo "Plugin files copied to $PLUGINPATH"
 else
-    # Fallback: find plugin.py and copy that directory
-    PLUGIN_SRC=$(find "$EXTRACTED_DIR" -type f -name "plugin.py" -exec dirname {} \; | head -1 2>/dev/null)
-    if [ -n "$PLUGIN_SRC" ] && [ -d "$PLUGIN_SRC" ]; then
-        echo "Found plugin source: $PLUGIN_SRC"
-        cp -r "$PLUGIN_SRC"/* "$PLUGINPATH/" 2>/dev/null
-        echo "Plugin files copied to $PLUGINPATH"
-    else
-        echo "ERROR: Could not find plugin files!"
-        echo "Available directories:"
-        find "$EXTRACTED_DIR" -type d | head -20
-        cleanup
-        exit 1
-    fi
+    echo "ERROR: Could not find plugin files!"
+    echo "Available directories:"
+    find "$EXTRACTED_DIR" -type d | head -20
+    cleanup
+    exit 1
 fi
 
 # Strip CRLF from shell scripts (a CRLF shebang makes them unexecutable)
 sed -i 's/\r$//' "$PLUGINPATH/ciplushelper.sh" 2>/dev/null
 POSTINST=""
-for f in "$PLUGINPATH/postinst" "$EXTRACTED_DIR/CONTROL/postinst"; do
+for f in "$PLUGINPATH/postinst" "$EXTRACTED_DIR/CONTROL/postinst" "$EXTRACTED_DIR/control/postinst"; do
     [ -f "$f" ] && { POSTINST="$f"; break; }
 done
+[ -z "$POSTINST" ] && POSTINST=$(find "$EXTRACTED_DIR" -type f -name postinst | head -1)
 [ -n "$POSTINST" ] && sed -i 's/\r$//' "$POSTINST" 2>/dev/null
 
 # Ensure all binaries are executable

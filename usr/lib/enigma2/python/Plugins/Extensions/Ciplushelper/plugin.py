@@ -28,15 +28,27 @@ def daemon_pids():
         for p in listdir("/proc"):
             if p.isdigit():
                 try:
-                    if readlink(
-                        "/proc/%s/exe" %
-                            p).startswith("/usr/bin/ciplushelper"):
+                    if readlink("/proc/%s/exe" % p).startswith("/usr/bin/ciplushelper"):
                         pids.append(p)
                 except OSError:
                     pass
     except OSError:
         pass
     return pids
+
+
+PLUGIN_PATH = "/usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper"
+BIN_DEFAULT = "hd51/6.new"
+BIN_ZGEMMA = "zgemma-arm"
+
+
+def binary_choices(model):
+    """(default, alternative) binary sub-directories for this model.
+    Zgemma-arm boxes (e.g. H9) use the dedicated zgemma-arm build: the hd51/6.new
+    binary was reported to exit right after start on the H9 Twin."""
+    if "zgemma-arm" in (model or ""):
+        return BIN_ZGEMMA, BIN_DEFAULT
+    return BIN_DEFAULT, BIN_ZGEMMA
 
 
 class ConfigAction(ConfigNothing):
@@ -348,6 +360,12 @@ class Ciplushelper(Screen, ConfigListScreen):
                     getConfigListEntry(
                         _("Install WORKING binary (recommended)"),
                         ConfigAction("install_working_bin")))
+                alt = binary_choices(model)[1]
+                if exists("%s/ciplushelper_bin/%s/ciplushelper" % (PLUGIN_PATH, alt)):
+                    self.list.append(
+                        getConfigListEntry(
+                            _("Install ALTERNATIVE binary (try if the daemon stops)"),
+                            ConfigAction("install_alt_bin")))
 
         # Certificates
         cert_paths = [
@@ -461,9 +479,7 @@ class Ciplushelper(Screen, ConfigListScreen):
             self.close()
         elif action == "install_sert":
             debug_log("Installing certificates...")
-            os_system(
-                "mkdir -p /etc/ciplus && cp -f %s/ciplus/* /etc/ciplus/" %
-                plugin_path)
+            os_system("mkdir -p /etc/ciplus && cp -f %s/ciplus/* /etc/ciplus/" % plugin_path)
             os_system("cp /etc/ciplus/*.pem /etc/ssl/certs/ 2>/dev/null")
             self.close()
         elif action == "remove_sert":
@@ -471,44 +487,10 @@ class Ciplushelper(Screen, ConfigListScreen):
             self.close()
 
         elif action == "install_working_bin":
-            debug_log("Installing WORKING binary from hd51/6.new/...")
-            # Stop first: cp over a running binary fails with "Text file busy"
-            os_system("killall ciplushelper 2>/dev/null; sleep 1")
-            # Install certificates in both places
-            os_system(
-                "mkdir -p /etc/ciplus && cp -f %s/ciplus/* /etc/ciplus/" %
-                plugin_path)
-            os_system("cp /etc/ciplus/*.pem /etc/ssl/certs/ 2>/dev/null")
-            # Copy init script from plugin to /etc/init.d/
-            os_system(
-                "cp %s/ciplushelper.sh /etc/init.d/ciplushelper && sed -i 's/\\r$//' /etc/init.d/ciplushelper && chmod 755 /etc/init.d/ciplushelper" %
-                plugin_path)
-            # Use the binary from hd51/6.new/ (1010KB) - the one that works
-            os_system(
-                "cp %s/ciplushelper_bin/hd51/6.new/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper" %
-                plugin_path)
-            # Debug: check file info
-            os_system(
-                "ls -la /usr/bin/ciplushelper >> /home/root/ciplus_debug.log")
-            os_system("%s start" % ciplushelper)
-            # Verify
-            ret = " ".join(daemon_pids())
-            if ret:
-                debug_log("SUCCESS: Daemon started with PID: %s" % ret.strip())
-                self.session.open(
-                    MessageBox, _("CI+ Helper installed and running!\nPID: %s") %
-                    ret.strip(), MessageBox.TYPE_INFO)
-            else:
-                debug_log("ERROR: Daemon not started!")
-                # Try to run binary directly to see error
-                debug_log("Trying to run /usr/bin/ciplushelper directly:")
-                os_system(
-                    "/usr/bin/ciplushelper 2>&1 | head -20 >> /home/root/ciplus_debug.log")
-                self.session.open(
-                    MessageBox,
-                    _("ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log"),
-                    MessageBox.TYPE_ERROR)
-            self.close()
+            self.install_binary(binary_choices(self.model)[0])
+
+        elif action == "install_alt_bin":
+            self.install_binary(binary_choices(self.model)[1])
 
         elif action == "open_ci_assignment":
             try:
@@ -533,6 +515,57 @@ class Ciplushelper(Screen, ConfigListScreen):
                 _("Other models may need '/etc/ciplus'") + "\n\n" + \
                 _("Installed:") + " " + installed
             self.session.open(MessageBox, message, MessageBox.TYPE_INFO)
+
+    def install_binary(self, subdir):
+        plugin_path = PLUGIN_PATH
+        src = "%s/ciplushelper_bin/%s/ciplushelper" % (plugin_path, subdir)
+        debug_log("Installing binary from %s" % subdir)
+        if not exists(src):
+            self.session.open(
+                MessageBox,
+                _("Binary not found:") + "\n" + src,
+                MessageBox.TYPE_ERROR)
+            self.close()
+            return
+        # Stop first: cp over a running binary fails with "Text file busy"
+        os_system("killall ciplushelper 2>/dev/null; sleep 1")
+        # Install certificates in both places
+        os_system("mkdir -p /etc/ciplus && cp -f %s/ciplus/* /etc/ciplus/" % plugin_path)
+        os_system("cp /etc/ciplus/*.pem /etc/ssl/certs/ 2>/dev/null")
+        # cicert.bin (same rule as postinst: only if missing)
+        os_system(
+            "[ -f %s/cicert.bin ] && [ ! -f /etc/cicert.bin ] && cp %s/cicert.bin /etc/cicert.bin; true" %
+            (plugin_path, plugin_path))
+        # Copy init script from plugin to /etc/init.d/
+        os_system(
+            "cp %s/ciplushelper.sh /etc/init.d/ciplushelper && sed -i 's/\\r$//' /etc/init.d/ciplushelper && chmod 755 /etc/init.d/ciplushelper" %
+            plugin_path)
+        os_system(
+            "cp %s /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper" %
+            src)
+        os_system("ls -la /usr/bin/ciplushelper >> /home/root/ciplus_debug.log")
+        os_system("%s start" % ciplushelper)
+        # The daemon may fork and exit: check again after a few seconds
+        os_system("sleep 3")
+        ret = " ".join(daemon_pids())
+        if ret:
+            debug_log("SUCCESS: Daemon (%s) running, PID: %s" % (subdir, ret.strip()))
+            self.session.open(
+                MessageBox,
+                _("CI+ Helper installed and running!\nPID: %s") % ret.strip() +
+                "\n" + _("Reboot the box so the helper starts before enigma2."),
+                MessageBox.TYPE_INFO)
+        else:
+            debug_log("ERROR: Daemon (%s) not running after start!" % subdir)
+            debug_log("Trying to run /usr/bin/ciplushelper directly:")
+            os_system(
+                "/usr/bin/ciplushelper 2>&1 | head -20 >> /home/root/ciplus_debug.log")
+            self.session.open(
+                MessageBox,
+                _("ERROR: CI+ Helper not running!\nCheck /home/root/ciplus_debug.log") +
+                "\n" + _("Try the ALTERNATIVE binary entry."),
+                MessageBox.TYPE_ERROR)
+        self.close()
 
     def keySave(self):
         config.plugins.cionoff.save()
