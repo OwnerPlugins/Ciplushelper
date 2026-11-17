@@ -1,6 +1,6 @@
 <h1 align="center">⚙️ CI+ Helper Plugin for Enigma2
 
-[![Version](https://img.shields.io/badge/Version-7.1-blue.svg)](https://github.com/OwnerPlugins/Ciplushelper)
+[![Version](https://img.shields.io/badge/Version-7.2-blue.svg)](https://github.com/OwnerPlugins/Ciplushelper)
 [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
 [![Python](https://img.shields.io/badge/Python3-only-orange.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
@@ -78,7 +78,7 @@ The plugin automatically detects your hardware architecture and installs the opt
 
 ### Via Telnet IPK (recommended)
 ```bash
-opkg install /tmp/enigma2-plugin-extensions-ci-plus-helper_7.1_all.ipk
+opkg install /tmp/enigma2-plugin-extensions-ci-plus-helper_7.2_all.ipk
 ```
 
 ### Via Command Line
@@ -143,7 +143,7 @@ opkg-build .
 
 ## 📋 Changelog
 
-### v7.1 - Init script fix
+### v7.2 - Init script and binary fixes
 - **Fixed:** The init script looked for the daemon by name (`pgrep -x/-f ciplushelper`) and found *itself*, so it believed the daemon was already running and never started it (the `-f` variant installed by 7.0 `postinst` never started it at all, not even at boot)
 - **Fixed:** `stop`/`restart` used `killall ciplushelper`, which also killed the init script itself, so `restart` never reached `start`
 - **Fixed:** The daemon is now detected by its real executable (`/proc/<pid>/exe`) in both the init script and the plugin
@@ -350,7 +350,7 @@ Contributions are welcome! Please:
 - Added `installer.sh` for GitHub installation
 - Created unified `postinst` with improved detection
 - CRLF fix (`sed -i 's/\r$//'` on init script)
-- ~~`pgrep -x` → `pgrep -f` for daemon detection~~ (reverted in 7.1: name-based detection matches the init script itself)
+- ~~`pgrep -x` → `pgrep -f` for daemon detection~~ (reverted in 7.2: name-based detection matches the init script itself)
 - Certificates copied to `/etc/ssl/certs/` in addition to `/etc/ciplus/`
 - BusyBox support (`head -1` instead of `head -n 1`)
 - Improved ARM/MIPSEL model detection
