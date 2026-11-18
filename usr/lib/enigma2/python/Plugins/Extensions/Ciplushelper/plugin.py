@@ -95,6 +95,18 @@ config.plugins.cionoff.ci2delay = ConfigSelection(
         ("14400",
          _("4 hour"))])
 config.plugins.cionoff.cimessage = ConfigYesNo(default=True)
+# Re-zap the current channel some seconds after enigma2 starts (default: off).
+# Workaround for boxes (seen on Pulse 4K Mini) where the last CI+ channel is
+# restored before the CAM is ready and stays black until the first zap.
+config.plugins.cionoff.boot_rezap = ConfigSelection(
+    default="off",
+    choices=[
+        ("off", _("off")),
+        ("10000", _("10 sec")),
+        ("15000", _("15 sec")),
+        ("20000", _("20 sec")),
+        ("30000", _("30 sec")),
+        ("45000", _("45 sec"))])
 config.plugins.cionoff.ci1restartservice = ConfigSelection(
     default="off",
     choices=[
@@ -320,6 +332,12 @@ class Ciplushelper(Screen, ConfigListScreen):
             getConfigListEntry(
                 _("Enable auto-check module"),
                 config.plugins.cionoff.ci_auto_check_module))
+
+        # Boot re-zap (workaround for CI+ channel black after boot)
+        self.list.append(
+            getConfigListEntry(
+                _("Re-zap current channel after boot (if CI+ channel is black)"),
+                config.plugins.cionoff.boot_rezap))
 
         # Daemon status
         status = _("Running") if self.ret else _(
@@ -609,6 +627,7 @@ class Ciplushelper(Screen, ConfigListScreen):
 pause_checkOffOnCi1Timer = eTimer()
 pause_checkOffOnCi2Timer = eTimer()
 pause_restartserviceTimer = eTimer()
+boot_rezapTimer = eTimer()
 CImodule1onoffdelayTimer = eTimer()
 CImodule2onoffdelayTimer = eTimer()
 
@@ -718,10 +737,23 @@ CImodule2onoffdelayTimer.callback.append(delayCI2moduleState)
 pause_restartserviceTimer.callback.append(restartStartServiceCallback)
 
 
+def bootRezapCallback():
+    # Not in standby: nothing is shown, and the zap will do the job later
+    if Standby.inStandby is None:
+        debug_log("boot re-zap: restarting current service")
+        restartStartServiceCallback()
+
+
+boot_rezapTimer.callback.append(bootRezapCallback)
+
+
 def OnSessionStart(reason, session):
     global _OnSession
     if reason == 0 and session and _OnSession is None:
         _OnSession = session
+        if config.plugins.cionoff.boot_rezap.value != "off":
+            boot_rezapTimer.start(
+                int(config.plugins.cionoff.boot_rezap.value), True)
         if CImodule1 is not None and config.plugins.cionoff.ci1delay.value != "off":
             pause_checkOffOnCi1Timer.start(
                 int(config.plugins.cionoff.ci1delay.value) * 1000, True)

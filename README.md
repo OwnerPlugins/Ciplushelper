@@ -154,6 +154,7 @@ opkg-build .
 - **Fixed:** Zgemma H9: `postinst` and "Install WORKING binary" now install the `zgemma-arm` binary (hd51/6.new exits right after start on the H9 Twin); `info.txt` model is honoured
 - **New:** "Install ALTERNATIVE binary" menu entry, "Install" checks the daemon again after 3 s and asks for a reboot
 - **Fixed:** License badge now matches the license (GPLv2)
+- **New:** Optional "Re-zap current channel after boot" setting (off by default): workaround for boxes where the last CI+ channel stays black after a boot until the first zap (seen on Pulse 4K Mini, also with other CI+ plugins and images)
 - **Docs:** Oscam conflict is solved with `I:` (ignore) lines in `oscam.dvbapi`, no need to stop Oscam
 
 ### v7.0 - Major Update
@@ -277,6 +278,8 @@ tail -f /home/root/ciplus_debug.log
 ---
 
 ## 🔍 Troubleshooting
+
+**CI+ channel black (no audio) right after boot, fine after a zap** (seen on Pulse 4K Mini): enigma2 restores the last channel before the CAM is ready and does not assign it to the CAM afterwards. It is not caused by this plugin. Either start from a free-to-air channel, or set *Re-zap current channel after boot* in the plugin menu (try 15-20 sec).
 
 ### Daemon not starting
 1. Check the debug log: `cat /home/root/ciplus_debug.log`
