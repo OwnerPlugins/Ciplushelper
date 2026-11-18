@@ -1,0 +1,227 @@
+# Ciplushelper translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Ciplushelper\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-11-18 18:32+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Bengali\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "- Delay off-->on (CI 1)"
+msgstr ""
+
+msgid "- Delay off-->on (CI 2)"
+msgstr ""
+
+msgid "- Restart service after off/on (CI 1)"
+msgstr ""
+
+msgid "- Restart service after off/on (CI 2)"
+msgstr ""
+
+msgid "--- CI auto off/on settings ---"
+msgstr ""
+
+msgid "0.5 sec"
+msgstr ""
+
+msgid "1 hour"
+msgstr ""
+
+msgid "1 sec"
+msgstr ""
+
+msgid "10 sec"
+msgstr ""
+
+msgid "11 sec"
+msgstr ""
+
+msgid "12 sec"
+msgstr ""
+
+msgid "15 sec"
+msgstr ""
+
+msgid "2 hour"
+msgstr ""
+
+msgid "2 sec"
+msgstr ""
+
+msgid "20 sec"
+msgstr ""
+
+msgid "3 hour"
+msgstr ""
+
+msgid "3 sec"
+msgstr ""
+
+msgid "30 min"
+msgstr ""
+
+msgid "30 sec"
+msgstr ""
+
+msgid "4 hour"
+msgstr ""
+
+msgid "4 sec"
+msgstr ""
+
+msgid "45 sec"
+msgstr ""
+
+msgid "5 sec"
+msgstr ""
+
+msgid "6 sec"
+msgstr ""
+
+msgid "7 sec"
+msgstr ""
+
+msgid "8 sec"
+msgstr ""
+
+msgid "9 sec"
+msgstr ""
+
+msgid "Binary not found:"
+msgstr ""
+
+msgid "CI 1 - auto off/on"
+msgstr ""
+
+msgid "CI 2 - auto off/on"
+msgstr ""
+
+msgid "CI modules detected:"
+msgstr ""
+
+msgid "CI+ Helper"
+msgstr ""
+
+msgid "CI+ Helper Plugin"
+msgstr ""
+
+msgid "CI+ Helper and auto off/on"
+msgstr ""
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr ""
+
+msgid "CI+ Helper status:"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr ""
+
+msgid "Disable ciplushelper autostart"
+msgstr ""
+
+msgid "Enable auto-check module"
+msgstr ""
+
+msgid "Enable ciplushelper autostart"
+msgstr ""
+
+msgid "Install /etc/ciplus"
+msgstr ""
+
+msgid "Install ALTERNATIVE binary (try if the daemon stops)"
+msgstr ""
+
+msgid "Install WORKING binary (recommended)"
+msgstr ""
+
+msgid "Installed:"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Not running"
+msgstr ""
+
+msgid "Open CI Assignment"
+msgstr ""
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr ""
+
+msgid "Pause CI 1"
+msgstr ""
+
+msgid "Pause CI 2"
+msgstr ""
+
+msgid "Re-zap current channel after boot (if CI+ channel is black)"
+msgstr ""
+
+msgid "Reboot the box so the helper starts before enigma2."
+msgstr ""
+
+msgid "Remove /etc/ciplus"
+msgstr ""
+
+msgid "Restart service!"
+msgstr ""
+
+msgid "Running"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Show message after off/on"
+msgstr ""
+
+msgid "Slot1: not present, Slot2: present"
+msgstr ""
+
+msgid "Slot1: present, Slot2: not present"
+msgstr ""
+
+msgid "Slot1: present, Slot2: present"
+msgstr ""
+
+msgid "Start ciplushelper"
+msgstr ""
+
+msgid "Stop ciplushelper"
+msgstr ""
+
+msgid "Supported devices:"
+msgstr ""
+
+msgid "Supported models"
+msgstr ""
+
+msgid "Try the ALTERNATIVE binary entry."
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Update plugin"
+msgstr ""
+
+msgid "Updating plugin..."
+msgstr ""
+
+msgid "off"
+msgstr ""

@@ -1,0 +1,228 @@
+# Ciplushelper translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Ciplushelper\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-11-18 18:33+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "- Delay off-->on (CI 1)"
+msgstr "- Delay off-->on (CI 1)"
+
+msgid "- Delay off-->on (CI 2)"
+msgstr "- Delay off-->on (CI 2)"
+
+msgid "- Restart service after off/on (CI 1)"
+msgstr "- Restart service after off/on (CI 1)"
+
+msgid "- Restart service after off/on (CI 2)"
+msgstr "- Restart service after off/on (CI 2)"
+
+msgid "--- CI auto off/on settings ---"
+msgstr "--- CI auto off/on settings ---"
+
+msgid "0.5 sec"
+msgstr "0.5 sec"
+
+msgid "1 hour"
+msgstr "1 hour"
+
+msgid "1 sec"
+msgstr "1 sec"
+
+msgid "10 sec"
+msgstr "10 sec"
+
+msgid "11 sec"
+msgstr "11 sec"
+
+msgid "12 sec"
+msgstr "12 sec"
+
+msgid "15 sec"
+msgstr "15 sec"
+
+msgid "2 hour"
+msgstr "2 hour"
+
+msgid "2 sec"
+msgstr "2 sec"
+
+msgid "20 sec"
+msgstr "20 sec"
+
+msgid "3 hour"
+msgstr "3 hour"
+
+msgid "3 sec"
+msgstr "3 sec"
+
+msgid "30 min"
+msgstr "30 min"
+
+msgid "30 sec"
+msgstr "30 sec"
+
+msgid "4 hour"
+msgstr "4 hour"
+
+msgid "4 sec"
+msgstr "4 sec"
+
+msgid "45 sec"
+msgstr "45 sec"
+
+msgid "5 sec"
+msgstr "5 sec"
+
+msgid "6 sec"
+msgstr "6 sec"
+
+msgid "7 sec"
+msgstr "7 sec"
+
+msgid "8 sec"
+msgstr "8 sec"
+
+msgid "9 sec"
+msgstr "9 sec"
+
+msgid "Binary not found:"
+msgstr "Binary not found:"
+
+msgid "CI 1 - auto off/on"
+msgstr "CI 1 - auto off/on"
+
+msgid "CI 2 - auto off/on"
+msgstr "CI 2 - auto off/on"
+
+msgid "CI modules detected:"
+msgstr "CI modules detected:"
+
+msgid "CI+ Helper"
+msgstr "CI+ Helper"
+
+msgid "CI+ Helper Plugin"
+msgstr "CI+ Helper Plugin"
+
+msgid "CI+ Helper and auto off/on"
+msgstr "CI+ Helper and auto off/on"
+
+msgid "CI+ Helper and auto off/on for CI modules"
+msgstr "CI+ Helper and auto off/on for CI modules"
+
+msgid "CI+ Helper status:"
+msgstr "CI+ Helper status:"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Common Interface Assignment plugin not found. Please install it from System Plugins."
+msgstr "Common Interface Assignment plugin not found. Please install it from System Plugins."
+
+msgid "Disable ciplushelper autostart"
+msgstr "Disable ciplushelper autostart"
+
+msgid "Enable auto-check module"
+msgstr "Enable auto-check module"
+
+msgid "Enable ciplushelper autostart"
+msgstr "Enable ciplushelper autostart"
+
+msgid "Install /etc/ciplus"
+msgstr "Install /etc/ciplus"
+
+msgid "Install ALTERNATIVE binary (try if the daemon stops)"
+msgstr "Install ALTERNATIVE binary (try if the daemon stops)"
+
+msgid "Install WORKING binary (recommended)"
+msgstr "Install WORKING binary (recommended)"
+
+msgid "Installed:"
+msgstr "Installed:"
+
+msgid "None"
+msgstr "None"
+
+msgid "Not running"
+msgstr "Not running"
+
+msgid "Open CI Assignment"
+msgstr "Open CI Assignment"
+
+msgid "Other models may need '/etc/ciplus'"
+msgstr "Other models may need '/etc/ciplus'"
+
+msgid "Pause CI 1"
+msgstr "Pause CI 1"
+
+msgid "Pause CI 2"
+msgstr "Pause CI 2"
+
+msgid "Re-zap current channel after boot (if CI+ channel is black)"
+msgstr "Re-zap current channel after boot (if CI+ channel is black)"
+
+msgid "Reboot the box so the helper starts before enigma2."
+msgstr "Reboot the box so the helper starts before enigma2."
+
+msgid "Remove /etc/ciplus"
+msgstr "Remove /etc/ciplus"
+
+msgid "Restart service!"
+msgstr "Restart service!"
+
+msgid "Running"
+msgstr "Running"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Show message after off/on"
+msgstr "Show message after off/on"
+
+msgid "Slot1: not present, Slot2: present"
+msgstr "Slot1: not present, Slot2: present"
+
+msgid "Slot1: present, Slot2: not present"
+msgstr "Slot1: present, Slot2: not present"
+
+msgid "Slot1: present, Slot2: present"
+msgstr "Slot1: present, Slot2: present"
+
+msgid "Start ciplushelper"
+msgstr "Start ciplushelper"
+
+msgid "Stop ciplushelper"
+msgstr "Stop ciplushelper"
+
+msgid "Supported devices:"
+msgstr "Supported devices:"
+
+msgid "Supported models"
+msgstr "Supported models"
+
+msgid "Try the ALTERNATIVE binary entry."
+msgstr "Try the ALTERNATIVE binary entry."
+
+msgid "Unknown"
+msgstr "Unknown"
+
+msgid "Update plugin"
+msgstr "Update plugin"
+
+msgid "Updating plugin..."
+msgstr "Updating plugin..."
+
+msgid "off"
+msgstr "off"
