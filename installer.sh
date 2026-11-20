@@ -1,246 +1,411 @@
 #!/bin/bash
-## command line == wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/Ciplushelper/main/installer.sh -O - | /bin/bash
+# =====================================================================
+#  vavoo installer - con log su file
+#  Log: /tmp/vavoo_install.log  (copia anche in /home/root/ a fine run)
+# =====================================================================
 
-version='7.2'
-changelog='
-**Version 7.2 - Init script and binary fixes**
-- Fixed: init script detected itself as the running daemon (never started it)
-- Fixed: stop/restart killed the init script itself
-- Fixed: plugin status line always showed "Not running"
-- Fixed: "Install WORKING binary" now stops the daemon before copying
-- Fixed: no more nested /etc/ciplus/ciplus on repeated install
-- Fixed: autostart is preserved when the plugin is updated
-- Zgemma H9: zgemma-arm binary is installed (hd51/6.new exits right after start on the H9 Twin)
-- New menu entry: Install ALTERNATIVE binary (switch binary if the daemon stops)
-- Installer: fixed detection of the extracted directory (it picked the temp dir itself, so postinst in CONTROL/ was never found and never run); CRLF stripped from scripts
-'
+version='1.89'
+changelog="- Streams no longer stop every few minutes: a channel now keeps one
+  stream address for the whole viewing, and a failed stream is
+  retried and then moved to another source automatically
+- New default channel source (Geil, needs no token) with Vavoo/Kool
+  as fallback - choose it in Config
+- A channel available from several sources is shown once; press
+  YELLOW in the player to choose the source by name
+- Channel logos (picons) in the channel list and on the player overlay
+- New: Favourites (INFO key), parental control PIN, log viewer in
+  Config, live /playlist.m3u for other players
+- Fixed LEFT/RIGHT muting the sound during playback
+- Fixed a freeze when opening the plugin right after boot, and empty
+  channel lists after a slow start
+- Fixed a proxy restart that could crash the whole box
+- Simpler settings: removed Proxy Enabled, Auto-update EPG and EPG
+  Similarity Threshold
+- Many EPG and bouquet fixes (scheduled update timing, western
+  satellites, reload after export, notification bar on HD screens)"
 
-TMPPATH=/tmp/Ciplushelper-install
-FILEPATH=/tmp/Ciplushelper-main.tar.gz
+LOGFILE=/tmp/vavoo_install.log
+RCFILE=/tmp/vavoo_install.rc
+LOGCOPY_DIR=/home/root
 
-# Plugin paths
-if [ ! -d /usr/lib64 ]; then
-    PLUGINPATH=/usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper
-else
-    PLUGINPATH=/usr/lib64/enigma2/python/Plugins/Extensions/Ciplushelper
-fi
+TMPPATH=/tmp/vavoo-install
+FILEPATH=/tmp/vavoo-main.tar.gz
 
-echo "========================================="
-echo "  CI+ Helper Plugin Installer v$version"
-echo "========================================="
-echo ""
+# ---------------------------------------------------------------------
+# helper di log
+# ---------------------------------------------------------------------
+ts() { date '+%Y-%m-%d %H:%M:%S' 2>/dev/null; }
+log() { echo "[$(ts)] $*"; }
+section() { echo ""; echo "[$(ts)] ===== $* ====="; }
+
+# esegue un comando, lo scrive nel log e ne riporta l'exit code
+run() {
+    log "\$ $*"
+    "$@"
+    local rc=$?
+    [ $rc -ne 0 ] && log "!! comando fallito (exit $rc): $*"
+    return $rc
+}
+
+fail() {
+    log "ERRORE: $*"
+    cleanup
+    exit 1
+}
 
 cleanup() {
-    echo "Cleaning up temporary files..."
+    log "Cleaning up temporary files..."
     [ -d "$TMPPATH" ] && rm -rf "$TMPPATH"
     [ -f "$FILEPATH" ] && rm -f "$FILEPATH"
 }
 
-detect_os() {
-    if [ -f /var/lib/dpkg/status ]; then
-        OSTYPE="DreamOs"
-        STATUS="/var/lib/dpkg/status"
+# ---------------------------------------------------------------------
+# diagnostica del sistema (prima di installare)
+# ---------------------------------------------------------------------
+diagnostics() {
+    section "DIAGNOSTICA SISTEMA"
+    log "Installer version: $version"
+    log "Shell: $0  (BASH_VERSION=${BASH_VERSION:-n/a})"
+    log "User: $(id 2>/dev/null)"
+    log "uname: $(uname -a 2>/dev/null)"
+    log "hostname: $(cat /etc/hostname 2>/dev/null)"
+    for f in /etc/image-version /etc/os-release /etc/issue /etc/vtiversion.info; do
+        if [ -r "$f" ]; then
+            echo "--- $f ---"
+            head -n 20 "$f" 2>/dev/null
+        fi
+    done
+
+    echo "--- tool disponibili ---"
+    for t in python3 python opkg apt-get dpkg wget curl tar gzip tee; do
+        p=$(command -v $t 2>/dev/null)
+        echo "  $t: ${p:-NON TROVATO}"
+    done
+    command -v python3 >/dev/null 2>&1 && echo "  python3 --version: $(python3 --version 2>&1)"
+    command -v python  >/dev/null 2>&1 && echo "  python --version:  $(python --version 2>&1)"
+    [ -d /usr/lib64 ] && echo "  /usr/lib64 presente" || echo "  /usr/lib64 assente"
+
+    echo "--- spazio disco (causa frequente di installazioni fallite) ---"
+    df -h / /tmp /usr 2>/dev/null || df / /tmp /usr 2>/dev/null
+    echo "--- memoria ---"
+    free 2>/dev/null || cat /proc/meminfo 2>/dev/null | head -n 5
+
+    echo "--- rete ---"
+    if command -v nslookup >/dev/null 2>&1; then
+        nslookup github.com 2>&1 | tail -n 4
+    fi
+    ping -c 1 -W 3 github.com >/dev/null 2>&1 \
+        && echo "  ping github.com: OK" \
+        || echo "  ping github.com: FALLITO (puo' essere solo ICMP bloccato)"
+    echo "  data di sistema: $(date) (se sbagliata, HTTPS/TLS puo' fallire!)"
+
+    echo "--- installazione precedente ---"
+    for p in /usr/lib/enigma2/python/Plugins/Extensions/vavoo \
+             /usr/lib64/enigma2/python/Plugins/Extensions/vavoo; do
+        [ -d "$p" ] && echo "  trovata: $p" && ls -la "$p" 2>/dev/null | head -n 5
+    done
+}
+
+# ---------------------------------------------------------------------
+# installazione
+# ---------------------------------------------------------------------
+main() {
+    echo "$changelog"
+
+    diagnostics
+
+    if [ ! -d /usr/lib64 ]; then
+        PLUGINPATH=/usr/lib/enigma2/python/Plugins/Extensions/vavoo
+    else
+        PLUGINPATH=/usr/lib64/enigma2/python/Plugins/Extensions/vavoo
+    fi
+    log "PLUGINPATH=$PLUGINPATH"
+
+    section "RILEVAMENTO OS"
+    if [ -f /etc/debian_version ]; then
+        OSTYPE="Debian";  STATUS="/var/lib/dpkg/status"
+    elif [ -f /var/lib/dpkg/status ]; then
+        OSTYPE="DreamOs"; STATUS="/var/lib/dpkg/status"
     elif [ -f /etc/opkg/opkg.conf ] || [ -f /var/lib/opkg/status ]; then
-        OSTYPE="OE"
-        STATUS="/var/lib/opkg/status"
-    elif [ -f /etc/debian_version ]; then
-        OSTYPE="Debian"
-        STATUS="/var/lib/dpkg/status"
+        OSTYPE="OE";      STATUS="/var/lib/opkg/status"
     else
-        OSTYPE="Unknown"
-        STATUS=""
+        OSTYPE="Unknown"; STATUS=""
     fi
-    echo "Detected OS type: $OSTYPE"
-}
+    log "Detected OS type: $OSTYPE (status file: ${STATUS:-none})"
 
-detect_os
-
-if ! command -v wget >/dev/null 2>&1; then
-    echo "Installing wget..."
-    case "$OSTYPE" in
-        "DreamOs"|"Debian")
-            apt-get update && apt-get install -y wget || { echo "Failed to install wget"; exit 1; }
-            ;;
-        "OE")
-            opkg update && opkg install wget || { echo "Failed to install wget"; exit 1; }
-            ;;
-        *)
-            echo "Unsupported OS type. Cannot install wget."
-            exit 1
-            ;;
-    esac
-fi
-
-if python --version 2>&1 | grep -q '^Python 3\.'; then
-    echo "Python3 image detected"
-    PYTHON="PY3"
-else
-    echo "Python2 image detected"
-    PYTHON="PY2"
-fi
-
-install_pkg() {
-    local pkg=$1
-    if [ -z "$STATUS" ] || ! grep -qs "Package: $pkg" "$STATUS" 2>/dev/null; then
-        echo "Installing $pkg..."
+    UPDATED=0
+    pkg_update() {
+        [ "$UPDATED" -eq 1 ] && return 0
         case "$OSTYPE" in
-            "DreamOs"|"Debian")
-                apt-get update && apt-get install -y "$pkg" || { echo "Could not install $pkg, continuing anyway..."; }
-                ;;
-            "OE")
-                opkg update && opkg install "$pkg" || { echo "Could not install $pkg, continuing anyway..."; }
-                ;;
-            *)
-                echo "Cannot install $pkg on unknown OS type, continuing..."
-                ;;
+            "DreamOs"|"Debian") run apt-get update ;;
+            "OE")               run opkg update ;;
         esac
-    else
-        echo "$pkg already installed"
+        UPDATED=1
+    }
+
+    section "DIPENDENZE"
+    if ! command -v wget >/dev/null 2>&1; then
+        log "Installing wget..."
+        pkg_update
+        case "$OSTYPE" in
+            "DreamOs"|"Debian") run apt-get install -y wget || fail "Failed to install wget" ;;
+            "OE")               run opkg install wget     || fail "Failed to install wget" ;;
+            *)                  fail "Unsupported OS type. Cannot install wget." ;;
+        esac
     fi
-}
 
-# Install dependencies
-install_pkg "tar"
+    if ! command -v curl >/dev/null 2>&1; then
+        log "Installing curl (best-effort)..."
+        pkg_update
+        case "$OSTYPE" in
+            "DreamOs"|"Debian") run apt-get install -y curl ;;
+            "OE")               run opkg install curl ;;
+        esac
+    fi
 
-cleanup
-mkdir -p "$TMPPATH"
+    if command -v python3 >/dev/null 2>&1; then
+        log "Python3 image detected"
+        PYTHON="PY3"; PYBIN=python3
+        Packagesix="python3-six"; Packagerequests="python3-requests"
+    elif command -v python >/dev/null 2>&1 && python --version 2>&1 | grep -q '^Python 3\.'; then
+        log "Python3 image detected (via 'python')"
+        PYTHON="PY3"; PYBIN=python
+        Packagesix="python3-six"; Packagerequests="python3-requests"
+    elif command -v python >/dev/null 2>&1; then
+        log "Python2 image detected"
+        PYTHON="PY2"; PYBIN=python
+        Packagesix="python-six"; Packagerequests="python-requests"
+    else
+        fail "No Python interpreter found (neither python3 nor python)."
+    fi
 
-echo "Downloading CI+ Helper v$version..."
-wget --no-check-certificate 'https://github.com/OwnerPlugins/Ciplushelper/archive/refs/heads/main.tar.gz' -O "$FILEPATH"
-if [ $? -ne 0 ]; then
-    echo "Failed to download CI+ Helper package!"
+    install_pkg() {
+        local pkg=$1
+        # match esatto della riga "Package: nome" (prima matchava anche i prefissi)
+        if [ -z "$STATUS" ] || ! grep -qsx "Package: $pkg" "$STATUS" 2>/dev/null; then
+            log "Installing $pkg..."
+            pkg_update
+            case "$OSTYPE" in
+                "DreamOs"|"Debian") run apt-get install -y "$pkg" || log "Could not install $pkg, continuing anyway..." ;;
+                "OE")               run opkg install "$pkg"     || log "Could not install $pkg, continuing anyway..." ;;
+                *)                  log "Cannot install $pkg on unknown OS type, continuing..." ;;
+            esac
+        else
+            log "$pkg already installed"
+        fi
+    }
+
+    if [ -x /usr/bin/python3 ]; then
+        install_pkg "python3-difflib"
+    else
+        install_pkg "python-difflib"
+    fi
+    install_pkg "$Packagesix"
+    install_pkg "$Packagerequests"
+
+    if [ "$OSTYPE" = "OE" ]; then
+        log "Installing additional dependencies for OpenEmbedded..."
+        for pkg in ffmpeg gstplayer exteplayer3 enigma2-plugin-systemplugins-serviceapp; do
+            install_pkg "$pkg"
+        done
+    fi
+
+    section "DOWNLOAD"
     cleanup
-    exit 1
-fi
+    mkdir -p "$TMPPATH" || fail "Cannot create $TMPPATH"
 
-echo "Extracting package..."
-tar -xzf "$FILEPATH" -C "$TMPPATH"
-if [ $? -ne 0 ]; then
-    echo "Failed to extract CI+ Helper package!"
+    DOWNLOAD_URL='https://github.com/Belfagor2005/vavoo/archive/refs/heads/main.tar.gz'
+    DOWNLOAD_OK=1
+    if command -v curl >/dev/null 2>&1; then
+        # -sS: niente barra di progresso nel log, ma errori visibili
+        run curl -fsSL --connect-timeout 20 -o "$FILEPATH" "$DOWNLOAD_URL"
+        DOWNLOAD_OK=$?
+    fi
+    if [ "$DOWNLOAD_OK" -ne 0 ]; then
+        log "Falling back to wget for the download..."
+        run wget "$DOWNLOAD_URL" -O "$FILEPATH"
+        DOWNLOAD_OK=$?
+    fi
+    [ "$DOWNLOAD_OK" -ne 0 ] && fail "Failed to download vavoo package!"
+    log "Archivio scaricato: $(ls -la "$FILEPATH" 2>/dev/null)"
+
+    section "ESTRAZIONE"
+    run tar -xzf "$FILEPATH" -C "$TMPPATH" || fail "Failed to extract vavoo package (archivio corrotto o spazio esaurito in /tmp?)"
+    log "Cartelle estratte (primo livello):"
+    ls -la "$TMPPATH" 2>/dev/null
+    ls -la "$TMPPATH"/* 2>/dev/null | head -n 20
+
+    section "COPIA FILE"
+    # Individua la sorgente PRIMA di toccare l'installazione esistente
+    if [ -d "$TMPPATH/vavoo-main/usr/lib/enigma2/python/Plugins/Extensions/vavoo" ]; then
+        SRC="$TMPPATH/vavoo-main/usr/lib/enigma2/python/Plugins/Extensions/vavoo"; DEST="$PLUGINPATH"
+    elif [ -d "$TMPPATH/vavoo-main/usr/lib64/enigma2/python/Plugins/Extensions/vavoo" ]; then
+        SRC="$TMPPATH/vavoo-main/usr/lib64/enigma2/python/Plugins/Extensions/vavoo"; DEST="$PLUGINPATH"
+    elif [ -d "$TMPPATH/vavoo-main/usr" ]; then
+        SRC="$TMPPATH/vavoo-main/usr"; DEST="/usr"
+    else
+        log "Could not find plugin files in extracted archive"
+        log "Available directories:"
+        find "$TMPPATH" -type d -name "*vavoo*" | head -10
+        fail "Struttura archivio inattesa"
+    fi
+    log "Sorgente: $SRC"
+    log "Destinazione: $DEST"
+
+    # ---- controllo spazio: se non basta, NON si cancella la versione installata
+    NEED_KB=$(du -sk "$SRC" 2>/dev/null | awk '{print $1}')
+    OLD_KB=0
+    [ -d "$PLUGINPATH" ] && OLD_KB=$(du -sk "$PLUGINPATH" 2>/dev/null | awk '{print $1}')
+    CHECKDIR=$(dirname "$PLUGINPATH")
+    [ -d "$CHECKDIR" ] || CHECKDIR=/usr
+    FREE_KB=$(df -Pk "$CHECKDIR" 2>/dev/null | tail -n 1 | awk '{print $4}')
+    MARGIN_KB=3072   # margine per __pycache__/.pyc e file di config creati dal plugin
+    NEED_KB=${NEED_KB:-0}; OLD_KB=${OLD_KB:-0}; FREE_KB=${FREE_KB:-0}
+    log "Spazio richiesto: ${NEED_KB} KB (+${MARGIN_KB} KB margine) | libero: ${FREE_KB} KB | liberato dalla vecchia versione: ${OLD_KB} KB"
+    if [ $((FREE_KB + OLD_KB)) -lt $((NEED_KB + MARGIN_KB)) ]; then
+        MISSING_KB=$((NEED_KB + MARGIN_KB - FREE_KB - OLD_KB))
+        log "!! SPAZIO INSUFFICIENTE nella memoria flash: mancano circa $((MISSING_KB / 1024 + 1)) MB"
+        log "   La versione gia' installata NON e' stata toccata."
+        log "   Libera spazio (plugin/skin/picon non usati, 'opkg clean'?) e riprova."
+        fail "Not enough free space on flash (need ~$(( (NEED_KB + MARGIN_KB) / 1024 )) MB, available ~$(( (FREE_KB + OLD_KB) / 1024 )) MB)"
+    fi
+
+    # File dell'utente da conservare tra un aggiornamento e l'altro
+    USERFILES="Favorite.txt"
+    BACKUPDIR=/tmp/vavoo-userdata
+    rm -rf "$BACKUPDIR"; mkdir -p "$BACKUPDIR"
+    if [ -d "$PLUGINPATH" ]; then
+        for f in $USERFILES; do
+            if [ -f "$PLUGINPATH/$f" ]; then
+                cp -f "$PLUGINPATH/$f" "$BACKUPDIR/" && log "Backup dati utente: $f"
+            fi
+        done
+        log "Removing previous installation at $PLUGINPATH..."
+        rm -rf "$PLUGINPATH"
+    fi
+    mkdir -p "$PLUGINPATH" || fail "Cannot create $PLUGINPATH (filesystem read-only o pieno?)"
+
+    log "\$ cp -r $SRC/* $DEST/"
+    cp -r "$SRC"/* "$DEST/"
+    COPY_OK=$?
+    if [ "$COPY_OK" -ne 0 ]; then
+        log "!! copia fallita (cp exit $COPY_OK): rimuovo l'installazione incompleta"
+        [ "$DEST" = "$PLUGINPATH" ] && rm -rf "$PLUGINPATH"
+        fail "Failed to copy plugin files - controlla lo spazio libero qui sopra"
+    fi
+    log "Copia completata"
+
+    for f in $USERFILES; do
+        if [ -f "$BACKUPDIR/$f" ]; then
+            cp -f "$BACKUPDIR/$f" "$PLUGINPATH/$f" && log "Ripristinato dato utente: $f"
+        fi
+    done
+    rm -rf "$BACKUPDIR"
+    sync
+    log "Spazio libero dopo l'installazione: $(df -Pk "$CHECKDIR" 2>/dev/null | tail -n 1 | awk '{print $4}') KB"
+
+    section "VERIFICA"
+    if [ -f "$PLUGINPATH/plugin.py" ] && [ -f "$PLUGINPATH/plugin.png" ]; then
+        log "Plugin files verified: $PLUGINPATH"
+        ls -la "$PLUGINPATH/" | head -20
+        log "Numero file installati: $(find "$PLUGINPATH" -type f | wc -l)"
+    else
+        fail "Plugin installation failed - expected files not found in $PLUGINPATH!"
+    fi
+
+    # Il plugin puo' essere copiato ma non comparire nel menu se Python
+    # non riesce a compilarlo o mancano moduli: lo verifichiamo qui.
+    log "Test compilazione plugin.py con $PYBIN..."
+    if $PYBIN -c "import py_compile,sys; py_compile.compile(sys.argv[1], doraise=True)" "$PLUGINPATH/plugin.py" 2>&1; then
+        log "plugin.py compila correttamente"
+    else
+        log "!! plugin.py NON compila con $PYBIN: il plugin non apparira' nel menu"
+    fi
+    for mod in requests six difflib; do
+        if $PYBIN -c "import $mod" >/dev/null 2>&1; then
+            log "modulo python '$mod': OK"
+        else
+            log "!! modulo python '$mod': MANCANTE ($($PYBIN -c "import $mod" 2>&1 | tail -n 1))"
+        fi
+    done
+
     cleanup
-    exit 1
-fi
+    sync
 
-echo "Installing plugin files..."
-mkdir -p "$PLUGINPATH"
-
-# Find the extracted directory
-# NB: take the single top-level directory of the archive (e.g. Ciplushelper-main).
-# The old "find -name Ciplushelper*" matched $TMPPATH itself (Ciplushelper-install),
-# so usr/ and CONTROL/ were never found.
-EXTRACTED_DIR=$(find "$TMPPATH" -mindepth 1 -maxdepth 1 -type d | head -1)
-
-if [ -z "$EXTRACTED_DIR" ] || [ ! -d "$EXTRACTED_DIR" ]; then
-    echo "Could not find extracted plugin directory!"
-    cleanup
-    exit 1
-fi
-
-echo "Found extracted directory: $EXTRACTED_DIR"
-
-# Copy the plugin folder straight into $PLUGINPATH (works for /usr/lib and /usr/lib64 images).
-# NB: "cp -r usr/* /" would put the files in /lib/..., not /usr/lib/...
-PLUGIN_SRC=$(find "$EXTRACTED_DIR" -type f -path "*Extensions/Ciplushelper/plugin.py" -exec dirname {} \; | head -1)
-[ -z "$PLUGIN_SRC" ] && PLUGIN_SRC=$(find "$EXTRACTED_DIR" -type f -name plugin.py -exec dirname {} \; | head -1)
-if [ -n "$PLUGIN_SRC" ] && [ -d "$PLUGIN_SRC" ]; then
-    echo "Found plugin source: $PLUGIN_SRC"
-    cp -r "$PLUGIN_SRC"/* "$PLUGINPATH/" || { echo "ERROR: copy failed"; cleanup; exit 1; }
-    echo "Plugin files copied to $PLUGINPATH"
-else
-    echo "ERROR: Could not find plugin files!"
-    echo "Available directories:"
-    find "$EXTRACTED_DIR" -type d | head -20
-    cleanup
-    exit 1
-fi
-
-# Strip CRLF from shell scripts (a CRLF shebang makes them unexecutable)
-sed -i 's/\r$//' "$PLUGINPATH/ciplushelper.sh" 2>/dev/null
-POSTINST=""
-for f in "$PLUGINPATH/postinst" "$EXTRACTED_DIR/CONTROL/postinst" "$EXTRACTED_DIR/control/postinst"; do
-    [ -f "$f" ] && { POSTINST="$f"; break; }
-done
-[ -z "$POSTINST" ] && POSTINST=$(find "$EXTRACTED_DIR" -type f -name postinst | head -1)
-[ -n "$POSTINST" ] && sed -i 's/\r$//' "$POSTINST" 2>/dev/null
-
-# Ensure all binaries are executable
-find "$PLUGINPATH" -name "ciplushelper" -exec chmod 755 {} \;
-chmod 755 "$PLUGINPATH/ciplushelper.sh" 2>/dev/null
-chmod 755 "$PLUGINPATH/postinst" 2>/dev/null
-chmod 755 "$PLUGINPATH/prerm" 2>/dev/null
-chmod 755 "$PLUGINPATH/postrm" 2>/dev/null
-chmod 755 "$PLUGINPATH/plugin.py" 2>/dev/null
-chmod 755 "$PLUGINPATH/__init__.py" 2>/dev/null
-
-# Run postinst manually (it writes info.txt, installs binary, init script and certificates)
-if [ -n "$POSTINST" ]; then
-    echo "Running postinst ($POSTINST)..."
-    sh "$POSTINST"
-else
-    echo "WARNING: postinst not found - info.txt, binary and init script were NOT installed."
-    echo "         Open the plugin and use 'Install WORKING binary' to complete the setup."
-fi
-
-# FORCE plugin cache rebuild (fix for DM8000/OpenPLi)
-echo "Rebuilding plugin cache..."
-rm -f /tmp/plugin_list*
-rm -f /tmp/epgcache*
-
-sync
-
-# Detection info - use head -1 for BusyBox compatibility
-if [ -f /etc/hostname ]; then
-    box_type=$(head -1 /etc/hostname 2>/dev/null || cat /etc/hostname 2>/dev/null || echo "Unknown")
-else
-    box_type="Unknown"
-fi
-
-if [ -f /usr/lib/enigma.info ]; then
-    distro_value=$(grep '^distro=' /usr/lib/enigma.info 2>/dev/null | awk -F '=' '{print $2}')
-    distro_version=$(grep '^imageversion=' /usr/lib/enigma.info 2>/dev/null | awk -F '=' '{print $2}')
-elif [ -f /etc/image-version ]; then
-    distro_value=$(grep '^distro=' /etc/image-version 2>/dev/null | awk -F '=' '{print $2}')
-    distro_version=$(grep '^version=' /etc/image-version 2>/dev/null | awk -F '=' '{print $2}')
-else
+    box_type=$(sed -n '1p' /etc/hostname 2>/dev/null || echo "Unknown")
     distro_value="Unknown"
     distro_version="Unknown"
-fi
+    if [ -r /etc/image-version ] && grep -q '^distro=' /etc/image-version; then
+        distro_value=$(grep '^distro=' /etc/image-version | head -n 1 | cut -d= -f2)
+        distro_version=$(grep '^imageversion=' /etc/image-version | head -n 1 | cut -d= -f2)
+        [ -z "$distro_version" ] && distro_version=$(grep '^version=' /etc/image-version | head -n 1 | cut -d= -f2)
+    elif [ -r /etc/os-release ]; then
+        distro_value=$(grep '^NAME=' /etc/os-release 2>/dev/null | cut -d'"' -f2)
+        distro_version=$(grep '^VERSION_ID=' /etc/os-release 2>/dev/null | cut -d'"' -f2)
+    elif [ -r /etc/issue ]; then
+        distro_value=$(head -n 1 /etc/issue 2>/dev/null | awk '{print $1}')
+        distro_version=$(head -n 1 /etc/issue 2>/dev/null | awk '{print $2}')
+    elif [ -r /etc/vtiversion.info ]; then
+        distro_value=$(head -n 1 /etc/vtiversion.info 2>/dev/null)
+    elif [ -r /etc/issue.net ]; then
+        distro_value=$(head -n 1 /etc/issue.net 2>/dev/null | awk '{print $1}')
+        distro_version=$(head -n 1 /etc/issue.net 2>/dev/null | awk '{print $2}')
+    fi
+    [ -z "$distro_value" ] && distro_value="Unknown"
+    [ -z "$distro_version" ] && distro_version="Unknown"
+    python_vers=$($PYBIN --version 2>&1)
 
-python_vers=$(python --version 2>&1 2>/dev/null || echo "Python not found")
-arch=$(uname -m)
-
-cat <<EOF
+    cat <<EOF
 
 #########################################################
 #               INSTALLED SUCCESSFULLY                  #
 #                developed by LULULLA                   #
 #               https://corvoboys.org                   #
 #########################################################
-#                                                       #
-#  Test from telnet:                                    #
-#    /etc/init.d/ciplushelper start                     #
-#  Check a CI+ channel, then open the plugin and        #
-#  enable autostart if everything works.                #
-#  (Only if the daemon is missing, use the plugin       #
-#   entry "Install WORKING binary")                     #
-#                                                       #
-#  Check debug log: /home/root/ciplus_debug.log        #
-#                                                       #
-#########################################################
-#           Please REBOOT your device to apply          #
+#   >>> PLEASE RESTART THE ENIGMA2 GUI MANUALLY <<<     #
+#   Menu > Standby/Restart > Restart GUI                #
+#   or via telnet:  init 4; sleep 2; init 3             #
+#   The plugin will appear only after the restart.      #
 #########################################################
 ^^^^^^^^^^Debug information:
 BOX MODEL: $box_type
-ARCHITECTURE: $arch
 OS SYSTEM: $OSTYPE
 PYTHON: $python_vers
 IMAGE NAME: ${distro_value:-Unknown}
 IMAGE VERSION: ${distro_version:-Unknown}
 PLUGIN VERSION: $version
-PLUGIN PATH: $PLUGINPATH
-CHANGELOG:
-$changelog
 EOF
+    exit 0
+}
 
-cleanup
-exit 0
+# ---------------------------------------------------------------------
+# avvio: tutto l'output (stdout + stderr) va a schermo E nel log.
+# Funziona anche con "| /bin/sh" (busybox ash), senza process substitution.
+# ---------------------------------------------------------------------
+: > "$LOGFILE"
+rm -f "$RCFILE"
+{
+    echo "### vavoo installer log - $(ts)"
+    ( main )
+    echo $? > "$RCFILE"
+} 2>&1 | tee -a "$LOGFILE"
+
+RC=$(cat "$RCFILE" 2>/dev/null || echo 1)
+rm -f "$RCFILE"
+echo "[$(ts)] Installer terminato con exit code $RC" >> "$LOGFILE"
+
+if [ -d "$LOGCOPY_DIR" ]; then
+    cp -f "$LOGFILE" "$LOGCOPY_DIR/vavoo_install.log" 2>/dev/null
+fi
+
+echo ""
+echo "Log completo salvato in: $LOGFILE"
+[ -d "$LOGCOPY_DIR" ] && echo "Copia permanente:         $LOGCOPY_DIR/vavoo_install.log"
+if [ "$RC" -ne 0 ]; then
+    echo "INSTALLATION FAILED (exit $RC): please send the log file for support."
+else
+    echo ""
+    echo ">>> Restart the Enigma2 GUI manually to see the plugin <<<"
+fi
+
+exit "$RC"
